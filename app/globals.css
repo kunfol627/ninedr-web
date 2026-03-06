@@ -1,0 +1,16 @@
+/* 1. 字體必須是絕對的第 1 行！ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600;700&display=swap');
+
+/* 2. 接著再引入 Tailwind v4 核心 */
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-tc { font-family: 'Noto Serif TC', serif; }
+  .vertical-text { writing-mode: vertical-rl; text-orientation: mixed; }
+}
+
+.custom-scrollbar::-webkit-scrollbar { width: 4px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #D0A9A0; border-radius: 10px; }
+
+html { scroll-behavior: smooth; }
