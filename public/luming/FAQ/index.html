@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>鹿鳴 LuMing ｜ 頂級商會與大型協會專屬的 LINE 輕量營運利器</title>
-    <meta name="description" content="專為大型發展協會、扶輪社、工商社團打造的數位營運美學。「鹿鳴 LuMing」深度融入 LINE 報名生態，堅持免留電話、不碰金流，給予貴賓最高規格的隱私保護。">
+    <title>常見問題 FAQ ｜ 鹿鳴 LuMing 營運系統</title>
+    <meta name="description" content="鹿鳴 LuMing 常見問題解答。專為大型發展協會、扶輪社、工商社團打造的數位營運美學。">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,25 +23,8 @@
                         brickDark: '#a4432f', 
                         grayDark: '#2C3E50',  
                         grayText: '#4a4a4a',  
-                        grayBorder: '#e0dbd1',
-                        brandGold: '#D4AF37',
-                        brandNavy: '#0B132B'
+                        grayBorder: '#e0dbd1' 
                     },
-                    animation: {
-                        'pulse-gold': 'pulse-gold 2s infinite',
-                        'float': 'float 6s ease-in-out infinite',
-                    },
-                    keyframes: {
-                        'pulse-gold': {
-                            '0%': { boxShadow: '0 0 0 0 rgba(212, 175, 55, 0.7)' },
-                            '70%': { boxShadow: '0 0 0 20px rgba(212, 175, 55, 0)' },
-                            '100%': { boxShadow: '0 0 0 0 rgba(212, 175, 55, 0)' }
-                        },
-                        'float': {
-                            '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(-15px)' },
-                        }
-                    }
                 }
             }
         }
@@ -79,31 +62,6 @@
         }
         .btn-primary:hover { background-color: #a4432f; }
 
-        .btn-secondary {
-            background-color: transparent;
-            color: #456c6f;
-            border: 1.5px solid #456c6f;
-            padding: 11px 26px;
-            border-radius: 4px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            font-family: "Lato", "Noto Serif TC", sans-serif;
-            letter-spacing: 0.05em;
-        }
-        .btn-secondary:hover { background-color: #456c6f; color: #f7f5f0; }
-
-        /* 特效金黃按鈕 */
-        .btn-gold-breathing {
-            background: linear-gradient(135deg, #F3CA52, #D4AF37);
-            color: #1A1A1A;
-            font-weight: 700;
-            transition: transform 0.3s ease;
-        }
-        .btn-gold-breathing:hover {
-            transform: translateY(-2px) scale(1.02);
-            background: linear-gradient(135deg, #f7d66d, #e0bc45);
-        }
-
         .card-culture {
             background-color: #f7f5f0;
             border: 1px solid #e0dbd1;
@@ -130,48 +88,12 @@
         }
         @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
 
-        /* Blog Card Styling */
-        .blog-card {
-            background: #fff;
-            border: 1px solid #e0dbd1;
-            border-radius: 8px;
-            overflow: hidden;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-        .blog-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 24px rgba(0,0,0,0.06);
-            border-color: #456c6f;
-        }
-        .blog-card-img-wrapper {
-            width: 100%;
-            padding-top: 56.25%; /* 16:9 Aspect Ratio */
-            position: relative;
-            background-color: #f0ede6;
-            overflow: hidden;
-        }
-        .blog-card-img {
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
-        .blog-card:hover .blog-card-img {
-            transform: scale(1.05);
-        }
-
         @media (max-width: 768px) {
             body { padding: 0; }
             h1, .display-title { font-size: 2.2rem !important; line-height: 1.3; margin-bottom: 16px; }
             h2 { font-size: 1.5rem !important; }
-            .card-container { display: flex; flex-direction: column; gap: 20px; }
             .card-culture { padding: 24px; border-radius: 6px; }
-            .btn-primary { display: block; width: 100%; text-align: center; padding: 14px 0; font-size: 1.05rem; box-shadow: 0 4px 12px rgba(189, 82, 59, 0.2); }
-            .btn-secondary { display: block; width: 100%; text-align: center; margin-top: 12px; padding: 13px 0; }
+            .btn-primary { display: block; width: 100%; text-align: center; padding: 14px 0; font-size: 1.05rem; }
         }
     </style>
 </head>
@@ -180,154 +102,97 @@
 
     <nav class="bg-teal sticky top-0 z-40 shadow-sm">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            
             <div class="flex items-center">
                 <a href="https://www.ninedr.com/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:opacity-80 transition-opacity group" title="前往九色鹿集團官網">
                     <span class="text-lg font-bold tracking-widest text-base font-['Noto_Serif_TC'] group-hover:text-white transition-colors">九色鹿</span>
                 </a>
                 <span class="mx-3 text-base/40">·</span>
-                <div class="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity group" onclick="switchView('home')" title="回鹿鳴首頁">
+                <a href="index.html" class="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity group" title="回鹿鳴首頁">
                     <svg class="w-6 h-6 text-base group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
                         <path d="M2 17l10 5 10-5"></path>
                         <path d="M2 12l10 5 10-5"></path>
                     </svg>
                     <span class="text-xl font-bold tracking-widest text-base font-['Playfair_Display'] group-hover:text-white transition-colors">鹿鳴 <span class="font-normal text-base/80 group-hover:text-white/80">LuMing</span></span>
-                </div>
+                </a>
             </div>
 
             <div class="flex items-center gap-4 md:gap-6">
-                <a href="#" onclick="switchView('story'); return false;" class="text-base/90 hover:text-white transition-colors text-sm tracking-wider font-semibold">品牌故事</a>
-                <a href="faq.html" class="hidden sm:block text-base/90 hover:text-white transition-colors text-sm tracking-wider font-semibold">常見問題 FAQ</a>
+                <!-- 直接導向 index.html -->
+                <a href="index.html" class="text-base/90 hover:text-white transition-colors text-sm tracking-wider font-semibold">首頁</a>
+                <a href="faq.html" class="hidden sm:block text-white transition-colors text-sm tracking-wider font-semibold">常見問題 FAQ</a>
             </div>
         </div>
     </nav>
 
     <main class="flex-grow relative z-10">
-        
-        <div id="home-section" class="transition-opacity duration-300">
-            <section class="container mx-auto px-6 pt-32 pb-20 flex flex-col items-center text-center fade-in-up" style="animation-delay: 0.1s;">
-                <h1 class="sr-only">鹿鳴 LuMing ｜ 頂級商會與大型協會專屬的 LINE 輕量營運管理工具</h1>
-                <div class="flex items-center gap-3 mb-6">
-                    <span class="w-1.5 h-1.5 rounded-full bg-[#bd523b]"></span>
-                    <span class="!text-[#bd523b] font-semibold tracking-[0.2em] text-sm md:text-base">相聚，從優雅的款待開始</span>
-                    <span class="w-1.5 h-1.5 rounded-full bg-[#bd523b]"></span>
+        <div class="container mx-auto px-6 py-12 md:py-20 fade-in-up" style="animation-delay: 0.1s;">
+            <div class="max-w-4xl mx-auto">
+                
+                <!-- 麵包屑導覽 -->
+                <div class="flex items-center gap-2 text-sm text-grayText mb-8">
+                    <a href="index.html" class="hover:text-teal transition-colors">首頁</a>
+                    <span>/</span>
+                    <span class="text-teal font-semibold">常見問題 FAQ</span>
                 </div>
-                <div class="display-title text-5xl md:text-6xl lg:text-7xl tracking-wider mb-6 leading-tight">
-                    LuMing 鹿鳴 
-                </div>
-                <h2 class="text-xl md:text-3xl text-teal font-medium tracking-wide mb-12">
-                    頂級社團專屬 LINE 輕量報名工具
-                </h2>
-                <p class="text-grayText text-base md:text-lg leading-relaxed mb-4 font-medium tracking-wide">
-                    最流暢的報名體驗。不用再用 LINE 記事本辛苦「+1」
-                </p>
-                <p class="text-grayText text-base md:text-lg leading-relaxed mb-12 font-medium tracking-wide">
-                    社團辦活動，原來可以這麼體面又輕鬆。
-                </p>
-                <div class="flex flex-col sm:flex-row justify-center items-center gap-4 w-full sm:w-auto px-4 sm:px-0">
-                    <a href="https://line.me/R/ti/p/@305whcyz" target="_blank" rel="noopener noreferrer" class="btn-primary w-full sm:w-auto text-base text-center block">
-                        加入 LINE好友
-                    </a>
-                    <a href="#features" class="btn-secondary w-full sm:w-auto text-base text-center block !text-[#2c4a4e] border border-[#2c4a4e] hover:bg-[#2c4a4e] hover:!text-white transition-colors duration-300">
-                        輕鬆上手
-                    </a>
-                </div>
-            </section>
 
-            <section id="features" class="container mx-auto px-6 py-20 fade-in-up" style="animation-delay: 0.2s;">
                 <div class="text-center mb-16">
-                    <h2 class="display-title text-2xl md:text-3xl lg:text-4xl mb-4 leading-tight">
-                        用最安心的科技，成就最優雅的款待：<br>
-                        免留電話、不碰金流的雙無純粹設計
-                    </h2>
+                    <h1 class="display-title text-3xl md:text-4xl mb-4">常見問題 ｜ FAQ</h1>
                     <div class="w-12 h-0.5 bg-brick mx-auto"></div>
                 </div>
-                <div class="card-container grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-                    <div class="card-culture">
-                        <div class="w-12 h-12 bg-teal/10 rounded-full flex items-center justify-center mb-6">
-                            <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                
+                <div class="card-container space-y-6">
+                    <div class="card-culture !p-6 md:!p-8">
+                        <h3 class="card-title !text-lg !mb-4 flex items-start gap-3">
+                            <span class="text-brick shrink-0 font-['Lato']">Q1.</span> 系統主打「不存檔個資」，那我們（主辦方）要如何管理報名名單？
+                        </h3>
+                        <div class="card-text space-y-3 pl-9">
+                            <p><strong>即時直通後台，完整保留至活動結束後 3 天。</strong></p>
+                            <p>會員在 LINE 報名後，資料會即時轉傳至主辦方的專屬加密後台。為了讓秘書有充裕的時間進行行政核，系統會免費為您保留名單 3 天。</p>
+                            <div class="bg-teal/5 p-4 rounded-md mt-4 border-l-4 border-teal text-sm">
+                                <span class="text-teal font-bold mr-1">💡 秘書貼心小提示：</span>建議您在活動結束後，隨時登入後台使用「一鍵導出表格」功能，將最完整的 Excel 名單下載至電腦備份，讓珍貴的人脈資產 100% 掌握在社團手中。
+                            </div>
                         </div>
-                        <h3 class="card-title text-xl font-bold">5 秒優雅入席 ｜ 會員最貼心的 LINE 報名體驗</h3>
-                        <div class="bg-brick/5 border-l-2 border-brick p-3 mb-6">
-                            <p class="text-brick text-sm leading-relaxed font-medium">痛點直擊：別再讓繁瑣的制式表單，磨掉貴賓的出席熱情。</p>
-                        </div>
-                        <ul class="space-y-4 text-sm card-text flex-grow">
-                            <li class="flex items-start gap-2"><span class="text-brick mt-1 text-xs">✦</span> <div class="leading-relaxed"><strong>免下載 App：</strong>直接在 LINE 聊天室內一鍵開啟。</div></li>
-                            <li class="flex items-start gap-2"><span class="text-brick mt-1 text-xs">✦</span> <div class="leading-relaxed"><strong>免留手機號碼：</strong>不需綁定電話，保障社團成員絕對隱私。</div></li>
-                            <li class="flex items-start gap-2"><span class="text-brick mt-1 text-xs">✦</span> <div class="leading-relaxed"><strong>頂級視覺美學：</strong>告別冰冷問卷，襯托協會與商會的專屬格局。</div></li>
-                        </ul>
                     </div>
-                    <div class="card-culture">
-                        <div class="w-12 h-12 bg-teal/10 rounded-full flex items-center justify-center mb-6">
-                            <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
-                        </div>
-                        <h3 class="card-title text-xl font-bold">自動化行政管理 ｜ 告別記事本「+1」與手工對帳</h3>
-                        <div class="bg-brick/5 border-l-2 border-brick p-3 mb-6">
-                            <p class="text-brick text-sm leading-relaxed font-medium">痛點直擊：專業秘書的寶貴時間，不該浪費在雜亂的訊息校對中。</p>
-                        </div>
-                        <ul class="space-y-4 text-sm card-text flex-grow">
-                            <li class="flex items-start gap-2"><span class="text-brick mt-1 text-xs">✦</span> <div class="leading-relaxed"><strong>名單自動整合：</strong>報名資訊即時同步後台，出席人數一目了然。</div></li>
-                            <li class="flex items-start gap-2"><span class="text-brick mt-1 text-xs">✦</span> <div class="leading-relaxed"><strong>純粹數據統計：</strong>系統不涉及複雜金流，保留線下收付的彈性與信任。</div></li>
-                            <li class="flex items-start gap-2"><span class="text-brick mt-1 text-xs">✦</span> <div class="leading-relaxed"><strong>一鍵導出表格：</strong>後台隨時掌握最新名單，行政庶務化繁為簡。</div></li>
-                        </ul>
-                    </div>
-                    <div class="card-culture">
-                        <div class="w-12 h-12 bg-teal/10 rounded-full flex items-center justify-center mb-6">
-                            <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                        </div>
-                        <h3 class="card-title text-xl font-bold">點開行程列表 ｜ 即可查看已報名的活動，不錯過重要聚會</h3>
-                        <div class="bg-brick/5 border-l-2 border-brick p-3 mb-6">
-                            <p class="text-brick text-sm leading-relaxed font-medium">痛點直擊：商務人士行程繁忙，經常忘記活動時間或找不到活動地址。</p>
-                        </div>
-                        <ul class="space-y-4 text-sm card-text flex-grow">
-                            <li class="flex items-start gap-2"><span class="text-brick mt-1 text-xs">✦</span> <div class="leading-relaxed"><strong>自動帶入地圖導航：</strong>點擊地點一鍵啟動 Google 地圖導航。</div></li>
-                            <li class="flex items-start gap-2"><span class="text-brick mt-1 text-xs">✦</span> <div class="leading-relaxed"><strong>商務資訊隨行：</strong>活動時程與著裝規範 (Dress Code) 貼心隨身看。</div></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
 
-        <div id="story-section" class="hidden transition-opacity duration-300 container mx-auto px-6 py-12 md:py-20 fade-in-up">
-            <div class="max-w-4xl mx-auto">
-                <div class="flex items-center gap-2 text-sm text-grayText mb-8">
-                    <a href="#" onclick="switchView('home'); return false;" class="hover:text-teal transition-colors">首頁</a>
-                    <span>/</span>
-                    <span class="text-teal font-semibold">品牌故事</span>
-                </div>
-                <div class="bg-white border border-grayBorder p-8 md:p-12 rounded-xl shadow-[0_4px_20px_rgba(69,108,111,0.03)]">
-                    <div class="text-center mb-10">
-                        <span class="text-brick font-semibold tracking-[0.2em] text-sm mb-3 block">品牌故事</span>
-                        <h1 class="display-title text-2xl md:text-3xl mb-4 leading-tight">從繁雜行政，到流暢的商務鏈結</h1>
-                        <div class="w-12 h-0.5 bg-teal mx-auto"></div>
-                    </div>
-                    <div class="space-y-10 text-grayText leading-loose md:text-lg font-medium">
-                        <div>
-                            <h3 class="text-xl font-bold text-teal mb-3 font-['Noto_Serif_TC'] flex items-center gap-2">
-                                <span class="w-1.5 h-1.5 rounded-full bg-brick"></span>
-                                高效的對接，來自最流暢的幕後支援
-                            </h3>
-                            <p class="text-[0.95em]">在各大發展協會與商務社團裡，每一次的聚會與年度盛事，都流動著跨領域的合作火花與重要商機。然而，這些組織的幕後行政，卻往往耗費了大量人力：專業秘書與核心幹部的寶貴時間，不該被消耗在這些破碎、低效且容易出錯的庶務上。</p>
+                    <div class="card-culture !p-6 md:!p-8">
+                        <h3 class="card-title !text-lg !mb-4 flex items-start gap-3">
+                            <span class="text-brick shrink-0 font-['Lato']">Q2.</span> 為什麼不蒐集會員的「手機號碼」？
+                        </h3>
+                        <div class="card-text space-y-3 pl-9">
+                            <p><strong>極致隱私保護：</strong>會員與企業主對隱私極度敏感，免留電話能大幅提升貴賓的報名意願。</p>
+                            <p><strong>行事曆自動提醒：</strong>報名成功後可一鍵同步手機行事曆，時間、導航、Dress Code 自動鎖進手機，取代傳統的電話提醒。</p>
                         </div>
-                        <div class="bg-base p-6 md:p-8 rounded-lg border-l-4 border-teal shadow-inner">
-                            <h3 class="text-xl font-bold text-teal mb-4 font-['Noto_Serif_TC']">
-                                為商務社團而生，讓核心幹部優雅款待
-                            </h3>
-                            <p class="mb-4 text-[0.95em]">於是，九色鹿打造了「鹿鳴」這套數位營運系統。我們將「直覺的視覺體驗」與「深度的社團行政邏輯」完美結合。全部在用戶最熟悉的 LINE 介面中流暢完成。</p>
-                            <p class="mb-6 text-[0.95em]">鹿鳴不只是減輕行政負擔的工具，更是協助社團實現數位轉型、流暢整合資源的幕後推手。</p>
-                            <p class="text-brick font-bold text-lg border-b border-brick/20 pb-1 inline-block">
-                                讓主辦方放下瑣事、專注款待；讓與會夥伴感受專業、高效鏈結。
-                            </p>
+                    </div>
+
+                    <div class="card-culture !p-6 md:!p-8">
+                        <h3 class="card-title !text-lg !mb-4 flex items-start gap-3">
+                            <span class="text-brick shrink-0 font-['Lato']">Q3.</span> 系統沒有金流功能，活動費用該如何收取？
+                        </h3>
+                        <div class="card-text space-y-3 pl-9">
+                            <p><strong>財務風險歸零：</strong>系統純做行政統計、不經手款項，完全免除手續費抽成與撥款延遲的風險。</p>
+                            <p><strong>維持線下信任：</strong>名單確認後，主辦方可維持既有的「現場繳費」或「匯款至協會公帳」渠道，財務管轄權完全獨立。</p>
+                        </div>
+                    </div>
+
+                    <div class="card-culture !p-6 md:!p-8">
+                        <h3 class="card-title !text-lg !mb-4 flex items-start gap-3">
+                            <span class="text-brick shrink-0 font-['Lato']">Q4.</span> 後台建議上傳的活動主視覺規格是什麼？
+                        </h3>
+                        <div class="card-text space-y-3 pl-9">
+                            <p><strong>建議規格：</strong> 300 x 169 像素 (px) 的橫式圖片。</p>
+                            <p><strong>為什麼是這個尺寸？</strong> 這是完美適配 LINE 聊天室與行動網頁的黃金比例（接近 16:9）。上傳此規格能確保圖片在所有手機上皆完美呈現、不被裁切，襯托出您社團的高端品牌美學。</p>
+                            <div class="bg-teal/5 p-4 rounded-md mt-4 border-l-4 border-teal text-sm">
+                                <span class="text-teal font-bold mr-1">💡 貼心提示：</span>如果手邊沒有專業設計軟體，您可以直接在網頁設計工具（如 Canva）中建立「1920 x 1080」或「1280 x 720」的標準 16:9 畫布進行設計，系統會自動完美等比例縮放！
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </main>
 
-    <footer class="bg-teal text-base py-12 border-t border-tealDark">
+    <footer class="bg-teal text-base py-12 mt-10">
         <div class="container mx-auto px-6 flex flex-col items-center justify-center gap-6">
             <div class="flex items-center gap-2 mb-2">
                 <svg class="w-5 h-5 text-base/70" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -356,7 +221,7 @@
         <div class="absolute inset-0 bg-grayDark/70 backdrop-blur-sm" onclick="toggleModal('tosModal')"></div>
         <div class="relative w-full max-w-4xl max-h-[85vh] bg-base border border-grayBorder rounded-lg shadow-2xl flex flex-col transform scale-95 transition-transform duration-300" id="tosModalContent">
             <div class="flex justify-between items-center p-6 border-b border-grayBorder">
-                <h2 class="text-xl font-bold text-teal tracking-wider font-['Noto_Serif_TC']">鹿鳴 LuMing 使用條款</h2>
+                <h2 class="text-xl font-bold text-teal tracking-wider font-['Noto_Serif_TC']">鹿鳴 LuMing 服務使用條款</h2>
                 <button onclick="toggleModal('tosModal')" class="text-grayText hover:text-brick transition-colors focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                 </button>
@@ -417,7 +282,7 @@
         <div class="absolute inset-0 bg-grayDark/70 backdrop-blur-sm" onclick="toggleModal('privacyModal')"></div>
         <div class="relative w-full max-w-4xl max-h-[85vh] bg-base border border-grayBorder rounded-lg shadow-2xl flex flex-col transform scale-95 transition-transform duration-300" id="privacyModalContent">
             <div class="flex justify-between items-center p-6 border-b border-grayBorder">
-                <h2 class="text-xl font-bold text-teal tracking-wider font-['Noto_Serif_TC']">鹿鳴 LuMing 隱私權政策</h2>
+                <h2 class="text-xl font-bold text-teal tracking-wider font-['Noto_Serif_TC']">鹿鳴 LuMing 服務與隱私權保護政策</h2>
                 <button onclick="toggleModal('privacyModal')" class="text-grayText hover:text-brick transition-colors focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                 </button>
@@ -439,6 +304,7 @@
                     <p class="mb-2">我們收集的有限資料僅用於以下用途：</p>
                     <ul class="list-disc pl-5 space-y-1">
                         <li>辦理、統計與優化您所參與或舉辦的商會活動名單。</li>
+                        <li>協助您將活動一鍵同步至手機日曆（如 Google日曆、Apple行事曆）。</li>
                         <li>提供本服務系統的技術維護、功能優化與客戶支援。</li>
                     </ul>
                 </section>
@@ -486,26 +352,6 @@
                 content.classList.add('scale-95');
                 document.body.style.overflow = 'auto';
             }
-        }
-
-        function switchView(view) {
-            const home = document.getElementById('home-section');
-            const story = document.getElementById('story-section');
-            
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-            
-            setTimeout(() => {
-                // 先將所有分頁隱藏
-                if(home) home.classList.add('hidden');
-                if(story) story.classList.add('hidden');
-                
-                // 根據參數顯示對應的分頁
-                if (view === 'story') {
-                    if(story) story.classList.remove('hidden');
-                } else {
-                    if(home) home.classList.remove('hidden');
-                }
-            }, 100);
         }
     </script>
 </body>
