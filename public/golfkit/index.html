@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>GolfKit 高球行動秘書｜最懂商會球隊的 LINE 智慧報名與分組工具</title>
+  <meta name="description" content="專為商會總幹事、球隊秘書打造的高爾夫球隊管理系統。自動化處理多地點報名、晚宴葷素統計與分組，輕鬆解決行政痛點。">
+  <meta name="keywords" content="高爾夫球隊管理系統, 高爾夫球敘報名工具, 商會球敘 LIFF, 球隊報名 LINE 機器人, 高爾夫分組軟體, 高爾夫球隊秘書 app">
+  
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --primary-color: #a8c62c;
+      --accent-color: #101419;
+      --text-color: #1d1d1f;
+      --input-bg: #f5f6f8;
+      --border-color: #e2e4e8;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* 導覽列 */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .logo-container img {
+      height: 40px;
+      width: auto;
+      transition: opacity 0.2s;
+    }
+    
+    .logo-container a:hover img {
+      opacity: 0.7;
+    }
+
+    .logo-divider {
+      width: 1px;
+      height: 24px;
+      background-color: var(--border-color);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #515154;
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-left: 24px;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: var(--accent-color);
+    }
+
+    /* 英雄區 */
+    .hero-section {
+      max-width: 1200px;
+      margin: 60px auto 100px auto;
+      padding: 0 40px;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+    }
+    @media (max-width: 968px) {
+      .hero-section {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+    .hero-text {
+      flex: 1;
+    }
+    .tagline {
+      display: inline-block;
+      background-color: var(--input-bg);
+      color: #515154;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      border: 1px solid var(--border-color);
+    }
+    
+    .main-title {
+      font-size: 3.2rem;
+      font-weight: 800;
+      line-height: 1.2;
+      color: var(--accent-color);
+      margin: 0 0 24px 0;
+      letter-spacing: -1px;
+    }
+
+    .seo-hidden-h1 {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .hero-text p {
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: #515154;
+      margin-bottom: 40px;
+    }
+    .cta-buttons {
+      display: flex;
+      gap: 16px;
+    }
+    @media (max-width: 968px) {
+      .cta-buttons {
+        justify-content: center;
+      }
+    }
+    .btn {
+      padding: 16px 32px;
+      font-size: 1rem;
+      font-weight: 700;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      display: inline-block;
+    }
+    .btn-light {
+      background-color: var(--primary-color);
+      color: var(--accent-color);
+      border: none;
+    }
+    .btn-light:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(168, 198, 44, 0.2);
+    }
+
+    /* 互動 GIF 展示牆 */
+    .hero-visual {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .phone-mockup {
+      width: 320px;
+      height: 640px;
+      background-color: var(--accent-color);
+      border-radius: 40px;
+      padding: 12px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+      border: 4px solid #2c353d;
+    }
+    .phone-screen {
+      width: 100%;
+      height: 100%;
+      background-color: #101419; /* 配合深色 LINE 介面 */
+      border-radius: 32px;
+      overflow: hidden; /* 確保圓角效果包覆圖片 */
+    }
+
+    /* 特色功能區 */
+    .features-section {
+      background-color: var(--input-bg);
+      padding: 100px 40px;
+      border-top: 1px solid var(--border-color);
+    }
+    .section-title {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 60px auto;
+    }
+    .section-title h2 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--accent-color);
+      margin-bottom: 16px;
+    }
+    .section-title p {
+      color: #86868b;
+      font-size: 1.05rem;
+    }
+    .features-grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    .feature-card {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 20px;
+      border: 1px solid var(--border-color);
+      transition: transform 0.2s;
+    }
+    .feature-card:hover {
+      transform: translateY(-4px);
+    }
+    .feature-icon {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .feature-card h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--accent-color);
+      margin: 0 0 12px 0;
+    }
+    .feature-card p {
+      color: #515154;
+      line-height: 1.6;
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    /* 頁尾 CTA */
+    .footer-cta {
+      background-color: var(--accent-color);
+      color: #ffffff;
+      text-align: center;
+      padding: 80px 40px;
+    }
+    .footer-cta h2 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+    .footer-cta p {
+      color: #a09990;
+      margin-bottom: 40px;
+      font-size: 1.1rem;
+    }
+
+    /* 全站頁尾區域 */
+    .site-footer {
+      background-color: var(--accent-color);
+      color: #ffffff;
+      text-align: center;
+      padding: 0 40px 60px 40px;
+    }
+    .site-footer-inner {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .footer-links {
+      margin-bottom: 24px;
+    }
+    .footer-links a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.05rem;
+      letter-spacing: 1px;
+      transition: opacity 0.2s ease;
+    }
+    .footer-links a:hover {
+      opacity: 0.7;
+    }
+    .footer-links .separator {
+      margin: 0 20px;
+      color: rgba(255, 255, 255, 0.3);
+      font-size: 0.8rem;
+      vertical-align: middle;
+    }
+    .copyright {
+      color: rgba(255, 255, 255, 0.4);
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <a href="https://www.ninedr.com/" target="_blank" title="九色鹿有限公司">
+        <img src="ninedr_for_golfkit.jpg" alt="NineDr Logo">
+      </a>
+      <div class="logo-divider"></div>
+      <a href="index.html">
+        <img src="golfkit_logo_black_2.jpg" alt="GolfKit Logo">
+      </a>
+    </div>
+    <nav>
+      <a href="#features">產品特色</a>
+      <a href="#demo">即時體驗</a>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-text">
+      <div class="tagline">✦ GOLFKIT | YOUR ULTIMATE GOLF SQUAD MANAGER</div>
+      <h1 class="seo-hidden-h1">GolfKit 高球行動秘書｜最懂商會球隊的 LINE 智慧報名與分組工具</h1>
+      <div class="main-title">讓球隊行政，<br>達到完美標準桿。</div>
+      <p>GolfKit 高球行動秘書是專為高端商會與頂級球隊量身打造的報名工具。透過一鍵智慧化，解決多地點公告、下場晚宴分流與葷素統計痛點，讓球隊行政優雅流暢。</p>
+      <div class="cta-buttons">
+        <a href="https://line.me/R/ti/p/@970dxcnb" target="_blank" class="btn btn-light" style="padding: 16px 40px; font-size: 1.1rem;">加入LINE官方好友</a>
+      </div>
+    </div>
+
+    <div class="hero-visual" id="demo">
+      <div class="phone-mockup">
+        <div class="phone-screen">
+          <img src="golfkit_gif.gif" alt="GolfKit 報名操作展示" style="width: 100%; height: 100%; object-fit: cover; border-radius: 32px; display: block;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features-section" id="features">
+    <div class="section-title">
+      <h2>專為舉辦高爾夫球敘而生</h2>
+      <p>告別傳統萬用表單，GolfKit 完美封裝了球隊總幹事最核心的後勤剛需。</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">➕</div>
+        <h3>多地點動態擴充</h3>
+        <p>球場開球與聯誼晚宴分開兩地？後台一鍵擴充多組地點地址，前端智慧串連路線導引與公告。</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>條件式智慧分流</h3>
+        <p>不論打不打球，只要勾選吃飯，表單才強制觸發葷素選單。請假自動歸零，後台導出 Excel 清晰分明。</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📱</div>
+        <h3>LINE LIFF 滿版優化</h3>
+        <p>球友點開 LINE 直接秒填。大熱區觸控防誤觸設計，拋棄外跳網頁的破碎體驗，填單率大幅提升。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-cta">
+    <h2>即刻升級您的球隊運作模式</h2>
+    <p>與世界接軌，為您的貴賓帶來最頂級、優雅的球敘報名體驗。</p>
+    <a href="https://line.me/R/ti/p/@970dxcnb" target="_blank" class="btn btn-light" style="padding: 18px 40px; font-size: 1.1rem;">立即使用GolfKit</a>
+  </section>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="footer-links">
+        <a href="https://line.me/R/ti/p/@970dxcnb" target="_blank">官方客服</a>
+        <span class="separator">●</span>
+        <a href="faq.html">常見問題</a>
+        <span class="separator">●</span>
+        <a href="privacy.html" target="_blank">隱私權政策</a>
+        <span class="separator">●</span>
+        <a href="terms.html" target="_blank">服務條款</a>
+      </div>
+      <p class="copyright">© 2026 九色鹿有限公司 ninedr.Co.Ltd All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

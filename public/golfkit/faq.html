@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>常見問題集 (FAQ) | GolfKit 高球行動秘書</title>
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --primary-color: #a8c62c;
+      --accent-color: #101419;
+      --text-color: #1d1d1f;
+      --input-bg: #f5f6f8;
+      --border-color: #e2e4e8;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* 導覽列 */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-bottom: 1px solid var(--border-color);
+    }
+    
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .logo-container img {
+      height: 40px;
+      width: auto;
+      transition: opacity 0.2s;
+    }
+    
+    .logo-container a:hover img {
+      opacity: 0.7;
+    }
+
+    .logo-divider {
+      width: 1px;
+      height: 24px;
+      background-color: var(--border-color);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #515154;
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-left: 24px;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: var(--accent-color);
+    }
+
+    /* 內容區塊 */
+    .legal-container {
+      max-width: 800px;
+      margin: 60px auto 100px auto;
+      padding: 0 40px;
+      color: #515154;
+      line-height: 1.8;
+    }
+
+    .legal-container h1 {
+      color: var(--accent-color);
+      font-size: 2.2rem;
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+    }
+
+    .legal-container .intro {
+      text-align: center;
+      font-size: 1.05rem;
+      margin-bottom: 60px;
+      color: #86868b;
+    }
+
+    .legal-container h2 {
+      color: var(--accent-color);
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-top: 48px;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    /* FAQ 專屬排版 */
+    .faq-item {
+      margin-bottom: 32px;
+    }
+
+    .faq-item h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--accent-color);
+      margin: 0 0 8px 0;
+      line-height: 1.5;
+    }
+
+    .faq-item p {
+      margin: 0;
+      font-size: 1rem;
+      color: #515154;
+    }
+
+    /* 頁尾 */
+    .site-footer {
+      background-color: var(--accent-color);
+      color: #ffffff;
+      text-align: center;
+      padding: 60px 40px;
+    }
+    .site-footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .footer-links {
+      margin-bottom: 24px;
+    }
+    .footer-links a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.05rem;
+      letter-spacing: 1px;
+      transition: opacity 0.2s ease;
+    }
+    .footer-links a:hover {
+      opacity: 0.7;
+    }
+    .footer-links .separator {
+      margin: 0 20px;
+      color: rgba(255, 255, 255, 0.3);
+      font-size: 0.8rem;
+      vertical-align: middle;
+    }
+    .copyright {
+      color: rgba(255, 255, 255, 0.4);
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <header>
+    <div class="logo-container">
+      <a href="https://www.ninedr.com/" target="_blank" title="九色鹿有限公司">
+        <img src="ninedr_for_golfkit.jpg" alt="NineDr Logo">
+      </a>
+      <div class="logo-divider"></div>
+      <a href="index.html">
+        <img src="golfkit_logo_black_2.jpg" alt="GolfKit Logo">
+      </a>
+    </div>
+    <nav>
+      <a href="index.html#features">產品特色</a>
+    </nav>
+  </header>
+
+  <!-- FAQ 內容 -->
+  <main class="legal-container">
+    <h1>常見問題集</h1>
+    <p class="intro">FAQ</p>
+
+    <h2>📱 【球友與貴賓填單篇】</h2>
+    
+    <div class="faq-item">
+      <h3>Q1：點開 LINE 報名連結時，為什麼會跳出「授權請求」？安全嗎？</h3>
+      <p>A1：請安心點擊同意。這是 LINE 官方的標準安全機制（LIFF 技術）。GolfKit 只會讀取您在 LINE 上的公開名稱與大頭貼，以便在表單中為您自動帶入姓名。系統絕不會、也無權讀取您的 LINE 密碼、私密對話或手機通訊錄。</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Q2：為什麼我選了「打球、不吃飯」或「請假」後，沒有看到選葷素的格子？</h3>
+      <p>A2：這是 GolfKit 的條件式智慧分流設計。為了讓貴賓的手機填單介面最簡潔，只有當您選擇需要用餐的選項（如「打球 + 吃飯」或「僅用餐」）時，系統才會優雅淡出「用餐飲食習慣（葷/素）」的必填欄位。不吃飯或請假的貴賓，系統會自動幫您隱藏該欄位，免去點選麻煩。</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Q3：我想幫我帶來的來賓（或眷屬）一起報名，要在哪裡填寫？</h3>
+      <p>A3：為了確保球隊後台人數統計不重疊，GolfKit 的報名人數欄位固定為每人填寫 1 筆。如果您有攜帶尚未加入球隊的來賓，或是想要指定特定球友同組，請直接在表單最後一欄的「備註留言」中打字說明（例如：備註來賓一位、希望能與陳總同組），球隊秘書在後台就能一目了然並協助安排。</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Q4：如果我報名後臨時有事要請假，或是要修改取消，該怎麼辦？</h3>
+      <p>A4：在活動報名截止前，您可以直接重新點開 LINE 報名連結，選擇「請假（不打球、不用餐）」並重新提交，系統後台會即時自動扣減人數，將名額釋放出來。</p>
+    </div>
+
+    <h2>【總幹事與秘書管理篇】</h2>
+
+    <div class="faq-item">
+      <h3>Q5：我們的球敘常常「擊球在 A 球場，晚宴在 B 餐廳」，這套系統支援嗎？</h3>
+      <p>A5：完美支援！這是 GolfKit 的核心強項。在 Web 管理後台建立活動時，地點資訊欄位設有「➕ 增加活動地點」的動態擴充功能。您可以無限增設地點 1（開球球場）、地點 2（頒獎晚宴餐廳），系統會自動重新編號，並在球友的手機端以 球場 ➔ 餐廳 的現代化卡片動態串接呈現。</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Q6：這套系統可以幫我們球隊代收擊球費、常年會費或餐費嗎？</h3>
+      <p>A6：不行，GolfKit 是純粹的「行政與後勤統計管家」。為了保障球隊的高階隱私與財務安全，系統完全不經手、不串接、亦不儲存任何線上金流、信用卡刷卡或銀行帳戶個資。球賽規費與餐費請維持球隊傳統的「線下信任收付」（如現場付給球場、或匯入球隊公帳），免去任何線上系統手續費與資安風險。</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Q7：後台設定的「活動人數上限」，系統是怎麼卡控的？球友會不會亂填人數？</h3>
+      <p>A7：絕對不會。傳統 Google 表單常有球友在人數欄位亂填「+5」、「-1」導致人數爆表。GolfKit 在 LIFF 前端已將人數欄位完全隱藏並鎖定為「1」，每位球友提交只能代表自己（或在備註點名來賓）。後台累加器會精密計算提交總筆數，一達到您設定的上限（例如限制 5 組共 20 人），前端就會自動截止報名。</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Q8：報名截止後，我該如何去訂球場果嶺和餐廳桌數？</h3>
+      <p>A8：您只需登入 GolfKit Web 管理後台，點擊「📥 匯出報名名單」，系統會為您產出一張乾淨俐落的 Excel / CSV 報表。您可以透過 Excel 篩選功能，一秒得知「下場擊球總人數（用於核對開球組數）」與「葷食/素食總人數（用於直接向餐廳訂桌與對菜）」，再也不用在 LINE 群組裡一則一則複製貼上、人工對帳。</p>
+    </div>
+  </main>
+
+  <!-- 頁尾 -->
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="footer-links">
+        <a href="https://line.me/R/ti/p/@970dxcnb" target="_blank">官方客服</a>
+        <span class="separator">●</span>
+        <a href="faq.html">常見問題</a>
+        <span class="separator">●</span>
+        <a href="privacy.html" target="_blank">隱私權政策</a>
+        <span class="separator">●</span>
+        <a href="terms.html" target="_blank">服務條款</a>
+      </div>
+      <p class="copyright">© 2026 九色鹿有限公司 ninedr.Co.Ltd All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
