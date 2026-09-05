@@ -183,6 +183,17 @@
       overflow: hidden; 
     }
 
+    .gif-slider {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: opacity 0.6s ease-in-out;
+    }
+    .fade-out {
+      opacity: 0;
+    }
+
     /* 特色功能區 */
     .features-section {
       background-color: var(--input-bg);
@@ -301,12 +312,10 @@
   <header>
     <div class="logo-container">
       <a href="https://www.ninedr.com/" target="_blank" title="九色鹿有限公司">
-        <!-- ⚡ 修正：加入 /golfkit/ 確保讀取正確資料夾的圖片 -->
         <img src="/golfkit/ninedr_for_golfkit.jpg" alt="NineDr Logo">
       </a>
       <div class="logo-divider"></div>
       <a href="/golfkit/index.html">
-        <!-- ⚡ 修正：加入 /golfkit/ 確保讀取正確資料夾的圖片 -->
         <img src="/golfkit/golfkit_logo_black.jpg" alt="GolfKit Logo">
       </a>
     </div>
@@ -330,8 +339,7 @@
     <div class="hero-visual" id="demo">
       <div class="phone-mockup">
         <div class="phone-screen">
-          <!-- ⚡ 修正：加入 /golfkit/ 確保 GIF 動畫能正確載入 -->
-          <img src="/golfkit/golfkit_gif.gif" alt="GolfKit 報名操作展示" style="width: 100%; height: 100%; object-fit: cover; border-radius: 32px; display: block;">
+          <img id="hero-gif" class="gif-slider" src="/golfkit/golfkit_gif_1.gif" alt="GolfKit 報名操作展示">
         </div>
       </div>
     </div>
@@ -343,7 +351,6 @@
       <p>告別傳統萬用表單，GolfKit 完美封裝了球隊總幹事最核心的後勤剛需。</p>
     </div>
     <div class="features-grid">
-      <!-- ... (卡片內容維持不變) ... -->
       <div class="feature-card">
         <div class="feature-icon">➕</div>
         <h3>多地點動態擴充</h3>
@@ -373,7 +380,6 @@
       <div class="footer-links">
         <a href="https://line.me/R/ti/p/@970dxcnb" target="_blank">官方客服</a>
         <span class="separator">●</span>
-        <!-- ⚡ 修正：加入 /golfkit/ 強制導向正確的子目錄網頁 -->
         <a href="/golfkit/faq.html">常見問題</a>
         <span class="separator">●</span>
         <a href="/golfkit/privacy.html">隱私權政策</a>
@@ -383,6 +389,50 @@
       <p class="copyright">© 2026 九色鹿有限公司 ninedr.Co.Ltd All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+    // 在這裡設定每一張 GIF 的路徑與對應的「播放時長」(單位：毫秒)
+    // 例如 5000 代表這張圖會播放 5 秒後才切換下一張
+    const gifData = [
+      { src: '/golfkit/golfkit_gif_1.gif', duration: 58000 },
+      { src: '/golfkit/golfkit_gif_2.gif', duration: 20000 }, // 假設這張動畫比較長，給它 7.5 秒
+      { src: '/golfkit/golfkit_gif_3.gif', duration: 34000 },
+      { src: '/golfkit/golfkit_gif_4.gif', duration: 43000 },
+      { src: '/golfkit/golfkit_gif_5.gif', duration: 24000 }
+    ];
+    
+    let currentIndex = 0;
+    const gifElement = document.getElementById('hero-gif');
+
+    // 建立一個會自我呼叫的動態輪播函式
+    function playNextGif() {
+      // 取得「當前這張圖」應該要播放多久
+      const currentDuration = gifData[currentIndex].duration;
+
+      setTimeout(() => {
+        // 1. 播放時間到了，加上 class 讓圖片變透明 (觸發淡出)
+        gifElement.classList.add('fade-out');
+        
+        // 2. 等待 0.6 秒 (600毫秒) 淡出動畫結束後，偷偷換圖片
+        setTimeout(() => {
+          // 計算下一張圖片的順序 (播到最後一張會自動回到 0)
+          currentIndex = (currentIndex + 1) % gifData.length; 
+          gifElement.src = gifData[currentIndex].src;
+          
+          // 3. 換好圖片後，移除 class 讓圖片重新浮現 (觸發淡入)
+          gifElement.classList.remove('fade-out');
+          
+          // 4. 再次呼叫自己，啟動下一張圖的倒數計時！
+          playNextGif();
+          
+        }, 600); // 這個 600 是配合 CSS 的 transition: 0.6s
+        
+      }, currentDuration);
+    }
+
+    // 網頁載入後，正式啟動第一次的輪播計時器
+    playNextGif();
+  </script>
 
 </body>
 </html>
