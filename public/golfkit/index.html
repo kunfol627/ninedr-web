@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>GolfKit 高球行動秘書｜最懂商會球隊的 LINE 智慧報名與分組工具</title>
-  <meta name="description" content="專為商會總幹事、球隊秘書打造的高爾夫球隊管理系統。自動化處理多地點報名、晚宴葷素統計與分組，輕鬆解決行政痛點。">
+  <meta name="description" content="專為球隊總幹事、球隊秘書打造的高爾夫球隊管理系統。自動化處理多地點報名、晚宴葷素統計與分組，輕鬆解決行政痛點。">
   <meta name="keywords" content="高爾夫球隊管理系統, 高爾夫球敘報名工具, 商會球敘 LIFF, 球隊報名 LINE 機器人, 高爾夫分組軟體, 高爾夫球隊秘書 app">
   
   <style>
@@ -339,7 +339,7 @@
     <div class="hero-visual" id="demo">
       <div class="phone-mockup">
         <div class="phone-screen">
-          <img id="hero-gif" class="gif-slider" src="/golfkit/golfkit_gif_1.gif" alt="GolfKit 報名操作展示">
+          <img id="hero-gif" class="gif-slider" src="/golfkit/golfkit_gif_2.gif" alt="GolfKit 報名操作展示">
         </div>
       </div>
     </div>
@@ -391,47 +391,36 @@
   </footer>
 
   <script>
-    // 在這裡設定每一張 GIF 的路徑與對應的「播放時長」(單位：毫秒)
-    // 例如 5000 代表這張圖會播放 5 秒後才切換下一張
-    const gifData = [
-      { src: '/golfkit/golfkit_gif_1.gif', duration: 0 },
-      { src: '/golfkit/golfkit_gif_2.gif', duration: 20000 }, 
-      { src: '/golfkit/golfkit_gif_3.gif', duration: 0 },
-      { src: '/golfkit/golfkit_gif_4.gif', duration: 0 },
-      { src: '/golfkit/golfkit_gif_5.gif', duration: 0 }
-    ];
+    // 指定唯一要播放的 GIF 路徑與播放時長
+    const gifSrc = '/golfkit/golfkit_gif_2.gif';
+    const playDuration = 7500; // 播放時長 (毫秒)：您可以將 7500 改為符合這張圖長度的時間
     
-    let currentIndex = 0;
     const gifElement = document.getElementById('hero-gif');
 
-    // 建立一個會自我呼叫的動態輪播函式
-    function playNextGif() {
-      // 取得「當前這張圖」應該要播放多久
-      const currentDuration = gifData[currentIndex].duration;
-
+    // 建立循環播放函式
+    function replayGif() {
       setTimeout(() => {
-        // 1. 播放時間到了，加上 class 讓圖片變透明 (觸發淡出)
+        // 1. 時間到了，加上 class 讓圖片變透明 (觸發淡出)
         gifElement.classList.add('fade-out');
         
-        // 2. 等待 0.6 秒 (600毫秒) 淡出動畫結束後，偷偷換圖片
+        // 2. 等待 0.6 秒淡出動畫結束後，重新載入圖片
         setTimeout(() => {
-          // 計算下一張圖片的順序 (播到最後一張會自動回到 0)
-          currentIndex = (currentIndex + 1) % gifData.length; 
-          gifElement.src = gifData[currentIndex].src;
+          // 💡 魔法小技巧：在網址後面加上隨機時間戳記，能強迫瀏覽器「從第一秒重新播放 GIF」
+          gifElement.src = gifSrc + '?t=' + new Date().getTime();
           
-          // 3. 換好圖片後，移除 class 讓圖片重新浮現 (觸發淡入)
+          // 3. 移除 class 讓圖片重新浮現 (觸發淡入)
           gifElement.classList.remove('fade-out');
           
-          // 4. 再次呼叫自己，啟動下一張圖的倒數計時！
-          playNextGif();
+          // 4. 再次呼叫自己，啟動下一次的循環倒數！
+          replayGif();
           
         }, 600); // 這個 600 是配合 CSS 的 transition: 0.6s
         
-      }, currentDuration);
+      }, playDuration);
     }
 
-    // 網頁載入後，正式啟動第一次的輪播計時器
-    playNextGif();
+    // 網頁載入後，正式啟動第一次循環
+    replayGif();
   </script>
 
 </body>
