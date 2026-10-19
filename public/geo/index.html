@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>認識 GEO: AI時代的搜尋新法則 | ninedr</title>
+    
+    <!-- 強制瀏覽器以當前目錄為基準讀取圖片，解決 GitHub Pages 路徑解析問題 -->
+    <base href="./">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -25,19 +29,7 @@
                         }
                     },
                     animation: {
-                        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
-                        'fade-in': 'fadeIn 1s ease-out forwards',
                         'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                    },
-                    keyframes: {
-                        fadeInUp: {
-                            '0%': { opacity: '0', transform: 'translateY(30px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' },
-                        },
-                        fadeIn: {
-                            '0%': { opacity: '0' },
-                            '100%': { opacity: '1' },
-                        }
                     }
                 }
             }
@@ -72,7 +64,9 @@
         .anim-item.delay-1 { transition-delay: 0.2s; }
         .anim-item.delay-2 { transition-delay: 0.4s; }
         .anim-item.delay-3 { transition-delay: 0.6s; }
-        .is-visible .anim-item { opacity: 1; transform: translateY(0); }
+        
+        /* 觸發動畫時的狀態 */
+        .is-visible .anim-item, .force-visible .anim-item { opacity: 1 !important; transform: translateY(0) !important; }
 
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
@@ -667,7 +661,6 @@
                             <!-- Right side: Huge QR Code -->
                             <div class="order-1 md:order-2 w-full bg-slate-900 rounded-3xl p-8 md:p-12 flex flex-col items-center justify-center shadow-xl border-4 border-slate-800">
                                 <div class="bg-white p-4 rounded-2xl mb-6 w-full max-w-[280px] aspect-square flex items-center justify-center">
-                                    <!-- 移除前綴並保留單純的相對路徑 -->
                                     <img src="qr-code-3.png" alt="預約諮詢 QR Code" class="w-full h-full object-contain">
                                 </div>
                                 <div class="text-white font-black text-xl md:text-2xl flex items-center gap-3 tracking-wide">
@@ -684,6 +677,11 @@
     </main>
 
     <script>
+        // 【安全防呆機制】：如果 Intersection Observer 因為任何原因沒有執行，1.5秒後自動顯示所有內容，避免畫面全黑。
+        setTimeout(() => {
+            document.body.classList.add('force-visible');
+        }, 1500);
+
         function animateValue(obj, start, end, duration) {
             let startTimestamp = null;
             const step = (timestamp) => {
@@ -761,11 +759,18 @@
             });
         });
 
-        function showModal() {
-            const box = document.createElement('div');
-            box.className = 'fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm px-4 opacity-0 transition-opacity duration-300';
-            box.innerHTML = `
-                <div class="bg-slate-900 p-8 rounded-3xl max-w-sm w-full text-center border border-slate-700 shadow-2xl transform scale-95 transition-transform duration-300">
-                    <div class="w-20 h-20 bg-brand-teal text-white rounded-2xl flex items-center justify-center text-4xl mx-auto mb-6 shadow-lg shadow-brand-teal/20 rotate-3">
-                        <i class="fa-solid fa-qrcode"></i>
-                    </div>
+        function moveCarousel(id, direction) {
+            const track = document.getElementById(id);
+            const items = track.children;
+            if(!track.dataset.index) track.dataset.index = 0;
+            let idx = parseInt(track.dataset.index) + direction;
+            
+            if(idx < 0) idx = items.length - 1; 
+            if(idx >= items.length) idx = 0; 
+            
+            track.dataset.index = idx;
+            track.style.transform = `translateX(-${idx * 100}%)`;
+        }
+    </script>
+</body>
+</html>
