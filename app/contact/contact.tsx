@@ -4,7 +4,7 @@ import Arrow from "@/app/arrow";
 import {useEffect,useRef,useState} from 'react';
 type Turnstile={render:(el:HTMLElement,options:Record<string,unknown>)=>string;remove:(id:string)=>void;reset:(id:string)=>void};
 declare global{interface Window{turnstile?:Turnstile}}
-const directions=['整合行銷','廣告投放與媒介操作','廣告創意與內容產製','品牌策略與整合行銷','SEO / GEO / Local SEO','品牌設計','其他合作'];
+const directions=['整合行銷','廣告投放與媒介操作','廣告創意與內容產製','品牌策略與整合行銷','SEO / GEO / Local SEO','品牌設計','企業顧問與數位轉型','其他合作'];
 export default function Contact(){
  const [config,setConfig]=useState<{enabled:boolean;siteKey?:string}|null>(null);
  const [token,setToken]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[sent,setSent]=useState(false),[summary,setSummary]=useState('');
