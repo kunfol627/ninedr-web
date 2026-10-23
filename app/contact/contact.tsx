@@ -1,4 +1,6 @@
 'use client';
+import Arrow from "@/app/arrow";
+
 import {useEffect,useRef,useState} from 'react';
 type Turnstile={render:(el:HTMLElement,options:Record<string,unknown>)=>string;remove:(id:string)=>void;reset:(id:string)=>void};
 declare global{interface Window{turnstile?:Turnstile}}
@@ -34,8 +36,8 @@ export default function Contact(){
  <div hidden aria-hidden="true"><label>Website<input name="website" tabIndex={-1} autoComplete="off"/></label></div>
  <label className="contact-consent"><input name="consent" type="checkbox" required/><span>我已閱讀<a href="/privacy" target="_blank" rel="noopener noreferrer">隱私政策</a>，同意九色鹿為回覆本次諮詢處理所填資料。</span></label>
  {config?.enabled&&<div ref={widget} className="contact-verification"/>}
- <button className="lime-button" type="submit" disabled={busy||sent||!config||(config.enabled&&!token)}>{sent?'需求已提交':busy?'正在送出…':config?.enabled?'啟動增長引擎':'整理需求，透過 Email 聯繫'} <span>↗</span></button>
+ <button className="lime-button" type="submit" disabled={busy||sent||!config||(config.enabled&&!token)}>{sent?'需求已提交':busy?'正在送出…':config?.enabled?'啟動增長引擎':'整理需求，透過 Email 聯繫'} <span><Arrow direction="up-right"/></span></button>
  <small>{config?.enabled?'送出後由九色鹿團隊接收並回覆。':'線上寄送尚未開放。可先整理需求，再透過 Email 或 LINE 聯繫。'}</small>
- <div role="status" aria-live="polite">{notice&&<p className="contact-status">{notice}</p>}{summary&&<section className="contact-summary"><h2>合作需求已整理</h2><p>尚未寄送。點擊下方按鈕開啟您的郵件程式，確認後寄出；若無法開啟，請複製內容寄至 info@ninedr.com。</p><pre>{summary}</pre><a className="text-link" href={'mailto:info@ninedr.com?cc=cathy%40ninedr.com%2Csteven%40ninedr.com&subject='+encodeURIComponent('九色鹿官網合作諮詢')+'&body='+encodeURIComponent(summary)}>開啟 Email 寄送 ↗</a></section>}</div>
+ <div role="status" aria-live="polite">{notice&&<p className="contact-status">{notice}</p>}{summary&&<section className="contact-summary"><h2>合作需求已整理</h2><p>尚未寄送。點擊下方按鈕開啟您的郵件程式，確認後寄出；若無法開啟，請複製內容寄至 info@ninedr.com。</p><pre>{summary}</pre><a className="text-link" href={'mailto:info@ninedr.com?cc=cathy%40ninedr.com%2Csteven%40ninedr.com&subject='+encodeURIComponent('九色鹿官網合作諮詢')+'&body='+encodeURIComponent(summary)}>開啟 Email 寄送 <Arrow direction="up-right"/></a></section>}</div>
  </form>
 }
