@@ -14,6 +14,7 @@ export default function FunnelContent(){
   const cleanup:Array<()=>void>=[];
   function listen(el:HTMLElement,event:string,fn:EventListener){el.addEventListener(event,fn);cleanup.push(()=>el.removeEventListener(event,fn))}
   tabs.forEach((b,i)=>{listen(b,'click',()=>stage(i));listen(b,'keydown',e=>{const key=(e as KeyboardEvent).key;if(!['ArrowLeft','ArrowRight','Home','End'].includes(key))return;e.preventDefault();const n=key==='Home'?0:key==='End'?5:(i+(key==='ArrowRight'?1:5))%6;stage(n);tabs[n].focus()})});stage(0);
+  all<HTMLAnchorElement>('[data-stage]').forEach((link,i)=>listen(link,'click',e=>{e.preventDefault();stage(i);panels[i].focus({preventScroll:true});panels[i].scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})}));
   const cases=all<HTMLButtonElement>('[data-case]');
   const casePanels=all<HTMLElement>('#caseContent,#caseContentB2B');
   const pick=(n:number)=>{cases.forEach((b,i)=>{b.classList.toggle('active',i===n);b.setAttribute('aria-pressed',String(i===n))});casePanels.forEach((p,i)=>p.hidden=i!==n)};
