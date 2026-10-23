@@ -16,6 +16,489 @@ export type Article = {
 };
 export const articles:Article[]=[
   {
+    "slug": "brand-platform-bio-seo-geo",
+    "title": "品牌跨平台簡介要一致嗎？官網、Meta 與 YouTube 的 SEO／GEO 策略",
+    "excerpt": "品牌簡介應維持核心資訊一致，並依平台分眾表達。解析官網、Facebook、Instagram、Threads 與 YouTube 的角色，建立有利搜尋理解、AI 資訊查核與商業轉換的品牌內容策略。",
+    "category": "GEO 與搜尋",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "SEO",
+      "GEO",
+      "品牌簡介",
+      "跨平台經營"
+    ],
+    "takeaways": [
+      "一致的是品牌事實：名稱、品牌與法人關係、服務範圍、官方網址及對外聯絡資訊。",
+      "分眾的是表達方式：各平台依使用情境，調整內容重點、語氣與下一步。",
+      "官網提供完整依據：以關於我們、服務頁、案例與文章，承接平台簡介無法說清楚的資訊。",
+      "社群經營與外部搜尋分開評估：互動表現、網頁可索引性與 AI 引用，是不同層次的結果。",
+      "GEO 建立在資訊品質上：結構化資料與清楚的段落可輔助理解，但不保證被生成式搜尋採用。"
+    ],
+    "sections": [
+      {
+        "id": "perspective",
+        "heading": "品牌核心一致，平台表達分眾。",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>品牌核心一致，平台表達分眾：讓消費者與搜尋系統，都能清楚理解你是誰。</strong></p><p>品牌經營官網、Facebook、Instagram、Threads、YouTube 等平台時，常遇到一個問題：品牌簡介應該全部複製貼上，還是每個平台重新撰寫？</p><p>建議採取「核心資訊一致、價值主張連貫、內容依平台調整」的策略。品牌名稱、服務事實、聯絡方式與官方連結應相互對得上；開場、篇幅、案例與行動呼籲，則依訪客需求安排。</p><p>對 SEO 與 GEO 而言，關鍵是讓公開資訊清楚、正確、可取得、可驗證。文案逐字相同，並不是獲得搜尋排名或 AI 推薦的保證。</p>"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、為什麼品牌需要一套「一致但不僵化」的簡介策略？",
+        "paragraphs": [],
+        "bodyHtml": "<p>使用者可能先看見一支短影音，接著搜尋品牌名稱、查看官網案例，再透過 Facebook 或表單聯絡。這些接觸點需要共同回答三個問題：這是同一家品牌嗎？它提供的服務適合我嗎？接下來可以怎麼做？</p><p>若 Instagram 寫「品牌策略顧問」，官網卻只剩「廣告代操」，YouTube 又宣稱「保證業績翻倍」，消費者就可能無法判斷品牌真正的專業與承諾。問題在於資訊互相矛盾，而非文字不同。</p><p>另一方面，將完整企業沿革放進每個社群簡介，也可能浪費有限的閱讀空間。瀏覽 Instagram 的人需要快速理解追蹤價值；進入官網服務頁的企業決策者，則需要合作流程與實際證據。</p><p><strong>產業判斷：品牌應建立共同的資訊底稿，再依平台轉譯。</strong>這是一項內容治理建議，並非搜尋引擎公布的排名公式。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、哪些內容應一致？哪些內容可以分眾？",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">資訊層次</th><th scope=\"col\">建議做法</th><th scope=\"col\">實務說明</th></tr></thead><tbody><tr><td>品牌名稱與英文名稱</td><td>固定主要寫法</td><td>清楚交代品牌名、簡稱與公司登記名稱的關係</td></tr><tr><td>核心定位</td><td>意義一致</td><td>可縮短或改寫，但不應在不同平台變成互相衝突的業務</td></tr><tr><td>服務、地區、資格與年資</td><td>事實一致</td><td>平台可只呈現部分服務；不同門市與市場需標明適用範圍</td></tr><tr><td>電話、地址、營業時間</td><td>同一據點資訊一致</td><td>不同據點可有不同資料，避免把所有門市硬改成相同資訊</td></tr><tr><td>官方網址與帳號關係</td><td>清楚對應</td><td>從官網連到正式帳號，帳號連回適合的官網頁面</td></tr><tr><td>口吻、長度、內容開場</td><td>依平台調整</td><td>官網完整說明，社群優先呈現受眾看得懂的價值</td></tr><tr><td>案例與服務重點</td><td>依受眾挑選</td><td>同一服務可分別從企業成長、創作過程或實務教學切入</td></tr><tr><td>行動呼籲</td><td>配合訪客階段</td><td>了解服務、觀看案例、訂閱頻道、預約諮詢，各有用途</td></tr></tbody></table></div><p>一個簡單的檢查方式是：把各平台簡介並排，讀者應該認得出同一個品牌，也看得出各平台值得追蹤的理由。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、官網、Meta 各平台與 YouTube，應如何分工？",
+        "paragraphs": [],
+        "bodyHtml": "<p>以下為建議分工，實際仍應以品牌受眾、內容能力與數據調整。Facebook、Instagram 與 Threads 雖同屬 Meta，也不必使用相同簡介。</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">平台</th><th scope=\"col\">建議承擔的角色</th><th scope=\"col\">簡介應回答什麼</th><th scope=\"col\">適合的下一步</th></tr></thead><tbody><tr><td>官網</td><td>完整品牌資訊與合作依據</td><td>我們是誰、服務誰、解決什麼、有哪些證據？</td><td>了解方案、查看案例、提出需求</td></tr><tr><td>Facebook</td><td>案例解說、活動資訊與互動</td><td>這個專頁會提供哪些對我有用的內容？</td><td>查看案例、私訊或前往服務頁</td></tr><tr><td>Instagram</td><td>視覺辨識與快速理解</td><td>你專長什麼、我為什麼要追蹤？</td><td>查看精選內容、作品或簡介連結</td></tr><tr><td>Threads</td><td>觀點與對話</td><td>這個品牌關注什麼議題，有什麼看法？</td><td>參與討論、延伸閱讀</td></tr><tr><td>YouTube</td><td>示範、解說與系列內容</td><td>訂閱後能持續看到什麼、解決什麼問題？</td><td>觀看主題播放清單、閱讀對應文章</td></tr><tr><td>Google 商家檔案（適用者）</td><td>據點與在地服務資訊</td><td>在哪裡、何時營業、怎麼聯絡？</td><td>導航、來電或前往官網</td></tr><tr><td>LinkedIn（有企業客群者）</td><td>企業專業與合作資訊</td><td>服務哪些產業、具備哪些能力？</td><td>查看企業案例或聯絡團隊</td></tr></tbody></table></div><p>這些是內容策略選擇，不代表特定平台只屬於某種年齡或只能使用某種內容。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、對 SEO 有幫助的，是清楚的品牌資訊與完整內容",
+        "paragraphs": [],
+        "bodyHtml": "<h3>1. 官網先把「品牌是誰」說明白</h3><p>關於我們頁應明確交代品牌名稱、核心業務、服務對象與官方聯絡方式。服務頁則進一步說明適用情境、交付內容、合作流程與限制，避免所有頁面都只重複一句抽象口號。</p><p>Google 的 Organization 結構化資料支援 name、alternateName、url、logo，以及指向社群或其他組織介紹頁的 sameAs 等欄位，可協助表達組織資訊。（<a href=\"https://developers.google.com/search/docs/appearance/structured-data/organization\">Google Search Central，Organization structured data</a>）</p><h3>2. 串接正式帳號，但不把連結數量當成績效</h3><p>官網可以提供官方社群入口，社群則連回相關官網頁面。若貼文討論某項服務，連到該服務頁或案例，通常比一律導向首頁更方便讀者。</p><p>sameAs 應填入能對應同一品牌身分的頁面，例如官方社群帳號；不要把所有新聞、每則貼文或合作夥伴都塞入。結構化資料也應符合頁面可見的真實資訊。（<a href=\"https://developers.google.com/search/docs/appearance/structured-data/organization\">Google Search Central，Organization structured data</a>）（<a href=\"https://developers.google.com/search/docs/appearance/ai-features\">Google Search Central，AI features and your website</a>）</p><h3>3. 每個內容解決具體問題</h3><p>簡介負責辨識品牌，文章與服務頁負責回答需求。例如「短影音行銷」可進一步拆成企劃流程、拍攝成本、投放素材與成效評估。各平台可呈現不同片段，再引導讀者取得完整資訊。</p><p>Google 明確指出，既有 SEO 最佳實務同樣適用於 AI Overviews 與 AI Mode；頁面必須符合索引與搜尋摘要資格等條件，才有機會成為支援連結。（<a href=\"https://developers.google.com/search/docs/appearance/ai-features\">Google Search Central，AI features and your website</a>）</p><h3>4. YouTube 的單支影片要獨立做好</h3><p>頻道簡介交代長期主題；每支影片則應有準確的標題、描述與對應內容，並視需要補充字幕、章節與延伸資源。YouTube 官方說明，搜尋排序考量標題、描述與影片內容和查詢的符合程度，以及相關互動等因素；只修改頻道簡介，無法取代影片本身的品質與相關性。（<a href=\"https://support.google.com/youtube/answer/141805?hl=en\">YouTube Help，YouTube performance FAQ &amp; Troubleshooting</a>）</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、對 GEO 有幫助的，是讓品牌資訊容易查核與引用",
+        "paragraphs": [],
+        "bodyHtml": "<p>本文將 GEO 定義為提升品牌在生成式搜尋及 AI 回答中被正確理解、提及或引用的內容與資訊優化工作。不同系統的資料來源與呈現方式各異，不能將單一平台的規則套用到所有 AI 服務。</p><h3>第一層：讓品牌身分容易確認</h3><p>以穩定名稱、清楚定位、官方帳號與官網連結，降低資訊辨識上的歧義。這是根據組織資訊標記與搜尋基礎提出的策略推論，不能解讀為已證實的「跨平台一致性排名加分」。</p><h3>第二層：讓服務敘述有可查證的依據</h3><p>「專業、創新、領先」很難幫助使用者做決策。更實用的內容包括服務對象、實際方法、案例背景、執行期間、成效衡量方式與資料來源。</p><p>若公布案例數字，應交代基準、期間與指標定義。品牌自述一致，也不等同於獲得獨立第三方背書。</p><h3>第三層：讓段落脫離上下文仍能被理解</h3><p>以明確標題、直接答案、比較表與來源說明呈現資訊。避免文章只寫「我們提供這些服務」，卻沒有交代「我們」是誰、「這些」是什麼。</p><p>這些做法首先提升閱讀與查核品質，也可協助內容被系統理解；並無證據顯示固定字數、特定句型或 FAQ 格式必然獲得 AI 引用。</p><h3>第四層：確認內容實際可被取得</h3><p>社群內容的公開可見性、登入限制、平台設定與搜尋系統的抓取能力，都會影響資訊能否被取得。對外公開的頁面，也不代表必然被索引或引用。因此，重要的品牌事實、案例與服務說明，建議保留可公開閱讀的官網版本。</p><p>Google 對自身 AI 搜尋功能明確表示，無須額外的特殊標記或專用 AI 文字檔；持續做好可存取性、內容與既有 SEO 基礎即可。（<a href=\"https://developers.google.com/search/docs/appearance/ai-features\">Google Search Central，AI features and your website</a>） 這項說明的適用範圍是 Google 搜尋，不能延伸為所有 AI 服務的保證。</p>"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "六、撰寫示例：同一個品牌，可以有不同開場",
+        "paragraphs": [],
+        "bodyHtml": "<p>以下以「提供品牌策略、整合行銷與企業培訓的顧問品牌」為假設示例，非已查核的特定企業服務承諾。正式使用前，應依實際業務調整。</p><p><strong>共用核心定位</strong></p><p>協助企業整合品牌策略、數位內容與行銷管道，建立清楚的品牌溝通與可衡量的成長方法。</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">平台</th><th scope=\"col\">簡介示例</th></tr></thead><tbody><tr><td>官網</td><td>我們提供品牌策略、整合行銷與企業培訓，協助企業釐清定位、規劃內容與行銷管道，並透過可衡量的指標持續優化。歡迎查看服務流程與合作案例。</td></tr><tr><td>Facebook</td><td>品牌定位、內容經營與行銷成效，怎麼一起做好？我們分享企業案例與實務觀察，協助你整理下一步。了解服務與合作方式，請前往官網。</td></tr><tr><td>Instagram</td><td>品牌策略｜整合行銷｜企業培訓。分享案例、內容靈感與行銷實務，陪企業把品牌說清楚。服務與案例請見簡介連結。</td></tr><tr><td>Threads</td><td>從品牌策略與行銷實務出發，聊內容、搜尋與企業成長。分享觀察，也歡迎交流現場遇到的問題。</td></tr><tr><td>YouTube</td><td>用案例與示範，解析品牌策略、內容行銷與成效評估。適合企業經營者與行銷工作者觀看；依主題選擇播放清單，延伸資源見影片說明。</td></tr></tbody></table></div><p>這些版本的差異，在於讀者能取得的價值與下一步；品牌提供的核心能力仍然連貫。</p>"
+      },
+      {
+        "id": "chapter-7",
+        "heading": "七、企業常見的五個誤區",
+        "paragraphs": [],
+        "bodyHtml": "<ol><li><strong>以為每個平台都要逐字相同。</strong>重要的是資訊不矛盾，文字可以因情境改寫。</li><li><strong>為了分眾而改變事實。</strong>不同平台可以選擇不同服務重點，但不能任意增加資格、實績或保證。</li><li><strong>把社群互動當成 SEO 排名證據。</strong>互動可協助評估平台內容表現，無法直接證明自然搜尋排名提升。</li><li><strong>以為每份相同簡介都會受重複內容處罰。</strong>沒有依據把短版品牌簡介的正常重複，直接視為違規。應優先考慮資訊正確與讀者需要。</li><li><strong>期待修改簡介立即獲得 AI 推薦。</strong>品牌身分、可取得的內容與實際證據需要一起經營，AI 回答也會因問題、時間與系統而改變。</li></ol>"
+      },
+      {
+        "id": "chapter-8",
+        "heading": "八、建議執行順序：先整理事實，再優化表達",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">階段</th><th scope=\"col\">主要工作</th><th scope=\"col\">可交付成果</th></tr></thead><tbody><tr><td>第一週</td><td>盤點官網與正式帳號，找出名稱、定位、服務與聯絡資料差異</td><td>品牌資訊底稿與待修正清單</td></tr><tr><td>第二週</td><td>修正矛盾資訊，完成各平台簡介與官網入口</td><td>平台簡介對照表</td></tr><tr><td>第三週</td><td>補足關於我們、重點服務、案例與適用的結構化資料</td><td>可公開閱讀的品牌與服務依據</td></tr><tr><td>第四週</td><td>設定來源追蹤、建立搜尋與 AI 回答觀察基準</td><td>成效紀錄與定期更新流程</td></tr></tbody></table></div><p>此時程為規劃示例，應依網站規模與團隊資源調整。</p><p>追蹤時，建議分開看三組結果：</p><ul><li><strong>資訊品質：</strong>各平台是否仍有錯誤或過時資訊，使用者是否能順利找到正確服務與聯絡入口。</li><li><strong>SEO 與商業結果：</strong>品牌查詢的曝光與點擊、相關服務頁自然流量、社群連入網站後的有效詢問與轉換。</li><li><strong>生成式搜尋觀察：</strong>固定一組品牌與需求問題，記錄系統、日期、問題全文、品牌描述是否正確，以及是否有引用來源。</li></ul><p>UTM 可協助辨識可追蹤的社群連結流量，但不應由單一流量來源推定全部貢獻。AI 回答抽樣只能觀察變化，不能當成穩定排名；品牌被提及，也不代表有網站點擊或商業轉換。</p>"
+      },
+      {
+        "id": "chapter-9",
+        "heading": "品牌下一步：建立一份可以持續維護的資訊底稿",
+        "paragraphs": [],
+        "bodyHtml": "<p>品牌跨平台經營，需要同時管理辨識、內容與轉換。固定核心事實，讓每個平台用適合的方式說明價值，再以官網提供完整依據，才有機會累積可查核、可理解且持續有效的品牌資訊。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/how-ai-finds-your-brand\">AI 如何找到你的品牌？從搜尋、資料來源到品牌引用的關鍵路徑</a></li><li><a href=\"/insights/what-is-rag\">RAG 是什麼？AI 從哪裡找答案，以及它與 GEO 的關係</a></li><li><a href=\"/insights/integrated-marketing-strategy\">為什麼只做廣告或短影音還不夠？企業整合行銷策略解析</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "所有平台使用相同簡介，對 SEO 比較好嗎？",
+        "answer": "沒有官方依據支持這項通則。優先確保品牌資訊正確、官網內容完整、平台連結清楚，再依讀者需求調整文案。"
+      },
+      {
+        "question": "各平台介紹不同服務，會造成品牌混亂嗎？",
+        "answer": "可以強調不同服務，但官網應交代完整服務架構。若特定服務只在某市場提供，應明確註明。"
+      },
+      {
+        "question": "Facebook、Instagram 或 Threads 的內容一定會被 Google 或 AI 讀取嗎？",
+        "answer": "不一定。公開狀態、存取限制與系統收錄情況都會影響結果，不能把所有社群內容都視為穩定的搜尋資料來源。"
+      },
+      {
+        "question": "加入 Organization 與 sameAs，就能獲得 AI 推薦嗎？",
+        "answer": "不能保證。它們協助表達組織資訊與相關身分頁面，仍需搭配真實內容、可存取頁面與其他品質條件。"
+      },
+      {
+        "question": "品牌簡介要放多少關鍵字？",
+        "answer": "沒有通用的最佳數量。先清楚交代品牌名稱、主要服務與服務對象，讓使用者看得懂；避免堆疊重複詞彙。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Search Central，Organization structured data",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/organization"
+      },
+      {
+        "title": "Google Search Central，AI features and your website",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features"
+      },
+      {
+        "title": "YouTube Help，YouTube performance FAQ & Troubleshooting",
+        "url": "https://support.google.com/youtube/answer/141805?hl=en"
+      }
+    ],
+    "relatedServices": [
+      "seo-geo",
+      "creative-content"
+    ],
+    "seo": {
+      "title": "品牌跨平台簡介要一致嗎？官網、Meta 與 YouTube 的 SEO／GEO 策略",
+      "description": "品牌簡介應維持核心資訊一致，並依平台分眾表達。解析官網、Facebook、Instagram、Threads 與 YouTube 的角色，建立有利搜尋理解、AI 資訊查核與商業轉換的品牌內容策略。"
+    },
+    "card": {
+      "eyebrow": "BRAND & SEARCH",
+      "title": "CONSISTENCY",
+      "caption": "品牌核心一致，平台表達分眾。"
+    },
+    "cta": {
+      "heading": "把品牌資訊，",
+      "highlight": "整理成一致的信任依據。",
+      "text": "從品牌定位、內容分工到後續運用，與九色鹿一起釐清值得優先投入的下一步。",
+      "label": "與九色鹿討論品牌內容策略"
+    }
+  },
+  {
+    "slug": "kol-koc-advertising-strategy-2026",
+    "title": "品牌只靠 KOL／KOC 素材投廣告，夠用嗎？2026 創作者行銷策略與案例分析",
+    "excerpt": "KOL、KOC 直播與圖文素材能提升廣告效率，卻不代表能取代品牌內容。從 2026 市場研究、Nurofen、SeaWorld 與 CeraVe 案例，分析優劣勢、合作模式與成效衡量。",
+    "category": "內容與品牌",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "KOL",
+      "KOC",
+      "創作者行銷",
+      "整合行銷"
+    ],
+    "takeaways": [
+      "以 KOL／KOC 素材為廣告主力，可以是好策略；長期只使用這一種來源，則需要審慎評估。 適合與否，取決於產品、購買決策、授權成本與實際測試。",
+      "買到影片，不等於買到影響力。 品牌帳號投放、創作者自行發布、創作者帳號授權廣告，代表不同的合作價值。",
+      "2026 年的重要轉變，是創作者內容與付費媒體整合。 品牌需要同時管理內容、投放、使用權與衡量。",
+      "成功案例支持測試與整合，沒有證明所有品牌都應使用百分之百創作者素材。 品牌素材與創作者素材也可能各有成效。",
+      "廣告成效應看新增生意與毛利。 觀看、互動與平台 ROAS，不能單獨代表長期品牌成長。"
+    ],
+    "sections": [
+      {
+        "id": "perspective",
+        "heading": "讓創作者內容，累積成品牌資產。",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>創作者能讓消費者願意看，但品牌仍需要回答：為什麼選你、憑什麼相信你，以及購買後能得到什麼。</strong></p>"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、品牌只使用 KOL／KOC 素材，是一個好的策略嗎？",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>短期可以，長期不宜在未驗證前把它當成唯一選項。</strong></p><p>若商品容易示範、差異可以在短時間呈現，且品牌已有完整商品頁、客服與購買流程，創作者素材可能有效降低製作負擔、加快測試。對資源有限的品牌，這是合理的起點。</p><p>但如果品牌把直播片段、推薦貼文與開箱影片當成全部溝通，就可能出現落差：消費者記得推薦者，卻說不出品牌與競爭對手有何不同；廣告吸引了點擊，官網卻無法回答規格、價格與售後問題。</p><p><strong>問題不在於素材由誰拍攝，而在於品牌是否只剩下「別人說我很好」這一種說服方式。</strong> 品牌可以外包拍攝，仍需掌握定位、產品證據、訊息架構與內容使用權。</p><p>這裡也必須區分兩種範圍：「社群廣告全部採用創作者素材」，與「整個品牌只做創作者廣告」。前者有可能經測試成立；後者還涉及搜尋、官網、口碑、會員與回購，不能用同一份廣告報表判斷。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、先釐清：你購買的是素材、信任，還是受眾？",
+        "paragraphs": [],
+        "bodyHtml": "<p>KOL 通常指在特定領域具有影響力的意見領袖；KOC 通常指從消費或使用經驗出發的意見消費者。兩者沒有跨市場一致的粉絲數門檻。小型創作者不必然是 KOC，付費試用也不能包裝成毫無商業關係的自發推薦。</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">合作方式</th><th scope=\"col\">品牌主要取得的價值</th><th scope=\"col\">判斷重點</th></tr></thead><tbody><tr><td>購買素材，品牌帳號投放</td><td>內容製作能力、人物表現與素材使用權</td><td>是否比其他素材更能帶來有效轉換</td></tr><tr><td>創作者自行發布</td><td>接觸既有社群、互動脈絡與推薦關係</td><td>受眾是否符合市場、留言是否具購買意圖</td></tr><tr><td>創作者帳號授權廣告</td><td>創作者身分呈現結合付費擴散</td><td>帳號權限、素材授權、投放效果與到期管理</td></tr><tr><td>直播合作與導購</td><td>即時示範、問答、優惠與成交</td><td>淨成交、退貨、折扣成本與後續回購</td></tr><tr><td>長期共同企劃</td><td>持續累積產品理解、品牌聯想與內容資產</td><td>合作一致性、受眾重疊與長期效益</td></tr></tbody></table></div><p>TikTok 的 Spark Ads 與 YouTube 的 Creator partnerships boost，都提供將創作者內容用於廣告的機制；實際可用範圍依平台、帳號與市場而定。（<a href=\"https://ads.tiktok.com/resources/help/article/spark-ads\">About Spark Ads</a>）（<a href=\"https://support.google.com/google-ads/answer/15223349?hl=en\">Creator partnerships boost</a>）</p><p><strong>若合作只包含交付影片、沒有創作者發布或帳號授權，品牌應主要依素材品質與測試成效定價，避免僅以粉絲量支付溢價。</strong> 知名度仍可能有價值，但應確認目標受眾是否認得、相信這個人。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、2026 年市場透露哪些方向？",
+        "paragraphs": [],
+        "bodyHtml": "<h3>1. 創作者已成為重要廣告投資項目</h3><p>IAB 於 2025 年發布的美國市場研究，預估 2026 年創作者廣告支出為 <strong>440 億美元</strong>；其 2026 年 9 月活動回顧仍使用約 440 億美元的規模描述。這是美國市場估計，並非全球市場、台灣市場或全年結算值。（<a href=\"https://www.iab.com/insights/2025-creator-economy-ad-spend-strategy-report/\">2025 Creator Economy Ad Spend &amp; Strategy Report</a>、<a href=\"https://www.iab.com/blog/2026-iab-creatorfronts-event-recap/\">2026 IAB CreatorFronts Event Recap</a>）</p><p>對台灣品牌而言，可借鏡的是創作者逐漸納入正式媒體規劃，而不是直接套用美國預算規模。</p><h3>2. 素材再利用成為核心能力</h3><p>CreatorIQ 與 Sapio Research 於 2026 年 5 月訪問 100 位美國與英國品牌／代理商行銷主管及付費媒體人員：92% 表示使用創作者內容於付費媒體，受訪者的付費媒體素材平均有 44% 來自創作者。（<a href=\"https://www.creatoriq.com/press/releases/creator-powered-funnel-report-2026\">Creator-Powered Funnel 2026 新聞稿與研究方法</a>）</p><p>這是供應商委託、小樣本的業界調查，不是所有品牌的普查。但它提供一個方向：合作價值逐漸從「一則貼文」延伸到多版剪輯、不同版位與落地頁應用。品牌需要事先談好這些使用範圍。</p><h3>3. 選人標準應回到內容與受眾契合</h3><p>Sprout Social 的 2026 報告調查美國、英國、澳洲 2,250 位消費者，只有 17% 表示會在決定互動前查看創作者粉絲數；報告強調主題相關性與內容風格。（<a href=\"https://sproutsocial.com/insights/data/2026-influencer-marketing-report/\">The 2026 Influencer Marketing Report</a>）</p><p>這不能推論大 KOL 已失去價值，也不能證明 KOC 一定比較會賣。更合理的做法，是分別評估專業性、受眾市場、內容能力與投放表現。</p><h3>4. 品牌需要比平台歸因更完整的衡量</h3><p>平台報表可以協助日常優化，但若消費者本來就打算購買，廣告仍可能取得歸因。2026 年公開案例也展示了以地區對照或 Conversion Lift 研究衡量新增銷售的做法。（<a href=\"https://ads.tiktok.com/business/en-US/inspiration/nurofen-creator-brand-asset\">Nurofen：Brand and Creator Assets</a>）（<a href=\"https://ads.tiktok.com/business/en-US/inspiration/seaworld-smart-plus-campaign\">SeaWorld：Creator-led content and Smart+ Web</a>）</p><p>因此，成熟的創作者策略需要回答兩個問題：這支素材表現如何？這筆投資又帶來多少原本不會發生的生意？</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、只使用創作者素材的優勢與限制",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">面向</th><th scope=\"col\">可能優勢</th><th scope=\"col\">單一依賴的限制</th><th scope=\"col\">品牌應補足什麼</th></tr></thead><tbody><tr><td>注意力</td><td>真人情境容易融入社群瀏覽</td><td>同類開箱與促銷話術可能疲乏</td><td>不同痛點、情境與敘事測試</td></tr><tr><td>信任</td><td>經驗描述降低理解門檻</td><td>推薦者的信任未必完整轉移到品牌</td><td>可查證的規格、證據與售後說明</td></tr><tr><td>製作效率</td><td>可從多位創作者取得多種角度</td><td>溝通、審稿與授權成本可能增加</td><td>共用簡報、版本與權利管理</td></tr><tr><td>品牌辨識</td><td>人物風格鮮明、容易記憶</td><td>記得人物卻忘記品牌</td><td>一致的品牌主張與產品識別</td></tr><tr><td>轉換</td><td>示範、問答與推薦可促進購買</td><td>優惠成交可能掩蓋低毛利或高退貨</td><td>淨營收、毛利、新客與回購追蹤</td></tr><tr><td>長期資產</td><td>可在授權內持續再利用</td><td>合約到期、創作者爭議或素材下架</td><td>核心內容備援與授權到期計畫</td></tr></tbody></table></div><p>以上屬策略分析，效果仍需品牌自身數據驗證。</p><h3>直播精華為什麼不一定適合直接當廣告？</h3><p>直播觀眾已經投入時間、理解背景，也可能信任主持人；廣告接觸的陌生受眾沒有這些前提。把直播中一段「真的很好用」剪下來，未必足以說服第一次看到商品的人。</p><p>建議讓剪輯能獨立成立：先交代使用問題，再呈現產品與示範，保留必要條件，最後給出清楚下一步。圖文也應能在單張或首張中交代核心利益，避免只有創作者合照與籠統推薦。</p><p>例如家用清潔用品，可將「直播熱賣第一名」轉成「廚房油污怎麼處理？示範適用表面、清潔步驟與使用限制」。前者借用熱度，後者讓陌生受眾看懂價值。此為示意，並非實際案例。</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、成功案例：真正值得借鏡的是什麼？",
+        "paragraphs": [],
+        "bodyHtml": "<p>以下包含 2026 年公開案例及較早的經典案例，活動期間與發布時間分開說明。官方／平台／執行方公布的成果可能有選案偏差；不能視為一般品牌的保證值。</p><h3>案例一：Nurofen——創作者素材表現較佳，但品牌素材也有效</h3><p><strong>市場：荷蘭；案例於 2026 年 10 月公開，來源未明列活動年份。</strong></p><p>TikTok 公開案例中，Nurofen 與合作團隊透過 Circana 的地區分組研究，比較品牌素材、創作者素材與未投放對照地區。（<a href=\"https://ads.tiktok.com/business/en-US/inspiration/nurofen-creator-brand-asset\">Nurofen：Brand and Creator Assets</a>）</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">指標</th><th scope=\"col\">品牌素材</th><th scope=\"col\">創作者素材</th></tr></thead><tbody><tr><td>主打商品銷售提升</td><td>8.0%</td><td>9.5%</td></tr><tr><td>增量廣告投資報酬率 iROAS</td><td>2.40</td><td>2.41</td></tr></tbody></table></div><p><strong>洞察：創作者素材的銷售提升較高，但兩者 iROAS 很接近。</strong> 不能因為創作者素材勝出一項指標，就認定品牌素材無效。</p><p>此研究比較分開投放的組別，沒有提供混合素材組的直接實驗結果，因此也不能宣稱已證明某個混合比例最佳。台灣品牌可借鏡測試方法；藥品的海外溝通方式不能直接移植為本地廣告做法。</p><h3>案例二：SeaWorld——創作者內容搭配投放與官網購票</h3><p><strong>市場：美國；活動為 2025 年 10–11 月，案例於 2026 年 10 月公開。</strong></p><p>SeaWorld 使用五位創作者呈現園區與家庭體驗，搭配 Smart+ Web、區域投放與品牌／轉換提升研究。平台公布增量購買提升 <strong>9.36%</strong>、iROAS <strong>1.97</strong>。（<a href=\"https://ads.tiktok.com/business/en-US/inspiration/seaworld-smart-plus-campaign\">SeaWorld：Creator-led content and Smart+ Web</a>）</p><p><strong>洞察：創作者負責讓體驗變得可感受，廣告與購票系統負責承接行動。</strong> 這是內容、投放、交易流程與衡量共同運作的案例，無法將全部成果歸因給創作者，也不是 KOC 必定勝過 KOL 的證據。</p><h3>案例三：CeraVe——創作者參與品牌敘事，而非只交付開箱</h3><p><strong>市場：以美國超級盃活動為核心；活動年份：2024 年。</strong></p><p>WPP 公開資料指出，Michael CeraVe 活動結合 450 位 influencers、媒體話題、皮膚科醫師與超級盃電視廣告。故事先圍繞 Michael Cera 與品牌名稱的趣味聯想，最後回到「與皮膚科醫師共同開發」的品牌主張。（<a href=\"https://www.wpp.com/en/case-studies/wpp-onefluence-led-by-ogilvy-pr-ceraves-michael-cerave\">CeraVe’s Michael CeraVe</a>）</p><p><strong>洞察：跨渠道的創意最後必須服務品牌記憶。</strong> 可借鏡的是讓創作者用各自語言參與同一主題，而非要求所有人照念相同稿件。這不是 2026 年活動，也不是單靠創作者素材投放的成功證明。</p><p><strong>案例共同指向：創作者內容有價值，但成功來自明確任務與系統配合。</strong> 上述來源未提供足以驗證、且明確按 KOC 定義分類的對照結果，因此本文不將這些案例硬稱為 KOC 成功案例。</p>"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "六、2026 年品牌該如何配置 KOL／KOC？",
+        "paragraphs": [],
+        "bodyHtml": "<h3>用任務分工，而非只按粉絲數分級</h3><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">品牌任務</th><th scope=\"col\">適合評估的合作對象</th><th scope=\"col\">內容方向</th><th scope=\"col\">主要衡量</th></tr></thead><tbody><tr><td>新品快速被看見</td><td>大型或中型 KOL</td><td>新品概念、情境與話題</td><td>目標受眾觸及、品牌搜尋、記憶提升</td></tr><tr><td>讓人理解專業差異</td><td>垂直領域 KOL、專家</td><td>示範、選購比較、疑問解答</td><td>有效閱讀、合格詢問、考慮度</td></tr><tr><td>呈現不同使用情境</td><td>真實使用者、KOC、小型創作者</td><td>具體體驗、適合與不適合對象</td><td>有效評論、輔助轉換、新客成本</td></tr><tr><td>放大廣告效果</td><td>經測試有效的任一級別創作者</td><td>多種開場、示範與 CTA</td><td>新客 CAC、淨營收、毛利</td></tr><tr><td>經營回購</td><td>使用者社群、長期合作夥伴</td><td>使用技巧、持續體驗與回饋</td><td>回購、推薦、留存</td></tr></tbody></table></div><p>KOC 的價值應建立在真實使用經驗與具體情境，不能只是低價、大量、內容相似的推薦貼文。多位創作者也可能擁有重疊受眾，不能直接把粉絲數加總為觸及。</p><h3>建立三種互補的內容</h3><ol><li><strong>創作者經驗：</strong>讓人看懂真實情境、降低陌生感。</li><li><strong>品牌與產品證據：</strong>清楚說明差異、規格、服務、限制與承諾。</li><li><strong>購買決策內容：</strong>價格方案、比較、FAQ、退換貨與聯絡方式。</li></ol><p>這三種內容不一定要由不同團隊拍攝。創作者也可以協助產出產品解說，關鍵是品牌有沒有規劃完整的說服路徑。</p>"
+      },
+      {
+        "id": "chapter-7",
+        "heading": "七、如何決定素材比例與預算？",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>沒有適用所有品牌的 KOL／KOC 或品牌素材黃金比例。</strong> 比例應來自同一目標下的測試，而非照搬產業流行。</p><p>建議先比較「品牌素材」「創作者素材」「品牌與創作者素材組合」三種方案。測試時盡量控制受眾、商品、優惠、落地頁、投放期間與優化目標；保留平台學習與交叉曝光造成的限制。預算不足時，先比較兩組，避免切得太碎而無法判讀。</p><p>前期可檢查觀看與點擊以診斷素材，但加碼應根據合格詢問、新客成本、扣除退貨後的營收與毛利。若可行，再以對照組或地區實驗檢驗增量效果。</p><p>不要只更換不同創作者的臉。每次測試應有不同假設，例如「問題示範比口頭推薦更有效」「專業解釋比促銷優惠更能帶來高品質詢問」。</p><h3>把成本算完整，才能知道是否划算</h3><p><strong>合作總成本＝企劃與製作＋創作者費用＋授權與續約＋剪輯改版＋媒體費＋管理費＋導購佣金。</strong></p><p>ROAS 通常以歸因營收除以媒體費，可能沒有包含上述全部成本。品牌還應檢查扣除商品成本、折扣、物流、退貨與合作費用後，剩下多少貢獻。</p><p>假設媒體費 10 萬元、創作者與授權剪輯費 8 萬元、歸因營收 40 萬元：平台 ROAS 可能是 4，但營收除以這兩項合計支出僅約 2.22，仍未扣商品及營運成本。這是計算示例，兩種數字都不等於淨利率。</p>"
+      },
+      {
+        "id": "chapter-8",
+        "heading": "八、素材授權是策略的一部分",
+        "paragraphs": [],
+        "bodyHtml": "<p>合作前應確認可使用的平台、地區、期間、帳號投放權、二次剪輯、字幕與語言改版，以及肖像、聲音、音樂和第三方素材的使用範圍。若計畫使用 AI 配音、換臉或生成衍生內容，也應另行明確約定。</p><p>「可以轉發」不代表「可以付費投放」；直播音樂或畫面可在原平台播放，也不代表能直接跨平台使用。內容改剪後仍應維持原意，保留影響理解的條件，並依投放市場確認商業合作揭露及產品宣稱要求。此處為合作管理原則，非特定契約的法律判定。</p>"
+      },
+      {
+        "id": "chapter-9",
+        "heading": "九、官網、SEO 與 GEO 如何承接創作者流量？",
+        "paragraphs": [],
+        "bodyHtml": "<p>創作者內容往往促使消費者進一步搜尋。若搜尋後找不到清楚產品資訊，品牌便可能失去原本已被激發的需求。</p><p>建議將取得適當授權的使用經驗放入相關商品或案例頁，搭配品牌自行負責的規格、條件、FAQ、作者與更新資訊。重要影片提供有意義的文字摘要，讓使用者不必看完整段影片也能理解重點。</p><p>若涉及 SEO／GEO，目標應是讓資訊清楚、可查證、可存取，而非大量複製推薦文。建立內容並不能保證搜尋排名或 AI 引用；付費推薦也不能當成完全獨立的第三方驗證。</p>"
+      },
+      {
+        "id": "chapter-10",
+        "heading": "九色鹿觀點",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>2026 年，值得投資的不是更多推薦者，而是讓推薦能累積成品牌資產的能力。</strong></p><p>KOL 可以幫助品牌被看見，KOC 可以呈現具體使用經驗，品牌內容則需要持續說明差異與承諾。讓三者共同服務消費者的決策，才能判斷每筆合作是否值得延續。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/kol-koc-direct-cooperation-vs-agency\">品牌可以自己找 KOL／KOC 合作嗎？直接洽談、MCN 與行銷代理商的選擇策略</a></li><li><a href=\"/insights/content-product-optimization-before-advertising\">為什麼品牌應優先做好內容與產品優化，再放大廣告投資？</a></li><li><a href=\"/insights/integrated-marketing-strategy\">為什麼只做廣告或短影音還不夠？企業整合行銷策略解析</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "KOC 一定比 KOL 便宜、轉換率更高嗎？",
+        "answer": "不一定。單次報價可能較低，但大量合作增加管理與授權成本。效果取決於產品、受眾契合、素材能力、優惠與購買流程，不能只看級別。"
+      },
+      {
+        "question": "小品牌能不能先全部使用創作者素材？",
+        "answer": "可以作為起步測試，尤其是容易示範的商品。但仍應備妥基本品牌介紹、產品資訊與售後說明，並保留比較其他素材的空間。"
+      },
+      {
+        "question": "直播賣得好，剪成廣告就一定有效嗎？",
+        "answer": "不一定。直播可能仰賴粉絲信任、即時互動、限時優惠與長時間解說。剪輯後需要重新確認陌生受眾是否能獨立理解。"
+      },
+      {
+        "question": "創作者影片比品牌影片自然，為什麼還需要品牌內容？",
+        "answer": "自然感能降低觀看阻力，品牌內容則可提供完整且一致的差異、證據與購買資訊。這些任務可以整合在同一支影片，但不應缺席。"
+      },
+      {
+        "question": "怎麼知道該不該繼續合作？",
+        "answer": "除了素材成效，也看授權後總成本、準時交付、修改品質、受眾品質、淨成交與品牌適配。自然貼文互動高，不代表付費投放必然有效，兩者應分別衡量。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "2025 Creator Economy Ad Spend & Strategy Report",
+        "url": "https://www.iab.com/insights/2025-creator-economy-ad-spend-strategy-report/"
+      },
+      {
+        "title": "2026 IAB CreatorFronts Event Recap",
+        "url": "https://www.iab.com/blog/2026-iab-creatorfronts-event-recap/"
+      },
+      {
+        "title": "Creator-Powered Funnel 2026 新聞稿與研究方法",
+        "url": "https://www.creatoriq.com/press/releases/creator-powered-funnel-report-2026"
+      },
+      {
+        "title": "The 2026 Influencer Marketing Report",
+        "url": "https://sproutsocial.com/insights/data/2026-influencer-marketing-report/"
+      },
+      {
+        "title": "About Spark Ads",
+        "url": "https://ads.tiktok.com/resources/help/article/spark-ads"
+      },
+      {
+        "title": "Creator partnerships boost",
+        "url": "https://support.google.com/google-ads/answer/15223349?hl=en"
+      },
+      {
+        "title": "Nurofen：Brand and Creator Assets",
+        "url": "https://ads.tiktok.com/business/en-US/inspiration/nurofen-creator-brand-asset"
+      },
+      {
+        "title": "SeaWorld：Creator-led content and Smart+ Web",
+        "url": "https://ads.tiktok.com/business/en-US/inspiration/seaworld-smart-plus-campaign"
+      },
+      {
+        "title": "CeraVe’s Michael CeraVe",
+        "url": "https://www.wpp.com/en/case-studies/wpp-onefluence-led-by-ogilvy-pr-ceraves-michael-cerave"
+      }
+    ],
+    "relatedServices": [
+      "strategy-campaigns",
+      "creative-content",
+      "paid-media"
+    ],
+    "seo": {
+      "title": "品牌只靠 KOL／KOC 素材投廣告，夠用嗎？2026 創作者行銷策略與案例分析",
+      "description": "KOL、KOC 直播與圖文素材能提升廣告效率，卻不代表能取代品牌內容。從 2026 市場研究、Nurofen、SeaWorld 與 CeraVe 案例，分析優劣勢、合作模式與成效衡量。"
+    },
+    "card": {
+      "eyebrow": "CREATOR MARKETING",
+      "title": "CREATORS",
+      "caption": "讓創作者內容，累積成品牌資產。"
+    },
+    "cta": {
+      "heading": "讓每次合作，",
+      "highlight": "都連結品牌目標。",
+      "text": "從品牌定位、內容分工到後續運用，與九色鹿一起釐清值得優先投入的下一步。",
+      "label": "與九色鹿討論創作者行銷策略"
+    }
+  },
+  {
+    "slug": "kol-koc-direct-cooperation-vs-agency",
+    "title": "品牌可以自己找 KOL／KOC 合作嗎？直接洽談、MCN 與行銷代理商的選擇策略",
+    "excerpt": "品牌自行與 KOL／KOC 合作，需要注意選人、報價、合約、素材授權與業配揭露。比較直接合作、MCN 與整合行銷代理商的優劣勢，判斷何時需要專業團隊協助。",
+    "category": "整合行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "KOL",
+      "KOC",
+      "創作者行銷",
+      "整合行銷"
+    ],
+    "takeaways": [
+      "直接合作是合理選項。 少量、需求清楚且內部具備執行能力的合作，不一定需要代理商。",
+      "省下服務費，不等於降低總成本。 選人、溝通、審稿、授權與成效整理，都需要工時。",
+      "MCN 與整合行銷代理商的重點可能不同。 前者通常偏重創作者資源與經紀管理；後者可能更著重品牌策略、內容、投放及轉換，實際仍應看提案與合約。",
+      "專業團隊的價值應能被驗收。 推薦名單、企劃、權利範圍、專案管理與成效分析，都應有具體交付。",
+      "品牌與創作者直接維持關係，搭配外部團隊支援，也是一種有效配置。"
+    ],
+    "sections": [
+      {
+        "id": "perspective",
+        "heading": "從找到人，到找到適合的合作方式。",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>品牌可以自行聯繫創作者。真正需要評估的，是從找到人、產出內容，到取得使用權與驗證成效，哪些工作適合由品牌自行承擔。</strong></p>"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、品牌可以自行與 KOL／KOC 合作嗎？",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>可以。品牌可以透過創作者公開的商務聯絡方式，直接洽談內容製作、貼文發布、直播、導購或廣告素材授權。</strong> 若創作者已有經紀或代理安排，則需確認由誰承接商務合作及簽約。</p><p>直接合作的吸引力很明確：品牌能直接交換產品資訊、理解創作者想法，並逐步建立長期關係。如果內部已有熟悉內容企劃、合約與投放的人員，也可能提升溝通效率。</p><p>但「聯繫到創作者」只是起點。品牌仍需決定合作任務、驗證人選、確認價格、安排試用、審核內容、管理授權，最後判斷投資是否值得。</p><p><strong>因此，選擇直接合作或委外，應比較完成整個專案的能力與成本。</strong></p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、先定義你要買到什麼",
+        "paragraphs": [],
+        "bodyHtml": "<p>KOL 通常指具有領域影響力的意見領袖；KOC 通常指從消費與使用經驗出發的意見消費者。兩者沒有跨市場一致的粉絲數門檻，也不能單憑粉絲少就認定是真實消費者推薦。</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">合作目的</th><th scope=\"col\">品牌主要購買的價值</th><th scope=\"col\">需要另外確認</th></tr></thead><tbody><tr><td>取得影片或圖文素材</td><td>製作與表達能力</td><td>是否包含發布、原始檔、廣告使用權</td></tr><tr><td>接觸創作者社群</td><td>受眾、推薦關係與互動</td><td>受眾市場、貼文保留時間、數據回報</td></tr><tr><td>創作者帳號廣告</td><td>身分呈現結合付費擴散</td><td>帳號權限、平台操作、期限與追加費用</td></tr><tr><td>直播與導購</td><td>示範、問答與成交機會</td><td>優惠、庫存、佣金、退貨及結算</td></tr><tr><td>長期品牌合作</td><td>持續累積的品牌聯想</td><td>競品排他、合作頻率與內容方向</td></tr></tbody></table></div><p>同樣是一支短影片，單純製作與「製作、發布、授權剪輯並投放半年」的報價，不能直接比較。品牌應先統一需求，再評估價格。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、自行合作最需要管理的八件事",
+        "paragraphs": [],
+        "bodyHtml": "<h3>1. 選對人：受眾與內容是否符合品牌？</h3><p>除了粉絲數，還應觀察受眾所在地、近期內容、留言品質、業配頻率與競品合作。若目標是台灣消費者，海外粉絲占比很高的人選，就需要進一步評估。</p><p>自然貼文互動高，也不代表素材投廣告後一定有效。品牌應分別評估「社群影響力」與「內容作為廣告的表現」。</p><h3>2. 確認簽約窗口與承諾權限</h3><p>品牌需要知道簽約對象是本人、工作室、經紀公司或其他代理方，以及對方能否承諾發布、授權與帳號操作。付款對象、收款文件及聯絡窗口也應一致釐清。</p><p>若透過第三方取得素材，應確認授權可以延伸到品牌的實際用途，避免只有中間方承諾，卻未取得必要權利。</p><h3>3. 把交付與驗收寫清楚</h3><p>平台、數量、長度、格式、發布日、保留時間、交件方式與數據回報，都應具體約定。品牌若需要無字幕版、不同長寬比或原始檔，應提前提出。</p><p>「一支影片」不等於包含所有廣告尺寸；「合作一個月」也不等於一個月內可以無限修改。</p><h3>4. 審稿既要確保正確，也要保留創作者語言</h3><p>品牌適合掌握產品事實、不可使用的宣稱、必要揭露及品牌底線；創作者則可在敘事、情境與口吻上發揮。</p><p>若所有人都照念同一份文案，品牌可能付出了多位創作者的費用，卻只取得高度相似的內容。反過來，完全不審核也可能留下資訊錯誤。</p><h3>5. 釐清素材、肖像與第三方內容授權</h3><p>合約應確認使用平台、地區、期間、付費投放、二次剪輯、字幕及語言改版、肖像與聲音使用，以及續約條件。AI 配音、換臉或生成衍生內容，也不應默認包含在一般合作中。</p><p><strong>可以轉發，不等於可以下載重剪並跨平台投廣告。</strong> 影片內的音樂、圖片等第三方著作，也應確認相應授權。智慧財產局指出，將他人著作用於廣告，除符合法定例外等情形，應取得權利人授權。（<a href=\"https://www.tipo.gov.tw/tw/copyright/696-21216.html\">廣告涉及著作權問題之說明</a>）</p><h3>6. 揭露合作關係，確認宣稱真實</h3><p>合作、贊助、產品提供或導購分潤，應依實際關係規劃清楚揭露。公平會規範指出，薦證者與廣告主間具有非一般大眾可合理預期的利益關係，應充分揭露；未揭露且足以影響交易秩序，可能涉及違法。（<a href=\"https://www.ftc.gov.tw/internet/main/doc/docDetail.aspx?docid=13021&amp;uid=165\">對於薦證廣告之規範說明</a>）</p><p>品牌也應確認產品資訊與事實相符。公平會明確要求，透過網紅或社群用戶推廣商品服務時，廣告主應確保內容真實。（<a href=\"https://law.ftc.gov.tw/law/LawContent.aspx?id=GL000222\">對於網路廣告案件之處理原則</a>） 食品、保健、美妝、醫療等產品，還需依產品與宣稱確認相關規範，不能直接把創作者個人感受當作功效證明。</p><h3>7. 先定義成效，再看報表</h3><p>知名度合作可觀察目標受眾觸及與品牌記憶；名單合作應看合格詢問；導購則需追蹤扣除取消與退貨後的成交，以及新客和毛利。</p><p>追蹤連結、優惠碼與平台歸因各有限制。優惠碼可能外流，消費者也可能看完內容後改從搜尋或門市購買。因此，報表應說明計算方式，不能把所有歸因營收都當成新增業績。</p><h3>8. 預先約定異常處理</h3><p>延遲交件、內容下架、負面事件、商品缺貨、合作取消及授權到期，都可能影響專案。應事先安排通知、修改、補件、退款或終止方式，以及下架廣告的執行窗口。</p><p>這些安排是為了讓合作可持續執行，並非要求創作者保證沒有爭議或保證銷售。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、直接合作與委外，各有什麼優劣勢？",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">模式</th><th scope=\"col\">主要優勢</th><th scope=\"col\">需要承擔的限制</th><th scope=\"col\">較適合的情況</th></tr></thead><tbody><tr><td>品牌直接合作</td><td>溝通直接、關係易累積，可省下部分外部服務費</td><td>內部需負責選人、議價、審稿、授權與分析</td><td>合作量少、需求清楚、內部有人執行</td></tr><tr><td>透過 MCN／經紀團隊</td><td>可集中協調旗下或合作創作者，熟悉其檔期與條件</td><td>名單可能受資源範圍限制，服務未必涵蓋投放與官網</td><td>指定人選、多人協作或需要特定創作者資源</td></tr><tr><td>透過整合行銷代理商</td><td>可統整品牌訊息、內容、廣告與轉換流程</td><td>需支付策略及管理費，並確認實際執行能力</td><td>跨平台、跨團隊或需要整體行銷成果</td></tr><tr><td>混合模式</td><td>品牌保有核心關係，外部補足專業或人力</td><td>需明確分工，避免多頭溝通</td><td>已有創作者夥伴，但缺投放、企劃或管理能力</td></tr></tbody></table></div><p>上述為常見分工，不是所有公司的固定服務範圍。比較時，應以具體人選、交付與責任為準。</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、專業團隊的費用，應換到哪些價值？",
+        "paragraphs": [],
+        "bodyHtml": "<h3>讓人選與品牌目標對得上</h3><p>有價值的推薦，應能說明創作者為什麼適合、適合負責哪種內容，以及有哪些替代人選。品牌也應詢問名單是否限於自有簽約創作者、推薦是否受佣金安排影響。</p><h3>把多位創作者組成互補內容</h3><p>以家用清潔品牌為例，可以讓不同創作者分別呈現日常清潔、特定髒污處理及收納流程，品牌再補上適用表面、使用限制與產品資訊。這是任務分工示例，並非九色鹿既有案例或成效承諾。</p><p>這類規劃能讓品牌測試不同購買理由，而非只比較哪張臉的點擊率較高。</p><h3>降低執行與權利管理成本</h3><p>合作量增加後，寄樣、排程、版本、審稿、授權與付款都可能形成負擔。專業團隊的價值，是將資訊整理成可追蹤的流程，減少漏件、重工與到期後繼續使用素材的問題。</p><h3>讓內容連接購買與後續經營</h3><p>若服務包含投放及網站，應規劃看完推薦後的下一步：前往哪一頁、看到什麼證據、如何詢問或購買，以及如何衡量成果。</p><p>在取得合適授權的前提下，創作者內容可以延伸到商品頁、案例或 FAQ。SEO／GEO 的重點是提供清楚、可查證且可存取的資訊；合作貼文或推薦數量本身，不能保證搜尋排名或 AI 引用。</p>"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "六、如何判斷九色鹿或其他合作團隊是否值得委託？",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>評估重點應是交付能力，而不是資源名單有多長。</strong> 九色鹿的實際創作者資源、簽約關係與服務項目，仍應以個案提案與合約為準，不應預設具有特定 MCN 的獨家資源。</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">評估問題</th><th scope=\"col\">值得期待的具體回答</th></tr></thead><tbody><tr><td>為什麼推薦這些人？</td><td>受眾、內容風格、合作任務及備選理由</td></tr><tr><td>費用如何拆解？</td><td>創作者、製作、授權、媒體、管理及追加項目</td></tr><tr><td>品牌最後能使用什麼？</td><td>清楚列出的交付檔案與權利範圍</td></tr><tr><td>發布前如何確認品質？</td><td>審稿節點、事實查核、修改與驗收方式</td></tr><tr><td>發生延誤或人選取消怎麼辦？</td><td>備援、通知及費用處理機制</td></tr><tr><td>成效怎麼判斷？</td><td>指標定義、數據來源、報告與後續改善建議</td></tr></tbody></table></div><p>專業團隊不一定取得最低創作者報價，也不應以無法驗證的方式保證流量或業績。品牌應比較整體成本與可交付價值。</p>"
+      },
+      {
+        "id": "chapter-7",
+        "heading": "七、如何計算「自己做」是否真的比較省？",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>直接合作總成本＝創作者費用＋內部工時＋製作與授權追加費＋投放及分析成本。</strong></p><p><strong>委外合作總成本＝創作者及相關費用＋外部服務費＋品牌仍需投入的協作工時。</strong></p><p>例如，假設品牌同時合作十位創作者，每人從篩選到結案平均花四小時，就需要四十小時；這是工時示意，實際差異可能很大。比較委外報價時，也應計算這些工作是否真的被接手，以及品牌還需要做多少事。</p><p>若是第一次合作、預算有限，可從少量人選與單一目標開始。若內部已有核心創作者關係，則可只委外策略、剪輯、廣告或報告分析，不必一次交出全部工作。</p>"
+      },
+      {
+        "id": "chapter-8",
+        "heading": "九色鹿觀點",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>品牌可以自己找到創作者；專業協作的價值，是讓選人、內容與後續運用共同服務品牌目標。</strong></p><p>直接合作與委外都可以是好策略。對品牌而言，最重要的是知道自己需要什麼、有哪些能力可以自行完成，以及哪些環節值得借助外部專業。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/kol-koc-advertising-strategy-2026\">品牌只靠 KOL／KOC 素材投廣告，夠用嗎？2026 創作者行銷策略與案例分析</a></li><li><a href=\"/insights/content-product-optimization-before-advertising\">為什麼品牌應優先做好內容與產品優化，再放大廣告投資？</a></li><li><a href=\"/insights/brand-platform-bio-seo-geo\">品牌跨平台簡介要一致嗎？官網、Meta 與 YouTube 的 SEO／GEO 策略</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "品牌自行聯繫創作者，會不會不專業？",
+        "answer": "不會。清楚說明品牌、產品、目標、交付需求、預算與時程，就能建立專業溝通。若創作者指定商務窗口，尊重其合作流程即可。"
+      },
+      {
+        "question": "透過 MCN 一定比較便宜嗎？",
+        "answer": "不一定。報價還受製作需求、檔期、使用權、排他與管理服務影響。應比較相同條件下的總成本，不能只比單則貼文價格。"
+      },
+      {
+        "question": "送產品給 KOC，就能要求對方發文嗎？",
+        "answer": "單純寄送產品，不代表雙方已約定必須發布。若需要交件、時程與內容規格，應在寄送前談妥。也不應要求創作者虛構使用經驗或保證正面評價。"
+      },
+      {
+        "question": "透過代理商合作，品牌就不用負責廣告內容嗎？",
+        "answer": "不是。公平會要求廣告主確保網紅推廣內容與事實相符。 委外可以協助管理審核流程，但不能把品牌的內容責任完全轉移出去。"
+      },
+      {
+        "question": "可以由品牌自己找人，再請九色鹿協助嗎？",
+        "answer": "可將這種分工列入洽談：品牌提供既有人選與關係，由合作團隊評估需要的企劃、管理、素材或投放工作。實際承接範圍與費用，應在提案中確認。"
+      },
+      {
+        "question": "小品牌一定需要簽約嗎？",
+        "answer": "建議至少以明確書面方式確認交付、費用、使用權與異常處理。若涉及長期授權、排他或較高金額，適合使用更完整的合約並確認條款。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "對於薦證廣告之規範說明",
+        "url": "https://www.ftc.gov.tw/internet/main/doc/docDetail.aspx?docid=13021&uid=165"
+      },
+      {
+        "title": "對於網路廣告案件之處理原則",
+        "url": "https://law.ftc.gov.tw/law/LawContent.aspx?id=GL000222"
+      },
+      {
+        "title": "廣告涉及著作權問題之說明",
+        "url": "https://www.tipo.gov.tw/tw/copyright/696-21216.html"
+      }
+    ],
+    "relatedServices": [
+      "strategy-campaigns",
+      "creative-content",
+      "paid-media"
+    ],
+    "seo": {
+      "title": "品牌可以自己找 KOL／KOC 合作嗎？直接洽談、MCN 與行銷代理商的選擇策略",
+      "description": "品牌自行與 KOL／KOC 合作，需要注意選人、報價、合約、素材授權與業配揭露。比較直接合作、MCN 與整合行銷代理商的優劣勢，判斷何時需要專業團隊協助。"
+    },
+    "card": {
+      "eyebrow": "CREATOR MARKETING",
+      "title": "COLLABORATE",
+      "caption": "從找到人，到找到適合的合作方式。"
+    },
+    "cta": {
+      "heading": "找到適合品牌的",
+      "highlight": "合作方式。",
+      "text": "從品牌定位、內容分工到後續運用，與九色鹿一起釐清值得優先投入的下一步。",
+      "label": "與九色鹿討論合作方向"
+    }
+  },
+  {
     "slug": "content-product-optimization-before-advertising",
     "title": "為什麼品牌應優先做好內容與產品優化，再放大廣告投資？",
     "excerpt": "品牌遇到成長瓶頸時，常把問題歸因於曝光不足。然而，當消費者不清楚產品適不適合自己、找不到可信的選購資訊，或購買後的體驗不如預期，加碼廣告未必能改善經營成果。",
