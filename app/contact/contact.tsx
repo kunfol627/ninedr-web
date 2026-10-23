@@ -34,7 +34,7 @@ export default function Contact(){
  <label>想一起探索的方向<select name="合作方向" defaultValue="整合行銷">{directions.map(d=><option key={d}>{d}</option>)}</select></label>
  <label>您的品牌願景 *<textarea name="品牌願景" rows={3} placeholder="分享您的目標、挑戰或專案時程…" required maxLength={4000}/></label>
  <div hidden aria-hidden="true"><label>Website<input name="website" tabIndex={-1} autoComplete="off"/></label></div>
- <label className="contact-consent"><input name="consent" type="checkbox" required/><span>我已閱讀<a href="/privacy" target="_blank" rel="noopener noreferrer">隱私政策</a>，同意九色鹿為回覆本次諮詢處理所填資料。</span></label>
+ <label className="contact-consent"><input name="consent" type="checkbox" required/><span>我已閱讀<a href="/privacy" target="_blank" rel="noopener noreferrer">隱私政策</a>，同意九色鹿為回覆本次諮詢處理所填資料。{config?.enabled&&'本表單透過 Cloudflare 提供安全驗證，並透過 Resend 傳送您填寫的諮詢資料至九色鹿信箱。'}</span></label>
  {config?.enabled&&<div ref={widget} className="contact-verification"/>}
  <button className="lime-button" type="submit" disabled={busy||sent||!config||(config.enabled&&!token)}>{sent?'需求已提交':busy?'正在送出…':config?.enabled?'啟動增長引擎':'整理需求，透過 Email 聯繫'} <span><Arrow direction="up-right"/></span></button>
  <small>{config?.enabled?'送出後由九色鹿團隊接收並回覆。':'線上寄送尚未開放。可先整理需求，再透過 Email 或 LINE 聯繫。'}</small>

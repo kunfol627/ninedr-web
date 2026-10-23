@@ -12,6 +12,8 @@
     "binding": "ASSETS"
   },
   "vars": {
-    "CONTACT_ENABLED": "false"
+    "CONTACT_ENABLED": "true",
+    "CONTACT_FROM": "website@mail.ninedr.com",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAFiHD-ZPSDNRqKzB"
   }
 }
