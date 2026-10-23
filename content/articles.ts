@@ -16,6 +16,124 @@ export type Article = {
 };
 export const articles:Article[]=[
   {
+    "slug": "brand-identity-refresh-business-value",
+    "title": "為什麼百年品牌也要換 Logo？企業識別更新的商業價值與決策時機",
+    "excerpt": "企業累積數十年甚至百年的信任，為什麼還要改變大家熟悉的標誌？對經營者而言，這牽涉設計費、包裝、招牌、網站與內部溝通，也可能引起老顧客反彈。",
+    "category": "內容與品牌",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "品牌識別",
+      "Logo 設計",
+      "企業識別",
+      "品牌更新",
+      "品牌重塑",
+      "CIS"
+    ],
+    "takeaways": [
+      "識別更新從經營問題開始，不必為了跟上潮流而定期更換 Logo。",
+      "先盤點顧客記得的品牌資產，再決定微調、視覺更新或重新定位。",
+      "把手機辨識、導入成本與顧客理解納入評估，讓設計走進日常使用。"
+    ],
+    "card": {
+      "eyebrow": "BRAND IDENTITY",
+      "title": "IDENTITY",
+      "caption": "讓品牌形象，跟上企業的下一步。"
+    },
+    "cta": {
+      "heading": "讓品牌形象，",
+      "highlight": "跟上企業的下一步。",
+      "text": "從品牌定位、企業識別到官網與內容溝通，先釐清市場如何理解你，再規劃合適的更新方向。",
+      "label": "與九色鹿聊聊品牌方向"
+    },
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "先找到需要改變的理由。",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>企業有必要持續檢視識別是否適用，但沒有必要定期更換 Logo。當既有識別妨礙品牌被辨識、被理解，或已無法代表企業的新方向，更新才有明確的商業理由。</strong></p><p>國際品牌值得借鏡的，是如何讓累積的品牌資產繼續發揮作用。企業可以保留顧客記得的部分，同時改善在新通路、新市場與新業務中的表現。</p>"
+      },
+      {
+        "id": "identity-scope",
+        "heading": "Logo、視覺識別與企業識別，更新範圍有何不同？",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"企業識別決策比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">層級</th><th scope=\"col\">涵蓋內容</th><th scope=\"col\">要解決的問題</th></tr></thead><tbody><tr><th scope=\"row\">Logo／品牌標誌</th><td>圖形、標準字、組合方式</td><td>顧客能否辨識這個品牌？</td></tr><tr><th scope=\"row\">VI／視覺識別</th><td>Logo、色彩、字體、版面、攝影、圖示與動態規則</td><td>不同接觸點能否呈現一致且有差異的形象？</td></tr><tr><th scope=\"row\">CI／企業識別</th><td>企業理念、組織行為與視覺表達；實務定義與範圍依專案而異</td><td>企業說自己是誰，是否與實際經營一致？</td></tr><tr><th scope=\"row\">品牌重塑</th><td>可能涉及定位、受眾、價值主張、命名與服務體驗</td><td>市場應如何重新理解與選擇這家企業？</td></tr></tbody></table></div><p>換一個圖案，未必需要重新定位；重新定位，也未必需要大幅改動圖案。決策應從經營問題開始，再決定設計範圍。</p>"
+      },
+      {
+        "id": "when-to-refresh",
+        "heading": "為什麼經營越久的品牌，仍然需要更新？",
+        "paragraphs": [],
+        "bodyHtml": "<h3>1. 顧客看見品牌的場景已經改變</h3><p>過去的識別可能主要服務於店面招牌、紙本型錄與產品包裝。今天，它還必須出現在手機頁面、社群頭像、電商縮圖、短影音與數位介面中。</p><p>細緻線條、複雜陰影與過小文字，在大型印刷品上可能精緻，在小尺寸畫面中卻可能難以辨認。因此，更新的目標應是實際使用表現：縮小後是否清楚、單色是否成立、深淺背景是否適用、動態畫面能否保留品牌特色。</p><p>這也不代表所有品牌都應扁平化。能否在真實場景中被認出，比是否符合設計潮流更重要。</p><h3>2. 企業已經轉型，外界仍停留在舊印象</h3><p>一家製造企業可能已發展出研發、顧問與整合服務，但官網與簡報仍只讓人想到代工；一家老字號可能已改善產品與購物體驗，外在識別卻無法傳達這些改變。</p><p>此時，企業面對的是能力與市場認知之間的落差。識別更新可以提供清楚的轉型訊號，但必須同時交代產品、服務與客戶價值如何改變，才能讓訊號具備可信度。</p><h3>3. 需要讓下一代顧客理解品牌價值</h3><p>品牌歷史能證明經驗，卻不會自動轉化為新客群的選擇理由。對第一次接觸品牌的人，百年傳承還需要被具體解釋：它帶來什麼品質、技術、服務或文化價值？</p><p>好的更新會保留具有記憶的色彩、輪廓或文字特色，再以更清楚的內容與設計呈現。年輕化也不等於變得活潑可愛；專業、清晰與方便使用，同樣能拉近距離。</p><h3>4. 品牌規模擴大，需要一套可共同使用的規則</h3><p>跨國市場、多產品線與多家合作代理商，容易產生不同版本的 Logo、字體與版面。單次看似影響有限，長期卻讓顧客難以將不同內容歸屬於同一品牌。</p><p>完整的視覺系統能把設計判斷轉化為可重複使用的規則，協助團隊製作網站、廣告、提案與包裝。它的價值也存在於企業內部：減少重工，讓品質更穩定。</p>"
+      },
+      {
+        "id": "brand-examples",
+        "heading": "三個國際案例：更新識別，分別在解決什麼問題？",
+        "paragraphs": [],
+        "bodyHtml": "<h3>Pepsi：讓百年品牌資產延伸到新的接觸點</h3><p>Pepsi 於 2023 年發表新 Logo 與視覺系統，配合品牌 125 週年；官方公告規劃於當年秋季在北美啟用，並於 2024 年向全球推展。新系統整合球形標誌與品牌文字，加入動態脈衝語彙，並以黑色呼應 Pepsi Zero Sugar 的策略重點。</p><p>這項更新涵蓋包裝、設備與數位內容，呈現了品牌如何將歷史資產延伸到多種媒介。對企業的啟示是：識別更新應連結產品與傳播策略，並能在日常應用中持續使用。</p><p>延伸查閱：PepsiCo 官方公告，2023 年 3 月 28 日。相關官方公告列於文末參考資料。</p><h3>BMW：依用途更新，控制變動的範圍</h3><p>BMW 在 2020 年發表新的線上與線下傳播識別，採用較簡化的二維設計及透明版本。官方將其連結到數位化，以及從汽車走向科技與連結的品牌方向。</p><p>值得留意的是，該次公告明確說明：新標誌用於媒體傳播，當時車輛與經銷商內外標示仍使用既有版本。</p><p>這個案例說明，企業可以針對接觸點建立不同應用版本。只要規則清楚，更新可以分階段進行，也能保留既有實體資產。</p><p>延伸查閱：BMW Group 官方公告，2020 年 3 月 4 日。相關官方公告列於文末參考資料。</p><h3>Mastercard：辨識度累積到一定程度，才精簡文字</h3><p>Mastercard 於 2019 年宣布，在特定情境中移除標誌內的品牌名稱，保留紅黃交疊雙圓。官方當時表示，超過八成人在沒有品牌文字的情況下，也能辨識這個符號。</p><p>這是既有品牌資產支持設計精簡的案例。對知名度尚未建立的企業而言，移除名稱可能反而增加理解成本；是否能使用純符號，需要透過目標客群測試判斷。</p><p>Mastercard 並非百年企業，此處作為國際品牌的對照案例。</p><p>延伸查閱：Mastercard 官方公告，2019 年 1 月 7 日。相關官方公告列於文末參考資料。</p><p>上述資料證明的是品牌採取了哪些更新，以及官方提出的理由；不能據此認定更新單獨造成營收、溢價或市占率成長。以下效益為策略分析與評估方向。</p>"
+      },
+      {
+        "id": "business-value",
+        "heading": "更新 Logo 與企業識別，能帶來哪些商業效益？",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"企業識別決策比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">預期效益</th><th scope=\"col\">如何產生價值</th><th scope=\"col\">可以如何驗證</th></tr></thead><tbody><tr><th scope=\"row\">提高辨識與品牌歸屬</th><td>不同接觸點使用一致且有特色的線索</td><td>無提示辨識、廣告品牌歸屬、競品混淆測試</td></tr><tr><th scope=\"row\">改善品牌理解</th><td>外在表達與實際服務、定位更一致</td><td>訪談是否正確理解服務與差異</td></tr><tr><th scope=\"row\">支援新市場與新客群</th><td>補齊多語系、小尺寸與跨媒介應用</td><td>當地受眾測試、介面辨讀與可用性測試</td></tr><tr><th scope=\"row\">提升執行效率</th><td>共用規範、素材與模板，減少反覆製作</td><td>製作工時、修改次數、錯版比例</td></tr><tr><th scope=\"row\">支援價值與價格溝通</th><td>以一致體驗呈現品質與專業</td><td>價值感知調查，並搭配成交與價格接受度觀察</td></tr></tbody></table></div><p>識別可以幫助好產品更清楚地被看見，但無法補足產品品質或服務承諾。即使更新後詢問量、轉換率或營收上升，也應同時檢視廣告預算、促銷、價格與通路變化。</p>"
+      },
+      {
+        "id": "decision-guide",
+        "heading": "為什麼有些企業必須做？又有哪些企業不必急著做？",
+        "paragraphs": [],
+        "bodyHtml": "<p>必要性來自已經發生的阻礙。例如：關鍵數位介面無法清楚顯示標誌、新業務長期被誤解、跨市場應用頻繁失真，或每次製作素材都需要重新設計。</p><p>若問題持續發生，維持原樣也有成本：流失理解機會、重複製作、延後轉型溝通。企業應比較這些成本與更新所需的投入，再決定是否啟動。</p><p>相反地，如果現有 Logo 具有辨識度、符合定位，也能支援主要媒介，企業可能只需改善網站、字體、攝影與版面。主管看膩了，或競爭對手剛換標誌，都不足以構成全面重塑的理由。</p><div class=\"insight-table\" role=\"region\" aria-label=\"企業識別決策比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">目前的主要問題</th><th scope=\"col\">優先評估的做法</th></tr></thead><tbody><tr><th scope=\"row\">小尺寸不清楚，核心辨識仍強</th><td>調整線條、比例，建立小尺寸與單色版本</td></tr><tr><th scope=\"row\">Logo 適用，但官網與素材不一致</th><td>更新 VI、素材庫與模板</td></tr><tr><th scope=\"row\">產品或服務已轉型，定位表達落後</th><td>先釐清定位與價值主張，再決定識別範圍</td></tr><tr><th scope=\"row\">併購、多品牌或跨國架構混亂</th><td>先處理品牌架構、命名與使用關係</td></tr><tr><th scope=\"row\">主要問題是品質、交付或服務</th><td>優先改善經營與體驗，再評估對外更新</td></tr></tbody></table></div>"
+      },
+      {
+        "id": "implementation",
+        "heading": "台灣企業如何降低更新風險？",
+        "paragraphs": [],
+        "bodyHtml": "<h3>先盤點值得保留的品牌資產</h3><p>訪談既有與潛在客戶，了解他們記住的是名稱、顏色、圖形、包裝還是服務。熟悉不代表每個元素都有效，但設計團隊也不應僅憑美感推翻顧客的記憶。</p><h3>將方案放進真實使用情境</h3><p>除了放大展示 Logo，也應測試手機頁首、社群頭像、短影音角標、報價單、產品標籤與招牌。至少比較既有版與新版，觀察辨識、理解與混淆情況；測試應包含目標客群，避免只收集內部偏好。</p><h3>把導入成本列入決策</h3><p>預算應包含設計、規範、網站、包裝、招牌、系統與人員訓練。可依接觸頻率、替換成本與庫存週期安排導入順序，並清楚規定新舊版本的使用期限，避免長期並存而失去一致性。</p><h3>讓顧客理解更新與自己的關係</h3><p>品牌發布除了介紹設計理念，更應說明保留了什麼、改善了什麼，以及顧客將獲得哪些具體改變。老顧客需要確認熟悉的承諾仍然存在，新顧客則需要清楚的選擇理由。</p>"
+      },
+      {
+        "id": "search-consistency",
+        "heading": "品牌更新，也應連動官網與搜尋資訊",
+        "paragraphs": [],
+        "bodyHtml": "<p>Logo 更新本身不保證 SEO 排名或生成式搜尋曝光提升。若企業同時改變名稱、服務或定位，官網也應一致更新公司介紹、服務頁、社群資料與適用的結構化資料，讓人與搜尋系統都能理解品牌關係。</p><p>如需改動網址，則應另外規劃轉址與網站遷移；單純換標誌，無須為了「煥新」而任意更動既有網址。</p>"
+      },
+      {
+        "id": "next-step",
+        "heading": "企業識別的長期價值，在於讓經營持續被理解",
+        "paragraphs": [],
+        "bodyHtml": "<p>百年品牌最有價值的，是長年累積的信任、品質與記憶。識別更新的任務，是讓這些資產在新的環境中繼續被辨識，並準確呈現企業正在前往的方向。</p><p>對經營者而言，值得先提出的問題是：<strong>現在的品牌形象，是否仍能清楚代表我們的能力，並讓下一位顧客理解選擇我們的理由？</strong></p><p>當答案出現落差，就值得啟動品牌盤點，再決定微調、視覺更新或全面重塑的必要範圍。</p>"
+      }
+    ],
+    "faqs": [],
+    "sources": [
+      {
+        "title": "PepsiCo 官方公告，2023 年 3 月 28 日",
+        "url": "https://www.pepsico.com/newsroom/press-releases/2023/pepsi-unveils-a-new-logo-and-visual-identity-marking-the-iconic-brands-next-era"
+      },
+      {
+        "title": "BMW Group 官方公告，2020 年 3 月 4 日",
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0306305EN/introducing-bmw%E2%80%99s-new-brand-design-for-online-and-offline-communication"
+      },
+      {
+        "title": "Mastercard 官方公告，2019 年 1 月 7 日",
+        "url": "https://www.mastercard.com/us/en/news-and-trends/press/2019/january/mastercard-evolves-its-brand-mark-by-dropping-its-name.html"
+      }
+    ],
+    "relatedServices": [
+      "brand-design",
+      "creative-content"
+    ],
+    "seo": {
+      "title": "為什麼百年品牌也要換 Logo？企業識別更新的商業價值與決策時機",
+      "description": "從 Pepsi、BMW 與 Mastercard 案例，解析企業為何更新 Logo 與企業識別、能帶來哪些效益，以及台灣企業如何判斷該微調識別或全面重塑品牌。"
+    }
+  },
+  {
     "slug": "taiwan-social-media-preferences-age-2026",
     "title": "2026 台灣社群媒體洞察：平台喜好與年齡分布，如何影響品牌配置？",
     "excerpt": "同一位消費者，可能在 Facebook 看討論、在 YouTube 看示範，最後用 LINE 問價格。品牌要理解的，是這些平台如何參與決策。",
@@ -52,7 +170,7 @@ export const articles:Article[]=[
         "id": "chapter-2",
         "heading": "35–54 歲是重要受眾，25–34 歲仍是最大單一年齡組",
         "paragraphs": [],
-        "bodyHtml": "<p>第 81 頁提供 Facebook、Instagram、Messenger 與 Threads 合併去重後的成人廣告受眾。將男女占比加總，18–24 歲為 12.8%、25–34 歲為 27.9%、35–44 歲為 21.9%、45–54 歲為 16.7%、55–64 歲為 11.7%、65 歲以上為 8.9%。數值可能因四捨五入略有差異。</p><p>35–54 歲合計 38.6%，說明這群人值得品牌重視。但這不是 Facebook 社團的年齡結構，也不是該年齡人口的社群滲透率。報告沒有完整提供年齡與各平台偏好的交叉表，不能據此斷言哪個世代只用哪個平台。</p><figure class=\"report\"><figcaption>原始報告｜第 81 頁：Meta 成人廣告受眾的年齡與性別</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 81 頁：Meta 成人廣告受眾的年齡與性別\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 81 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>"
+        "bodyHtml": "<p>第 81 頁提供 Facebook、Instagram、Messenger 與 Threads 合併去重後的廣告可觸及的 18 歲以上受眾。將男女占比加總，18–24 歲為 12.8%、25–34 歲為 27.9%、35–44 歲為 21.9%、45–54 歲為 16.7%、55–64 歲為 11.7%、65 歲以上為 8.9%。數值可能因四捨五入略有差異。</p><p>35–54 歲合計 38.6%，說明這群人值得品牌重視。但這不是 Facebook 社團的年齡結構，也不是該年齡人口的社群滲透率。報告沒有完整提供年齡與各平台偏好的交叉表，不能據此斷言哪個世代只用哪個平台。</p><figure class=\"report\"><figcaption>原始報告｜第 81 頁：Meta 廣告可觸及的 18 歲以上受眾的年齡與性別</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 81 頁：Meta 廣告可觸及的 18 歲以上受眾的年齡與性別\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 81 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure><p>這裡的受眾是平台廣告工具提供的潛在廣告受眾估計，指廣告可觸及的 18 歲以上人群，不是廣告內容的分級。受眾規模或占比不代表這些人實際看過廣告、觀看直播或購買商品；實際成效仍須另外檢視投放與成交資料。</p>"
       },
       {
         "id": "chapter-3",
@@ -137,7 +255,7 @@ export const articles:Article[]=[
         "id": "chapter-1",
         "heading": "先確認市場規模，再驗證購買價值",
         "paragraphs": [],
-        "bodyHtml": "<p>報告第 81 頁中，35–44 歲占 Meta 合併成人廣告受眾 21.9%，45–54 歲占 16.7%，合計 38.6%。這是 Facebook、Instagram、Messenger、Threads 的合併去重廣告受眾，不能當作 Facebook 社團成員比例。</p><figure class=\"report\"><figcaption>原始報告｜第 81 頁：35–54 歲在 Meta 成人廣告受眾中的占比</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 81 頁：35–54 歲在 Meta 成人廣告受眾中的占比\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 81 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>\n<p>企業常把 35–54 歲視為具消費能力的核心客群，但這份圖表沒有衡量所得或購買力。本篇以「值得優先驗證的商業客群」作為策略起點，再由實際成交毛利與回購確認價值。</p>"
+        "bodyHtml": "<p>報告第 81 頁中，35–44 歲占 Meta 合併廣告可觸及的 18 歲以上受眾 21.9%，45–54 歲占 16.7%，合計 38.6%。這是 Facebook、Instagram、Messenger、Threads 的合併去重廣告受眾，不能當作 Facebook 社團成員比例。</p><figure class=\"report\"><figcaption>原始報告｜第 81 頁：35–54 歲在 Meta 廣告可觸及的 18 歲以上受眾中的占比</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 81 頁：35–54 歲在 Meta 廣告可觸及的 18 歲以上受眾中的占比\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 81 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>\n<p>企業常把 35–54 歲視為具消費能力的核心客群，但這份圖表沒有衡量所得或購買力。本篇以「值得優先驗證的商業客群」作為策略起點，再由實際成交毛利與回購確認價值。</p><p>這裡的受眾是平台廣告工具提供的潛在廣告受眾估計，指廣告可觸及的 18 歲以上人群，不是廣告內容的分級。受眾規模或占比不代表這些人實際看過廣告、觀看直播或購買商品；實際成效仍須另外檢視投放與成交資料。</p>"
       },
       {
         "id": "chapter-2",
