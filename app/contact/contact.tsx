@@ -21,9 +21,9 @@ export default function Contact(){
  return <form onSubmit={async e=>{
   e.preventDefault();if(busy||sent)return;
   const form=e.currentTarget,data=new FormData(form);
-  const body={name:String(data.get('稱呼')||''),company:String(data.get('公司')||''),email:String(data.get('電子郵件')||''),direction:String(data.get('合作方向')||''),message:String(data.get('品牌願景')||''),website:String(data.get('website')||''),consent:data.get('consent')==='on',token};
+  const body={name:String(data.get('稱呼')||''),company:String(data.get('公司')||''),email:String(data.get('電子郵件')||''),phone:String(data.get('手機號碼')||'').trim(),direction:String(data.get('合作方向')||''),message:String(data.get('品牌願景')||''),website:String(data.get('website')||''),consent:data.get('consent')==='on',token};
   setNotice('');
-  if(!config?.enabled){setSummary(`九色鹿 Ninedr｜合作需求\n\n稱呼：${body.name}\n公司：${body.company}\n電子郵件：${body.email}\n合作方向：${body.direction}\n\n${body.message}`);return}
+  if(!config?.enabled){setSummary(`九色鹿 Ninedr｜合作需求\n\n稱呼：${body.name}\n公司：${body.company}\n電子郵件：${body.email}\n手機號碼：${body.phone||'未填寫'}\n合作方向：${body.direction}\n\n${body.message}`);return}
   setBusy(true);
   try{const response=await fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(30000)});const result=await response.json() as {ok?:boolean;error?:string;message?:string};if(!response.ok||!result.ok)throw new Error(result.error||'寄送未完成，請透過 Email 或 LINE 聯繫。');setNotice(result.message||'需求已提交。');setSent(true);form.reset()}
   catch(error){setNotice(error instanceof Error&&error.name!=='TimeoutError'?error.message:'無法確認寄送結果，請透過 Email 或 LINE 聯繫。')}
@@ -31,6 +31,7 @@ export default function Contact(){
  }} aria-busy={busy}>
  <div className="form-row"><label>您的稱呼 *<input name="稱呼" autoComplete="name" placeholder="如何稱呼您？" required maxLength={80}/></label><label>品牌 / 公司 *<input name="公司" autoComplete="organization" placeholder="您的品牌名稱" required maxLength={100}/></label></div>
  <label>電子郵件 *<input name="電子郵件" autoComplete="email" type="email" placeholder="you@company.com" required maxLength={254}/></label>
+ <label>手機號碼（非必填）<input name="手機號碼" autoComplete="tel" type="tel" inputMode="tel" placeholder="方便聯繫您的手機號碼" maxLength={40}/></label>
  <label>想一起探索的方向<select name="合作方向" defaultValue="整合行銷">{directions.map(d=><option key={d}>{d}</option>)}</select></label>
  <label>您的品牌願景 *<textarea name="品牌願景" rows={3} placeholder="分享您的目標、挑戰或專案時程…" required maxLength={4000}/></label>
  <div hidden aria-hidden="true"><label>Website<input name="website" tabIndex={-1} autoComplete="off"/></label></div>
