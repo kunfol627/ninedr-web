@@ -16,6 +16,296 @@ export type Article = {
 };
 export const articles:Article[]=[
   {
+    "slug": "taiwan-social-media-preferences-age-2026",
+    "title": "2026 台灣社群媒體洞察：平台喜好與年齡分布，如何影響品牌配置？",
+    "excerpt": "同一位消費者，可能在 Facebook 看討論、在 YouTube 看示範，最後用 LINE 問價格。品牌要理解的，是這些平台如何參與決策。",
+    "category": "整合行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "社群平台",
+      "台灣社群年齡分布",
+      "Digital 2026 Taiwan"
+    ],
+    "sections": [
+      {
+        "id": "reading-notes",
+        "heading": "讀這份報告前，先對齊資料範圍",
+        "paragraphs": [
+          "本篇依據 Digital 2026: Taiwan 撰寫，報告於 2025 年 11 月發布，多數資料來自 2025 年。不同圖表母體與期間不同；報告數據與九色鹿策略判讀分開呈現，未宣稱已驗證的轉換提升。"
+        ]
+      },
+      {
+        "id": "chapter-1",
+        "heading": "使用得多，與最喜歡，是兩個問題",
+        "paragraphs": [],
+        "bodyHtml": "<p>報告第 83 頁顯示，台灣 16 歲以上網路使用者，過去一個月使用 LINE 的比例為 90.2%，Facebook 為 81.8%，YouTube 為 76.8%，Instagram 為 63.4%，TikTok 為 37.5%，Threads 為 35.2%。資料來源為 GWI，期間是 2025 年第二季。</p><figure class=\"report\"><figcaption>原始報告｜第 83 頁：各平台每月使用率</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=83&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 83 頁：各平台每月使用率\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=83&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 83 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>\n<p>第 87 頁的「最喜歡」調查中，LINE 為 51.8%、Facebook 為 15.0%、Instagram 為 12.9%。這一題的母體是活躍社群使用者，且 YouTube 沒有列入選項。不能將兩張表相減，推論平台流失率，也不能把偏好比例當作廣告轉換率。</p><figure class=\"report\"><figcaption>原始報告｜第 87 頁：最喜歡的社群平台</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=87&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 87 頁：最喜歡的社群平台\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=87&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 87 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "35–54 歲是重要受眾，25–34 歲仍是最大單一年齡組",
+        "paragraphs": [],
+        "bodyHtml": "<p>第 81 頁提供 Facebook、Instagram、Messenger 與 Threads 合併去重後的成人廣告受眾。將男女占比加總，18–24 歲為 12.8%、25–34 歲為 27.9%、35–44 歲為 21.9%、45–54 歲為 16.7%、55–64 歲為 11.7%、65 歲以上為 8.9%。數值可能因四捨五入略有差異。</p><p>35–54 歲合計 38.6%，說明這群人值得品牌重視。但這不是 Facebook 社團的年齡結構，也不是該年齡人口的社群滲透率。報告沒有完整提供年齡與各平台偏好的交叉表，不能據此斷言哪個世代只用哪個平台。</p><figure class=\"report\"><figcaption>原始報告｜第 81 頁：Meta 成人廣告受眾的年齡與性別</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 81 頁：Meta 成人廣告受眾的年齡與性別\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 81 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "品牌更該關心：使用者此刻要完成什麼？",
+        "paragraphs": [],
+        "bodyHtml": "<p>第 82 頁顯示，使用社群的主要原因包括聯繫親友 54.1%、打發時間 47.6%、掌握熱門討論 32.0%，以及尋找文章與影片等內容 31.8%。尋找購買商品則為 20.5%。這些是可複選的使用動機，不代表消費者始終處於購買狀態。</p><figure class=\"report\"><figcaption>原始報告｜第 82 頁：使用社群的主要原因</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=82&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 82 頁：使用社群的主要原因\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=82&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 82 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>\n<p>九色鹿的判讀是：內容需要同時提供觀看理由與購買線索。產品示範能讓人停下來；比較、售後與真實案例，則能幫助有需求的人繼續判斷。每篇內容都急著成交，容易忽略消費者尚未準備好的階段。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "平台配置，應跟著生意的決策流程",
+        "paragraphs": [],
+        "bodyHtml": "<p>對需要解釋與比較的商品，可先測試 Facebook 討論與 YouTube 示範；視覺表現重要的商品，可測試 Instagram；LINE 可承接顧客同意後的諮詢、預約與售後。這些是待驗證的配置建議，不是報告公布的平台效益排名。</p><p>起步時選兩個主要接觸平台，加上一個穩定的成交入口。每月比較有效詢問、成交毛利與回購，而非只以粉絲數和觀看數決定預算。</p>"
+      },
+      {
+        "id": "report-sources",
+        "heading": "資料來源與閱讀說明",
+        "paragraphs": [],
+        "bodyHtml": "<p>DataReportal／Kepios，We Are Social、Meltwater，<a href=\"https://datareportal.com/reports/digital-2026-taiwan\">Digital 2026: Taiwan</a>。查閱日期：2026-10-23。各數據原始來源、期間及限制，請參照播放器內相應頁面的註腳。</p><p>本文為九色鹿獨立分析，非 DataReportal 官方背書。播放器由 Adobe 原站提供，保留原始設計、來源與操作功能；未下載或重新託管報告。使用方式參照 <a href=\"https://datareportal.com/citation\">官方引用與再出版規範</a>。</p><p>SEO／GEO 實務參考：<a href=\"https://developers.google.com/search/docs/appearance/ai-features\">Google Search Central：AI features and your website</a>。符合建議不保證收錄、引用或成交。</p><p>延伸閱讀：<a href=\"/insights/integrated-marketing-strategy\">廣告、短影音與 SEO／GEO 的整合分工</a>。</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Facebook 還值得投入嗎？",
+        "answer": "它仍有廣泛使用基礎；但對品牌是否有效，須看目標客群、內容與成交資料，不能單憑整體使用率決定。"
+      },
+      {
+        "question": "報告能證明中年族群比年輕人更有購買力嗎？",
+        "answer": "這些社群圖表無法證明。品牌應比對各年齡實際客單價、毛利、成交率與回購率。"
+      }
+    ],
+    "sources": [],
+    "relatedServices": [
+      "strategy-campaigns",
+      "creative-content",
+      "seo-geo"
+    ],
+    "seo": {
+      "title": "2026 台灣社群媒體洞察：平台喜好與年齡分布，如何影響品牌配置？",
+      "description": "解析 Digital 2026 Taiwan 的平台使用、偏好與 Meta 年齡結構，區分受眾規模與成交價值，協助品牌配置社群資源。"
+    },
+    "cta": {
+      "heading": "釐清你的客群，",
+      "highlight": "讓社群投入更接近生意。",
+      "text": "與九色鹿一起梳理客群、內容與成交流程，找出值得優先投入的下一步。",
+      "label": "討論社群內容策略"
+    },
+    "card": {
+      "eyebrow": "DIGITAL 2026 TAIWAN",
+      "title": "SOCIAL",
+      "caption": "平台選擇，從理解客群開始。"
+    }
+  },
+  {
+    "slug": "35-54-facebook-video-geo-conversion",
+    "title": "35–54 歲客群轉換策略：Facebook 社團、短影音與 GEO 如何協作？",
+    "excerpt": "一支影片讓人有興趣，一段社團討論讓人願意相信，完整的比較資訊則讓人敢提出需求。轉換往往發生在這些接點接起來之後。",
+    "category": "整合行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "35–54 歲客群",
+      "Facebook 社團",
+      "短影音",
+      "GEO"
+    ],
+    "sections": [
+      {
+        "id": "reading-notes",
+        "heading": "讀這份報告前，先對齊資料範圍",
+        "paragraphs": [
+          "本篇依據 Digital 2026: Taiwan 撰寫，報告於 2025 年 11 月發布，多數資料來自 2025 年。不同圖表母體與期間不同；報告數據與九色鹿策略判讀分開呈現，未宣稱已驗證的轉換提升。"
+        ]
+      },
+      {
+        "id": "chapter-1",
+        "heading": "先確認市場規模，再驗證購買價值",
+        "paragraphs": [],
+        "bodyHtml": "<p>報告第 81 頁中，35–44 歲占 Meta 合併成人廣告受眾 21.9%，45–54 歲占 16.7%，合計 38.6%。這是 Facebook、Instagram、Messenger、Threads 的合併去重廣告受眾，不能當作 Facebook 社團成員比例。</p><figure class=\"report\"><figcaption>原始報告｜第 81 頁：35–54 歲在 Meta 成人廣告受眾中的占比</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 81 頁：35–54 歲在 Meta 成人廣告受眾中的占比\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=81&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 81 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>\n<p>企業常把 35–54 歲視為具消費能力的核心客群，但這份圖表沒有衡量所得或購買力。本篇以「值得優先驗證的商業客群」作為策略起點，再由實際成交毛利與回購確認價值。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "社群影響決策，不只負責帶來曝光",
+        "paragraphs": [],
+        "bodyHtml": "<p>報告第 91 頁顯示，66.4% 的 16 歲以上網路使用者，使用至少一類社群管道研究品牌與產品；社群網路為 37.1%，論壇與留言板為 24.9%。這些分類可能重疊，不能相加，也不專指 35–54 歲或 Facebook 社團。</p><figure class=\"report\"><figcaption>原始報告｜第 91 頁：社群管道在品牌與產品研究中的角色</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=91&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 91 頁：社群管道在品牌與產品研究中的角色\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=91&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 91 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "Facebook 社團：讓疑慮被公開解答",
+        "paragraphs": [],
+        "bodyHtml": "<p>對需要比較、安裝、維修或長期使用的商品，社團可測試的價值是經驗交流。先蒐集業務最常聽到的十個問題：價差在哪裡？什麼情況不適合？後續維修誰負責？用專業回答與可驗證案例，逐步降低不確定性。</p><p>自有社團需要持續回覆與明確版規；若沒有足夠人力與交流需求，可先參與既有社群。品牌身分與商業合作需清楚揭露，避免將假推薦當成口碑。社團成效看有效問題、諮詢與輔助成交，而非只看成員人數。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "短影音：讓產品證據看得見",
+        "paragraphs": [],
+        "bodyHtml": "<p>初期以實測、避錯、案例三類內容測試。每支只回答一個問題，展示相同條件下的差異，並交代限制。為 35–44 與 45–54 歲分別測試省時、總成本、耐用與售後等訴求；這是測試設計，不預設年齡必然決定偏好。</p><p>影片的下一步應對應需求：想深入比較的人進入比較頁，已有明確需求的人可直接預約。讓每支影片只有一個主要行動，避免同時要求按讚、入群、加好友與下單。</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "GEO：把值得相信的答案，留在公開官網",
+        "paragraphs": [],
+        "bodyHtml": "<p>第 48 頁顯示，16 歲以上網路使用者每月使用搜尋引擎的比例為 85.6%，ChatGPT 為 24.3%，後者包含網站與 App。數據並非 35–54 歲專屬，也不能證明 AI 已取代搜尋。</p><figure class=\"report\"><figcaption>原始報告｜第 48 頁：搜尋引擎與 ChatGPT 的每月使用</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=48&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 48 頁：搜尋引擎與 ChatGPT 的每月使用\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=48&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 48 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>\n<p>官網應清楚回答產品規格、價格條件、適用情境、不適用情況、服務範圍與售後承諾。社團反覆出現的問題，可在取得必要同意、去除個資後整理成公開文章。不要依賴封閉社團內容被搜尋或 AI 讀取。</p><p>Google 官方對 AI 搜尋功能仍強調可索引、可讀文字、內部連結、可信內容與一致的結構化資料。沒有特殊標記能保證引用；其他 AI 平台也有各自機制。GEO 在這裡的工作，是提高資訊被理解與驗證的機會。</p>"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "以一個示意案例，接通四個接點",
+        "paragraphs": [],
+        "bodyHtml": "<p>以居家設備品牌為例：短片示範「小空間安裝前要確認什麼」；社團回答實際環境問題；官網比較尺寸、費用與安裝限制；LINE 或表單承接照片評估與預約。此為流程示例，並非已驗證的客戶案例或成效承諾。</p>"
+      },
+      {
+        "id": "chapter-7",
+        "heading": "衡量有效名單與毛利，才能優化轉換",
+        "paragraphs": [],
+        "bodyHtml": "<p>在內容連結加入來源參數，並記錄電話、LINE、表單與到店成交。以合格名單成本、名單成交率、獲客成本與成交毛利判斷成效。不要把點擊加 LINE 當作成交，也不要把最後一次點擊當作完整旅程。</p><p>先建立四週基準，再測試訴求與頁面。B2B 或高單價商品應依銷售週期延長觀察；有足夠樣本後再評估差異，避免以少量成交宣稱提升百分比。</p>"
+      },
+      {
+        "id": "report-sources",
+        "heading": "資料來源與閱讀說明",
+        "paragraphs": [],
+        "bodyHtml": "<p>DataReportal／Kepios，We Are Social、Meltwater，<a href=\"https://datareportal.com/reports/digital-2026-taiwan\">Digital 2026: Taiwan</a>。查閱日期：2026-10-23。各數據原始來源、期間及限制，請參照播放器內相應頁面的註腳。</p><p>本文為九色鹿獨立分析，非 DataReportal 官方背書。播放器由 Adobe 原站提供，保留原始設計、來源與操作功能；未下載或重新託管報告。使用方式參照 <a href=\"https://datareportal.com/citation\">官方引用與再出版規範</a>。</p><p>SEO／GEO 實務參考：<a href=\"https://developers.google.com/search/docs/appearance/ai-features\">Google Search Central：AI features and your website</a>。符合建議不保證收錄、引用或成交。</p><p>延伸閱讀：<a href=\"/insights/integrated-marketing-strategy\">廣告、短影音與 SEO／GEO 的整合分工</a>。</p>"
+      }
+    ],
+    "faqs": [],
+    "sources": [],
+    "relatedServices": [
+      "strategy-campaigns",
+      "creative-content",
+      "seo-geo"
+    ],
+    "seo": {
+      "title": "35–54 歲客群轉換策略：Facebook 社團、短影音與 GEO 如何協作？",
+      "description": "以台灣 Meta 受眾與品牌研究行為為基礎，規劃社團信任、短影音證據、官網搜尋與諮詢成交的整合流程。"
+    },
+    "cta": {
+      "heading": "串連社群與搜尋，",
+      "highlight": "接住每一次有效需求。",
+      "text": "與九色鹿一起梳理客群、內容與成交流程，找出值得優先投入的下一步。",
+      "label": "討論整合行銷策略"
+    },
+    "card": {
+      "eyebrow": "DIGITAL 2026 TAIWAN",
+      "title": "CONNECT",
+      "caption": "把社群關注，接成實際需求。"
+    }
+  },
+  {
+    "slug": "taiwan-traditional-brand-marketing-roadmap",
+    "title": "台灣傳統企業的行銷下一步：從業務經驗建立社群、搜尋與成交系統",
+    "excerpt": "傳統企業最有價值的內容，往往藏在老師傅的判斷、業務的提問與售後的經驗裡。行銷的第一步，是讓客戶在接觸業務之前，就能看懂這些價值。",
+    "category": "整合行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "傳統企業行銷",
+      "數位轉型",
+      "SEO",
+      "GEO"
+    ],
+    "sections": [
+      {
+        "id": "reading-notes",
+        "heading": "讀這份報告前，先對齊資料範圍",
+        "paragraphs": [
+          "本篇依據 Digital 2026: Taiwan 撰寫，報告於 2025 年 11 月發布，多數資料來自 2025 年。不同圖表母體與期間不同；報告數據與九色鹿策略判讀分開呈現，未宣稱已驗證的轉換提升。"
+        ]
+      },
+      {
+        "id": "chapter-1",
+        "heading": "消費者跨平台活動，企業需要一個共同答案",
+        "paragraphs": [],
+        "bodyHtml": "<p>報告第 78 頁顯示，台灣網路使用者平均每月使用 6.0 個社群平台；此項來自 GWI 2025 年第二季調查，包含 YouTube。跨平台接觸意味著品牌的規格、價格條件與承諾需要一致，不能讓顧客在不同入口得到互相矛盾的資訊。</p><figure class=\"report\"><figcaption>原始報告｜第 78 頁：社群使用概況與平均平台數</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=78&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 78 頁：社群使用概況與平均平台數\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=78&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 78 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>\n<p>九色鹿的判讀是：企業可將官網作為完整資訊的基礎，社群與影片各自呈現適合的切角，再回到相同的產品與服務事實。這是策略建議，不是報告對轉換成效的因果結論。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "傳統搜尋與 AI 搜尋，需要一起準備",
+        "paragraphs": [],
+        "bodyHtml": "<p>第 48 頁中，16 歲以上網路使用者每月使用搜尋引擎為 85.6%，使用 ChatGPT 為 24.3%。這組數據說明兩者都值得觀察，不能把 ChatGPT 使用等同於商品搜尋或 AI 推薦成交。</p><figure class=\"report\"><figcaption>原始報告｜第 48 頁：搜尋與 AI 工具使用</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=48&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 48 頁：搜尋與 AI 工具使用\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=48&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 48 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>\n<p>先檢查客戶搜尋時能不能找到企業，以及找到之後能不能判斷。公司介紹之外，更應有產品用途、規格、服務區域、交期條件、保固與案例。重要資訊應能直接閱讀，避免只藏在圖片或難以使用的型錄中。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "先做一條產品線，讓成效可以被確認",
+        "paragraphs": [],
+        "bodyHtml": "<p>選擇有合理毛利、交付穩定、已有成功案例的一項產品或服務。釐清主要客群、購買情境、決策人與常見疑慮，再建立對應的內容與詢價流程。若產品本身交期不穩或客服無法接手，增加曝光可能只是增加流失。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "三類企業，起點各有不同",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"企業類型與行銷重點比較\" tabindex=\"0\"><table><thead><tr><th>企業類型</th><th>優先整理的資訊</th><th>主要成交訊號</th></tr></thead><tbody><tr><td>在地服務與門市</td><td>地區、預約、價格條件、案例、真實評價</td><td>有效預約、到店與成交</td></tr><tr><td>消費品牌與電商</td><td>產品比較、實測、配送退換條件、售後</td><td>訂單毛利、獲客成本與回購</td></tr><tr><td>B2B 與製造業</td><td>規格、認證、供應能力、應用案例、交付條件</td><td>合格詢價、商機推進與成案毛利</td></tr></tbody></table></div><p>這是依決策流程提出的分流方法，並非 DataReportal 的產業排名。</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "90 天的重點，是建立能運作的流程",
+        "paragraphs": [],
+        "bodyHtml": "<h3>第 1–30 天：找出成交問題</h3><p>訪談業務、客服與既有顧客，整理十至二十個購買問題。盤點官網、社群與型錄資訊是否一致，修正表單與電話入口，建立來源、名單品質和成交基準。</p><h3>第 31–60 天：用同一主題製作多種內容</h3><p>挑選三至五個最影響成交的問題，每個問題製作一篇官網解答、一支示範短片與一則社群討論。先保持可持續的頻率，由懂產品的人提供事實，行銷人員負責轉譯與發布。</p><h3>第 61–90 天：讓預算跟著有效需求走</h3><p>比較不同內容帶來的合格詢價與毛利。有人詢問卻不成交，檢查報價、信任證據與跟進；有人觀看卻不詢問，檢查受眾、需求與行動入口；官網有搜尋流量卻無轉換，檢查頁面是否回答了決策問題。</p><p>90 天用來驗證流程是否順暢，不代表 SEO、GEO 或長週期業務一定能在期限內完成回收。</p>"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "衡量生意結果，也保留對早期接觸的理解",
+        "paragraphs": [],
+        "bodyHtml": "<p>第 91 頁反映社群會參與品牌研究，企業因此應同時觀察早期接觸與最終成交。觀看、搜尋與討論可作診斷；預算擴張仍應建立在名單品質、可承受的獲客成本與實際交付能力上。</p><figure class=\"report\"><figcaption>原始報告｜第 91 頁：社群在品牌研究中的角色</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=91&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 91 頁：社群在品牌研究中的角色\" loading=\"lazy\" allowfullscreen></iframe><p>來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=91&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開原始播放器（第 91 頁）</a> · <a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">報告原文</a></p></figure>"
+      },
+      {
+        "id": "chapter-7",
+        "heading": "企業現在可以先問的三個問題",
+        "paragraphs": [],
+        "bodyHtml": "<p>客戶購買前最擔心什麼？網路上是否有清楚、可信的答案？提出需求之後，是否有人能在承諾時間內接手？把這三件事接好，社群、短影音與搜尋才更有機會共同推進營收。</p>"
+      },
+      {
+        "id": "report-sources",
+        "heading": "資料來源與閱讀說明",
+        "paragraphs": [],
+        "bodyHtml": "<p>DataReportal／Kepios，We Are Social、Meltwater，<a href=\"https://datareportal.com/reports/digital-2026-taiwan\">Digital 2026: Taiwan</a>。查閱日期：2026-10-23。各數據原始來源、期間及限制，請參照播放器內相應頁面的註腳。</p><p>本文為九色鹿獨立分析，非 DataReportal 官方背書。播放器由 Adobe 原站提供，保留原始設計、來源與操作功能；未下載或重新託管報告。使用方式參照 <a href=\"https://datareportal.com/citation\">官方引用與再出版規範</a>。</p><p>SEO／GEO 實務參考：<a href=\"https://developers.google.com/search/docs/appearance/ai-features\">Google Search Central：AI features and your website</a>。符合建議不保證收錄、引用或成交。</p><p>延伸閱讀：<a href=\"/insights/integrated-marketing-strategy\">廣告、短影音與 SEO／GEO 的整合分工</a>。</p>"
+      }
+    ],
+    "faqs": [],
+    "sources": [],
+    "relatedServices": [
+      "strategy-campaigns",
+      "creative-content",
+      "seo-geo"
+    ],
+    "seo": {
+      "title": "台灣傳統企業的行銷下一步：從業務經驗建立社群、搜尋與成交系統",
+      "description": "依 Digital 2026 Taiwan 的社群與搜尋行為，提出傳統企業可落地的 90 天行銷規劃與產業分流建議。"
+    },
+    "cta": {
+      "heading": "從一條產品線開始，",
+      "highlight": "累積下一步的成長能力。",
+      "text": "與九色鹿一起梳理客群、內容與成交流程，找出值得優先投入的下一步。",
+      "label": "討論企業行銷計畫"
+    },
+    "card": {
+      "eyebrow": "DIGITAL 2026 TAIWAN",
+      "title": "EVOLVE",
+      "caption": "讓第一線經驗，成為品牌資產。"
+    }
+  },
+  {
     "slug": "ai-short-video-production",
     "title": "新手如何透過 AI 協作製作短影音？從企劃、拍攝到剪輯的品牌內容新分工",
     "excerpt": "第一支短影音，往往卡在不知道拍什麼。從客戶每天問的問題出發，看看 AI 如何協助企劃、拍攝準備與剪輯，以及哪些判斷仍需要由品牌自己完成。",
@@ -411,12 +701,12 @@ export const articles:Article[]=[
             "caption": "畫面將交通、商業機能與環境條件放在一起說明。對品牌而言，值得準備的是有來源、可更新的區位與產品資訊。截圖僅用於解讀搜尋呈現方式，其中價格與建案資訊未作為本文查證結論。"
           },
           {
-            "src": "/images/insights/geo-material-search.png",
-            "width": 600,
-            "height": 600,
-            "alt": "Google AI 摘要回覆台灣水磨石品牌及優勢比較的搜尋截圖",
+            "src": "/images/insights/geo-material-comparison.png",
+            "width": 1280,
+            "height": 1024,
+            "alt": "水磨石與磁磚系水磨石的定位、材質、保養及加工比較表截圖",
             "title": "建材品牌挑選：讓適用條件更容易查找",
-            "caption": "使用者直接要求品牌推薦與優勢比較，回答便整理品牌定位、材質與施工資訊。官網可以提前回答適用場域、施工限制與保養問題。畫面不是固定排名，也不代表九色鹿客戶成效或本文推薦。"
+            "caption": "這張截圖把材質、適用場域、保養與加工條件放在同一張表裡，呈現採購者可能在意的比較方式。品牌可據此檢查官網是否提供足夠的規格與使用條件；畫面中的品牌評價、數值與認證仍需向原廠查證，不作為本文推薦依據。"
           }
         ]
       },
