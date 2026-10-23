@@ -16,6 +16,816 @@ export type Article = {
 };
 export const articles:Article[]=[
   {
+    "slug": "established-brand-corporate-identity",
+    "title": "經營數十年的品牌，還需要做企業識別嗎？從接班到品牌傳承的經營判斷",
+    "excerpt": "需要持續管理，但不一定需要重新設計。對老品牌而言，值得投入的工作，是把多年累積的信任、經驗與特色，整理成新客戶看得懂、新團隊能延續的品牌資產。",
+    "category": "內容與品牌",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "企業識別",
+      "品牌傳承",
+      "企業接班",
+      "老品牌"
+    ],
+    "takeaways": [
+      "品牌需要持續管理，但不一定需要重新設計 Logo。",
+      "把資深團隊的經驗整理成內容、視覺規則與服務標準，才能支持傳承。",
+      "先盤點新客戶的資訊缺口，再決定哪些資產值得保留與補強。"
+    ],
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "品牌累積，如何交給下一代？",
+        "paragraphs": [],
+        "bodyHtml": "<p>「我們做了三十年，客戶都認識，還需要做這些嗎？」這個問題背後，往往藏著另一個更關鍵的問題：當熟悉的業務退休、創辦人逐步交棒，或新客戶第一次走進官網時，品牌還能否清楚介紹自己？</p>"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "老客戶認識你，新客戶看見的是什麼？",
+        "paragraphs": [],
+        "bodyHtml": "<p>老客戶知道品質穩定，可能來自多次合作；知道企業負責，可能因為某次緊急訂單獲得妥善處理。但這些經驗，第一次接觸品牌的人並不具備。</p><p>如果企業的價值主要靠資深業務口頭介紹，新客戶就需要經過一輪對話，才能理解差異。企業需要把值得信任的理由，轉化為外界能接觸、能理解的資訊。</p><figure class=\"brand-diagram\"><figcaption>同一家企業，兩種認識品牌的路徑</figcaption><div class=\"brand-paths\"><section><h4>老客戶：有合作經驗</h4><p>從過去合作，了解品質、交付與服務表現。</p><p class=\"diagram-result\">已有依據理解合作價值</p></section><section><h4>新客戶：第一次接觸</h4><p>先看官網、簡報與案例，再判斷資訊是否清楚。</p><p class=\"diagram-result\">清楚：能理解合作價值<br/>不清楚：需要額外詢問，或仍無法判斷</p></section></div><p class=\"diagram-note\">品牌整理讓陌生客戶也有依據理解企業。此為接觸情境示意，不代表固定的購買流程。</p></figure>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "接班時，除了招牌，還有哪些東西值得傳下去？",
+        "paragraphs": [],
+        "bodyHtml": "<p>接班需要延續的，還包括創辦人如何承諾、如何判斷品質，以及遇到客訴時如何取捨。當這些原則沒有被整理，新團隊可能各自理解「我們的品牌」，對外說法也容易分散。</p><p>企業識別可從三個層次協助整理：Logo 保留辨認品牌的入口；視覺識別讓不同素材形成連貫表達；企業識別則進一步對齊理念、行為與外在形象。專案應涵蓋哪些部分，需要依實際問題界定。</p><figure class=\"brand-diagram\"><figcaption>把個人經驗，轉成團隊能延續的資產</figcaption><p class=\"diagram-origin\">創辦人與資深團隊的經驗<br/>整理成品牌承諾與判斷原則</p><div class=\"brand-paths brand-pillars\"><section><h4>內容</h4><p>把能力與案例說清楚。</p></section><section><h4>視覺</h4><p>建立一致的應用規則。</p></section><section><h4>行為</h4><p>形成可執行的服務標準。</p></section></div><p class=\"diagram-result\">由新團隊共同使用，持續檢視。</p><p class=\"diagram-note\">傳承需要同時處理內容、視覺與行為；規範提供共同依據，仍須靠日常執行維持。</p></figure><p>例如，「我們很重視客戶」可以進一步整理為：需求如何確認、進度如何回報、出現問題由誰負責。這些做法能支持品牌承諾，也協助新成員理解企業的服務標準。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三十年經驗，如何變成顧客看得懂的選擇理由？",
+        "paragraphs": [],
+        "bodyHtml": "<p>企業介紹容易停留在年資與形容詞，但新客戶需要更具體的判斷依據。以下為內容整理示意，實際說法應有資料或案例支持。</p><div class=\"insight-table\" role=\"region\" aria-label=\"品牌傳承與內容盤點比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">原有說法</th><th scope=\"col\">可以補充的具體內容</th></tr></thead><tbody><tr><th scope=\"row\">深耕產業三十年</th><td>長期服務哪些需求？熟悉哪些應用與限制？</td></tr><tr><th scope=\"row\">品質穩定可靠</th><td>有哪些檢驗流程、標準或可公開的品質紀錄？</td></tr><tr><th scope=\"row\">專業團隊服務</th><td>誰負責哪些環節？具備哪些相關經驗？</td></tr><tr><th scope=\"row\">提供客製化服務</th><td>能調整什麼？合作流程、限制與交付內容是什麼？</td></tr></tbody></table></div><p>內容整理完成後，才能更有效地運用在官網、簡報與業務溝通中。視覺設計則負責建立閱讀層次與一致性，幫助重點被看見。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "一家三十年製造公司的盤點，可能得到什麼結果？",
+        "paragraphs": [],
+        "bodyHtml": "<p>以下為示意情境，不對應特定企業。</p><p>一家製造公司開始由第二代接班，希望承接研發合作。老客戶知道團隊能解決複雜問題，但官網只有設備照片，簡報依業務各自製作，重要經驗則留在資深同仁腦中。</p><p>如果只先換 Logo，這些資訊落差仍然存在。較有價值的盤點結果，可能是：</p><div class=\"insight-table\" role=\"region\" aria-label=\"品牌傳承與內容盤點比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">盤點發現</th><th scope=\"col\">優先整理的資產</th><th scope=\"col\">對應用途</th></tr></thead><tbody><tr><th scope=\"row\">研發能力缺少清楚說明</th><td>服務範圍、合作流程與經授權案例</td><td>讓潛在客戶判斷是否適合洽談</td></tr><tr><th scope=\"row\">資深業務各有介紹方式</th><td>共用提案架構與常見問題</td><td>支援新業務與接班團隊</td></tr><tr><th scope=\"row\">品質承諾只靠口頭傳承</th><td>檢驗原則、交付與異常處理標準</td><td>對齊服務行為</td></tr><tr><th scope=\"row\">原有 Logo 仍有辨識度</th><td>保留核心特色，補齊檔案與應用規則</td><td>延續既有品牌記憶</td></tr></tbody></table></div><p>這類專案的成果，可以是一套團隊能共同使用的內容、規則與工具。設計範圍則隨盤點結果決定。</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "經營者可以先問三個問題",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>第一，換一位業務介紹，客戶聽到的核心價值是否相同？</strong>若答案不同，應先對齊品牌承諾與介紹內容。</p><p><strong>第二，拿掉創辦人的口頭說明，新客戶能否理解合作價值？</strong>若仍不清楚，就值得補強服務說明、案例與專業證據。</p><p><strong>第三，下一代團隊能否找到正確素材，並知道如何使用？</strong>若每次都要重新詢問或自行製作，就需要整理素材、模板與使用規則。</p><p>這三個問題能幫助企業判斷工作的起點。若主要問題涉及品質或交付，仍應先改善實際流程；若資訊已清楚、應用也一致，則可持續維護既有識別。</p>"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "讓多年信任，成為下一階段能使用的資產",
+        "paragraphs": [],
+        "bodyHtml": "<p>老品牌的優勢，存在於顧客的記憶，也存在於團隊的經驗。企業識別管理的價值，是協助這些累積被清楚表達、共同使用，並在接班與市場拓展時繼續發揮作用。</p><p>對經營數十年的企業而言，適合的第一步，是盤點哪些資產值得留下、哪些經驗尚未被整理，再決定 Logo、視覺與企業識別各需要做到什麼程度。</p><p>延伸閱讀：<a href=\"/insights/brand-identity-refresh-business-value\">為什麼百年品牌也要換 Logo？企業識別更新的商業價值與決策時機</a>。該篇介紹國際案例、更新效益與設計決策時機。</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "老客戶已經認識品牌，還需要整理企業識別嗎？",
+        "answer": "仍值得持續管理。老客戶的理解來自合作經驗，新客戶與新團隊則需要清楚的內容、案例與規則，才能理解並延續品牌價值。"
+      },
+      {
+        "question": "企業接班一定要更換 Logo 嗎？",
+        "answer": "不一定。若既有 Logo 仍有辨識度，可保留核心特色，先補齊服務說明、素材與使用規範。設計範圍應由盤點結果決定。"
+      },
+      {
+        "question": "第一步應該先整理什麼？",
+        "answer": "先確認不同業務是否傳達相同核心價值、新客戶是否能理解合作理由，以及團隊是否找得到正確素材。品質或交付問題則應優先改善實際流程。"
+      }
+    ],
+    "sources": [],
+    "relatedServices": [
+      "brand-design",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "經營數十年的品牌，還需要做企業識別嗎？從接班到品牌傳承的經營判斷",
+      "description": "老品牌已有口碑，為什麼仍需要整理企業識別？從接班、客戶認知與經驗傳承，解析如何保留品牌記憶，讓多年累積成為團隊能持續使用的資產。"
+    },
+    "card": {
+      "eyebrow": "BRAND CONTINUITY",
+      "title": "LEGACY",
+      "caption": "讓多年累積，成為下一階段的力量。"
+    },
+    "cta": {
+      "heading": "讓品牌累積，",
+      "highlight": "成為下一階段的力量。",
+      "text": "從品牌定位、企業識別到官網溝通，九色鹿陪你整理值得傳承的資產，釐清下一步的品牌方向。",
+      "label": "與九色鹿聊聊品牌方向"
+    }
+  },
+  {
+    "slug": "how-ai-finds-your-brand",
+    "title": "AI 如何找到你的品牌？從搜尋、資料來源到品牌引用的關鍵路徑",
+    "excerpt": "AI 可能透過模型既有知識、即時搜尋、外部資料庫，或使用者提供的文件取得品牌資訊。不同產品與模式的資料來源不同；網站上線、被搜尋引擎收錄，以及被 AI 引用，是不同階段。",
+    "category": "GEO 與搜尋",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "AI 如何找到你的品牌",
+      "SEO",
+      "GEO"
+    ],
+    "takeaways": [
+      "網站上線、搜尋收錄與 AI 引用是不同階段，需要分開觀察。",
+      "清楚交代服務對象、流程與限制，幫助讀者判斷是否適合。",
+      "記錄問題、平台與引用網址，避免以單次回答評斷整體表現。"
+    ],
+    "sections": [
+      {
+        "id": "chapter-1",
+        "heading": "AI 認識品牌，不只有一條路",
+        "paragraphs": [],
+        "bodyHtml": "<p>當使用者詢問「有哪些適合傳統企業的行銷公司」，AI 需要理解產業、服務與比較條件。如果啟用搜尋，它可能找出多個相關來源，再整理成答案。Google 官方說明，其 AI 搜尋功能可能將問題拆成多個子題搜尋，而非只比對使用者輸入的一組字詞。</p><p>這對品牌的意義是：只反覆寫品牌名稱，未必能回答顧客真正的問題。服務對象、合作流程、適用情境與可查證案例，才是值得準備的資訊。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "從「找到」到「推薦」，中間仍有多個關卡",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"搜尋與內容策略比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">階段</th><th scope=\"col\">品牌要處理的問題</th><th scope=\"col\">建議檢查方式</th></tr></thead><tbody><tr><th scope=\"row\">可存取</th><td>網頁是否公開、可正常讀取？</td><td>檢查伺服器回應、存取限制與爬蟲規則</td></tr><tr><th scope=\"row\">可理解</th><td>能否看懂品牌做什麼、適合誰？</td><td>請不熟悉公司的人讀服務頁並複述</td></tr><tr><th scope=\"row\">可查證</th><td>重要主張有沒有來源與條件？</td><td>查核案例、數據、公司資訊</td></tr><tr><th scope=\"row\">與問題相關</th><td>是否回答顧客比較時在意的事？</td><td>盤點業務常見問題並對照現有內容</td></tr><tr><th scope=\"row\">被選用</th><td>系統是否在這次回答中採用來源？</td><td>記錄平台、問題、日期與實際引用網址</td></tr></tbody></table></div><p>這張表是品牌內容規劃框架，不是 AI 平台公開的排名流程。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "品牌值得先補的三種內容",
+        "paragraphs": [],
+        "bodyHtml": "<p>第一是清楚的服務說明，例如服務範圍、合作方式及不適用情況。第二是有條件的實務案例，交代背景、期間、工作與限制。第三是決策比較，例如「什麼情況適合先做 SEO，什麼情況需要廣告測試」。</p><p>「我們提供全方位整合服務」很難幫助顧客選擇；「適合已有官網、卻缺少穩定詢問來源的企業」則讓服務對象更明確。這是閱讀與定位建議，不代表特定句型會獲得引用加分。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：搜尋與 AI 系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/what-is-rag\">RAG 是什麼？看懂 AI 如何查資料，以及品牌內容為何重要</a></li><li><a href=\"/insights/geo-brand-checklist\">品牌 GEO 自我健檢：你的網站準備好被 AI 理解與引用了嗎？</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "為什麼 AI 找得到品牌，卻沒有推薦？",
+        "answer": "找到品牌不等於符合這次需求。答案還受問題條件、可取得來源與系統選擇影響，不能只憑一次結果判定網站失效。"
+      },
+      {
+        "question": "可以保證 AI 一定提到品牌嗎？",
+        "answer": "不應如此承諾。品牌可以改善資料品質與可存取性，但不能控制每一次生成結果。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Search Central｜AI features and your website",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features"
+      }
+    ],
+    "relatedServices": [
+      "seo-geo",
+      "creative-content"
+    ],
+    "seo": {
+      "title": "AI 如何找到你的品牌？從搜尋、資料來源到品牌引用的關鍵路徑",
+      "description": "AI 如何找到與引用品牌？解析模型知識、搜尋與外部資料來源的差異，掌握企業提升品牌資訊清晰度與可信度的方向。"
+    },
+    "card": {
+      "eyebrow": "SEARCH & AI INSIGHTS",
+      "title": "DISCOVER",
+      "caption": "讓品牌資訊更清楚，接住每一次搜尋。"
+    },
+    "cta": {
+      "heading": "讓品牌資訊更清楚，",
+      "highlight": "接住每一次搜尋。",
+      "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
+      "label": "討論品牌搜尋與內容盤點"
+    }
+  },
+  {
+    "slug": "what-is-rag",
+    "title": "RAG 是什麼？看懂 AI 如何查資料，以及品牌內容為何重要",
+    "excerpt": "RAG 是 Retrieval-Augmented Generation，中文常稱「檢索增強生成」。系統先從外部來源找出相關資料，再把資料提供給生成模型參考。它有助於使用較新或特定領域的資訊，但不保證答案完全正確。",
+    "category": "GEO 與搜尋",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "RAG 是什麼",
+      "SEO",
+      "GEO"
+    ],
+    "takeaways": [
+      "RAG 在回答時引入外部資料，與重新訓練模型不同。",
+      "資料版本與檢索品質，都會影響回答是否可靠。",
+      "公開品牌內容與內部知識助理，是兩種不同的工作範圍。"
+    ],
+    "sections": [
+      {
+        "id": "chapter-1",
+        "heading": "用企業客服理解 RAG",
+        "paragraphs": [],
+        "bodyHtml": "<p>假設顧客問：「這項服務是否包含每月成效報告？」系統可以先檢索企業提供的方案說明，再依找到的條款整理回答。若資料庫混入過期方案，或系統取錯段落，回答仍可能出錯。</p><p>因此，RAG 的品質不只取決於模型，也取決於資料版本、檢索結果與回答查核。這是企業導入時需要共同管理的流程。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "RAG、模型訓練與 GEO 有什麼差別？",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"搜尋與內容策略比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">概念</th><th scope=\"col\">處理的核心問題</th><th scope=\"col\">品牌應如何理解</th></tr></thead><tbody><tr><th scope=\"row\">模型訓練</th><td>建立或調整模型能力與參數</td><td>發布一篇文章，不代表模型立即更新</td></tr><tr><th scope=\"row\">RAG</th><td>回答時引入外部參考資料</td><td>取到什麼資料，會影響回答基礎</td></tr><tr><th scope=\"row\">GEO</th><td>改善品牌在生成式搜尋中的可見度</td><td>是內容與資訊治理工作，不是一種模型架構</td></tr></tbody></table></div>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "做 GEO，一定要自己建 RAG 嗎？",
+        "paragraphs": [],
+        "bodyHtml": "<p>不一定。讓外部搜尋服務找到公開內容，與企業建置內部知識助理，是不同需求。前者著重公開網站與品牌資訊；後者還要處理權限、機密資料、知識更新及回答評估。</p><p>品牌可以先整理每個方案的名稱、適用對象、版本日期與正式條款；同一件事若在不同頁面出現矛盾說法，先修正資訊，再談導入系統。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：搜尋與 AI 系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/how-ai-finds-your-brand\">AI 如何找到你的品牌？從搜尋、資料來源到品牌引用的關鍵路徑</a></li><li><a href=\"/insights/eeat-brand-content\">E-E-A-T 是什麼？品牌建立經驗、專業與信任的內容策略</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "把公司文件交給聊天機器人，就是做 GEO 嗎？",
+        "answer": "不是。那可能只改善特定工具或對話中的回答，不會自動使文件成為公開搜尋來源。"
+      },
+      {
+        "question": "有列出來源，就一定可信嗎？",
+        "answer": "不是。仍要確認引用段落是否支持結論，以及資料是否有效。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "AWS｜What is Retrieval-Augmented Generation?",
+        "url": "https://aws.amazon.com/what-is/retrieval-augmented-generation/"
+      }
+    ],
+    "relatedServices": [
+      "seo-geo",
+      "creative-content"
+    ],
+    "seo": {
+      "title": "RAG 是什麼？看懂 AI 如何查資料，以及品牌內容為何重要",
+      "description": "RAG 是什麼？用企業客服情境看懂檢索增強生成，釐清它與模型訓練、GEO 的差別，以及品牌資料管理的重要性。"
+    },
+    "card": {
+      "eyebrow": "SEARCH & AI INSIGHTS",
+      "title": "RETRIEVE",
+      "caption": "整理可信的資料，讓答案更有依據。"
+    },
+    "cta": {
+      "heading": "整理可信的資料，",
+      "highlight": "讓答案更有依據。",
+      "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
+      "label": "討論品牌內容整理"
+    }
+  },
+  {
+    "slug": "eeat-brand-content",
+    "title": "E-E-A-T 是什麼？品牌建立經驗、專業與信任的內容策略",
+    "excerpt": "E-E-A-T 指經驗（Experience）、專業（Expertise）、權威性（Authoritativeness）與可信度（Trustworthiness）。Google 將其用於說明內容品質的評估觀點；它不是單一排名因素、官方認證或通用分數，可信度是核心。",
+    "category": "GEO 與搜尋",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "E-E-A-T 是什麼",
+      "SEO",
+      "GEO"
+    ],
+    "takeaways": [
+      "E-E-A-T 是內容品質的評估觀點，不是官方認證或通用分數。",
+      "案例需要交代基準、期間、方法與限制，才能支持主張。",
+      "作者介紹、公司資訊與可查證來源，需要和正文一起建立信任。"
+    ],
+    "sections": [
+      {
+        "id": "chapter-1",
+        "heading": "品牌需要的是證據，不只是專業形容詞",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"搜尋與內容策略比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">面向</th><th scope=\"col\">讀者在意什麼</th><th scope=\"col\">建議準備的內容</th></tr></thead><tbody><tr><th scope=\"row\">經驗</th><td>你是否實際處理過這類問題？</td><td>專案背景、執行過程、第一手觀察與限制</td></tr><tr><th scope=\"row\">專業</th><td>你如何判斷與解決問題？</td><td>方法說明、作者經歷、適用範圍與審閱資訊</td></tr><tr><th scope=\"row\">權威性</th><td>是否有相關領域的外部認可？</td><td>可查證的合作、專業發表與獨立引用</td></tr><tr><th scope=\"row\">可信度</th><td>我是否能核實資訊並放心合作？</td><td>公司資訊、聯絡方式、來源、條款與更正機制</td></tr></tbody></table></div><p>以上是內容規劃建議，不是填滿即可通過的官方清單。不同主題需要的證據也不同，醫療與財務內容尤其不能只靠一般行銷文案建立可信度。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "案例應該交代什麼？",
+        "paragraphs": [],
+        "bodyHtml": "<p>「成效成長 200%」缺少基準、期間與指標，讀者無法判斷。更好的案例會說明原始問題、採取措施、觀察期間，以及成效如何計算；也應指出是否同時調整預算、價格或產品。</p><p>沒有可公開的客戶名稱，可以採授權匿名案例，但要交代匿名原因與資訊限制。沒有驗證過的成果，則應寫成假設示例，不能包裝成成功案例。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "從四種頁面開始建立信任",
+        "paragraphs": [],
+        "bodyHtml": "<p>建議先完善關於我們、服務說明、實務案例與作者介紹。作者頁應呈現真實身分及相關經驗；文章也要說明資料來源與更新內容。這些資訊的目的，是讓讀者判斷誰在說話、憑什麼說，以及如何查證。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：搜尋與 AI 系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/geo-brand-checklist\">品牌 GEO 自我健檢：你的網站準備好被 AI 理解與引用了嗎？</a></li><li><a href=\"/insights/website-seo-priorities\">SEO 應該注意什麼？企業官網從收錄到詢問轉換的優化重點</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "加上作者名字就符合 E-E-A-T 嗎？",
+        "answer": "不夠。姓名需要對應真實的相關經驗，文章本身也要有可核實內容。"
+      },
+      {
+        "question": "AI 協作文章一定不利嗎？",
+        "answer": "重點在內容是否可靠、對人有幫助，並由負責者查核；不應用虛構作者與資歷製造可信外觀。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Search Central｜Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      }
+    ],
+    "relatedServices": [
+      "seo-geo",
+      "creative-content"
+    ],
+    "seo": {
+      "title": "E-E-A-T 是什麼？品牌建立經驗、專業與信任的內容策略",
+      "description": "E-E-A-T 不是官方認證。了解品牌如何用實務案例、專業說明、真實作者與透明資訊，建立可供顧客查證的信任。"
+    },
+    "card": {
+      "eyebrow": "SEARCH & AI INSIGHTS",
+      "title": "TRUST",
+      "caption": "把實務經驗，轉成可查證的信任。"
+    },
+    "cta": {
+      "heading": "把實務經驗，",
+      "highlight": "轉成可查證的信任。",
+      "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
+      "label": "討論品牌內容策略"
+    }
+  },
+  {
+    "slug": "geo-brand-checklist",
+    "title": "品牌 GEO 自我健檢：你的網站準備好被 AI 理解與引用了嗎？",
+    "excerpt": "GEO 健檢應先確認網站能被讀取、品牌資訊一致，以及主張有證據，再觀察不同 AI 平台的引用結果。以下為編輯自訂檢查表，不是 Google 或其他平台的官方評分制度。",
+    "category": "GEO 與搜尋",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "品牌 GEO 自我健檢：你的網站準備好被 AI 理解與引用了嗎",
+      "SEO",
+      "GEO"
+    ],
+    "takeaways": [
+      "先處理存取、資訊錯誤與過期內容，再擴充新題目。",
+      "12 項檢查保留實際網址與紀錄，不用總分預測引用機率。",
+      "品牌提及、官網引用、資訊正確與有效詢問應分開追蹤。"
+    ],
+    "sections": [
+      {
+        "id": "chapter-1",
+        "heading": "12 項檢查表",
+        "paragraphs": [],
+        "bodyHtml": "<p>每項標記「完成／部分完成／未完成／不適用」，並附上實際網址或檢查紀錄，不用總分預測被推薦機率。</p><div class=\"insight-table\" role=\"region\" aria-label=\"搜尋與內容策略比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">檢查問題</th><th scope=\"col\">可保留的證據</th></tr></thead><tbody><tr><th scope=\"row\">1</th><td>核心頁面公開且能正常載入？</td><td>網址、回應狀態與檢查日期</td></tr><tr><th scope=\"row\">2</th><td>重要頁面未被意外禁止索引？</td><td>Search Console 網址檢查結果</td></tr><tr><th scope=\"row\">3</th><td>目標平台的爬蟲存取符合品牌政策？</td><td>robots.txt、伺服器及防火牆設定</td></tr><tr><th scope=\"row\">4</th><td>品牌名稱與正式網站對應清楚？</td><td>關於頁與官方帳號連結</td></tr><tr><th scope=\"row\">5</th><td>服務、對象與服務區域寫得明確？</td><td>服務頁對應段落</td></tr><tr><th scope=\"row\">6</th><td>關鍵資訊有可讀文字，而非只有圖片？</td><td>頁面文字與圖片說明</td></tr><tr><th scope=\"row\">7</th><td>有回答價格因素、流程與限制？</td><td>顧客常見問題清單</td></tr><tr><th scope=\"row\">8</th><td>案例與數據能查證？</td><td>期間、指標定義與授權紀錄</td></tr><tr><th scope=\"row\">9</th><td>有真實作者或負責單位？</td><td>作者介紹、審閱或聯絡資訊</td></tr><tr><th scope=\"row\">10</th><td>重要內容有實質維護紀錄？</td><td>更新原因及版本差異</td></tr><tr><th scope=\"row\">11</th><td>外部公開資料與官網相符？</td><td>商家資料、媒體或合作頁抽查</td></tr><tr><th scope=\"row\">12</th><td>有持續觀察引用及商業成果？</td><td>引用網址、導流與有效詢問紀錄</td></tr></tbody></table></div>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "如何決定先改哪裡？",
+        "paragraphs": [],
+        "bodyHtml": "<p>第一優先是阻礙閱讀或資訊正確性的問題，例如核心服務頁無法存取、電話錯誤、過期方案仍在流通。第二優先是顧客決策所需但目前缺少的資訊。最後才是擴充新的內容題目。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "怎麼測試 AI 可見度？",
+        "paragraphs": [],
+        "bodyHtml": "<p>先選擇一組與業務相關的問題，區分品牌查詢、服務探索與方案比較。每次記錄平台、模式、是否開啟搜尋、日期、問題原文與引用網址，再以相近條件重測。</p><p>報表可分開呈現「提到品牌」「引用官網」「資訊正確」「帶來有效詢問」。品牌被點名卻附上錯誤資訊，不能算理想成果；單次沒出現，也不能直接推論完全沒有可見度。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：搜尋與 AI 系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/how-ai-finds-your-brand\">AI 如何找到你的品牌？從搜尋、資料來源到品牌引用的關鍵路徑</a></li><li><a href=\"/insights/eeat-brand-content\">E-E-A-T 是什麼？品牌建立經驗、專業與信任的內容策略</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "補齊 FAQ 或特殊檔案就能被 AI 引用嗎？",
+        "answer": "不能保證。Google 明確表示其 AI 搜尋不需要特殊 AI 標記或 llms.txt；這項說明的範圍是 Google，不能直接延伸成所有平台的政策。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Search Central｜AI features and your website",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features"
+      },
+      {
+        "title": "Google Search Central｜Optimizing your website for generative AI features on Google Search",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+      }
+    ],
+    "relatedServices": [
+      "seo-geo",
+      "creative-content"
+    ],
+    "seo": {
+      "title": "品牌 GEO 自我健檢：你的網站準備好被 AI 理解與引用了嗎？",
+      "description": "用 12 項 GEO 自我健檢盤點網站存取、品牌資訊、內容證據與引用觀察，找出優先改善項目，避免迷信單一分數。"
+    },
+    "card": {
+      "eyebrow": "SEARCH & AI INSIGHTS",
+      "title": "CHECK",
+      "caption": "從資訊缺口開始，找出改善的下一步。"
+    },
+    "cta": {
+      "heading": "從資訊缺口開始，",
+      "highlight": "找出改善的下一步。",
+      "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
+      "label": "討論品牌搜尋健檢"
+    }
+  },
+  {
+    "slug": "website-seo-priorities",
+    "title": "SEO 應該注意什麼？企業官網從收錄到詢問轉換的優化重點",
+    "excerpt": "SEO 要同時處理可被搜尋、符合需求與支持決策。建議先修正阻礙收錄的問題，再改善核心服務內容，最後依實際搜尋與詢問資料調整。",
+    "category": "GEO 與搜尋",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "SEO 應該注意什麼",
+      "SEO",
+      "GEO"
+    ],
+    "takeaways": [
+      "先確認網站可被處理，再改善核心服務頁與決策內容。",
+      "每個頁面回答一個主要需求，避免全由首頁承接。",
+      "把自然搜尋表現接到有效詢問，才能判斷商業價值。"
+    ],
+    "sections": [
+      {
+        "id": "chapter-1",
+        "heading": "把工作排成四個層次",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"搜尋與內容策略比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">層次</th><th scope=\"col\">優先工作</th><th scope=\"col\">應觀察什麼</th></tr></thead><tbody><tr><th scope=\"row\">技術基礎</th><td>存取、索引設定、網址與網站搬遷問題</td><td>重要頁面是否可被搜尋引擎處理</td></tr><tr><th scope=\"row\">內容對應</th><td>每頁主要問題、標題與服務說明</td><td>搜尋字詞是否符合業務需求</td></tr><tr><th scope=\"row\">閱讀決策</th><td>比較資訊、案例、手機閱讀與詢問路徑</td><td>使用者是否能完成了解與聯絡</td></tr><tr><th scope=\"row\">成果評估</th><td>自然流量、有效詢問與後續成交</td><td>曝光是否轉為有價值的需求</td></tr></tbody></table></div><p>這是企業執行排序建議，並非搜尋引擎公開的權重表。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "關鍵字應該對應頁面任務",
+        "paragraphs": [],
+        "bodyHtml": "<p>「SEO 是什麼」偏向概念理解；「SEO 公司怎麼選」偏向評估；「SEO 顧問服務」較接近尋找供應商。網站若全部用首頁承接，往往難以提供足夠貼近需求的內容。</p><p>標題要清楚描述頁面，摘要要幫助讀者判斷是否值得點閱。避免為了塞入同義關鍵字，讓一句話重複難讀。沒有必要追求固定關鍵字密度或每篇相同字數。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "技術與閱讀要一起檢查",
+        "paragraphs": [],
+        "bodyHtml": "<p>請確認重要連結可被正常追蹤，主要內容可被讀取，手機版不被遮罩干擾。若使用 JavaScript 產生內容，應檢查搜尋引擎實際能取得什麼。圖片應有符合用途的替代文字，不能只把整篇服務資訊做成海報。</p><p>這些基礎協助搜尋引擎理解網站，但不構成排名保證。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：搜尋與 AI 系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/one-page-website-seo-geo\">一頁式網站能做 SEO 與 GEO 嗎？適用情境、限制與擴充策略</a></li><li><a href=\"/insights/search-ads-seo-geo\">關鍵字廣告有助於 SEO 與 GEO 嗎？釐清排名、曝光與資料效益</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Meta description 寫好，排名就會提高嗎？",
+        "answer": "它主要協助說明頁面內容；搜尋引擎也可能改用頁內文字產生摘要，不能把它當成直接提升排名的保證。"
+      },
+      {
+        "question": "應該多久看一次成效？",
+        "answer": "依網站規模、修改內容與資料量安排觀察。先確認技術變更生效，再比較足夠期間；避免每天因排名波動重寫策略。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Search Central｜SEO Starter Guide",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      }
+    ],
+    "relatedServices": [
+      "seo-geo",
+      "creative-content"
+    ],
+    "seo": {
+      "title": "SEO 應該注意什麼？企業官網從收錄到詢問轉換的優化重點",
+      "description": "企業 SEO 該先做什麼？從網站收錄、搜尋意圖到內容與詢問轉換，整理官網優化的執行順序與評估方向。"
+    },
+    "card": {
+      "eyebrow": "SEARCH & AI INSIGHTS",
+      "title": "SEARCH",
+      "caption": "讓搜尋帶來的注意，接近真實的品牌需求。"
+    },
+    "cta": {
+      "heading": "讓搜尋帶來的注意，",
+      "highlight": "接近真實的品牌需求。",
+      "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
+      "label": "討論 SEO 與轉換策略"
+    }
+  },
+  {
+    "slug": "one-page-website-seo-geo",
+    "title": "一頁式網站能做 SEO 與 GEO 嗎？適用情境、限制與擴充策略",
+    "excerpt": "可以。一頁式網站並非不能被搜尋或引用，但同一網址較難完整承接多種獨立需求。是否需要多頁架構，應由服務複雜度與內容需求決定，而不是以頁數判斷優劣。",
+    "category": "GEO 與搜尋",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "一頁式網站能做 SEO 與 GEO 嗎",
+      "SEO",
+      "GEO"
+    ],
+    "takeaways": [
+      "一頁式網站可以被搜尋與引用，是否擴充取決於內容需求。",
+      "頁內錨點與多個獨立內容網址，扮演不同角色。",
+      "有不同服務線與比較問題時，再規劃有實質差異的頁面。"
+    ],
+    "sections": [
+      {
+        "id": "chapter-1",
+        "heading": "先分清楚兩種「一頁式」",
+        "paragraphs": [],
+        "bodyHtml": "<p>真正只有一個公開內容網址，與使用單頁應用技術、但具有多個獨立網址的網站不同。後者仍可能有服務頁、案例頁與文章頁；不能只看技術名稱就判定 SEO 能力。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "什麼情況適合維持一頁？",
+        "paragraphs": [],
+        "bodyHtml": "<p>單一活動、單一產品、資訊相對簡單的在地服務，或需要先驗證需求的初期品牌，可以把一頁作為清楚的決策入口。頁面應回答服務、對象、價格因素、流程、信任證據與聯絡方式。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "什麼時候值得擴充？",
+        "paragraphs": [],
+        "bodyHtml": "<p>若公司有不同服務線、各自的案例與大量比較問題，建議建立獨立網址，讓每頁聚焦一個主要需求。首頁繼續負責品牌總覽，服務頁負責方案說明，洞察頁負責決策問題。</p><p>這是資訊架構建議，不代表新增頁面就會增加排名。沒有差異與實質內容的頁面，只會增加維護負擔。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：搜尋與 AI 系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/website-seo-priorities\">SEO 應該注意什麼？企業官網從收錄到詢問轉換的優化重點</a></li><li><a href=\"/insights/geo-brand-checklist\">品牌 GEO 自我健檢：你的網站準備好被 AI 理解與引用了嗎？</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "頁內錨點可以當成多個獨立 SEO 頁面嗎？",
+        "answer": "例如 #services 與 #faq 主要方便頁內導覽，通常不能當成各自擁有獨立標題與索引目標的完整頁面。"
+      },
+      {
+        "question": "改成多頁，原本網址要刪掉嗎？",
+        "answer": "不用急著刪。保留有用入口，安排清楚導覽；若變更既有網址，再妥善處理轉址與連結。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Search Central｜AI features and your website",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features"
+      },
+      {
+        "title": "Google Search Central｜SEO Starter Guide",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      }
+    ],
+    "relatedServices": [
+      "seo-geo",
+      "creative-content"
+    ],
+    "seo": {
+      "title": "一頁式網站能做 SEO 與 GEO 嗎？適用情境、限制與擴充策略",
+      "description": "一頁式網站可以做 SEO 與 GEO，但有內容承載限制。了解適用情境、頁內錨點與獨立頁面的差異，以及擴充時機。"
+    },
+    "card": {
+      "eyebrow": "SEARCH & AI INSIGHTS",
+      "title": "STRUCTURE",
+      "caption": "讓網站架構，跟上品牌的成長。"
+    },
+    "cta": {
+      "heading": "讓網站架構，",
+      "highlight": "跟上品牌的成長。",
+      "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
+      "label": "討論網站擴充規劃"
+    }
+  },
+  {
+    "slug": "search-ads-seo-geo",
+    "title": "關鍵字廣告有助於 SEO 與 GEO 嗎？釐清排名、曝光與資料效益",
+    "excerpt": "購買 Google Ads 不會直接提高 Google 自然搜尋排名，也不能視為取得 AI 引用的付費通道。廣告的整合價值，主要在即時觸及需求，以及取得可供內容策略參考的市場資料。",
+    "category": "廣告與媒介",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "關鍵字廣告有助於 SEO 與 GEO 嗎",
+      "SEO",
+      "GEO"
+    ],
+    "takeaways": [
+      "廣告花費不會直接提高 Google 自然搜尋排名。",
+      "查詢與業務回饋能協助找出值得補強的內容。",
+      "廣告、SEO 與 GEO 的成果需分開觀察，再評估整合效益。"
+    ],
+    "sections": [
+      {
+        "id": "chapter-1",
+        "heading": "三種價值不要混為一談",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"搜尋與內容策略比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">類型</th><th scope=\"col\">可以合理期待的作用</th><th scope=\"col\">不能直接推論的結果</th></tr></thead><tbody><tr><th scope=\"row\">搜尋廣告</th><td>參與符合條件的廣告競價、帶入付費訪客</td><td>花費越高，自然排名越前</td></tr><tr><th scope=\"row\">SEO</th><td>改善網站搜尋可見度與內容理解</td><td>一次修改後永久維持排名</td></tr><tr><th scope=\"row\">GEO</th><td>改善生成式搜尋可用的品牌資訊</td><td>投放廣告後 AI 必然推薦</td></tr></tbody></table></div>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "廣告資料如何支援內容？",
+        "paragraphs": [],
+        "bodyHtml": "<p>假設「企業短影音報價」帶來的有效詢問，比「短影音」更貼近服務需求，可以進一步研究前者的問題：顧客是在比較單支製作費，還是每月代營運方案？依據查詢與業務回饋，補上對應說明，再觀察自然搜尋表現。</p><p>這是一種需求驗證方法，不是廣告將權重傳給 SEO。廣告受出價、地區、受眾與素材影響，資料不能直接當作整體市場的完整樣貌。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "品牌曝光可能有間接影響嗎？",
+        "paragraphs": [],
+        "bodyHtml": "<p>廣告可能讓部分顧客日後再次搜尋品牌，但是否發生、是否形成商業成果，需要實際追蹤。不能把更多點擊、較低跳出率或品牌搜尋增加，直接宣稱為自然排名上升的原因。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：搜尋與 AI 系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/local-search-ads-keywords\">關鍵字廣告只投熱門大字、鎖定小區域可行嗎？在地品牌的投放判斷</a></li><li><a href=\"/insights/website-seo-priorities\">SEO 應該注意什麼？企業官網從收錄到詢問轉換的優化重點</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "有流量的廣告落地頁，會自動變成優質 SEO 內容嗎？",
+        "answer": "不會。落地頁仍需具備公開可讀、資訊充足與符合搜尋需求等條件。"
+      },
+      {
+        "question": "應該停掉廣告，把預算都轉到 SEO 嗎？",
+        "answer": "要依短期獲客需求、目前自然搜尋表現與成交週期判斷。這是資源配置問題，不能只由某一個渠道的點擊量決定。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google｜How ads work on Google Search",
+        "url": "https://www.google.com/intl/en_us/search/howsearchworks/our-approach/ads-on-search"
+      }
+    ],
+    "relatedServices": [
+      "paid-media",
+      "seo-geo"
+    ],
+    "seo": {
+      "title": "關鍵字廣告有助於 SEO 與 GEO 嗎？釐清排名、曝光與資料效益",
+      "description": "投放關鍵字廣告不會直接提高自然排名。解析 Google Ads、SEO 與 GEO 的關係，了解廣告資料如何支援內容策略。"
+    },
+    "card": {
+      "eyebrow": "SEARCH & AI INSIGHTS",
+      "title": "CONNECT",
+      "caption": "串連廣告與內容，讓搜尋策略更完整。"
+    },
+    "cta": {
+      "heading": "串連廣告與內容，",
+      "highlight": "讓搜尋策略更完整。",
+      "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
+      "label": "討論整合搜尋策略"
+    }
+  },
+  {
+    "slug": "local-search-ads-keywords",
+    "title": "關鍵字廣告只投熱門大字、鎖定小區域可行嗎？在地品牌的投放判斷",
+    "excerpt": "技術上可以將較廣泛的熱門關鍵字搭配地域目標，但不保證更便宜或更有效。縮小地區主要改變可觸及範圍；關鍵字是否對應購買需求，仍要另外判斷。\n\n本文的「大字」指範圍廣、需求較混合的字詞，例如「裝潢」「行銷」。它是行銷口語，不是 Google Ads 官方比對類型；也不能假設所有大字都一定昂貴。",
+    "category": "廣告與媒介",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "關鍵字廣告只投熱門大字、鎖定小區域可行嗎",
+      "SEO",
+      "GEO"
+    ],
+    "takeaways": [
+      "地域精準不等於搜尋需求精準，兩者要分開設定與驗證。",
+      "熱門字、比對方式與地域選項，是不同的投放決策。",
+      "以有效詢問成本判斷成效，避免只追求便宜點擊。"
+    ],
+    "sections": [
+      {
+        "id": "chapter-1",
+        "heading": "地區精準，不等於需求精準",
+        "paragraphs": [],
+        "bodyHtml": "<p>假設一家只服務台中住宅裝修的公司投「裝潢」，即使鎖定台中，仍可能遇到找靈感、找工作或查材料的使用者。可以比較「台中住宅裝修」「老屋翻修估價」等需求較明確的字詞，而非只看單一熱門字的曝光。</p><p>以上字詞僅為示例，是否有搜尋量與商業價值，要用實際市場資料驗證。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "三個不同的設定，必須分開處理",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"搜尋與內容策略比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">設定</th><th scope=\"col\">影響什麼</th><th scope=\"col\">需要注意</th></tr></thead><tbody><tr><th scope=\"row\">關鍵字選擇</th><td>希望承接哪種需求</td><td>熱門與購買意圖並不相同</td></tr><tr><th scope=\"row\">比對方式</th><td>搜尋內容與關鍵字的匹配範圍</td><td>完全比對也不是只接受逐字相同輸入</td></tr><tr><th scope=\"row\">地域選項</th><td>哪些位置訊號的使用者可被觸及</td><td>所在地與對地區有興趣是不同條件</td></tr></tbody></table></div><p>Google 提供所在地及興趣等地域選項；定位依多種訊號推估，並非百分之百精準的邊界限制。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "品牌可以怎麼測試？",
+        "paragraphs": [],
+        "bodyHtml": "<p>建議先定義真正有價值的結果，例如符合服務範圍的預約或有效詢價，而非只計算按鈕點擊。再將需求明確的服務詞與探索性熱門詞分開觀察，依搜尋字詞報表排除不相關需求。</p><p>若只能服務在地顧客，先評估所在地選項；若提供旅遊、異地購買或跨區服務，也要考慮外地潛在顧客。範圍應對應真實服務半徑與購買旅程。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "別只看點擊便宜，還要看有效詢問成本",
+        "paragraphs": [],
+        "bodyHtml": "<p>假設測試 A 花費 3,000 元、取得 100 次點擊，其中 2 筆有效詢問，每筆成本為 1,500 元。測試 B 同樣花費 3,000 元，取得 50 次點擊，其中 5 筆有效詢問，每筆成本為 600 元。</p><p>這是用來比較成本的假設情境，說明便宜點擊未必帶來便宜商機；不能用來預測實際投放表現。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：搜尋與 AI 系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/search-ads-seo-geo\">關鍵字廣告有助於 SEO 與 GEO 嗎？釐清排名、曝光與資料效益</a></li><li><a href=\"/insights/website-seo-priorities\">SEO 應該注意什麼？企業官網從收錄到詢問轉換的優化重點</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "小區域是不是一定比較便宜？",
+        "answer": "不是。成本仍受競爭、相關性與需求等因素影響，也可能因量太少而難以判讀成效。"
+      },
+      {
+        "question": "預算有限，可以只投大字嗎？",
+        "answer": "可以測試，但建議先比較需求明確的詞。沒有可靠轉換資料時，不宜只以曝光或點擊量決定擴大投放。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Ads Help｜Target ads to geographic locations",
+        "url": "https://support.google.com/google-ads/answer/1722043"
+      },
+      {
+        "title": "Google Ads Help｜About advanced location options",
+        "url": "https://support.google.com/google-ads/answer/1722038"
+      },
+      {
+        "title": "Google Ads Help｜About keyword matching options",
+        "url": "https://support.google.com/google-ads/answer/7478529"
+      }
+    ],
+    "relatedServices": [
+      "paid-media",
+      "seo-geo"
+    ],
+    "seo": {
+      "title": "關鍵字廣告只投熱門大字、鎖定小區域可行嗎？在地品牌的投放判斷",
+      "description": "熱門大字搭配小區域投放是否划算？掌握搜尋意圖、比對方式與地域選項的差異，以有效詢問成本評估廣告成效。"
+    },
+    "card": {
+      "eyebrow": "SEARCH & AI INSIGHTS",
+      "title": "LOCAL",
+      "caption": "從在地需求出發，找到值得投入的方向。"
+    },
+    "cta": {
+      "heading": "從在地需求出發，",
+      "highlight": "找到值得投入的方向。",
+      "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
+      "label": "討論關鍵字與區域策略"
+    }
+  },
+  {
     "slug": "philippines-digital-market",
     "title": "2026 菲律賓數位市場洞察：搜尋、社群習慣與台灣的關鍵差異",
     "excerpt": "菲律賓市場的吸引力，來自龐大的網路人口，以及搜尋、社群與手機服務交織的日常使用習慣。對台灣企業而言，真正需要改變的是理解客戶的方式：同一個人可能在短影音發現產品，在搜尋引擎確認品牌，再透過聊天詢問配送與付款。",
