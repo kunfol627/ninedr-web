@@ -1,0 +1,12 @@
+# Keep pnpm resolution consistent with the committed lockfile.
+overrides:
+  miniflare>sharp: 0.35.4
+
+# Explicitly allow the native build tools used by Vite and Cloudflare.
+strictDepBuilds: true
+allowBuilds:
+  esbuild: true
+  fsevents: true
+  sharp: true
+  unrs-resolver: true
+  workerd: true
