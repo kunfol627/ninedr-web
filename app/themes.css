@@ -199,3 +199,5 @@ html[data-theme="light"] .editorial-empty{background:linear-gradient(100deg,#eee
 html[data-theme="light"] .insight-table thead{background:#e5dac8;color:#456c6f}
 html[data-theme="light"] .slider-controls button:hover{color:#fff}
 html[data-theme="light"] ::selection{background:#bd523b;color:#fff}
+
+html[data-theme=light] .hero-baseline button.selected:after{background:var(--lime)}

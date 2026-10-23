@@ -2,7 +2,7 @@
 // Dates must be actual ISO dates. Sources should point to the original evidence.
 export type Article = {
  slug:string; title:string; excerpt:string; category:'GEO 與搜尋'|'廣告與媒介'|'內容與品牌';
- status:'draft'|'published'; author:{name:string;bio:string;image?:string};
+ status:'draft'|'published'; author:{name:string;bio:string;image?:string;kind?:'Person'|'Organization'};
  publishedAt:string; updatedAt:string; keywords:string[];
  cover?:{src:string;alt:string;width:number;height:number};
  takeaways?:string[];
@@ -13,6 +13,73 @@ export type Article = {
  seo:{title:string;description:string};
 };
 export const articles:Article[]=[
+{
+  "slug": "six-stage-marketing-funnel-insights",
+  "title": "有曝光、有詢問，成長為何仍卡住？六階段行銷漏斗洞察",
+  "excerpt": "有曝光，未必有需求；有詢問，也未必能成交。從六階段行銷漏斗，檢視內容、通路與服務之間的成長斷點。",
+  "category": "內容與品牌",
+  "status": "published",
+  "author": {
+    "name": "九色鹿 Ninedr｜策略觀點",
+    "bio": "以數據洞察與視覺敘事，連結品牌、市場與消費者。本文由九色鹿團隊整理策略觀察。",
+    "kind": "Organization"
+  },
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "keywords": [
+    "整合行銷",
+    "顧客旅程",
+    "行銷漏斗",
+    "GEO"
+  ],
+  "sections": [
+    {
+      "id": "lens",
+      "heading": "漏斗與顧客旅程",
+      "paragraphs": []
+    },
+    {
+      "id": "framework",
+      "heading": "六階段成長斷點",
+      "paragraphs": []
+    },
+    {
+      "id": "channels",
+      "heading": "跨通路整合",
+      "paragraphs": []
+    },
+    {
+      "id": "case",
+      "heading": "兩種經營情境",
+      "paragraphs": []
+    },
+    {
+      "id": "diagnosis",
+      "heading": "轉換結構試算",
+      "paragraphs": []
+    },
+    {
+      "id": "priorities",
+      "heading": "企業下一步",
+      "paragraphs": []
+    },
+    {
+      "id": "sources",
+      "heading": "參考資料與分析說明",
+      "paragraphs": []
+    }
+  ],
+  "faqs": [],
+  "sources": [],
+  "relatedServices": [
+    "strategy-campaigns",
+    "seo-geo"
+  ],
+  "seo": {
+    "title": "有曝光、有詢問，成長為何仍卡住？六階段行銷漏斗洞察",
+    "description": "從認知、興趣、考慮到轉換、留存與推薦，檢視台灣企業的顧客旅程斷點，分析短影音、社團、官網與 LINE 如何銜接品牌信任與業務成果。"
+  }
+},
   {
     "slug": "geo-ai-search-guide",
     "title": "認識 GEO：AI 時代的搜尋新法則",
