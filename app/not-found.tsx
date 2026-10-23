@@ -1,0 +1,1 @@
+export default function NotFound(){return <main id="main" className="page section"><p className="eyebrow">404 / NOT FOUND</p><h1 className="page-title">這一頁，<br/>尚未抵達。</h1><p>頁面不存在，或內容尚未發布。</p><a className="text-link" href="/insights">瀏覽產業洞察 ↗</a></main>}
