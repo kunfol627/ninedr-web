@@ -1,7 +1,7 @@
 // Only reviewed, published entries appear on the public index, detail pages and sitemap.
 // Dates must be actual ISO dates. Sources should point to the original evidence.
 export type Article = {
- slug:string; title:string; excerpt:string; category:'GEO 與搜尋'|'廣告與媒介'|'內容與品牌'|'整合行銷';
+ slug:string; title:string; excerpt:string; category:'GEO 與搜尋'|'廣告與媒介'|'內容與品牌'|'整合行銷'|'跨境市場';
  status:'draft'|'published'; author:{name:string;bio:string;image?:string;kind?:'Person'|'Organization'};
  publishedAt:string; updatedAt:string; keywords:string[];
  cover?:{src:string;alt:string;width:number;height:number};
@@ -15,6 +15,661 @@ export type Article = {
  seo:{title:string;description:string};
 };
 export const articles:Article[]=[
+  {
+    "slug": "philippines-digital-market",
+    "title": "2026 菲律賓數位市場洞察：搜尋、社群習慣與台灣的關鍵差異",
+    "excerpt": "菲律賓市場的吸引力，來自龐大的網路人口，以及搜尋、社群與手機服務交織的日常使用習慣。對台灣企業而言，真正需要改變的是理解客戶的方式：同一個人可能在短影音發現產品，在搜尋引擎確認品牌，再透過聊天詢問配送與付款。",
+    "category": "跨境市場",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "菲律賓市場",
+      "Digital 2026 Philippines",
+      "菲律賓數位市場",
+      "菲律賓社群",
+      "台灣與菲律賓比較"
+    ],
+    "takeaways": [
+      "搜尋、社群與 AI 各自參與不同任務，先確認客戶如何查找與比較。",
+      "台灣與菲律賓的平台、人口與服務條件不同，素材與預算需要重新驗證。",
+      "從能穩定服務的區域開始，以有效詢問與交付成果評估投入。"
+    ],
+    "sections": [
+      {
+        "id": "reading-notes",
+        "heading": "讀這份報告前，先對齊資料範圍",
+        "paragraphs": [
+          "Digital 2026 主要反映 2025 年資料，各圖的觀察期間與分母以原頁為準。文中的企業策略為九色鹿的分析建議，外部調查與平台資訊另行註明年份。"
+        ],
+        "bodyHtml": "\n<p>這條路徑是企業應測試的策略模型，並非報告追蹤每位消費者後證明的固定順序。Digital 2026 的價值，是幫助品牌選擇值得驗證的接觸點。</p>"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "搜尋需求仍強，入口已經多元",
+        "paragraphs": [],
+        "bodyHtml": "<p>P.50 的 GWI 資料指出，16 歲以上網路使用者中，91.0% 每月使用搜尋引擎、42.4% 每月使用 ChatGPT；51.0% 會到社群網站尋找產品與品牌資訊。不同活動可以重疊，不能加總為人口比例。ChatGPT 使用也包含工作、學習等用途，不等於全部用來選購。</p>\n<p>這意味著企業需要同時準備三類答案：能被搜尋找到的規格與服務資訊、能在社群被看懂的示範，以及能回應比較問題的清楚內容。GEO 的工作可從用途、限制、價格條件、退換貨及品牌實體資訊開始；報告沒有證明哪種格式一定獲得 AI 引用。</p>\n<figure class=\"report\" id=\"report-page-50\"><figcaption>原始報告 P.50｜搜尋、ChatGPT 與產品資訊查找</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 50 頁：搜尋、ChatGPT 與產品資訊查找\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=50&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=50&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.50</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n\n<p>P.53 的 Google 熱門搜尋中，Facebook、YouTube、ChatGPT 與翻譯相關詞並列。搜尋除了資訊探索，也可能承擔前往已知服務的導航功能。看到品牌詞熱度高時，應再拆解是新客研究、既有用戶登入，還是客服需求。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "用戶習慣：資訊、關係與影音並行",
+        "paragraphs": [],
+        "bodyHtml": "<p>根據共同出版夥伴 Meltwater 對報告的整理，97.8% 的網路使用者透過手機上網。P.36 對上網動機的分析則涵蓋親友聯繫、資訊尋找、影片觀看與學習。品牌內容適合用日常問題切入，再提供足夠資訊協助決策。</p>\n<p>P.86 的「自陳使用」與 P.90 的「最喜愛平台」是兩種不同問題。「自陳月使用」指受訪者自行回答過去一個月曾使用哪些平台，不是平台後台的活躍帳號統計。前者協助判斷接觸機會，後者反映受訪者在可選清單中的偏好；P.90 的題目沒有提供 YouTube 作為選項，因此不能據此宣稱 YouTube 不受歡迎。</p>\n<figure class=\"report\" id=\"report-page-86\"><figcaption>原始報告 P.86｜社群平台自陳月使用情況</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 86 頁：社群平台自陳月使用情況\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=86&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=86&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.86</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n<figure class=\"report\" id=\"report-page-90\"><figcaption>原始報告 P.90｜最喜愛的社群平台；注意題目未列 YouTube</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 90 頁：最喜愛的社群平台；注意題目未列 YouTube\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=90&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=90&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.90</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n\n<p>對內容團隊，較有價值的配置是：短片回答一個具體問題，長片或直播展示細節，官網承載完整資訊，客服處理個別條件。各媒體的成效應接到有效詢問及交付結果。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "與台灣相比，應調整哪些假設？",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"市場資料與策略比較\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">指標</th>\n<th align=\"right\">菲律賓</th>\n<th align=\"right\">台灣</th>\n<th scope=\"col\">策略意涵</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>人口</td>\n<td align=\"right\">約 1.17 億</td>\n<td align=\"right\">約 2,310 萬</td>\n<td>需要分區驗證，避免直接全國擴張</td>\n</tr>\n<tr>\n<td>年齡中位數</td>\n<td align=\"right\">26.1 歲</td>\n<td align=\"right\">44.8 歲</td>\n<td>人生階段與內容情境不同</td>\n</tr>\n<tr>\n<td>網路普及率</td>\n<td align=\"right\">83.8%</td>\n<td align=\"right\">96.7%</td>\n<td>線上服務覆蓋仍有差異</td>\n</tr>\n<tr>\n<td>都市人口占比</td>\n<td align=\"right\">49.1%</td>\n<td align=\"right\">80.9%</td>\n<td>配送及服務半徑必須先確認</td>\n</tr>\n<tr>\n<td>行動下載速度中位數</td>\n<td align=\"right\">59.64 Mbps</td>\n<td align=\"right\">114.28 Mbps</td>\n<td>控制頁面與影片載入負擔</td>\n</tr>\n<tr>\n<td>TikTok 廣告可觸及的 18 歲以上受眾／18 歲以上人口</td>\n<td align=\"right\">81.8%</td>\n<td align=\"right\">43.7%</td>\n<td>值得增加 TikTok 測試權重</td>\n</tr>\n<tr>\n<td>Instagram 潛在廣告觸及／全體網路人口</td>\n<td align=\"right\">27.4%</td>\n<td align=\"right\">54.4%</td>\n<td>不宜照搬台灣的 IG 配置</td>\n</tr>\n</tbody></table></div>\n<p>比較來源為兩地同年度 DataReportal 報告。平台觸及是潛在廣告受眾估計，不代表實際看過廣告、觀看直播或購買商品的人口；TikTok 與 Instagram 兩列的分母不同，不能彼此直接比較。</p>\n<figure class=\"report\" id=\"report-page-18\"><figcaption>原始報告 P.18｜菲律賓人口結構與都市化背景</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 18 頁：菲律賓人口結構與都市化背景\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=18&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=18&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.18</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n\n<p>年輕人口不等於每個品類都應鎖定年輕族群，也不等於購買力一致。企業仍需以城市、家庭需求、收入及產品用途重新劃分客群。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "品牌接下來應做的判斷",
+        "paragraphs": [],
+        "bodyHtml": "<p>市場測試可以先回答三個問題：哪個區域能穩定交付？哪種內容能帶來有品質的詢問？消費者完成付款前卡在哪裡？把這些答案接回搜尋、社群與客服配置，比單看平台規模更接近營收。</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "資料來源與閱讀說明",
+        "paragraphs": [],
+        "bodyHtml": "\n<p>原報告由 We Are Social 與 Meltwater 支持，DataReportal／Kepios 整理發布。查閱日期：2026 年 10 月 23 日。本文重新嵌入官方播放器，保留其原始設計與頁面，不另行重製報告圖表。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：菲律賓市場系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/english-filipino-tagalog-taglish\">進入菲律賓市場，直接用英文就夠嗎？從翻譯搜尋看 Filipino、Tagalog 與 Taglish</a></li><li><a href=\"/insights/philippines-market-entry\">跨國企業進入菲律賓市場：從區域、定價到支付與信任的進場策略</a></li><li><a href=\"/insights/philippines-gaming-traffic\">菲律賓博弈網站為何流量高？從四個上榜網域看品牌、perya 與數據限制</a></li><li><a href=\"/insights/philippines-live-video-commerce\">菲律賓直播與短影音商機：Facebook、TikTok 如何從觀看走向成交？</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "社群重要，是否可以不做 SEO？",
+        "answer": "P.50 顯示搜尋引擎仍是廣泛使用的工具。社群可以創造需求，官網與搜尋內容則有機會承接驗證需求。實際投入比例應依品類及成交資料決定。"
+      },
+      {
+        "question": "菲律賓市場能否沿用台灣素材？",
+        "answer": "可沿用產品事實、品牌標準與測試方法；人物、情境、語言、價格呈現及服務承諾，應交由當地團隊驗證。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DataReportal｜Digital 2026: The Philippines",
+        "url": "https://datareportal.com/reports/digital-2026-philippines"
+      },
+      {
+        "title": "DataReportal｜引用與再嵌入規範",
+        "url": "https://datareportal.com/citation"
+      },
+      {
+        "title": "DataReportal｜Digital 2026: Taiwan",
+        "url": "https://datareportal.com/reports/digital-2026-taiwan"
+      },
+      {
+        "title": "Meltwater｜菲律賓數位行為整理",
+        "url": "https://www.meltwater.com/en/blog/social-media-statistics-philippines"
+      }
+    ],
+    "relatedServices": [
+      "strategy-campaigns",
+      "creative-content",
+      "seo-geo"
+    ],
+    "seo": {
+      "title": "2026 菲律賓數位市場洞察：搜尋、社群習慣與台灣的關鍵差異",
+      "description": "從 Digital 2026 Philippines 分析搜尋、AI、社群與影音行為，辨識台灣企業進入菲律賓時必須調整的市場假設。"
+    },
+    "cta": {
+      "heading": "讀懂在地需求，",
+      "highlight": "找到品牌的進場方向。",
+      "text": "與九色鹿一起梳理在地客群、內容與服務流程，規劃適合品牌的下一步。",
+      "label": "討論菲律賓市場策略"
+    },
+    "card": {
+      "eyebrow": "DIGITAL 2026 PHILIPPINES",
+      "title": "MARKET",
+      "caption": "讀懂市場，再決定品牌的第一步。"
+    }
+  },
+  {
+    "slug": "english-filipino-tagalog-taglish",
+    "title": "進入菲律賓市場，直接用英文就夠嗎？從翻譯搜尋看 Filipino、Tagalog 與 Taglish",
+    "excerpt": "英文讓跨國企業較容易開始在菲律賓溝通，但「看得懂」與「願意詢問、信任及購買」之間，仍需要產品與情境上的驗證。品牌可以用英文建立第一版資訊，同時讓當地使用者決定哪些接觸點需要 Filipino、Taglish 或區域語言。",
+    "category": "跨境市場",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "菲律賓市場",
+      "Digital 2026 Philippines",
+      "Filipino",
+      "Tagalog",
+      "Taglish",
+      "菲律賓語言在地化"
+    ],
+    "takeaways": [
+      "英文可以作為啟動版本，關鍵接觸點仍需驗證理解與信任。",
+      "Filipino、Tagalog 與 Taglish 各有語言背景，不能只用正式或口語區分。",
+      "保持產品與優惠條件一致，用詢問品質與交易結果評估語言版本。"
+    ],
+    "sections": [
+      {
+        "id": "reading-notes",
+        "heading": "讀這份報告前，先對齊資料範圍",
+        "paragraphs": [
+          "Digital 2026 主要反映 2025 年資料，各圖的觀察期間與分母以原頁為準。文中的企業策略為九色鹿的分析建議，外部調查與平台資訊另行註明年份。"
+        ],
+        "bodyHtml": ""
+      },
+      {
+        "id": "chapter-1",
+        "heading": "P.53 的翻譯搜尋，提供了什麼訊號？",
+        "paragraphs": [],
+        "bodyHtml": "<p>Digital 2026 Philippines 的 P.53 列出以下 Google 熱門搜尋：</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"市場資料與策略比較\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">排名</th>\n<th scope=\"col\">報告原文</th>\n<th align=\"right\">相對搜尋指數</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>4</td>\n<td>ENGLISH TAGALOG</td>\n<td align=\"right\">62</td>\n</tr>\n<tr>\n<td>5</td>\n<td>TRANSLATE</td>\n<td align=\"right\">62</td>\n</tr>\n<tr>\n<td>7</td>\n<td>ENGLISH TO TAGALOG</td>\n<td align=\"right\">58</td>\n</tr>\n<tr>\n<td>15</td>\n<td>TRANSLATE TO ENGLISH</td>\n<td align=\"right\">24</td>\n</tr>\n</tbody></table></div>\n<p>觀察期間為 2024 年 7 月 1 日至 2025 年 6 月 30 日；最高搜尋詞 PHILIPPINES 的指數為 100。指數不是搜尋次數，也不是人口百分比。</p>\n<figure class=\"report\" id=\"report-page-53\"><figcaption>原始報告 P.53｜Google 熱門搜尋與語言轉換需求</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 53 頁：Google 熱門搜尋與語言轉換需求\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=53&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=53&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.53</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n\n<p>閱讀這份排名時，需要留意查詢詞的原文：本頁沒有以「TAGALOG TO ENGLISH」這個完整詞組列榜。ENGLISH TAGALOG 也無法單憑詞序確定翻譯方向；TRANSLATE TO ENGLISH 未指定來源語言。「Tagalog to English」仍可作為品牌後續研究的查詢方向，但不屬於這一頁已證明的上榜項目。</p>\n<p>這些結果支持「跨語言轉換是顯著的搜尋需求」；不能直接推論搜尋者不懂英文、主要用於購物，或 Tagalog 素材一定轉換較高。P.50 另外顯示，33.9% 的 16 歲以上網路使用者每週使用線上翻譯工具，進一步說明翻譯已融入數位使用習慣。</p>\n<figure class=\"report\" id=\"report-page-50\"><figcaption>原始報告 P.50｜每週線上翻譯工具使用情況</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 50 頁：每週線上翻譯工具使用情況\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=50&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=50&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.50</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "Filipino、Tagalog、Taglish 的差異",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"市場資料與策略比較\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">名稱</th>\n<th scope=\"col\">定位</th>\n<th scope=\"col\">品牌使用時的考量</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Filipino</td>\n<td>國家語言，以 Tagalog 為基礎發展；與英語同為官方語言</td>\n<td>適合作為在地化專案的正式語言名稱</td>\n</tr>\n<tr>\n<td>Tagalog</td>\n<td>本土語言，與日常 Filipino 大量共用文法與詞彙</td>\n<td>可指定自然的 Tagalog 文案，但仍需依地區驗證</td>\n</tr>\n<tr>\n<td>Taglish</td>\n<td>Tagalog 與英文混用的表達方式</td>\n<td>可測試主持、短片及聊天語氣；不是所有客群的預設選擇</td>\n</tr>\n<tr>\n<td>區域語言</td>\n<td>如 Cebuano、Ilocano 等</td>\n<td>擴張區域時，重新確認母語與服務偏好</td>\n</tr>\n</tbody></table></div>\n<p>兩者不能簡化為「Filipino 正式、Tagalog 口語」；Tagalog 同樣能正式書寫，Filipino 也能日常使用。憲法第 XIV 條第 6–7 節提供 Filipino 的國家語言定位，以及 Filipino、English 的官方語言地位。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "英文能力高，不代表所有技能與情境一致",
+        "paragraphs": [],
+        "bodyHtml": "<p>SWS 的調查於 2023 年 3 月 26–29 日訪問 1,200 名成年人，屬自評調查。聽懂英文與閱讀英文各 80%、書寫 69%、口說 55%、以英文思考 47%；9% 表示不具列出的任何一項能力。這是一份 2023 年的能力自評，並非 2026 年人口普查；各技能的自評比例，也不等同於流利使用英文的比例。</p>\n<p>EF EPI 2025 列菲律賓全球第 28、569 分，屬高熟練度。它是受測樣本的能力指標，不能換算成全國人口的英文普及率，也不能與 SWS 自評比例視為同一測量。</p>\n<p>PSA 的基礎識字率衡量讀、寫與計算，並非專門測試英語。即使識字率高，也不能直接證明英文產品條款容易理解。品牌仍需測試顧客能否理解實際產品說明、費用與服務條款，而不能只憑識字率或教育背景做判斷。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "企業需要的是語言分工",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"市場資料與策略比較\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">接觸點</th>\n<th scope=\"col\">可先採用的方案</th>\n<th scope=\"col\">需要觀察的結果</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>B2B 規格、合約與企業介紹</td>\n<td>清楚英文，加上當地專業審校</td>\n<td>理解正確度與有效洽詢</td>\n</tr>\n<tr>\n<td>B2C 短影音與直播</td>\n<td>比較英文、Filipino／Tagalog、Taglish</td>\n<td>合格詢問與交付後毛利</td>\n</tr>\n<tr>\n<td>商品頁及退換貨</td>\n<td>明確英文，對關鍵疑慮補在地說明</td>\n<td>付款完成、誤解及退貨原因</td>\n</tr>\n<tr>\n<td>區域客服</td>\n<td>依來訊語言與服務區域配置</td>\n<td>解決率、回覆時間、滿意度</td>\n</tr>\n</tbody></table></div>\n<p>語言測試應保持產品、優惠與畫面盡量一致；若同時更換主持人、價格與語言，無法把差異單獨歸因於語言。先以英文降低啟動成本，再用資料決定在地化深度，是較可控的進場方式。</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "資料來源與閱讀說明",
+        "paragraphs": [],
+        "bodyHtml": "\n<p>原報告由 We Are Social 與 Meltwater 支持，DataReportal／Kepios 整理發布。查閱日期：2026 年 10 月 23 日。本文重新嵌入官方播放器，保留其原始設計與頁面，不另行重製報告圖表。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：菲律賓市場系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/philippines-digital-market\">2026 菲律賓數位市場洞察：搜尋、社群習慣與台灣的關鍵差異</a></li><li><a href=\"/insights/philippines-market-entry\">跨國企業進入菲律賓市場：從區域、定價到支付與信任的進場策略</a></li><li><a href=\"/insights/philippines-gaming-traffic\">菲律賓博弈網站為何流量高？從四個上榜網域看品牌、perya 與數據限制</a></li><li><a href=\"/insights/philippines-live-video-commerce\">菲律賓直播與短影音商機：Facebook、TikTok 如何從觀看走向成交？</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "翻譯搜尋高，是否證明不能用英文？",
+        "answer": "不能。它說明有人需要語言轉換，但無法判斷每位搜尋者的能力與商業情境。英文可作起點，當地語言則值得在高摩擦接觸點測試。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DataReportal｜Digital 2026: The Philippines",
+        "url": "https://datareportal.com/reports/digital-2026-philippines"
+      },
+      {
+        "title": "DataReportal｜引用與再嵌入規範",
+        "url": "https://datareportal.com/citation"
+      },
+      {
+        "title": "SWS｜2023 年第一季語言能力自評調查（2023-08-16 發布）",
+        "url": "https://sws.org.ph/social-weather-report-at-least-75-of-adult-filipinos-are-competent-with-the-filipino-language-while-at-least-47-are-competent-with-the-english-language/"
+      },
+      {
+        "title": "GMA｜SWS 調查技能拆解與方法",
+        "url": "https://www.gmanetwork.com/news/topstories/nation/879102/sws-75-of-pinoys-competent-in-filipino-language-47-in-english/story/"
+      },
+      {
+        "title": "EF｜EPI 2025 菲律賓資料表",
+        "url": "https://www.ef.com/assetscdn/WIBIwq6RdJvcD9bc8RMd/cefcom-epi-site/fact-sheets/2025/ef-epi-fact-sheet-philippines-english.pdf"
+      },
+      {
+        "title": "PSA｜2024 FLEMMS 基礎與功能識字率",
+        "url": "https://psa.gov.ph/content/every-10-filipinos-9-have-basic-literacy-while-7-have-functional-literacy"
+      },
+      {
+        "title": "菲律賓憲法｜第 XIV 條第 6–7 節",
+        "url": "https://lawphil.net/consti/cons1987.html"
+      },
+      {
+        "title": "菲律賓參議院｜1937 年第 134 號行政命令",
+        "url": "https://ldr.senate.gov.ph/executive-issuance/executive-order-no-134-s-1937"
+      }
+    ],
+    "relatedServices": [
+      "strategy-campaigns",
+      "creative-content",
+      "seo-geo"
+    ],
+    "seo": {
+      "title": "進入菲律賓市場，直接用英文就夠嗎？從翻譯搜尋看 Filipino、Tagalog 與 Taglish",
+      "description": "解析英文理解與品牌溝通的差異，結合熱門翻譯搜尋、2023 SWS 調查及 EF EPI 2025，建立菲律賓語言在地化策略。"
+    },
+    "cta": {
+      "heading": "讓品牌被理解，",
+      "highlight": "也讓溝通貼近在地。",
+      "text": "與九色鹿一起梳理在地客群、內容與服務流程，規劃適合品牌的下一步。",
+      "label": "討論品牌在地化策略"
+    },
+    "card": {
+      "eyebrow": "DIGITAL 2026 PHILIPPINES",
+      "title": "LANGUAGE",
+      "caption": "從看得懂，到願意信任。"
+    }
+  },
+  {
+    "slug": "philippines-market-entry",
+    "title": "跨國企業進入菲律賓市場：從區域、定價到支付與信任的進場策略",
+    "excerpt": "跨國企業常先問菲律賓該投 Facebook 還是 TikTok。更早需要回答的是：第一批客戶在哪裡、為什麼要買，以及企業能否穩定交付。媒體能放大需求，也會放大價格、庫存與售後問題。",
+    "category": "跨境市場",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "菲律賓市場",
+      "Digital 2026 Philippines",
+      "菲律賓市場進入策略",
+      "跨境電商",
+      "在地服務"
+    ],
+    "takeaways": [
+      "先確認服務區域與產品需求，再選媒體與估算市場規模。",
+      "到手價、付款與配送條件要清楚，才能讓前端曝光接到成交。",
+      "把退貨與履約成本納入評估，驗證可持續獲利後再擴張。"
+    ],
+    "sections": [
+      {
+        "id": "reading-notes",
+        "heading": "讀這份報告前，先對齊資料範圍",
+        "paragraphs": [
+          "Digital 2026 主要反映 2025 年資料，各圖的觀察期間與分母以原頁為準。文中的企業策略為九色鹿的分析建議，外部調查與平台資訊另行註明年份。"
+        ],
+        "bodyHtml": ""
+      },
+      {
+        "id": "chapter-1",
+        "heading": "先選可服務的區域，再估算可取得的市場",
+        "paragraphs": [],
+        "bodyHtml": "<p>P.18 顯示菲律賓人口約 1.17 億、年齡中位數 26.1 歲、都市人口占 49.1%。全國人口可以描述規模，無法代替可配送人口、目標品類買家或可負擔客群。</p>\n<figure class=\"report\" id=\"report-page-18\"><figcaption>原始報告 P.18｜人口、年齡與都市化背景</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 18 頁：人口、年齡與都市化背景\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=18&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=18&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.18</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n\n<p>首波市場應按需求密度、通路條件、配送及售後能力選擇。可從 Metro Manila、Cebu 或其他符合企業條件的區域評估，但不能僅因城市知名就預設最合適。高價值 B2B 與低客單消費品，也不應套用同一地理策略。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "定價要讓到手價與風險都看得見",
+        "paragraphs": [],
+        "bodyHtml": "<p>P.62 的購買驅動因素包括免運 58.8%、優惠券與折扣 46.3%、買家評論 45.6%、貨到付款 40.5%。它們是受訪者表示會促進購買的因素，不是每筆訂單的實際付款分布。</p>\n<figure class=\"report\" id=\"report-page-62\"><figcaption>原始報告 P.62｜促使網購完成的因素</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 62 頁：促使網購完成的因素\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=62&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=62&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.62</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n\n<p>企業可比較入門品、組合包與不同運費門檻，但應同時看折扣後毛利。若消費者進入結帳才看到跨區運費或模糊的到貨日期，增加流量未必能改善轉換。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"市場資料與策略比較\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">顧客的疑問</th>\n<th scope=\"col\">上線前應提供的答案</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>為什麼比其他品牌貴？</td>\n<td>具體差異、可驗證效果及完整服務內容</td>\n</tr>\n<tr>\n<td>我所在的地方能送嗎？</td>\n<td>區域、時程、運費與例外條件</td>\n</tr>\n<tr>\n<td>商品不合適怎麼辦？</td>\n<td>清楚的退換貨規則與聯絡方式</td>\n</tr>\n<tr>\n<td>品牌是否可信？</td>\n<td>真實營運資訊、評論、保固及在地服務</td>\n</tr>\n</tbody></table></div>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "支付選項與物流需要共同設計",
+        "paragraphs": [],
+        "bodyHtml": "<p>P.61 引用 Worldpay Global Payments Report 2025：2024 年 B2C 電商交易金額中，行動與數位錢包占 39%、卡片 27%、帳戶轉帳 12%、先買後付 2%、其他 20%。此表是交易金額占比，與 P.62 的購買動機比例不能相加或互相取代。</p>\n<figure class=\"report\" id=\"report-page-61\"><figcaption>原始報告 P.61｜2024 年 B2C 電商支付金額結構</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 61 頁：2024 年 B2C 電商支付金額結構\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=61&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=61&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.61</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n\n<p>選擇支付服務時，應確認收款資格、費率、退款、對帳、詐欺處理及可服務的地區。貨到付款若符合客群，可測試其增量效果，但需計入拒收、回運及資金回收成本，不能只看下單率。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "讓社群創造需求，也讓搜尋承接查證",
+        "paragraphs": [],
+        "bodyHtml": "<p>P.137 是品牌發現來源，P.138 是品牌研究的主要資訊管道，兩者代表不同任務。新品牌需要內容曝光，也需要搜尋得到的公司、商品、服務與評論資訊。</p>\n<figure class=\"report\" id=\"report-page-138\"><figcaption>原始報告 P.138｜消費者研究品牌時使用的主要資訊管道</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 138 頁：消費者研究品牌時使用的主要資訊管道\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=138&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=138&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.138</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n\n<p>SEO／GEO 可從一致的品牌名稱、在地服務資訊、明確產品分類及可核實的回答做起。媒體素材、官網與客服報價要一致；報告未提供 SEO／GEO 投資報酬率，應由實際詢問及成交資料驗證。</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "用 90 天建立可擴張的證據",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"市場資料與策略比較\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">階段</th>\n<th scope=\"col\">主要工作</th>\n<th scope=\"col\">決策依據</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>第 1–30 天</td>\n<td>訪談客群、驗證產品用途與到手價、確認服務區</td>\n<td>顧客問題、支付與交付可行性</td>\n</tr>\n<tr>\n<td>第 31–60 天</td>\n<td>小額測試內容、搜尋及客服到交易流程</td>\n<td>有效詢問、完成付款、成功交付</td>\n</tr>\n<tr>\n<td>第 61–90 天</td>\n<td>放大有利潤的區域與產品組合</td>\n<td>退貨後毛利、回購與現金回收</td>\n</tr>\n</tbody></table></div>\n<p>這是規劃範例，不是報告提出的標準時程。企業應依產品週期調整，尤其 B2B 不宜用短期電商指標取代長期商機品質。</p>"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "資料來源與閱讀說明",
+        "paragraphs": [],
+        "bodyHtml": "\n<p>原報告由 We Are Social 與 Meltwater 支持，DataReportal／Kepios 整理發布。查閱日期：2026 年 10 月 23 日。本文重新嵌入官方播放器，保留其原始設計與頁面，不另行重製報告圖表。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：菲律賓市場系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/philippines-digital-market\">2026 菲律賓數位市場洞察：搜尋、社群習慣與台灣的關鍵差異</a></li><li><a href=\"/insights/english-filipino-tagalog-taglish\">進入菲律賓市場，直接用英文就夠嗎？從翻譯搜尋看 Filipino、Tagalog 與 Taglish</a></li><li><a href=\"/insights/philippines-gaming-traffic\">菲律賓博弈網站為何流量高？從四個上榜網域看品牌、perya 與數據限制</a></li><li><a href=\"/insights/philippines-live-video-commerce\">菲律賓直播與短影音商機：Facebook、TikTok 如何從觀看走向成交？</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "市場人口大，是否應一開始全國投放？",
+        "answer": "人口規模不等於企業可服務規模。先在能穩定履約的區域驗證，再擴張預算與通路，較能辨別問題來自產品、媒體或營運。"
+      },
+      {
+        "question": "第一階段最重要的 KPI 是什麼？",
+        "answer": "應連結成功交付後的貢獻，而非只看點擊或下單。計算時納入商品、媒體、佣金、支付、配送、退款及退貨等相關變動成本。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DataReportal｜Digital 2026: The Philippines",
+        "url": "https://datareportal.com/reports/digital-2026-philippines"
+      },
+      {
+        "title": "DataReportal｜引用與再嵌入規範",
+        "url": "https://datareportal.com/citation"
+      },
+      {
+        "title": "Meltwater｜購買驅動與電商資料整理",
+        "url": "https://www.meltwater.com/en/blog/social-media-statistics-philippines"
+      }
+    ],
+    "relatedServices": [
+      "strategy-campaigns",
+      "creative-content",
+      "seo-geo"
+    ],
+    "seo": {
+      "title": "跨國企業進入菲律賓市場：從區域、定價到支付與信任的進場策略",
+      "description": "以 Digital 2026 Philippines 的人口、購物與支付資料，分析跨國企業如何選擇首批客群、建立服務承諾並驗證獲利。"
+    },
+    "cta": {
+      "heading": "從第一批客戶開始，",
+      "highlight": "建立可持續的市場布局。",
+      "text": "與九色鹿一起梳理在地客群、內容與服務流程，規劃適合品牌的下一步。",
+      "label": "討論跨境進場計畫"
+    },
+    "card": {
+      "eyebrow": "DIGITAL 2026 PHILIPPINES",
+      "title": "ENTRY",
+      "caption": "先建立交付能力，再擴大市場。"
+    }
+  },
+  {
+    "slug": "philippines-gaming-traffic",
+    "title": "菲律賓博弈網站為何流量高？從四個上榜網域看品牌、perya 與數據限制",
+    "excerpt": "Digital 2026 Philippines 的 P.48 顯示，博弈高流量並非單一品牌現象。Similarweb 的前 20 大網站中有四個博弈相關網域，合併 PlayTime 的兩個網域後涉及三個品牌。這是網站流量上的明顯存在感，並不能直接換算為玩家人口或全民偏好。",
+    "category": "跨境市場",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "菲律賓市場",
+      "Digital 2026 Philippines",
+      "菲律賓網站流量",
+      "Similarweb",
+      "Semrush",
+      "博弈市場分析"
+    ],
+    "takeaways": [
+      "四個上榜網域涉及三個品牌，造訪次數不能當作玩家人口。",
+      "Similarweb 與 Semrush 的來源與期間不同，排名差異需要保留。",
+      "觀察在地互動與渠道變化時，也要確認資料限制與合作條件。"
+    ],
+    "sections": [
+      {
+        "id": "reading-notes",
+        "heading": "讀這份報告前，先對齊資料範圍",
+        "paragraphs": [
+          "Digital 2026 主要反映 2025 年資料，各圖的觀察期間與分母以原頁為準。文中的企業策略為九色鹿的分析建議，外部調查與平台資訊另行註明年份。"
+        ],
+        "bodyHtml": ""
+      },
+      {
+        "id": "chapter-1",
+        "heading": "四個網域、三個品牌，必須分開計算",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"市場資料與策略比較\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">排名</th>\n<th scope=\"col\">網域</th>\n<th align=\"right\">月均造訪</th>\n<th align=\"right\">月均獨立訪客識別數</th>\n<th scope=\"col\">每次停留</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>5</td>\n<td>BINGOPLUS.COM</td>\n<td align=\"right\">1.12 億</td>\n<td align=\"right\">1,640 萬</td>\n<td>10 分 51 秒</td>\n</tr>\n<tr>\n<td>10</td>\n<td>PLAYTIME.COM.PH</td>\n<td align=\"right\">5,550 萬</td>\n<td align=\"right\">351 萬</td>\n<td>7 分 13 秒</td>\n</tr>\n<tr>\n<td>13</td>\n<td>PLAYTIME.PH</td>\n<td align=\"right\">4,700 萬</td>\n<td align=\"right\">470 萬</td>\n<td>8 分 34 秒</td>\n</tr>\n<tr>\n<td>15</td>\n<td>CASINOPLUS.COM.PH</td>\n<td align=\"right\">4,640 萬</td>\n<td align=\"right\">977 萬</td>\n<td>10 分 05 秒</td>\n</tr>\n</tbody></table></div>\n<p>P.48 的觀察期是 2025 年 6 月 1 日至 8 月 31 日，數字為月均值。四個網域月均造訪合計約 2.609 億；20% 指前 20 名的席次比例，不是全國流量或參與人口占比。獨立訪客識別數不能跨網域直接加總為真人數。</p>\n<figure class=\"report\" id=\"report-page-48\"><figcaption>原始報告 P.48｜Similarweb 熱門網站；四個博弈相關網域</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 48 頁：Similarweb 熱門網站；四個博弈相關網域\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=48&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=48&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.48</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n\n<p>PAGCOR 登記資料把 playtime.ph 與 playtime.com.ph 列在 PlayTime 品牌架構下。BingoPlus 與 CasinoPlus 名稱都有 Plus，不能因此推定同一集團；品牌歸屬及合作資格須分別核實。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "P.49 提醒：另一份排名沒有相同結果",
+        "paragraphs": [],
+        "bodyHtml": "<p>P.49 的 Semrush 前 20 名中，沒有上述四個博弈網域。該頁觀察的是 2025 年 8 月，P.48 則是 6–8 月月均，而且兩個供應商使用不同估計方法。</p>\n<figure class=\"report\" id=\"report-page-49\"><figcaption>原始報告 P.49｜Semrush 熱門網站；不同來源與觀察期間</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 49 頁：Semrush 熱門網站；不同來源與觀察期間\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=49&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=49&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.49</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n\n<p>這不代表其中一份必然錯誤，也不能證明博弈流量已經消失。正確做法是把「三個品牌進入前 15 名」限定在 P.48 的來源及期間，並保留另一份排名的差異。若要判斷持續趨勢，需再取得同一來源、連續月份的資料。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "perya 是文化場景，不等於一種遊戲",
+        "paragraphs": [],
+        "bodyHtml": "<p>perya 接近節慶市集與巡迴遊樂場的文化場景，包含遊樂設施、攤位及機會型遊戲。數位業者將部分熟悉玩法轉成線上產品，但所有 perya 活動不應一律歸為博弈。</p>\n<p>DigiPlus 官方指出，BingoPlus 由數位賓果拓展至電子賭場及 perya 經典玩法。同集團 ArenaPlus 主打運動投注，GameZone 涵蓋在地紙牌與對戰產品；它們不能自動加入 P.48 的上榜數量。該頁沒有列出獨立 perya 遊戲，因此無法估算其個別流量或營收。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "為何可能形成高造訪量？",
+        "paragraphs": [],
+        "bodyHtml": "<p>可確認的企業資訊包括在地玩法、直播產品、實體據點，以及積極的獲客與留存策略。合理的市場解釋是：熟悉玩法降低理解門檻，手機降低接觸成本，既有用戶回訪進一步推高 visits；各因素的影響比例仍未被此報告證明。</p>\n<p>BingoPlus 的月均造訪除以獨立訪客識別數約為 6.8，PlayTime.com.ph 約為 15.8。這只是一個粗略頻率指標，不能視為每位真人的投注次數，也不能用來推算成癮比例。</p>\n<p>高流量背後也有渠道風險。DigiPlus 於 2026 年的業績說明指出，2025 年第三季電子錢包移除應用程式內博弈入口後，業務活動放緩。此事件說明支付入口與政策會影響營運，不能用 2025 年中的排名直接代表現在。</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "新進企業的機會與挑戰",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"市場資料與策略比較\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">企業角色</th>\n<th scope=\"col\">可以研究的機會</th>\n<th scope=\"col\">進場前需解決的問題</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>一般品牌</td>\n<td>在地情境、真人示範、即時問答</td>\n<td>互動能否帶來產品需求與信任</td>\n</tr>\n<tr>\n<td>娛樂服務</td>\n<td>在地內容、主持與社群參與</td>\n<td>留存、付費及內容成本是否成立</td>\n</tr>\n<tr>\n<td>行銷／技術供應商</td>\n<td>語言、客服、身分驗證、反詐及數據服務</td>\n<td>合作實體、資格、資料與聲譽責任</td>\n</tr>\n<tr>\n<td>真金博弈業者</td>\n<td>已被商業化的需求</td>\n<td>適用牌照、支付、廣告與玩家保護</td>\n</tr>\n</tbody></table></div>\n<p>涉及博弈的專案，應查核最新營運實體、品牌、網域與適用規範。PAGCOR 的責任博弈規範包含未滿 21 歲者不得參與，以及不得暗示博弈能解決財務困境；人口年輕不能直接作為可觸及博弈市場的理由。</p>"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "資料來源與閱讀說明",
+        "paragraphs": [],
+        "bodyHtml": "\n<p>原報告由 We Are Social 與 Meltwater 支持，DataReportal／Kepios 整理發布。查閱日期：2026 年 10 月 23 日。本文重新嵌入官方播放器，保留其原始設計與頁面，不另行重製報告圖表。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：菲律賓市場系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/philippines-digital-market\">2026 菲律賓數位市場洞察：搜尋、社群習慣與台灣的關鍵差異</a></li><li><a href=\"/insights/english-filipino-tagalog-taglish\">進入菲律賓市場，直接用英文就夠嗎？從翻譯搜尋看 Filipino、Tagalog 與 Taglish</a></li><li><a href=\"/insights/philippines-market-entry\">跨國企業進入菲律賓市場：從區域、定價到支付與信任的進場策略</a></li><li><a href=\"/insights/philippines-live-video-commerce\">菲律賓直播與短影音商機：Facebook、TikTok 如何從觀看走向成交？</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "高排名是否代表新品牌很容易獲利？",
+        "answer": "排名沒有揭露獲客成本、投注額、淨收益、補貼或玩家價值。它顯示既有競爭者的能見度，無法取代進場的單位經濟與法規評估。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DataReportal｜Digital 2026: The Philippines",
+        "url": "https://datareportal.com/reports/digital-2026-philippines"
+      },
+      {
+        "title": "DataReportal｜引用與再嵌入規範",
+        "url": "https://datareportal.com/citation"
+      },
+      {
+        "title": "DigiPlus｜品牌及產品",
+        "url": "https://digiplus.com.ph/our-business/"
+      },
+      {
+        "title": "PAGCOR｜品牌與網域登記（文件日期 2026-01-29）",
+        "url": "https://www.pagcor.ph/regulatory/pdf/App%20Kits/List-of-PAGCOR-Accredited-Gaming-System-Administrators-and-Registered-Brands-and-Domain-Names-URLs.pdf"
+      },
+      {
+        "title": "PAGCOR｜賭場品牌與網域登記",
+        "url": "https://www.pagcor.ph/regulatory/pdf/App%20Kits/List-of-Registered-Brands-and-Domain-Names-URLs-of-Licensed-Casinos.pdf"
+      },
+      {
+        "title": "PAGCOR｜責任博弈規範 Version 6.0",
+        "url": "https://www.pagcor.ph/regulatory/pdf/RG-Code-of-Practice-v6.pdf"
+      },
+      {
+        "title": "DigiPlus｜2025 年業績說明，2026-03-17 發布",
+        "url": "https://digiplus.com.ph/digiplus-reports-%E2%82%B112-6-billion-net-income-in-2025-declares-%E2%82%B13-8-billion-dividends/"
+      }
+    ],
+    "relatedServices": [
+      "strategy-campaigns",
+      "creative-content",
+      "seo-geo"
+    ],
+    "seo": {
+      "title": "菲律賓博弈網站為何流量高？從四個上榜網域看品牌、perya 與數據限制",
+      "description": "解析 Digital 2026 Philippines 第 48 頁的 BingoPlus、PlayTime 與 CasinoPlus，並對照第 49 頁，辨識博弈流量的商業含義。"
+    },
+    "cta": {
+      "heading": "看懂市場訊號，",
+      "highlight": "做出有依據的判斷。",
+      "text": "與九色鹿一起梳理在地客群、內容與服務流程，規劃適合品牌的下一步。",
+      "label": "討論市場洞察需求"
+    },
+    "card": {
+      "eyebrow": "DIGITAL 2026 PHILIPPINES",
+      "title": "SIGNAL",
+      "caption": "看懂流量，也看清數據的邊界。"
+    }
+  },
+  {
+    "slug": "philippines-live-video-commerce",
+    "title": "菲律賓直播與短影音商機：Facebook、TikTok 如何從觀看走向成交？",
+    "excerpt": "對新進菲律賓市場的品牌，直播與短影音值得優先測試。它們能讓陌生商品被看見，也能透過真人示範及即時問答減少疑慮。機會能否成為生意，取決於內容之後的產品、客服、付款與配送是否銜接。",
+    "category": "跨境市場",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "菲律賓市場",
+      "Digital 2026 Philippines",
+      "菲律賓直播",
+      "TikTok Shop",
+      "短影音行銷"
+    ],
+    "takeaways": [
+      "平台使用與潛在廣告受眾代表接觸機會，並不保證直播成交。",
+      "短影音回答具體問題，直播補足示範，客服與商品頁承接決策。",
+      "把付款、成功交付與退貨後貢獻納入評估，再決定是否加碼。"
+    ],
+    "sections": [
+      {
+        "id": "reading-notes",
+        "heading": "讀這份報告前，先對齊資料範圍",
+        "paragraphs": [
+          "Digital 2026 主要反映 2025 年資料，各圖的觀察期間與分母以原頁為準。文中的企業策略為九色鹿的分析建議，外部調查與平台資訊另行註明年份。"
+        ],
+        "bodyHtml": ""
+      },
+      {
+        "id": "chapter-1",
+        "heading": "報告支持接觸機會，沒有保證直播成交",
+        "paragraphs": [],
+        "bodyHtml": "<p>P.76 呈現每週觀看不同線上影片類型的情況；P.86 是平台自陳月使用；P.112 則顯示 TikTok 的 18 歲以上潛在廣告觸及約 6,400 萬，相當於當地成年人口 81.8%。這些資料共同支持平台值得測試，但分母及測量方式不同。</p>\n<figure class=\"report\" id=\"report-page-76\"><figcaption>原始報告 P.76｜每週觀看的線上影片類型</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 76 頁：每週觀看的線上影片類型\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=76&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=76&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.76</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n<figure class=\"report\" id=\"report-page-112\"><figcaption>原始報告 P.112｜TikTok 的 18 歲以上潛在廣告觸及</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 112 頁：TikTok 的 18 歲以上潛在廣告觸及\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=112&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=112&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.112</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>\n\n<p>這裡指的是廣告可觸及的 18 歲以上受眾，是平台提供的潛在廣告受眾估計。81.8% 不代表相同比例的成年人實際看過廣告、觀看直播或購買商品。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "Facebook 與 TikTok 的任務可以不同",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"市場資料與策略比較\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">管道</th>\n<th scope=\"col\">建議測試的任務</th>\n<th scope=\"col\">合適的內容</th>\n<th scope=\"col\">成交承接</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Facebook 直播／Reels</td>\n<td>經營社群、解答疑慮及展示服務</td>\n<td>示範、選購問答、售後說明</td>\n<td>Messenger、官網或既有商城</td>\n</tr>\n<tr>\n<td>TikTok 短影音</td>\n<td>讓陌生客戶快速理解用途</td>\n<td>一個問題一支片、情境實測</td>\n<td>商品頁或符合資格的 Shop</td>\n</tr>\n<tr>\n<td>TikTok LIVE</td>\n<td>深入示範與即時回覆</td>\n<td>尺寸比較、使用流程、觀眾提問</td>\n<td>符合資格的 TikTok Shop 或其他允許流程</td>\n</tr>\n<tr>\n<td>直播精華</td>\n<td>延長製作投入的效益</td>\n<td>常見疑問、單一賣點、使用限制</td>\n<td>對應產品資訊及詢問入口</td>\n</tr>\n</tbody></table></div>\n<p>這是策略分工建議，不是平台轉換能力的排名。Facebook 直播也不應被描述為與 TikTok Shop 相同的原生購物流程；實際下單方式需依帳號、地區及現行功能設計。</p>\n<p>TikTok 官方 2026 年說明列菲律賓為 TikTok Shop 可用市場，並支援短影音、LIVE 與商品展示。可用市場不代表所有外國企業自動取得開店資格；註冊、文件、品類及跨境方案應在執行前逐項確認。</p>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "直播最有價值的時刻，是把疑問變成可確認的答案",
+        "paragraphs": [],
+        "bodyHtml": "<p>一個新品牌賣收納商品時，漂亮畫面可能先吸引觀看；消費者真正需要確認的，卻是尺寸能否放進家中、材質是否耐用、運費及到貨時間。主持人把尺寸量給觀眾看，客服同步提供配送資訊，才有機會把注意力轉為決策。</p>\n<p>P.62 的購買驅動包括免運、折扣、評論及貨到付款，提醒團隊把直播優惠與實際履約一起設計。若下單後才出現額外費用，前端互動再好也可能增加取消與客訴。</p>\n<figure class=\"report\" id=\"report-page-62\"><figcaption>原始報告 P.62｜網購的購買驅動因素</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 62 頁：網購的購買驅動因素\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=62&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=62&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.62</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "語言與主持能力要分開測試",
+        "paragraphs": [],
+        "bodyHtml": "<p>英文、Filipino／Tagalog、Taglish 都可作為測試版本。選擇依據應是目標地區及顧客理解，而非預設某種語言天生較會成交。主持人是否懂產品、能否回應限制與保固，也可能比語言差異更影響詢問品質。</p>\n<p>短影音可先找出反應較好的問題，再用直播補足細節，最後剪成可搜尋、可重複觀看的回答。P.94 的社群品牌研究提供背景，但不代表每次社群互動都帶有購買意圖。</p>\n<figure class=\"report\" id=\"report-page-94\"><figcaption>原始報告 P.94｜透過社群查找品牌與產品資訊</figcaption><p class=\"report-credit\">來源：DataReportal／Kepios；報告合作夥伴：We Are Social、Meltwater。</p><iframe class=\"player\" title=\"Digital 2026 Philippines 原報告第 94 頁：透過社群查找品牌與產品資訊\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=94&amp;allowFullscreen=true\" allowfullscreen></iframe><div class=\"player-links\"><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=94&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener\">另開播放器 P.94</a> · <a href=\"https://datareportal.com/reports/digital-2026-philippines\" target=\"_blank\" rel=\"noopener\">DataReportal 原始報告</a></div></figure>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "新品牌應追蹤到成功交付",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"市場資料與策略比較\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">階段</th>\n<th scope=\"col\">觀察指標</th>\n<th scope=\"col\">要回答的問題</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>內容接觸</td>\n<td>有效觀看、停留、相關留言</td>\n<td>是否吸引到對的人？</td>\n</tr>\n<tr>\n<td>需求確認</td>\n<td>合格詢問、商品點擊</td>\n<td>觀眾是否理解用途與總價？</td>\n</tr>\n<tr>\n<td>交易</td>\n<td>付款完成或確認的貨到付款訂單</td>\n<td>下單與付款流程是否順暢？</td>\n</tr>\n<tr>\n<td>履約</td>\n<td>成功交付、拒收、退款及退貨</td>\n<td>內容承諾能否兌現？</td>\n</tr>\n<tr>\n<td>獲利</td>\n<td>扣除相關成本後貢獻、回購</td>\n<td>是否值得擴大投入？</td>\n</tr>\n</tbody></table></div>\n<p>直播的總成交額或觀看高峰不足以決定擴張。應納入主持與製作、廣告、佣金、折扣、平台與支付費、物流及售後成本。服務型與 B2B 企業則可用合格商機、會談及成交週期評估。</p>"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "一個可控的試行方案",
+        "paragraphs": [],
+        "bodyHtml": "<p>先選一個主力商品與能穩定配送的區域，做不同問題切角的短片，再安排少量直播。每場使用可追蹤的入口，記錄成交、取消與退款原因；同一組內容若同時變更價格、主持人及語言，結論會難以解釋。</p>"
+      },
+      {
+        "id": "chapter-7",
+        "heading": "資料來源與閱讀說明",
+        "paragraphs": [],
+        "bodyHtml": "\n<p>原報告由 We Are Social 與 Meltwater 支持，DataReportal／Kepios 整理發布。查閱日期：2026 年 10 月 23 日。本文重新嵌入官方播放器，保留其原始設計與頁面，不另行重製報告圖表。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀：菲律賓市場系列",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/philippines-digital-market\">2026 菲律賓數位市場洞察：搜尋、社群習慣與台灣的關鍵差異</a></li><li><a href=\"/insights/english-filipino-tagalog-taglish\">進入菲律賓市場，直接用英文就夠嗎？從翻譯搜尋看 Filipino、Tagalog 與 Taglish</a></li><li><a href=\"/insights/philippines-market-entry\">跨國企業進入菲律賓市場：從區域、定價到支付與信任的進場策略</a></li><li><a href=\"/insights/philippines-gaming-traffic\">菲律賓博弈網站為何流量高？從四個上榜網域看品牌、perya 與數據限制</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "是否需要每天直播？",
+        "answer": "報告沒有給出最佳頻率。先證明內容能帶來有利潤的交付，再依團隊、庫存與觀眾反應增加頻率。"
+      },
+      {
+        "question": "博弈網站流量高，是否代表直播帶貨也有效？",
+        "answer": "不能。網站造訪、直播觀看及商品購買是不同活動。品牌可以研究互動方式，但仍需用自己的交易資料驗證效果。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DataReportal｜Digital 2026: The Philippines",
+        "url": "https://datareportal.com/reports/digital-2026-philippines"
+      },
+      {
+        "title": "DataReportal｜引用與再嵌入規範",
+        "url": "https://datareportal.com/citation"
+      },
+      {
+        "title": "TikTok｜Shop 與 Showcase 官方說明（2026-06 更新）",
+        "url": "https://ads.tiktok.com/resources/help/article/tiktok-shopping-and-showcase?lang=en-GB"
+      },
+      {
+        "title": "TikTok｜菲律賓商家註冊要求（2026-08 更新）",
+        "url": "https://seller-ph.tiktok.com/university/essay?knowledge_id=7654200041719553&lang=en"
+      },
+      {
+        "title": "Meta｜Facebook Live 官方說明",
+        "url": "https://about.fb.com/news/2025/02/updating-our-facebook-live-video-storage-policy/"
+      },
+      {
+        "title": "Meltwater｜購物與社群行為整理",
+        "url": "https://www.meltwater.com/en/blog/social-media-statistics-philippines"
+      }
+    ],
+    "relatedServices": [
+      "strategy-campaigns",
+      "creative-content",
+      "seo-geo"
+    ],
+    "seo": {
+      "title": "菲律賓直播與短影音商機：Facebook、TikTok 如何從觀看走向成交？",
+      "description": "從 Digital 2026 Philippines 的影音、平台與購物資料，分析直播及短影音的商機、平台分工與成交驗證方式。"
+    },
+    "cta": {
+      "heading": "把內容帶來的關注，",
+      "highlight": "接成真實的品牌需求。",
+      "text": "與九色鹿一起梳理在地客群、內容與服務流程，規劃適合品牌的下一步。",
+      "label": "討論影音與轉換策略"
+    },
+    "card": {
+      "eyebrow": "DIGITAL 2026 PHILIPPINES",
+      "title": "LIVE",
+      "caption": "從觀看與提問，走向實際交付。"
+    }
+  },
   {
     "slug": "brand-identity-refresh-business-value",
     "title": "為什麼百年品牌也要換 Logo？企業識別更新的商業價值與決策時機",

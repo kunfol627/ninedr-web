@@ -5,3 +5,5 @@
 .editorial-body .report{margin:28px 0 40px;padding:20px;border:1px solid #363636;background:#151515}.editorial-body .report figcaption{color:var(--lime);font-size:15px;line-height:1.7}.editorial-body .report iframe{display:block;width:100%;aspect-ratio:16/10;min-height:300px;border:0;margin-top:18px;background:#fff}.article-detail .editorial-body .report p{font-size:13px;line-height:1.8;margin:16px 0 0}html[data-theme=light] .editorial-body .report{background:#eee8dd;border-color:#e5dac8}@media(max-width:760px){.geo-gallery img,.geo-gallery figure:nth-child(2) img{width:100%;max-width:100%}.editorial-body .report{padding:12px}.editorial-body .report iframe{min-height:260px}}
 
 .article-detail h1{text-wrap:balance}
+
+.editorial-body .report .player-links{font-size:13px;line-height:1.8;margin-top:16px;overflow-wrap:anywhere}
