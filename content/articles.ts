@@ -16,6 +16,145 @@ export type Article = {
 };
 export const articles:Article[]=[
   {
+    "slug": "content-product-optimization-before-advertising",
+    "title": "為什麼品牌應優先做好內容與產品優化，再放大廣告投資？",
+    "excerpt": "品牌遇到成長瓶頸時，常把問題歸因於曝光不足。然而，當消費者不清楚產品適不適合自己、找不到可信的選購資訊，或購買後的體驗不如預期，加碼廣告未必能改善經營成果。",
+    "category": "整合行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "keywords": [
+      "內容行銷",
+      "產品優化",
+      "廣告投資",
+      "轉換率"
+    ],
+    "takeaways": [
+      "廣告帶來被看見的機會，內容降低理解與選購阻力，產品與服務影響實際滿意度。",
+      "顧客遲遲不買，可能是資訊不足，也可能是產品、價格、受眾或流程不合適，需要分開診斷。",
+      "內容可以同時支援廣告、搜尋、業務與客服，但製作、更新與分發都有成本。",
+      "應以有效詢問、成交、退貨與貢獻毛利評估成長，避免只看曝光或平台回報的營收。"
+    ],
+    "sections": [
+      {
+        "id": "perspective",
+        "heading": "先找出顧客停下來的原因。",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>內容與產品優化之所以常應優先，是因為它們影響品牌把流量轉成生意、把一次交易轉成持續關係的能力。</strong>廣告則協助品牌接觸更多可能需要產品的人。對承接能力已有缺口的品牌，先補強缺口，通常比直接增加流量更值得評估；但這不是適用所有產業的固定投資排序。</p>"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、廣告能帶來訪客，品牌必須回答他為什麼要買",
+        "paragraphs": [],
+        "bodyHtml": "<p>想像一家家具品牌，廣告照片很吸引人，點進網站卻找不到尺寸、材質、配送費用與退換貨條件。訪客離開，未必是廣告受眾錯誤，而是購買前的問題沒有被回答。</p><p>Google Ads 官方說明指出，有效的到達網頁對廣告流量能否轉換十分重要，也建議改善行動版頁面速度。 這支持一個實務判斷：廣告成效需要連同點擊後的體驗一起檢查。</p><p>但網頁優化不等於產品優化。若家具實際不耐用、交期不穩定，即使頁面說明完整，品牌仍然需要改善產品與交付。</p>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、產品讓承諾成立，內容讓價值被理解",
+        "paragraphs": [],
+        "bodyHtml": "<p>產品優化涵蓋功能、品質、定價組合、使用便利性與服務交付。內容優化則將這些價值轉成消費者能判斷的資訊，例如使用情境、規格比較、適用對象、真實案例與限制。</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">成長要素</th><th scope=\"col\">解決的主要問題</th><th scope=\"col\">適合觀察的指標</th></tr></thead><tbody><tr><td>廣告</td><td>目標顧客是否有機會接觸品牌</td><td>合格觸及、增量成交、邊際獲客成本</td></tr><tr><td>內容</td><td>顧客是否理解差異，能否安心選擇</td><td>有效詢問、輔助成交、常見疑慮變化</td></tr><tr><td>產品與服務</td><td>實際體驗是否值得付費與推薦</td><td>退貨原因、使用留存、客訴、品類適用的回購指標</td></tr></tbody></table></div><p>內容也可能讓不適合的顧客提早退出。例如明確標示服務範圍，可能降低表單總量，卻提高合格詢問比例。因此，內容的價值不能只用瀏覽量衡量。</p><figure class=\"brand-diagram\"><figcaption>讓顧客回饋，回到每一個成長環節</figcaption><p class=\"diagram-origin\">廣告與搜尋帶來接觸 → 內容協助理解與選擇 → 購買與使用體驗</p><p>從成交品質與顧客回饋，判斷需要改善的位置。</p><div class=\"brand-paths brand-pillars\"><section><h4>產品與服務</h4><p>改善使用與交付體驗，再觀察顧客回饋。</p></section><section><h4>內容與訊息</h4><p>補足選購疑慮，讓顧客更容易判斷。</p></section><section><h4>受眾與投放</h4><p>檢驗接觸對象與配置，再評估擴量。</p></section></div><p class=\"diagram-note\">先分辨顧客卡在哪裡，再調整對應環節。回饋不應只用來改廣告文案。</p></figure>"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、為什麼改善轉換率，可能比直接增加廣告預算更有價值？",
+        "paragraphs": [],
+        "bodyHtml": "<p>當訪客數相同，更多人完成購買，就有機會降低每筆訂單分攤的媒體成本。以下僅用簡化假設說明數學關係，並非實際案例、產業平均或成效承諾。</p><h3>圖例二：增加流量與改善轉換的情境比較</h3><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">項目</th><th scope=\"col\">原始情境</th><th scope=\"col\">只增加媒體預算</th><th scope=\"col\">改善承接能力後</th></tr></thead><tbody><tr><td>媒體費</td><td>NT$100,000</td><td>NT$150,000</td><td>NT$100,000</td></tr><tr><td>每次點擊成本</td><td>NT$20</td><td>NT$20</td><td>NT$20</td></tr><tr><td>廣告點擊數</td><td>5,000</td><td>7,500</td><td>5,000</td></tr><tr><td>購買轉換率</td><td>1%</td><td>1%</td><td>2%</td></tr><tr><td>訂單數</td><td>50</td><td>75</td><td>100</td></tr><tr><td>每筆訂單媒體成本</td><td>NT$2,000</td><td>NT$2,000</td><td>NT$1,000</td></tr></tbody></table></div><p>計算方式：點擊數＝媒體費÷每次點擊成本；訂單數＝點擊數×購買轉換率。</p><p>這個情境顯示，提升承接能力可能讓相同媒體費帶來更多訂單。但它假設點擊品質與成本不變，也尚未計入產品開發、內容、網站修改、折扣與人力成本。真實投放擴量時，每次點擊成本與轉換率也可能變動。</p><p>因此，第三欄不能直接解讀為利潤翻倍。品牌應比較<strong>新增且未取消或退貨的訂單所帶來的貢獻毛利，是否足以覆蓋新增投資</strong>。若用大幅折扣換取轉換率，營收增加也可能伴隨利潤下降。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、值得累積的內容，是能反覆協助顧客決策的資訊",
+        "paragraphs": [],
+        "bodyHtml": "<p>一篇熱門貼文不一定能解決成交問題。一份清楚的產品比較、使用說明或案例，卻可能同時用於廣告到達頁、自然搜尋、業務提案與客服回覆。</p><p>例如，企業採購設備時，通常需要的不只是「品質卓越」的形容，而是規格、適用環境、維護方式、交付條件與可核實的應用成果。內容越能回答這些問題，越有機會減少反覆確認的成本。這是經營上的推論，仍需用實際詢問與成交資料驗證。</p><p>Google 建議創作者提供有幫助、可靠、以人為本的內容，並重視原創資訊、經驗與清楚來源。 對品牌而言，較有價值的方向是把第一線經驗整理成顧客能用來判斷的資訊，而非持續增加題目相似的文章。</p><p>在搜尋與 AI 搜尋情境中，這些內容也提供品牌被理解與引用的素材。Google 說明，既有 SEO 基礎原則同樣適用於其 AI 搜尋功能，並不需要特殊的 AI 標記；符合條件也不保證被收錄或呈現。 因此，內容應同時重視可讀性、可檢索性與證據，不能把發文數量視為 GEO 成效保證，也不能將 Google 的說明直接套用到所有 AI 平台。</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、產品體驗影響品牌能否獲得信任與推薦",
+        "paragraphs": [],
+        "bodyHtml": "<p>廣告可以提出承諾，實際使用則讓顧客判斷承諾是否成立。</p><p>Nielsen 的 2021 年全球調查指出，88% 的受訪者信任認識的人所做的推薦。 這是歷史性的全球自陳信任資料，不代表台灣當前購買行為，也不能用來證明產品優化必然比廣告有更高投報。</p><p>它仍提示品牌：值得推薦的體驗是一項重要資產。對可持續消費的品類，應觀察回購與流失；對耐久財、一次性專案或長週期服務，則更適合觀察使用滿意度、客訴、轉介紹與後續服務需求，避免把短期回購當成通用標準。</p>"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "六、什麼情況應先改善內容，什麼情況可以加碼廣告？",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">品牌觀察到的現象</th><th scope=\"col\">優先查證</th><th scope=\"col\">可採取的方向</th></tr></thead><tbody><tr><td>有點擊，卻少有人詢問或購買</td><td>受眾匹配、價格、頁面速度、資訊與流程</td><td>先修正明確阻力，再測試擴量</td></tr><tr><td>詢問很多，合格名單少</td><td>文案承諾、適用對象與服務範圍</td><td>補足篩選資訊，調整廣告訊息</td></tr><tr><td>成交後經常退貨或抱怨</td><td>品質、預期落差、交付與售後</td><td>優先處理產品與服務根因</td></tr><tr><td>成交品質穩定，供應與服務仍有餘裕</td><td>新客來源、邊際成本與增量效果</td><td>以分階段預算測試擴量</td></tr><tr><td>新品尚未確認市場需求</td><td>顧客是否有需求、願意付費與接受價格</td><td>小額廣告搭配訪談、試用或預購驗證</td></tr></tbody></table></div><p>品牌不需要等到一切完美才投放。小額廣告本身也能協助驗證需求與訊息。關鍵在於設定測試問題，將曝光與點擊連回有效詢問、成交品質及經營成果。</p><p>預算安排也不宜套用固定比例。應比較不同改善方案的成本、驗證速度、可影響的顧客範圍，以及預期新增毛利，再決定先做哪一項。</p>"
+      },
+      {
+        "id": "chapter-7",
+        "heading": "七、品牌應建立的，是能持續修正的投資順序",
+        "paragraphs": [],
+        "bodyHtml": "<p>先檢查最近一批未成交、退貨與客訴原因，找出最常出現、影響最大的阻力。若問題來自資訊缺漏，就補足內容；若來自產品不符合需求，就改善方案；若產品與承接流程已經穩定，再以廣告擴大接觸。</p><p>驗證時，盡量分開測試主要變因，並採用一致的觀察期間與指標。轉換量足夠時可進行 A/B 測試；成交量較少的企業，則可結合業務紀錄、訪談與較長週期資料，避免用幾筆訂單判定成功。</p><p>真正值得追求的，是每次增加投入時，品牌都有證據知道資源正在改善哪個問題。</p>"
+      },
+      {
+        "id": "related-reading",
+        "heading": "延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/integrated-marketing-strategy\">為什麼只做廣告或短影音還不夠？企業整合行銷策略解析</a></li><li><a href=\"/insights/six-stage-marketing-funnel-insights\">有曝光、有詢問，成長為何仍卡住？六階段行銷漏斗洞察</a></li><li><a href=\"/insights/search-ads-seo-geo\">關鍵字廣告有助於 SEO 與 GEO 嗎？釐清排名、曝光與資料效益</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "品牌還小，是否應該先停止廣告？",
+        "answer": "不一定。若缺乏需求證據，可以保留小額預算測試產品與訊息；若已有明確品質或交付問題，則應先處理根因，再評估擴量。"
+      },
+      {
+        "question": "做內容是否就是寫文章與拍短影音？",
+        "answer": "範圍更廣。產品頁、規格表、價格與服務範圍、比較資訊、案例、FAQ、使用說明及售後文件，都可以協助顧客決策。"
+      },
+      {
+        "question": "內容做好，廣告成本一定會下降嗎？",
+        "answer": "不保證。內容可能改善理解與轉換，但廣告成本仍受競價、受眾、素材、季節與產品競爭力影響。應分別觀察點擊成本、有效名單成本與成交成本。"
+      },
+      {
+        "question": "如何判斷內容與產品優化是否值得？",
+        "answer": "除了轉換率，也要看名單品質、成交、退款退貨、客服負擔與貢獻毛利，並把優化成本算進去。不同產品應使用符合其購買週期的指標。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Ads Help：Evaluate the performance of your landing pages",
+        "url": "https://support.google.com/google-ads/answer/7543502?hl=en"
+      },
+      {
+        "title": "Google Search Central：Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "title": "Google Search Central：AI features and your website",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features"
+      },
+      {
+        "title": "Nielsen：Beyond martech: building trust with consumers and engaging where sentiment is high",
+        "url": "https://www.nielsen.com/insights/2021/beyond-martech-building-trust-with-consumers-and-engaging-where-sentiment-is-high/"
+      }
+    ],
+    "relatedServices": [
+      "paid-media",
+      "creative-content",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "為什麼品牌應優先做好內容與產品優化，再放大廣告投資？",
+      "description": "廣告能帶來曝光，內容協助顧客理解與選擇，產品體驗影響留存與口碑。從轉換率、獲客成本與顧客回饋，解析品牌如何安排成長投資順序。"
+    },
+    "card": {
+      "eyebrow": "CONTENT × PRODUCT",
+      "title": "VALUE",
+      "caption": "讓價值被理解，讓投入有依據。"
+    },
+    "cta": {
+      "heading": "找出品牌成長的",
+      "highlight": "下一個優先順序。",
+      "text": "從顧客停下來的地方開始，整合內容、網站與廣告策略，讓投入對應具體的成長問題。",
+      "label": "與我們討論品牌成長策略"
+    }
+  },
+  {
     "slug": "established-brand-corporate-identity",
     "title": "經營數十年的品牌，還需要做企業識別嗎？從接班到品牌傳承的經營判斷",
     "excerpt": "需要持續管理，但不一定需要重新設計。對老品牌而言，值得投入的工作，是把多年累積的信任、經驗與特色，整理成新客戶看得懂、新團隊能延續的品牌資產。",
@@ -207,8 +346,8 @@ export const articles:Article[]=[
   },
   {
     "slug": "what-is-rag",
-    "title": "RAG 是什麼？看懂 AI 如何查資料，以及品牌內容為何重要",
-    "excerpt": "RAG 是 Retrieval-Augmented Generation，中文常稱「檢索增強生成」。系統先從外部來源找出相關資料，再把資料提供給生成模型參考。它有助於使用較新或特定領域的資訊，但不保證答案完全正確。",
+    "title": "RAG 是什麼？AI 從哪裡找答案，以及它與 GEO 的關係",
+    "excerpt": "AI 為什麼能解釋複雜概念，卻可能答錯一家公司的服務內容？要理解這個落差，得先知道：AI 回答時，究竟有哪些資訊可以使用。",
     "category": "GEO 與搜尋",
     "status": "published",
     "author": {
@@ -220,55 +359,100 @@ export const articles:Article[]=[
     "publishedAt": "2026-10-23",
     "updatedAt": "2026-10-23",
     "keywords": [
-      "RAG 是什麼",
-      "SEO",
-      "GEO"
+      "RAG",
+      "GEO",
+      "AI 搜尋",
+      "品牌內容"
     ],
     "takeaways": [
-      "RAG 在回答時引入外部資料，與重新訓練模型不同。",
-      "資料版本與檢索品質，都會影響回答是否可靠。",
-      "公開品牌內容與內部知識助理，是兩種不同的工作範圍。"
+      "AI 的資訊可能來自訓練知識、對話內容或系統另外取得的資料。",
+      "RAG 將查找資料接進回答流程，但資料過期或解讀錯誤仍可能造成誤答。",
+      "GEO 關注公開品牌資訊的可見度，不等同於建置內部 RAG 系統。"
     ],
     "sections": [
       {
-        "id": "chapter-1",
-        "heading": "用企業客服理解 RAG",
+        "id": "perspective",
+        "heading": "先理解資訊，才能找到改善方向。",
         "paragraphs": [],
-        "bodyHtml": "<p>假設顧客問：「這項服務是否包含每月成效報告？」系統可以先檢索企業提供的方案說明，再依找到的條款整理回答。若資料庫混入過期方案，或系統取錯段落，回答仍可能出錯。</p><p>因此，RAG 的品質不只取決於模型，也取決於資料版本、檢索結果與回答查核。這是企業導入時需要共同管理的流程。</p>"
+        "bodyHtml": "<p><strong>RAG（檢索增強生成）是一種先找出相關資料，再交給 AI 整理答案的方法。GEO 則關注品牌如何在生成式搜尋中被理解與呈現。兩者的交集，是品牌能否提供值得取用的資訊。</strong></p>"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "AI 的資訊從哪裡來？先分清楚三種來源",
+        "paragraphs": [],
+        "bodyHtml": "<p>我們看到的 AI 助理，通常由語言模型搭配其他功能組成。不同產品、模式與權限，能用的資料也不同。</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">資訊來源</th><th scope=\"col\">白話理解</th><th scope=\"col\">需要注意什麼</th></tr></thead><tbody><tr><td>模型訓練時學到的知識</td><td>像一個人過去累積的知識與表達能力</td><td>不等於即時資料庫，也不能假定每段回答都有可追溯的原始網址</td></tr><tr><td>這次對話提供的內容</td><td>你輸入的說明、貼上的文章或上傳文件</td><td>能否讀取及如何處理，取決於工具功能；也不代表內容立刻成為所有人的公共知識</td></tr><tr><td>系統另外取得的資料</td><td>搜尋到的網頁、連接的知識庫或經授權查詢的系統紀錄</td><td>必須具備相應功能與存取權限，不是每次回答都會查詢</td></tr></tbody></table></div><p>因此，「AI 回答了」不等於「AI 剛剛上網查過」。若問題涉及最新價格、方案條款或品牌資訊，應確認它有沒有取得相關資料，以及來源是否支持結論。</p>"
       },
       {
         "id": "chapter-2",
-        "heading": "RAG、模型訓練與 GEO 有什麼差別？",
+        "heading": "為什麼需要 RAG？會回答，不代表知道你的最新資訊",
         "paragraphs": [],
-        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"搜尋與內容策略比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">概念</th><th scope=\"col\">處理的核心問題</th><th scope=\"col\">品牌應如何理解</th></tr></thead><tbody><tr><th scope=\"row\">模型訓練</th><td>建立或調整模型能力與參數</td><td>發布一篇文章，不代表模型立即更新</td></tr><tr><th scope=\"row\">RAG</th><td>回答時引入外部參考資料</td><td>取到什麼資料，會影響回答基礎</td></tr><tr><th scope=\"row\">GEO</th><td>改善品牌在生成式搜尋中的可見度</td><td>是內容與資訊治理工作，不是一種模型架構</td></tr></tbody></table></div>"
+        "bodyHtml": "<p>想像一位很有經驗的活動企劃。他知道活動怎麼安排，卻不會自然知道某個場地今年的租借規則。</p><p>有人問：「這個場地晚上可以使用到幾點？」他需要先查場地方的最新規定，才能給出適用答案。</p><p>AI 也面臨類似問題。一般知識可以協助它理解問題，但無法取代特定公司的正式資料。</p><p>這正是 RAG 要處理的落差：<strong>讓 AI 在回答時取得相關依據，補充模型原本不知道、可能過期，或不夠具體的資訊。</strong>這個過程不需要為每次資料更新重新訓練模型。</p>"
       },
       {
         "id": "chapter-3",
-        "heading": "做 GEO，一定要自己建 RAG 嗎？",
+        "heading": "什麼是 RAG？把「找資料」接進「回答問題」",
         "paragraphs": [],
-        "bodyHtml": "<p>不一定。讓外部搜尋服務找到公開內容，與企業建置內部知識助理，是不同需求。前者著重公開網站與品牌資訊；後者還要處理權限、機密資料、知識更新及回答評估。</p><p>品牌可以先整理每個方案的名稱、適用對象、版本日期與正式條款；同一件事若在不同頁面出現矛盾說法，先修正資訊，再談導入系統。</p>"
+        "bodyHtml": "<p>RAG 的英文是 Retrieval-Augmented Generation，中文稱為「檢索增強生成」。可以拆成三個動作理解：</p><ol><li><strong>檢索：</strong> 從可使用的資料來源，找出與問題相關的內容。</li><li><strong>增強：</strong> 把找到的資料和使用者問題一起提供給模型。</li><li><strong>生成：</strong> 由模型根據這些參考內容整理回答。</li></ol><p>它有點像開卷作答：能查資料，通常比只憑既有知識更有依據；但查錯章節或讀錯條件，仍然可能答錯。</p><h3>一個例子：顧客問「你們的短影音服務包含拍攝嗎？」</h3><p>以下為假設情境，用來說明運作方式。</p><p>若 AI 沒有取得這家公司的方案，它可能只能說明業界常見做法。這不足以代表該公司的實際服務。</p><p>若系統採用 RAG，並連接有效的方案文件，便可先找出「企劃、拍攝、剪輯各包含哪些項目」，再整理適用範圍與例外條件。</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">步驟</th><th scope=\"col\">這個情境中發生的事</th></tr></thead><tbody><tr><td>顧客提問</td><td>詢問短影音服務是否包含拍攝</td></tr><tr><td>系統查找</td><td>從正式方案中找到拍攝相關段落</td></tr><tr><td>模型整理</td><td>說明哪些方案包含拍攝、有哪些條件</td></tr><tr><td>顧客查證</td><td>若產品支援來源呈現，可開啟原始方案確認</td></tr></tbody></table></div><p>如果文件只寫「提供完整影音服務」，沒有清楚交代拍攝範圍，AI 仍缺乏足夠依據。這也是品牌內容品質會影響回答品質的原因。</p>"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "RAG 找的是哪些資料？不一定是整個網路",
+        "paragraphs": [],
+        "bodyHtml": "<p>RAG 可以連接指定文件、企業知識庫，也能搭配公開網頁搜尋。實際搜尋範圍，由系統設計與權限決定。</p><p>例如，員工助理可能查公司制度；客服助理可能查產品手冊；具有搜尋功能的 AI 服務則可能取得公開網頁。這些資料範圍並不相同，也不會自動互通。</p><p>所以，把公司文件放進內部 AI 工具，與讓公開 AI 搜尋找到官網，是兩件不同的工作。</p>"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "RAG 與 GEO 的關係是什麼？",
+        "paragraphs": [],
+        "bodyHtml": "<p>GEO 是 Generative Engine Optimization，通常譯為「生成式引擎最佳化」，是業界用來討論生成式搜尋可見度的概念。</p><p><strong>RAG 關心系統如何取得資料來回答；GEO 關心品牌如何成為可被發現、理解及採用的資訊來源。</strong></p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">比較項目</th><th scope=\"col\">RAG</th><th scope=\"col\">GEO</th></tr></thead><tbody><tr><td>核心問題</td><td>回答這個問題，需要找哪些資料？</td><td>品牌有哪些資訊值得被找到與參考？</td></tr><tr><td>主要工作</td><td>連接資料、檢索、提供上下文與生成答案</td><td>改善公開內容、網站可存取性與品牌資訊品質</td></tr><tr><td>品牌可控制的部分</td><td>自建系統的資料範圍、更新與權限</td><td>自己發布的內容、證據與資訊一致性</td></tr><tr><td>不能直接保證的結果</td><td>每次都答對</td><td>每次都被 AI 引用或推薦</td></tr></tbody></table></div><p>當生成式搜尋會檢索外部來源時，品牌公開內容就可能成為回答的參考。但這不代表所有 AI 平台都使用同一套 RAG 流程，也不代表網站收錄後一定被選用。</p><p>以 Google 為例，官方說明 AI 搜尋功能可能針對多個相關子題搜尋，並選出支持答案的網頁；既有 SEO 最佳實務仍然適用，沒有額外的特殊最佳化要求。</p><p>對品牌的啟示是：除了讓網站可以被找到，還要讓找到的內容能回答實際問題。</p>"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "品牌可以怎麼做？把介紹文變成有用的答案",
+        "paragraphs": [],
+        "bodyHtml": "<p>以下為九色鹿的內容策略建議，不是 AI 平台公布的引用評分規則。</p><h3>1. 寫清楚顧客要判斷的事情</h3><p>「專業團隊、完整服務」很難幫助顧客比較。可以進一步交代服務包含什麼、適合誰、合作怎麼進行，以及哪些項目需另行評估。</p><h3>2. 讓每段內容保留必要條件</h3><p>與其只寫「我們提供拍攝」，不如寫清楚是哪項服務、什麼方案與哪些適用條件。即使讀者只看到其中一段，也應能理解它在說什麼。</p><h3>3. 為重要主張提供依據</h3><p>案例交代背景、執行內容與限制；數據標明來源與期間。顧客能查證，資訊才更有參考價值。</p><h3>4. 維護正式版本，減少矛盾</h3><p>如果服務頁、FAQ 與舊文章各寫一套方案，讀者與系統都可能取得過期資訊。先建立明確的正式說明，再持續更新相關頁面。</p><p><strong>理解 RAG 後，品牌值得問自己的問題是：「如果有人根據我們公開的內容回答顧客，現有資料足夠嗎？」</strong></p>"
       },
       {
         "id": "related-reading",
-        "heading": "延伸閱讀：搜尋與 AI 系列",
+        "heading": "延伸閱讀",
         "paragraphs": [],
-        "bodyHtml": "<ul><li><a href=\"/insights/how-ai-finds-your-brand\">AI 如何找到你的品牌？從搜尋、資料來源到品牌引用的關鍵路徑</a></li><li><a href=\"/insights/eeat-brand-content\">E-E-A-T 是什麼？品牌建立經驗、專業與信任的內容策略</a></li></ul>"
+        "bodyHtml": "<ul><li><a href=\"/insights/how-ai-finds-your-brand\">AI 如何找到你的品牌？從搜尋、資料來源到品牌引用的關鍵路徑</a></li><li><a href=\"/insights/geo-brand-checklist\">品牌 GEO 自我健檢：你的網站準備好被 AI 理解與引用了嗎？</a></li><li><a href=\"/insights/eeat-brand-content\">E-E-A-T 是什麼？品牌建立經驗、專業與信任的內容策略</a></li></ul>"
       }
     ],
     "faqs": [
       {
-        "question": "把公司文件交給聊天機器人，就是做 GEO 嗎？",
-        "answer": "不是。那可能只改善特定工具或對話中的回答，不會自動使文件成為公開搜尋來源。"
+        "question": "AI 每次回答都會使用 RAG 嗎？",
+        "answer": "不一定。有些回答主要依據模型既有知識與對話內容，有些會啟用搜尋或知識庫。需看產品功能及當次運作方式。"
       },
       {
-        "question": "有列出來源，就一定可信嗎？",
-        "answer": "不是。仍要確認引用段落是否支持結論，以及資料是否有效。"
+        "question": "使用 RAG 就能完全避免 AI 幻覺嗎？",
+        "answer": "不能。找錯資料、資料過期或模型解讀錯誤，都可能導致錯誤答案。重要資訊仍需查核。"
+      },
+      {
+        "question": "做 GEO 一定要自己建 RAG 系統嗎？",
+        "answer": "不一定。若目標是讓公開品牌資訊更清楚，先改善官網內容與搜尋基礎；若要讓員工或客服查詢內部文件，再評估建置知識助理。"
+      },
+      {
+        "question": "把文件上傳給 AI，其他人就能搜尋到品牌嗎？",
+        "answer": "不會因為這個動作就自動發生。特定對話或內部工具可使用的文件，不等於公開搜尋可取得的來源。"
+      },
+      {
+        "question": "補上 FAQ，就能保證被 AI 引用嗎？",
+        "answer": "不能。FAQ 的價值是回答真實問題。平台是否採用來源，仍取決於問題、可取得資訊與系統選擇；Google 也不保證符合要求的頁面一定會被呈現。"
       }
     ],
     "sources": [
       {
-        "title": "AWS｜What is Retrieval-Augmented Generation?",
-        "url": "https://aws.amazon.com/what-is/retrieval-augmented-generation/"
+        "title": "Cloudflare：什麼是 AI 中的檢索增強生成（RAG）？",
+        "url": "https://www.cloudflare.com/zh-tw/learning/ai/retrieval-augmented-generation-rag/"
+      },
+      {
+        "title": "Microsoft Learn：Retrieval-augmented generation in Azure AI Search",
+        "url": "https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview"
+      },
+      {
+        "title": "Google Search Central：AI features and your website",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features"
       }
     ],
     "relatedServices": [
@@ -276,19 +460,19 @@ export const articles:Article[]=[
       "creative-content"
     ],
     "seo": {
-      "title": "RAG 是什麼？看懂 AI 如何查資料，以及品牌內容為何重要",
-      "description": "RAG 是什麼？用企業客服情境看懂檢索增強生成，釐清它與模型訓練、GEO 的差別，以及品牌資料管理的重要性。"
+      "title": "RAG 是什麼？AI 資訊來源與 GEO 關係一次看懂",
+      "description": "AI 的答案從哪裡來？用生活化例子理解 RAG 檢索增強生成、為什麼 AI 需要外部資料，以及 RAG 與 GEO 的關係，掌握品牌內容準備方向。"
     },
     "card": {
       "eyebrow": "SEARCH & AI INSIGHTS",
       "title": "RETRIEVE",
-      "caption": "整理可信的資料，讓答案更有依據。"
+      "caption": "先找到依據，再整理答案。"
     },
     "cta": {
-      "heading": "整理可信的資料，",
-      "highlight": "讓答案更有依據。",
-      "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
-      "label": "討論品牌內容整理"
+      "heading": "讓品牌資訊，",
+      "highlight": "成為值得信任的參考。",
+      "text": "從服務說明、常見問題到實務案例，與九色鹿一起整理清楚且可查證的品牌內容。",
+      "label": "與九色鹿討論品牌內容策略"
     }
   },
   {

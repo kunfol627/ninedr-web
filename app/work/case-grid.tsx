@@ -3,7 +3,7 @@ import Arrow from "@/app/arrow";
 
 import {useState} from 'react';
 const cases=[
- {title:'寰宇磐石',subtitle:'Google 關鍵字廣告',category:'關鍵字廣告',url:'/work/huanyu-google-search',image:'/images/huanyu-nikko-906.webp',srcSet:'/images/huanyu-nikko-640.webp 640w, /images/huanyu-nikko-906.webp 906w',width:906,height:696,alt:'寰宇磐石水茉石於高雄日航酒店 Hotel Nikko Kaohsiung 的實景應用',partners:'台灣搜尋 × 英文搜尋',summary:'優化台灣與英文搜尋投放，降低每次點擊成本，提升預算運用效率。',tags:['Google 搜尋','CPC 優化','成效追蹤'],en:'PAID SEARCH'},
+ {title:'寰宇磐石',subtitle:'Google 關鍵字廣告',category:'關鍵字廣告',url:'/work/huanyu-google-search',image:'/images/huanyu-nikko-906.webp',srcSet:'/images/huanyu-nikko-640.webp 640w, /images/huanyu-nikko-906.webp 906w',width:906,height:696,alt:'寰宇磐石水茉石於高雄日航酒店 Hotel Nikko Kaohsiung 的實景應用',partners:'多語系市場經營方案',summary:'優化台灣與英文搜尋投放，降低每次點擊成本，提升預算運用效率。',tags:['Google 搜尋','CPC 優化','成效追蹤'],en:'PAID SEARCH'},
  {title:'米森17週年慶',subtitle:'KOL 宣傳',category:'KOL 宣傳',url:'/work/vilson-17th-anniversary',image:'/images/vilson-anniversary-cover-1424.webp',srcSet:'/images/vilson-anniversary-cover-640.webp 640w, /images/vilson-anniversary-cover-1424.webp 1424w',width:1424,height:1084,alt:'Vilson 米森17週年慶品牌主視覺',partners:'爸尬沐沐 × 咕溜魚 × 莊寶莊可愛',summary:'透過創作者的產品體驗與社群分享，傳遞週年限定活動訊息。',tags:['產品體驗','社群貼文','限時動態'],en:'KOL COLLABORATION'},
  {title:'庫洛魔法使：回憶鑰匙',subtitle:'Vogue風格野餐日',category:'活動宣傳',url:'/work/cardcaptor-sakura-yinsheng',image:'/images/sakura-yinsheng-1407.webp',srcSet:'/images/sakura-yinsheng-720.webp 720w, /images/sakura-yinsheng-1407.webp 1407w',width:1407,height:1759,alt:'茵聲於 Vogue風格野餐日的庫洛魔法使：回憶鑰匙合作照片',partners:'茵聲 × 一隻阿圓',summary:'串連創作者活動出席與產品推廣，將現場體驗延伸至社群。',tags:['活動出席','產品推廣','社群曝光'],en:'EVENT CAMPAIGN'}
 ];
