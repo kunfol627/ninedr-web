@@ -6,18 +6,21 @@ type Turnstile={render:(el:HTMLElement,options:Record<string,unknown>)=>string;r
 declare global{interface Window{turnstile?:Turnstile}}
 const directions=['整合行銷','廣告投放與媒介操作','廣告創意與內容產製','品牌策略與整合行銷','SEO / GEO / Local SEO','品牌設計','企業顧問與數位轉型','其他合作'];
 export default function Contact(){
+ const [theme,setTheme]=useState<'dark'|'light'>('dark');
+ useEffect(()=>{const sync=()=>setTheme(document.documentElement.dataset.theme==='light'?'light':'dark');sync();window.addEventListener('ninedr-theme-change',sync);return()=>window.removeEventListener('ninedr-theme-change',sync)},[]);
  const [config,setConfig]=useState<{enabled:boolean;siteKey?:string}|null>(null);
  const [token,setToken]=useState(''),[busy,setBusy]=useState(false),[notice,setNotice]=useState(''),[sent,setSent]=useState(false),[summary,setSummary]=useState('');
  const widget=useRef<HTMLDivElement>(null),widgetId=useRef<string|undefined>(undefined);
  useEffect(()=>{const controller=new AbortController();fetch('/api/contact',{signal:controller.signal}).then(r=>r.ok?r.json():Promise.reject()).then(value=>setConfig(value as {enabled:boolean;siteKey?:string})).catch(()=>{if(!controller.signal.aborted)setConfig({enabled:false})});return()=>controller.abort()},[]);
  useEffect(()=>{
   if(!config?.enabled||!config.siteKey)return;
+  setToken('');
   let disposed=false;
-  const render=()=>{if(disposed||!widget.current||!window.turnstile)return;window.turnstile && (widgetId.current=window.turnstile.render(widget.current,{sitekey:config.siteKey,theme:'dark',size:'flexible',action:'contact',callback:(value:string)=>setToken(value),'expired-callback':()=>setToken(''),'error-callback':()=>{setToken('');setNotice('驗證暫時無法載入，請重新整理或使用 Email 聯繫。')}}))};
+  const render=()=>{if(disposed||!widget.current||!window.turnstile)return;window.turnstile && (widgetId.current=window.turnstile.render(widget.current,{sitekey:config.siteKey,theme,size:'flexible',action:'contact',callback:(value:string)=>setToken(value),'expired-callback':()=>setToken(''),'error-callback':()=>{setToken('');setNotice('驗證暫時無法載入，請重新整理或使用 Email 聯繫。')}}))};
   let script=document.querySelector<HTMLScriptElement>('script[data-contact-verification]');
   if(window.turnstile)render();else{if(!script){script=document.createElement('script');script.src='https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';script.async=true;script.dataset.contactVerification='true';document.head.appendChild(script)}script.addEventListener('load',render)}
   return()=>{disposed=true;script?.removeEventListener('load',render);if(widgetId.current)window.turnstile?.remove(widgetId.current);widgetId.current=undefined};
- },[config]);
+ },[config,theme]);
  return <form onSubmit={async e=>{
   e.preventDefault();if(busy||sent)return;
   const form=e.currentTarget,data=new FormData(form);

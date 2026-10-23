@@ -1,0 +1,201 @@
+/* Light palette overrides; dark artwork keeps its original contrast. */
+:root{color-scheme:dark}
+html[data-theme="light"]{color-scheme:light;--bg:#f7f5f0;--lime:#bd523b;--gray:#626b68}
+.brand .logo-light{display:none}
+html[data-theme="light"] .brand .logo-dark{display:none}
+html[data-theme="light"] .brand .logo-light{display:block}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;min-width:44px;padding:8px 10px;border:1px solid #555;border-radius:24px;font-size:11px;white-space:nowrap;touch-action:manipulation}
+.theme-toggle svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.5}
+.theme-toggle:hover{color:var(--lime);border-color:var(--lime)}
+.header-right{gap:28px}
+@media(max-width:700px){.header-right{gap:12px}.theme-toggle span{display:none}.theme-toggle{padding:10px}.menu-toggle{gap:12px}header .brand img{width:112px}}
+html[data-theme="light"] body{color:#2b3031}
+html[data-theme="light"] ::selection{color:#fff}
+html[data-theme="light"] .muted{color:#626b68}
+html[data-theme="light"] .brand span{border-left:1px solid #E5DAC8}
+html[data-theme="light"] .header-right>span{color:#626b68}
+html[data-theme="light"] .hero{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .hero-top{color:#626b68}
+html[data-theme="light"] .hero-center>.eyebrow{color:#626b68}
+html[data-theme="light"] .hero-description p{color:#626b68}
+html[data-theme="light"] .text-link{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .round-cta{color:#fff}
+html[data-theme="light"] .slider-controls small{color:#626b68}
+html[data-theme="light"] .slider-controls button{border:1px solid #E5DAC8}
+html[data-theme="light"] .slider-controls button:hover{color:#fff}
+html[data-theme="light"] .hero-baseline{color:#626b68}
+html[data-theme="light"] .hero-baseline button:after{background:#eee8dd}
+html[data-theme="light"] .intro{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .intro p:not(.eyebrow),html[data-theme="light"] .about-belief p{color:#626b68}
+html[data-theme="light"] .service-row{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .service-row:last-child{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .service-row small{color:#626b68}
+html[data-theme="light"] .service-row>span{color:#626b68}
+html[data-theme="light"] footer{border-top:1px solid #E5DAC8}
+html[data-theme="light"] footer p{color:#626b68}
+html[data-theme="light"] footer small{color:#626b68}
+html[data-theme="light"] .page-intro p{color:#626b68}
+html[data-theme="light"] .filters{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .filters button{color:#626b68}
+html[data-theme="light"] .work-caption small{color:#626b68}
+html[data-theme="light"] .work-caption>span{color:#626b68}
+html[data-theme="light"] .work-detail{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .work-detail p{color:#626b68}
+html[data-theme="light"] .work-detail small{color:#626b68}
+html[data-theme="light"] .materials-note{color:#626b68}
+html[data-theme="light"] .about-belief{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .team-grid p:not(.eyebrow){color:#626b68}
+html[data-theme="light"] .road-step{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .road-step p{color:#626b68}
+html[data-theme="light"] .road-step small{color:#626b68}
+html[data-theme="light"] .contact-layout p{color:#626b68}
+html[data-theme="light"] form label{color:#626b68}
+html[data-theme="light"] input,html[data-theme="light"] textarea,html[data-theme="light"] select{border-bottom:1px solid #E5DAC8;color:#2b3031}
+html[data-theme="light"] select option{background:#eee8dd}
+html[data-theme="light"] input::placeholder,html[data-theme="light"] textarea::placeholder{color:#626b68}
+html[data-theme="light"] .lime-button{color:#fff}
+html[data-theme="light"] form>small{color:#626b68}
+html[data-theme="light"] .nav-dialog{background:#eee8dd}
+html[data-theme="light"] .nav-dialog::backdrop{background:#eee8dd}
+html[data-theme="light"] .nav-dialog nav a{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .nav-dialog small{color:#626b68}
+html[data-theme="light"] .nav-dialog nav span{color:#626b68}
+html[data-theme="light"] .skip{color:#fff}
+html[data-theme="light"] .team-portrait{background:#eee8dd}
+html[data-theme="light"] .service-summary{color:#626b68}
+html[data-theme="light"] .service-index{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .service-index small{color:#626b68}
+html[data-theme="light"] .service-chapter{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .chapter-heading>p:not(.eyebrow){color:#626b68}
+html[data-theme="light"] .chapter-items>div{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .chapter-items p{color:#626b68}
+html[data-theme="light"] .section-next{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .editorial-empty{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .editorial-empty>p:not(.eyebrow){color:#626b68}
+html[data-theme="light"] .case-framework{border-top:1px solid #E5DAC8;color:#626b68}
+html[data-theme="light"] .journal-topics{border-top:1px solid #E5DAC8;border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .journal-topics small{color:#626b68}
+html[data-theme="light"] .journal-topics p{color:#626b68}
+html[data-theme="light"] .journal-empty p{color:#626b68}
+html[data-theme="light"] .home-paths>a{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .home-paths a>p:last-child{color:#626b68}
+html[data-theme="light"] .article-list>a{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .article-list p,html[data-theme="light"] .article-list small{color:#626b68}
+html[data-theme="light"] .article-meta{color:#626b68}
+html[data-theme="light"] .article-detail .article-excerpt{color:#626b68}
+html[data-theme="light"] .article-toc{border-block:1px solid #E5DAC8}
+html[data-theme="light"] .article-toc a{color:#2b3031}
+html[data-theme="light"] .article-detail section p,html[data-theme="light"] .article-detail aside p{color:#626b68}
+html[data-theme="light"] .article-detail details{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .article-detail aside{border-top:1px solid #E5DAC8}
+@media(max-width:600px){html[data-theme="light"] .journal-topics section+section{border-top:1px solid #E5DAC8}
+}
+html[data-theme="light"] .footer-bottom{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .footer-bottom>small{color:#626b68}
+html[data-theme="light"] .footer-bottom nav a{color:#626b68}
+html[data-theme="light"] .privacy-page .policy-date{color:#626b68}
+html[data-theme="light"] .privacy-page section{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .privacy-page p{color:#626b68}
+html[data-theme="light"] .featured-case{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .case-card-copy>p:not(.eyebrow){color:#626b68}
+html[data-theme="light"] .case-facts{border-block:1px solid #E5DAC8}
+html[data-theme="light"] .case-facts small{color:#626b68}
+html[data-theme="light"] .case-story figcaption{color:#626b68}
+html[data-theme="light"] .case-story aside>p:not(.eyebrow){color:#626b68}
+html[data-theme="light"] .case-story aside>small{color:#626b68}
+html[data-theme="light"] .portfolio-filter{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .portfolio-filter button{color:#626b68}
+html[data-theme="light"] .portfolio-filter button[aria-pressed=true]{color:#2b3031}
+html[data-theme="light"] .portfolio-filter>span{color:#626b68}
+html[data-theme="light"] .portfolio-tile{background:#eee8dd}
+html[data-theme="light"] .project-breadcrumb{color:#626b68}
+html[data-theme="light"] .project-overview{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .project-overview>div>p:not(.eyebrow){color:#626b68}
+html[data-theme="light"] .project-overview dt{color:#626b68}
+html[data-theme="light"] .project-results{border-block:1px solid #E5DAC8}
+html[data-theme="light"] .result-grid small{color:#626b68}
+html[data-theme="light"] .result-source{color:#626b68}
+html[data-theme="light"] .project-gallery figcaption{color:#626b68}
+html[data-theme="light"] .project-video{border-block:1px solid #E5DAC8}
+html[data-theme="light"] .project-end{border-top:1px solid #E5DAC8}
+@media(max-width:600px){html[data-theme="light"] .result-grid>div{border-bottom:1px solid #E5DAC8}
+}
+html[data-theme="light"] .image-preview{background:#eee8dd;color:#2b3031;border:1px solid #E5DAC8}
+html[data-theme="light"] .contact-summary{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .contact-summary p{color:#626b68}
+html[data-theme="light"] .brand-story{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .story-copy p{color:#626b68}
+html[data-theme="light"] .story-copy .story-manifesto{color:#2b3031}
+html[data-theme="light"] .story-pillars{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .story-section-heading>p:last-child{color:#626b68}
+html[data-theme="light"] .pillar-grid article{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .pillar-grid article>p:last-child{color:#626b68}
+html[data-theme="light"] .team-heading{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .case-summary-link{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .case-summary-visual{background:#eee8dd}
+html[data-theme="light"] .case-meta{color:#626b68}
+html[data-theme="light"] .case-summary h2>span{color:#626b68}
+html[data-theme="light"] .case-partners{color:#2b3031}
+html[data-theme="light"] .case-brief{color:#626b68}
+html[data-theme="light"] .case-tags li{border:1px solid #E5DAC8;color:#626b68}
+html[data-theme="light"] .case-read{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .ongoing-label{border:1px solid #E5DAC8}
+html[data-theme="light"] .search-results{border-block:1px solid #E5DAC8}
+html[data-theme="light"] .comparison-note,html[data-theme="light"] .application-note{color:#626b68}
+html[data-theme="light"] .cpc-grid>div{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .cpc-grid span{color:#626b68}
+html[data-theme="light"] .search-secondary{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .search-secondary p{color:#626b68}
+@media(max-width:700px){html[data-theme="light"] .search-secondary>div{border-bottom:1px solid #E5DAC8}
+}
+html[data-theme="light"] .insight-list>a{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .insight-cover{background:#eee8dd}
+html[data-theme="light"] .insight-cover>span{color:#626b68}
+html[data-theme="light"] .insight-cover>p{color:#2b3031}
+html[data-theme="light"] .insight-card-copy>p{color:#626b68}
+html[data-theme="light"] .insight-card-copy small{color:#626b68}
+html[data-theme="light"] .insight-takeaways{border-block:1px solid #E5DAC8}
+html[data-theme="light"] .insight-takeaways ul{color:#2b3031}
+html[data-theme="light"] .article-detail .article-meta{color:#626b68}
+html[data-theme="light"] .article-detail .article-toc{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .article-toc>a{color:#626b68}
+html[data-theme="light"] .insight-cards>div{background:#eee8dd;border-top:1px solid #E5DAC8}
+html[data-theme="light"] .insight-table{border:1px solid #E5DAC8}
+html[data-theme="light"] .insight-table th,html[data-theme="light"] .insight-table td{border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .insight-table thead{background:#eee8dd}
+html[data-theme="light"] .insight-table tbody th{color:#2b3031}
+html[data-theme="light"] .insight-table td{color:#626b68}
+html[data-theme="light"] .insight-steps li{border-top:1px solid #E5DAC8;color:#626b68}
+html[data-theme="light"] .insight-cta{border-top:1px solid #E5DAC8}
+html[data-theme="light"] .insight-cta>p:not(.eyebrow){color:#626b68}
+html[data-theme="light"] .nav-dialog .nav-toolbar{background:#eee8dd;border-bottom:1px solid #E5DAC8}
+html[data-theme="light"] .nav-toolbar .eyebrow{color:#626b68}
+html[data-theme="light"] .nav-dialog .close:hover{background:#eee8dd}
+html[data-theme="light"] .contact-consent{color:#626b68}
+html[data-theme="light"] .contact-consent a{color:#2b3031}
+html[data-theme="light"] .contact-status{border:1px solid #E5DAC8}
+
+html[data-theme="light"] body{color:#2b3031;background:#f7f5f0}
+html[data-theme="light"] :is(h1,h2,h3,h4){color:#456c6f}
+html[data-theme="light"] .hero h1{color:#456c6f}
+html[data-theme="light"] .hero h1 .second-line{color:#bd523b}
+html[data-theme="light"] .hero-atmosphere{background:radial-gradient(ellipse at 55% 65%,#e5dac866,transparent 65%)}
+html[data-theme="light"] :is(.intro,.home-paths,.insight-cover,.insight-cards>div){background:#eee8dd}
+html[data-theme="light"] .site-footer{background:transparent}
+html[data-theme="light"] :is(.nav-dialog,.nav-dialog .nav-toolbar){background:#f7f5f0;color:#2b3031}
+html[data-theme="light"] .menu-toggle i{background:#2b3031}
+html[data-theme="light"] :is(.round-cta,.lime-button,.skip){background:#bd523b;color:#fff}
+html[data-theme="light"] :is(.round-cta,.lime-button):hover{background:#a54230}
+html[data-theme="light"] .text-link{border-color:#8c9691}
+html[data-theme="light"] :is(input,textarea,select){color:#2b3031;border-color:#92978f}
+html[data-theme="light"] :is(input,textarea)::placeholder{color:#737a74;opacity:1}
+html[data-theme="light"] select option{background:#f7f5f0;color:#2b3031}
+html[data-theme="light"] .theme-toggle{border-color:#b7b4a9;color:#456c6f}
+html[data-theme="light"] .cursor.active{background:#bd523b;mix-blend-mode:multiply}
+html[data-theme="light"] :is(.case-cinema-link,.portfolio-overlay){color:#fff;--lime:#E5DAC8}
+html[data-theme="light"] :is(.case-cinema-link,.portfolio-overlay) h2{color:#fff}
+html[data-theme="light"] .case-cinema-link:hover .cinema-open{background:#bd523b;color:#fff;border-color:#bd523b}
+html[data-theme="light"] .editorial-empty{background:linear-gradient(100deg,#eee8dd,#f7f5f0)}
+html[data-theme="light"] .insight-table thead{background:#e5dac8;color:#456c6f}
+html[data-theme="light"] .slider-controls button:hover{color:#fff}
+html[data-theme="light"] ::selection{background:#bd523b;color:#fff}
