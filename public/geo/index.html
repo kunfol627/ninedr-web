@@ -94,8 +94,10 @@
         .report-reader{margin-top:12px;color:#cbd5e1;font-size:13px}
         .report-reader summary{cursor:pointer;padding:10px 0;color:#5eead4}
         .report-reader iframe{width:100%;height:min(70vh,760px);min-height:350px;border:0;background:#212121}
-        .taiwan-zoom{height:270px;width:92px;overflow:hidden;position:relative;margin:16px auto;border:2px solid #fbbf24;border-radius:7px;background:#212121}
-        .taiwan-zoom img{position:absolute;width:900px;max-width:none;left:-465px;top:-150px}
+        .taiwan-zoom{height:150px;width:170px;overflow:hidden;position:relative;margin:16px auto;border:2px solid #fbbf24;border-radius:7px;background:#212121}
+        .taiwan-zoom img{position:absolute;width:2400px;max-width:none;left:-1270px;top:-975px}
+        .taiwan-zoom::after{content:"";position:absolute;left:64px;top:0;width:35px;height:100%;border:2px solid #fbbf24;background:#fbbf2415;pointer-events:none}
+        @media(min-width:801px) and (min-height:700px){.report-layout>.report-figure{width:min(100%,calc(42vh * 1.6));margin-inline:auto}}
         .age-chips{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin:16px 0}
         .age-chips div{border-top:2px solid #fbbf24;background:#1e293b;padding:10px;text-align:center}
         .age-chips b{display:block;color:#fde68a;font-size:16px}.age-chips span{font-size:12px;color:#cbd5e1}
@@ -144,7 +146,7 @@
                         </h1>
                         <h2 class="text-3xl md:text-5xl font-bold text-gray-300 mb-8 anim-item delay-2">AI時代的搜尋新法則</h2>
                         <div class="w-24 h-1 bg-brand-accent mx-auto rounded-full mb-8 anim-item delay-3"></div>
-                        <p class="text-xl md:text-2xl text-gray-400 anim-item delay-3">從爭取點擊，到成為標準答案。</p>
+                        <p class="text-xl md:text-2xl text-gray-400 anim-item delay-3">從爭取點擊，到成為可信的參考來源。</p>
                     </div>
                 </div>
             </div>
@@ -190,7 +192,7 @@
 
         <section id="slide-stats" class="h-screen w-full snap-start relative overflow-hidden stat-stage"><div class="w-full h-full overflow-y-auto p-6"><div class="min-h-full flex flex-col items-center justify-center text-center py-20 max-w-6xl mx-auto"><p class="text-gray-300 text-lg md:text-2xl mb-5">根據全球權威的《2027 全球數位概況報告》指出</p><div class="stat-number anim-item" aria-label="百分之六十四點六"><span id="geo-usage-stat">64.6</span><small>%</small></div><h2 class="stat-label mt-5"><mark>台灣</mark>活躍 AI 使用者中<br>使用 AI 搜尋資訊的比例</h2><p class="report-note mt-8">對象：台灣 16 歲以上活躍 AI 使用者｜GWI，2026 Q2。此比例不代表全台灣人口。</p><p class="report-source">資料來源：DataReportal / We Are Social / Meltwater<br>《Digital 2027: Global Overview Report》p.181</p></div></div></section>
 
-        <section id="slide-report-ai-information" class="h-screen w-full snap-start relative overflow-hidden bg-brand-dark" aria-labelledby="slide-report-ai-information-title"><div class="report-scroll"><div class="report-layout"><p class="report-kicker">原始報告 / P.181</p><h2 id="slide-report-ai-information-title" class="report-title">64.6%，就在台灣。</h2><p class="report-lead">用 AI 查找資訊，已是台灣活躍 AI 使用者的常見行為。</p><div class="report-grid"><figure class="report-figure"><img src="reports/digital-2027-p181.png" alt="各市場活躍 AI 使用者查找資訊比例；台灣 Taiwan 64.6%。" loading="lazy"><span class="report-focus taiwan-focus" aria-hidden="true"></span></figure><aside class="report-callout"><h3>台灣 TAIWAN</h3><strong>64.6%</strong><div class="taiwan-zoom" aria-hidden="true"><img src="reports/digital-2027-p181.png" alt=""></div><p>黃色框線標出原圖位置。<br>台灣數據，與你的市場有關。</p></aside></div><p class="report-note">16 歲以上活躍 AI 使用者；非全體台灣人口。黃色標示與放大視窗為本簡報加註，原圖數據未修改。</p><p class="report-source">資料來源：DataReportal / We Are Social / Meltwater《Digital 2027: Global Overview Report》p.181｜GWI，2026 Q2。<br><a href="https://datareportal.com/reports/digital-2027-global-overview-report" target="_blank" rel="noopener noreferrer">報告原文</a> · <a href="https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=181&amp;allowFullscreen=true" target="_blank" rel="noopener noreferrer">開啟原始報告 p.181</a></p><details class="report-reader"><summary>展開互動原始報告｜p.181</summary><iframe data-report-src="https://indd.adobe.com/embed/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=181&amp;allowFullscreen=true" title="Digital 2027: Global Overview Report p.181" loading="lazy" allowfullscreen></iframe></details></div></div></section>
+        <section id="slide-report-ai-information" class="h-screen w-full snap-start relative overflow-hidden bg-brand-dark" aria-labelledby="slide-report-ai-information-title"><div class="report-scroll"><div class="report-layout"><p class="report-kicker">原始報告 / P.181</p><h2 id="slide-report-ai-information-title" class="report-title">64.6%，就在台灣。</h2><p class="report-lead">用 AI 查找資訊，已是台灣活躍 AI 使用者的常見行為。</p><div class="report-grid"><figure class="report-figure"><img src="reports/digital-2027-p181.png" alt="各市場活躍 AI 使用者查找資訊比例；台灣 Taiwan 64.6%。" loading="lazy"><span class="report-focus taiwan-focus" aria-hidden="true"></span></figure><aside class="report-callout"><h3>台灣 TAIWAN</h3><strong>64.6%</strong><div class="taiwan-zoom" aria-hidden="true"><img src="reports/digital-2027-p181.png" alt=""></div><p>原圖 Taiwan 位置放大。<br>台灣數據，與你的市場有關。</p></aside></div><p class="report-note">16 歲以上活躍 AI 使用者；非全體台灣人口。黃色標示與放大視窗為本簡報加註，原圖數據未修改。</p><p class="report-source">資料來源：DataReportal / We Are Social / Meltwater《Digital 2027: Global Overview Report》p.181｜GWI，2026 Q2。<br><a href="https://datareportal.com/reports/digital-2027-global-overview-report" target="_blank" rel="noopener noreferrer">報告原文</a> · <a href="https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=181&amp;allowFullscreen=true" target="_blank" rel="noopener noreferrer">開啟原始報告 p.181</a></p><details class="report-reader"><summary>展開互動原始報告｜p.181</summary><iframe data-report-src="https://indd.adobe.com/embed/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=181&amp;allowFullscreen=true" title="Digital 2027: Global Overview Report p.181" loading="lazy" allowfullscreen></iframe></details></div></div></section>
 <section id="slide-report-ai-ages" class="h-screen w-full snap-start relative overflow-hidden bg-brand-dark" aria-labelledby="slide-report-ai-ages-title"><div class="report-scroll"><div class="report-layout"><p class="report-kicker">原始報告 / P.178</p><h2 id="slide-report-ai-ages-title" class="report-title">每個年齡層，第一需求都是「查找資訊」。</h2><p class="report-lead">全球活躍 AI 使用者：六個年齡層，同一個首要需求。</p><figure class="report-figure"><img src="reports/digital-2027-p178.png" alt="六個年齡層使用 AI 的首要原因皆為查找資訊。" loading="lazy"><span class="report-focus age-focus" aria-hidden="true"></span></figure><div class="age-chips"><div><span>16–24 歲</span><b>61.7%</b><span>查找資訊 · 第 1</span></div><div><span>25–34 歲</span><b>58.7%</b><span>查找資訊 · 第 1</span></div><div><span>35–44 歲</span><b>58.2%</b><span>查找資訊 · 第 1</span></div><div><span>45–54 歲</span><b>59.2%</b><span>查找資訊 · 第 1</span></div><div><span>55–64 歲</span><b>62.7%</b><span>查找資訊 · 第 1</span></div><div><span>65+* 歲</span><b>78.5%</b><span>查找資訊 · 第 1</span></div></div><p class="report-note">對象：過去一個月使用過 AI 的各年齡層網友，可複選。*65 歲以上資料未涵蓋所有市場，不宜直接跨年齡比較。黃色高亮為本簡報加註。</p><p class="report-source">資料來源：DataReportal / We Are Social / Meltwater《Digital 2027: Global Overview Report》p.178｜GWI，2026 Q2。<br><a href="https://datareportal.com/reports/digital-2027-global-overview-report" target="_blank" rel="noopener noreferrer">報告原文</a> · <a href="https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=178&amp;allowFullscreen=true" target="_blank" rel="noopener noreferrer">開啟原始報告 p.178</a></p><details class="report-reader"><summary>展開互動原始報告｜p.178</summary><iframe data-report-src="https://indd.adobe.com/embed/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=178&amp;allowFullscreen=true" title="Digital 2027: Global Overview Report p.178" loading="lazy" allowfullscreen></iframe></details></div></div></section>
 <section id="slide-report-brand-research" class="h-screen w-full snap-start relative overflow-hidden bg-brand-dark" aria-labelledby="slide-report-brand-research-title"><div class="report-scroll"><div class="report-layout"><p class="report-kicker">原始報告 / P.877</p><h2 id="slide-report-brand-research-title" class="report-title">AI 進入購買研究，搜尋與社群仍重要。</h2><p class="report-lead">全球 16 歲以上網友中，26% 以 AI 作為研究品牌的主要資訊管道之一。</p><div class="evidence-metrics"><div><span>搜尋引擎</span><strong>45.3%</strong></div><div><span>社群網路</span><strong>41.8%</strong></div><div><span>AI 工具</span><strong>26.0%</strong></div></div><figure class="report-figure"><img src="reports/digital-2027-p877.png" alt="全球品牌研究主要資訊管道：搜尋45.3%、社群41.8%、AI 26.0%。" loading="lazy"></figure><p class="report-note">三個數字來自同頁、同一調查對象；各管道並非互斥，不應相加。與前頁「活躍 AI 使用者」的分母不同。</p><p class="report-source">資料來源：DataReportal / We Are Social / Meltwater《Digital 2027: Global Overview Report》p.877｜GWI，2026 Q2。<br><a href="https://datareportal.com/reports/digital-2027-global-overview-report" target="_blank" rel="noopener noreferrer">報告原文</a> · <a href="https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=877&amp;allowFullscreen=true" target="_blank" rel="noopener noreferrer">開啟原始報告 p.877</a></p><details class="report-reader"><summary>展開互動原始報告｜p.877</summary><iframe data-report-src="https://indd.adobe.com/embed/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=877&amp;allowFullscreen=true" title="Digital 2027: Global Overview Report p.877" loading="lazy" allowfullscreen></iframe></details></div></div></section>
 
@@ -575,27 +577,27 @@
                         <div class="bg-red-900/20 border border-red-500/30 p-6 md:p-8 rounded-3xl mb-8 md:mb-12 anim-item delay-1">
                             <h3 class="text-xl md:text-2xl font-bold text-red-400 mb-4"><i class="fa-solid fa-triangle-exclamation"></i> 迷思破解：可以跳過 SEO 只做 GEO 嗎？</h3>
                             <p class="text-2xl md:text-3xl font-black text-white mb-4">不建議！</p>
-                            <p class="text-gray-300 text-base md:text-lg">網頁若未被傳統引擎收錄，AI 根本「看」不到內容。<br>AI 生成答案時，優先採信具備歷史權重的主流網站。</p>
+                            <p class="text-gray-300 text-base md:text-lg">以 Google AI 搜尋為例，SEO 基礎仍然重要。<br>先讓內容可存取、可理解、可查證，再觀察是否被引用。</p><p class="report-source">參考：<a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener noreferrer">Google Search Central｜AI features and your website</a></p>
                         </div>
 
                         <div class="grid md:grid-cols-3 gap-4 md:gap-6 text-left anim-item delay-2">
                             <div class="glass-panel p-6 rounded-2xl">
                                 <h4 class="font-bold text-slate-400 mb-2 border-b border-slate-700 pb-2">技術底層</h4>
-                                <p class="text-sm text-gray-400 mb-3 line-through decoration-slate-500">傳統SEO: 確保順利抓取收錄</p>
+                                <p class="text-sm text-gray-400 mb-3 ">SEO 基礎：檢查抓取與索引狀態</p>
                                 <p class="text-brand-teal font-bold"><i class="fa-solid fa-arrow-up"></i> GEO 升級</p>
-                                <p class="text-white text-sm md:text-base mt-1">廣泛佈署結構化資料，讓 AI 秒懂屬性。</p>
+                                <p class="text-white text-sm md:text-base mt-1">結構化資料須符合可見內容，無須特殊 AI 標記。</p>
                             </div>
                             <div class="glass-panel p-6 rounded-2xl">
                                 <h4 class="font-bold text-slate-400 mb-2 border-b border-slate-700 pb-2">關鍵字佈局</h4>
-                                <p class="text-sm text-gray-400 mb-3 line-through decoration-slate-500">傳統SEO: 瞄準大字與流量字</p>
+                                <p class="text-sm text-gray-400 mb-3 ">SEO 基礎：理解使用者搜尋意圖</p>
                                 <p class="text-brand-teal font-bold"><i class="fa-solid fa-arrow-up"></i> GEO 升級</p>
                                 <p class="text-white text-sm md:text-base mt-1">鎖定對話式、情境式的長尾提問。</p>
                             </div>
                             <div class="glass-panel p-6 rounded-2xl">
                                 <h4 class="font-bold text-slate-400 mb-2 border-b border-slate-700 pb-2">內容設計</h4>
-                                <p class="text-sm text-gray-400 mb-3 line-through decoration-slate-500">傳統SEO: 長篇幅涵蓋多重字詞</p>
+                                <p class="text-sm text-gray-400 mb-3 ">SEO 基礎：提供有幫助的完整內容</p>
                                 <p class="text-brand-teal font-bold"><i class="fa-solid fa-arrow-up"></i> GEO 升級</p>
-                                <p class="text-white text-sm md:text-base mt-1">高密度資訊，善用表單與條列清單。</p>
+                                <p class="text-white text-sm md:text-base mt-1">直接回答問題，搭配必要的表格與證據。</p>
                             </div>
                         </div>
                     </div>
@@ -628,7 +630,7 @@
                             <div class="glass-panel p-6 md:p-8 rounded-3xl relative overflow-hidden group anim-item delay-2 h-full">
                                 <div class="absolute -right-4 -top-4 text-[8rem] font-black text-slate-800 opacity-50 group-hover:text-brand-teal/20 transition-colors pointer-events-none">3</div>
                                 <h4 class="text-xl font-bold text-white mb-4 relative z-10">埋設結構標籤</h4>
-                                <p class="text-gray-400 relative z-10 leading-relaxed text-sm md:text-base">在網頁原始碼加入 Schema Markup (如 FAQPage)，幫助 AI 爬蟲秒懂資料邏輯。</p>
+                                <p class="text-gray-400 relative z-10 leading-relaxed text-sm md:text-base">需要時加入適用的結構化資料，並與頁面內容一致；不保證 AI 引用。</p>
                             </div>
 
                             <div class="glass-panel p-6 md:p-8 rounded-3xl relative overflow-hidden group anim-item delay-3 h-full">
