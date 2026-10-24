@@ -16,6 +16,1254 @@ export type Article = {
 };
 export const articles:Article[]=[
   {
+    "slug": "short-video-copyright-guide",
+    "title": "短影音可以直接用網路素材嗎？品牌新手必懂的音樂、影片與圖片版權觀念",
+    "excerpt": "網路上找得到的素材，不代表可以拿來做品牌短影音。從熱門音樂、影片片段到圖片，淺談商用授權、合理使用與跨平台發布的常見誤區。",
+    "category": "短影音行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "keywords": [
+      "短影音行銷",
+      "著作權",
+      "音樂授權",
+      "品牌內容"
+    ],
+    "takeaways": [
+      "網路上找得到素材，不代表已取得品牌商用與廣告授權。",
+      "註明來源、只用幾秒或未開收益，都不能一律免除責任。",
+      "把來源、授權範圍與使用紀錄納入製作流程。"
+    ],
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "從品牌的實際問題出發",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>網路上找得到、下載得到，並不代表可以直接拿來做品牌短影音。</strong> 使用他人的音樂、影片或圖片，原則上應取得涵蓋實際用途的授權，或確認符合合法開放使用條件、合理使用等情形。註明來源、只用幾秒，或影片沒有開收益，都不是一律免責的理由。</p>\n"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、品牌最容易忽略的，是「能發布」與「有授權」的差別",
+        "paragraphs": [],
+        "bodyHtml": "<p>短影音製作門檻降低，素材也更容易取得，但搜尋結果與剪輯工具不會自動替品牌處理所有權利。智慧財產局指出，下載、改編與重新上傳他人素材，可能分別涉及重製、改作與公開傳輸；用於廣告時，主張合理使用的空間也較有限。</p>\n<p>對品牌來說，素材授權應在企劃階段確認。等影片拍完才發現配樂不能投廣告，往往得重新剪輯、調整節奏，甚至撤下已發布內容。</p>\n"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、音樂、影片、圖片，分別要看什麼？",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">素材類型</th>\n<th scope=\"col\">常見誤區</th>\n<th scope=\"col\">使用前應確認</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>音樂與音效</td>\n<td>平台能選到熱門歌，就能用來推廣商品</td>\n<td>是否涵蓋商業內容、付費廣告、使用地區與發布平台；既有歌曲錄音可能同時涉及詞曲與錄音著作的權利。</td>\n</tr>\n<tr>\n<td>影片片段</td>\n<td>電影、新聞或別人的短影音，只剪幾秒就沒關係</td>\n<td>是否取得剪輯、重製與公開傳輸等所需授權；沒有通用的安全秒數。</td>\n</tr>\n<tr>\n<td>圖片與照片</td>\n<td>Google 搜尋、社群貼文或別人的商品照都能直接用</td>\n<td>搜尋平台不是授權人；應追溯原始來源，確認是否允許商用、修改與廣告使用。</td>\n</tr>\n<tr>\n<td>素材庫內容</td>\n<td>付費訂閱或標示免費，就沒有任何限制</td>\n<td>逐項查看授權範圍、署名條件、帳號或專案限制，以及是否僅限編輯用途。</td>\n</tr>\n</tbody></table></div>\n<p><strong>「免版稅（royalty-free）」也不等於沒有著作權。</strong> 實際可以怎麼用，仍取決於該素材的授權條款。</p>\n"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、平台內建音樂，可以直接拿來行銷嗎？",
+        "paragraphs": [],
+        "bodyHtml": "<p>不能只看「選不選得到」，還要看音樂庫的適用用途。例如 TikTok 官方明確區分一般音樂庫與商業音樂庫，指出一般音樂庫的歌曲並未預先取得品牌商業內容所需的授權。</p>\n<p>品牌選曲時，應優先檢查平台提供的商業音樂選項，並逐首確認適用條件。<strong>在某個平台可使用，不代表下載成片後，就能直接上傳其他平台、官網或拿去投廣告。</strong> 跨平台使用應重新對照授權範圍。</p>\n<p>實務上，建議保留一份沒有加入平台音樂的影片母檔，再依各平台的授權條件配樂，讓後續發布與改版更容易。</p>\n"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、四個常見版權迷思",
+        "paragraphs": [],
+        "bodyHtml": "<h3>「有註明來源，就可以用？」</h3>\n<p>註明來源不能取代授權。如果使用方式不符合合理使用，標上作者名稱或「版權歸原作者所有」，仍無法因此免除侵權責任。</p>\n<h3>「只用三秒、五秒，應該沒問題？」</h3>\n<p>沒有「幾秒以內一定合法」的通則。合理使用須依使用目的、著作性質、使用的質量與比例，以及對市場的影響等個案因素判斷，不能只看片段長度。</p>\n<h3>「沒有投廣告、沒有營利，就不用授權？」</h3>\n<p>沒有廣告預算或沒有開啟平台收益，不代表就能自由使用他人作品。品牌介紹、商品展示與服務推廣，仍應確認授權是否涵蓋其商業用途；合理使用也不能只憑有沒有賺錢判斷。</p>\n<h3>「加字幕、裁切或改成 AI 風格，就變成自己的？」</h3>\n<p>增加創意不會自動消除原素材的權利。裁切、改編或交由 AI 處理，也不會因此補齊原本欠缺的授權。</p>\n"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、案例：咖啡廳新品短影音，怎麼做更合適？",
+        "paragraphs": [],
+        "bodyHtml": "<p>以下為示意情境：一間咖啡廳要介紹新推出的拿鐵，從網路下載咖啡拉花照片，搭配別人的沖煮影片，再加入熱門歌曲。即使畫面好看，每一種素材仍可能有各自的權利人與授權限制。</p>\n<p>較容易管理的做法，是自行拍攝店內拉花、咖啡豆與出杯過程，搭配店員口白；如需配樂，再選擇明確涵蓋預定平台及廣告用途的音樂。若委託攝影師或剪輯公司製作，則在契約中寫清楚成片、配樂與素材的使用範圍。</p>\n<p>這樣做也讓畫面更貼近實際商品與店內體驗，減少品牌內容對通用素材的依賴。</p>\n"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "六、把授權確認，變成內容製作流程的一部分",
+        "paragraphs": [],
+        "bodyHtml": "<p>新手品牌可以在發布前，完成五項簡單確認：</p>\n<ol>\n<li><strong>查來源：</strong> 素材由誰創作？提供者是否有權授權？</li>\n<li><strong>核用途：</strong> 是否允許品牌商用、付費廣告與預定的剪輯修改？</li>\n<li><strong>核範圍：</strong> 是否涵蓋預計發布的平台、地區、期間，以及客戶代製用途？</li>\n<li><strong>留紀錄：</strong> 保存素材編號、來源連結、下載日期、授權條款版本、付款證明與書面同意。</li>\n<li><strong>再檢查：</strong> 若素材包含人物、品牌標誌或私人場域，也要另外確認相關同意與使用限制。</li>\n</ol>\n<p>委外製作時，應約定由誰取得第三方素材授權、交付哪些證明，以及授權不足時如何處理。「交給專業公司」仍需要清楚的權利約定。</p>\n"
+      },
+      {
+        "id": "chapter-7",
+        "heading": "九色鹿觀點：能長期使用的素材，才是品牌內容資產",
+        "paragraphs": [],
+        "bodyHtml": "<p>短影音的價值，不只在於發布當下的觀看次數，也在於能否持續改版、投放與跨平台運用。品牌起步時，可優先累積自有實拍、口白與明確授權素材，逐步建立可追溯的素材庫，讓每次製作都為下一次內容留下基礎。</p>\n<p><strong>想建立能持續產出的短影音內容流程？歡迎與九色鹿討論，從選題、拍攝到素材管理，規劃符合品牌需求的製作方式。</strong></p>\n"
+      },
+      {
+        "id": "reading-notes",
+        "heading": "資料解讀與適用範圍",
+        "paragraphs": [],
+        "bodyHtml": "<p>本文以台灣品牌常見情境作入門說明；個案仍須依實際利用方式、授權契約與適用法律判斷。平台規則可能調整，使用前請查閱最新條款。資料查核日期：2026 年 10 月 24 日。</p>\n"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><a href=\"/insights/short-video-diy-vs-agency\">短影音自己拍還是找專業公司？新手品牌的製作選擇指南</a></li>\n<li><a href=\"/insights/ai-photo-to-video-marketing\">不想露臉也能做短影音？照片轉 AI 影片的行銷效益與使用策略</a></li>\n<li><a href=\"/insights/short-video-product-vs-person\">短影音只拍產品可以嗎？真人出鏡的價值與曝光成效解析</a></li>\n</ul>\n"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "有註明作者，就可以使用嗎？",
+        "answer": "註明來源不能取代授權。使用方式仍須符合授權條件，或有適用的合法利用依據。"
+      },
+      {
+        "question": "只剪三秒音樂，就一定安全嗎？",
+        "answer": "沒有通用的安全秒數。合理使用須依使用目的、著作性質、利用比例與市場影響等個案因素判斷。"
+      },
+      {
+        "question": "平台內建配樂能跨平台或投廣告嗎？",
+        "answer": "不能一概而論。應分別確認商業內容、廣告、平台、地區與期間是否在授權範圍內。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "製作網路廣告使用他人圖片素材可以嗎？",
+        "url": "https://www.tipo.gov.tw/tw/copyright/774-5056.html"
+      },
+      {
+        "title": "電子郵件1120614：行銷影片使用音樂片段、合理使用與出處標示",
+        "url": "https://www.tipo.gov.tw/tw/copyright/692-16947.html"
+      },
+      {
+        "title": "Explore royalty-free music in our Commercial Music Library",
+        "url": "https://ads.tiktok.com/business/en-US/blog/audio-library-royalty-free-music"
+      }
+    ],
+    "relatedServices": [
+      "creative-content",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "短影音可以直接用網路素材嗎？品牌新手必懂的音樂、影片與圖片版權觀念",
+      "description": "網路上找得到的素材，不代表可以拿來做品牌短影音。從熱門音樂、影片片段到圖片，淺談商用授權、合理使用與跨平台發布的常見誤區。"
+    },
+    "card": {
+      "eyebrow": "RIGHTS",
+      "title": "短影音可以直接用網路素材嗎？",
+      "caption": "網路上找得到的素材，不代表可以拿來做品牌短影音。從熱門音樂、影片片段到圖片，淺談商用授權、合理使用與跨平台發布的常見誤區。"
+    },
+    "cta": {
+      "heading": "讓品牌的專業，",
+      "highlight": "成為值得觀看的內容。",
+      "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
+      "label": "與九色鹿討論短影音策略"
+    }
+  },
+  {
+    "slug": "short-video-education-vs-entertainment",
+    "title": "短影音一定要好笑嗎？從商業目標選擇知識型與娛樂型內容",
+    "excerpt": "短影音被朋友說無聊，就該改拍搞笑內容嗎？從品牌曝光、專業信任與詢問轉換，分析知識型及娛樂型內容的用途，找到新手品牌適合的內容策略。",
+    "category": "短影音行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "keywords": [
+      "短影音行銷",
+      "內容策略",
+      "知識型內容",
+      "娛樂型內容",
+      "品牌行銷"
+    ],
+    "takeaways": [
+      "先決定要影響誰、促成什麼行動，再選擇知識或娛樂形式。",
+      "不好笑不等於沒有價值，應先檢查內容與客戶需求的關聯。",
+      "用觀看品質與有效詢問驗證方向，不憑單支流量決定風格。"
+    ],
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "從品牌的實際問題出發",
+        "paragraphs": [],
+        "bodyHtml": "<p>有明確商業目標的短影音，應先決定要影響誰、促成什麼行動，再選擇內容形式。需要建立專業信任，可以從知識、示範與案例切入；需要擴大認識與親近感，可以加入情境、故事與娛樂元素。兩者可以結合，而「娛樂」也不等於一定要搞笑。</p>\n<p>朋友說影片「很無聊、不好笑」，值得追問原因，但不必因此立刻改拍喜劇。真正要釐清的是：影片缺少笑點，還是讓目標客戶看不出與自己的關係？</p>\n"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、知識型或娛樂型，應該怎麼選？",
+        "paragraphs": [],
+        "bodyHtml": "<p>知識型內容的價值是幫觀眾理解問題、降低疑慮；娛樂型內容則能透過情緒與情境，創造注意力和記憶點。兩者都不保證流量或成交，關鍵是內容是否連結品牌與受眾需求。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">商業目標</th>\n<th scope=\"col\">建議優先測試的內容</th>\n<th scope=\"col\">觀察重點</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>讓更多潛在客戶認識品牌</td>\n<td>生活情境、共鳴故事、趣味實測</td>\n<td>觸及、觀看停留，以及觀眾是否記得品牌與服務</td>\n</tr>\n<tr>\n<td>建立專業信任</td>\n<td>常見問題、操作示範、案例解析</td>\n<td>收藏、具體提問、個人檔案與官網造訪</td>\n</tr>\n<tr>\n<td>帶動詢問、預約或購買</td>\n<td>選購比較、使用情境、服務流程與疑慮解答</td>\n<td>有效詢問、預約、訂單及後續成交品質</td>\n</tr>\n</tbody></table></div>\n<p><em>以上為策略判斷框架，並非各內容形式的固定成效排名。</em></p>\n<p>YouTube 官方說明，Shorts 推薦並不偏好特定內容形式，而會參考觀看表現與個人化訊號，例如觀眾是否選擇觀看、觀看時間及滿意度。 因此，不能直接把「搞笑」視為平台偏好的唯一答案。</p>\n"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、朋友說無聊，先拆解成三個問題",
+        "paragraphs": [],
+        "bodyHtml": "<h3>1. 朋友是不是目標客戶？</h3>\n<p>正在找店面的人，可能會認真看完「租店面前該確認的三件事」；沒有租屋需求的朋友，可能完全沒興趣。朋友的反應可以幫忙檢查表達，但應再找符合客群條件的人，確認內容是否有用。</p>\n<h3>2. 內容有價值，但開頭太慢？</h3>\n<p>長時間自我介紹、鋪陳背景或堆疊術語，都可能讓觀眾還沒看到重點就離開。先提出一個具體問題、結果或畫面，再補上解釋，通常更值得優先測試。</p>\n<h3>3. 觀眾只聽到道理，沒有看到差別？</h3>\n<p>「我們重視品質」很抽象；直接展示製作過程、使用差異或選擇方法，觀眾才容易理解。改善可看性，可以靠比較、實測、故事和真實提問，不必勉強講笑話。</p>\n<p>TikTok 的成效廣告指引也建議以吸引注意的開頭、產品賣點及明確行動呼籲組織內容。 這是廣告創意的參考方法，不能直接當成自然觸及或成交保證。</p>\n"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、咖啡廳案例：把知識拍成看得見的選擇",
+        "paragraphs": [],
+        "bodyHtml": "<p>假設咖啡廳希望讓附近上班族願意來店試喝，同一項專業可以有不同呈現方式：</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">形式</th>\n<th scope=\"col\">題目與拍法</th>\n<th scope=\"col\">與商業目標的連結</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>知識型</td>\n<td>「怕咖啡太酸，第一次來怎麼點？」拿兩杯咖啡，說明風味與口感差異</td>\n<td>降低點餐的不確定感</td>\n</tr>\n<tr>\n<td>娛樂型</td>\n<td>「同事說隨便買，結果每個人的咖啡要求都不同。」用簡短情境呈現點餐困擾</td>\n<td>創造共鳴，帶出店內不同選擇</td>\n</tr>\n<tr>\n<td>混合型</td>\n<td>店員問：「你喜歡清爽果香，還是濃厚口感？」接著展示兩種沖煮或品飲畫面</td>\n<td>用日常對話傳遞專業，幫助觀眾選擇</td>\n</tr>\n</tbody></table></div>\n<p><strong>示意腳本：</strong></p>\n<blockquote>\n<p>怕咖啡太酸，第一次來可以怎麼點？<br>如果你喜歡堅果、可可這類風味，可以先問店員有沒有相近的豆款。<br>但風味還會受到豆子與沖煮方式影響，直接說你平常喜歡的口感，會更好選。<br>來店時告訴我們你的喜好，我們一起找適合你的那一杯。</p>\n</blockquote>\n<p>這支影片不需要笑點，仍能讓觀眾產生「這家店懂我的困擾」的感受。上述為假設案例，並非實際成效紀錄。</p>\n"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、新手可以怎麼測試，避免只憑感覺改方向？",
+        "paragraphs": [],
+        "bodyHtml": "<p>先選一個客戶真的會問的問題，分別拍成「直接解答、情境故事、示範比較」三種版本。保持主題、長度與行動呼籲盡量接近，優先比較呈現方式的差異，再以多組題目反覆觀察。</p>\n<p>自然發布無法完全控制受眾與曝光條件，因此這是方向測試，不是嚴格實驗，也不宜只憑一支影片定勝負。沒有適用所有品牌的知識與娛樂內容黃金比例。</p>\n<p>判讀時，依序看三件事：</p>\n<ol>\n<li>留得住嗎？參考平台可提供的觀看時間、留存或完播資料，並留意片長差異。</li>\n<li>吸引對的人嗎？留言是否對應服務需求？是否帶來符合客群的造訪與詢問？</li>\n<li>帶來下一步嗎？用可追蹤連結、預約表單或詢問來源紀錄，觀察後續行動；同時考量製作時間與成本。</li>\n</ol>\n<p>觀看數高卻沒有相關需求，應檢查受眾與品牌連結；觀看數較低但持續帶來有效詢問，也有商業價值。長決策週期的服務，則應拉長觀察時間，避免把成交全歸因於單支影片。</p>\n"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "九色鹿觀點：讓專業變得好理解，讓注意力接得上生意",
+        "paragraphs": [],
+        "bodyHtml": "<p>對有明確商業目標的新手，較務實的起點，是先回答客戶在購買前最在意的問題，再用日常語言、具體畫面和情境提高可看性。若娛樂形式適合品牌且能持續製作，再逐步擴大測試。</p>\n<p><strong>不用把每支影片都拍得好笑，但要讓目標觀眾知道：這與我有什麼關係，看完能得到什麼，以及接下來可以做什麼。</strong></p>\n<p>想釐清品牌適合的短影音方向？與九色鹿討論你的客群、商業目標與現有素材，從客戶真正關心的問題開始規劃。</p>\n"
+      },
+      {
+        "id": "reading-notes",
+        "heading": "資料解讀與適用範圍",
+        "paragraphs": [],
+        "bodyHtml": "<p><em>本文為內容策略分析；案例與測試方法為建議，未引用產業成效統計，也不承諾曝光或成交結果。</em></p>\n"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><a href=\"/insights/short-video-product-vs-person\">短影音只拍產品可以嗎？真人出鏡的價值與曝光成效解析</a></li>\n<li><a href=\"/insights/high-ticket-short-video-strategy\">高單價產品適合拍短影音嗎？從信任建立到有效諮詢的內容與社群策略</a></li>\n<li><a href=\"/insights/short-video-low-views\">短影音沒流量怎麼辦？新手必查的 6 個關鍵與改善方向</a></li>\n</ul>\n"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "知識型短影音一定比較無聊嗎？",
+        "answer": "不一定。題目是否切中需求、開頭是否清楚、能否用案例或示範說明，都會影響觀看體驗。專業內容可以輕鬆易懂，不必刻意搞笑。"
+      },
+      {
+        "question": "娛樂型短影音能帶來成交嗎？",
+        "answer": "可以成為接觸品牌的起點，但還需要讓觀眾理解產品或服務，並提供清楚的下一步。娛樂觸及本身不能直接代表購買意願。"
+      },
+      {
+        "question": "朋友都說不好笑，應該換風格嗎？",
+        "answer": "先確認朋友是否為目標客群，並請他們指出「從哪裡開始想滑走、哪句聽不懂」。把評論轉成可修改的問題，再搭配目標客群回饋與實際成效判斷。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "YouTube Help：Search & discovery tips — Shorts",
+        "url": "https://support.google.com/youtube/answer/11914225?hl=en"
+      },
+      {
+        "title": "TikTok for Business：Creative best practices for performance ads",
+        "url": "https://ads-useast2a.tiktok.com/resources/help/article/creative-best-practices?lang=en"
+      }
+    ],
+    "relatedServices": [
+      "creative-content",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "短影音一定要好笑嗎？從商業目標選擇知識型與娛樂型內容",
+      "description": "短影音被朋友說無聊，就該改拍搞笑內容嗎？從品牌曝光、專業信任與詢問轉換，分析知識型及娛樂型內容的用途，找到新手品牌適合的內容策略。"
+    },
+    "card": {
+      "eyebrow": "PURPOSE",
+      "title": "短影音一定要好笑嗎？",
+      "caption": "短影音被朋友說無聊，就該改拍搞笑內容嗎？從品牌曝光、專業信任與詢問轉換，分析知識型及娛樂型內容的用途，找到新手品牌適合的內容策略。"
+    },
+    "cta": {
+      "heading": "讓品牌的專業，",
+      "highlight": "成為值得觀看的內容。",
+      "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
+      "label": "與九色鹿討論短影音策略"
+    }
+  },
+  {
+    "slug": "short-video-celebrity-influencer-guest-strategy",
+    "title": "短影音邀請藝人、網紅有用嗎？新手品牌的來賓合作與成效評估指南",
+    "excerpt": "邀請藝人或網紅上頻道，能增加曝光，卻不一定帶來客戶。解析來賓選擇、內容設計、合作成本與成效評估，幫助短影音新手做出合適決策。",
+    "category": "短影音行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "keywords": [
+      "短影音行銷",
+      "網紅合作",
+      "藝人合作",
+      "品牌經營",
+      "KOL行銷"
+    ],
+    "takeaways": [
+      "來賓知名度可以帶來注意力，卻不會自動轉成訂單。",
+      "先評估受眾是否符合，再談合作內容、發布與廣告授權。",
+      "以有效詢問成本與後續內容表現檢查合作價值。"
+    ],
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "從品牌的實際問題出發",
+        "paragraphs": [],
+        "bodyHtml": "<p>剛開始經營短影音，看到別人的頻道邀請藝人、網紅來賓，很容易想：「如果我也邀請一位有名的人，是不是就會有人看？」</p>\n<p><strong>有機會，但來賓的知名度不會自動變成頻道的長期流量，更不等於訂單。</strong> 對新手品牌而言，值得投資的合作，是讓對的觀眾認識你、理解你的價值，並願意採取下一步行動。</p>\n"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、來賓合作能帶來什麼？",
+        "paragraphs": [],
+        "bodyHtml": "<p>藝人、網紅參與拍攝，可能帶來三種價值：</p>\n<ul>\n<li><strong>增加注意力：</strong> 熟悉的面孔與來賓的分享，可能讓原本不認識品牌的人停下來觀看。</li>\n<li><strong>提升內容表現：</strong> 有鏡頭經驗的來賓，能帶來互動、故事或示範，讓資訊更容易理解。</li>\n<li><strong>開啟信任接觸：</strong> 觀眾可能願意因為熟悉來賓而初步了解品牌，但產品與服務仍要經得起檢驗。</li>\n</ul>\n<p>平台也提供合作發布工具。Meta 說明，Instagram 的協作貼文／Reels 在受邀者接受後，會出現在各合作帳號的個人檔案，並接觸各自的觀眾。 YouTube 則表示，合作拍片旨在增加曝光與觀眾，但搜尋或推薦一開始可能不會出現明顯變化。</p>\n<p><strong>這代表合作有助於創造被發現的機會，並不保證每位粉絲都會看到，也不保證成效。</strong> 以下為九色鹿根據合作機制提出的策略分析，而非平台保證或市場成效統計。</p>\n"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、請誰，比請多有名的人更重要",
+        "paragraphs": [],
+        "bodyHtml": "<p>不要只看粉絲總數。先確認對方近期內容的觀眾地區、興趣、互動品質，以及與品牌的關聯；藝人與網紅的能力、報價和合作條件也會因個人而異。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">合作對象</th>\n<th scope=\"col\">可能的優勢</th>\n<th scope=\"col\">需要評估的限制</th>\n<th scope=\"col\">適合的目標</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>藝人、廣泛知名人物</td>\n<td>辨識度高、具有話題與鏡頭經驗</td>\n<td>費用與製作要求可能較高，觀眾未必符合產品客群</td>\n<td>品牌曝光、新品活動、形象內容</td>\n</tr>\n<tr>\n<td>垂直領域網紅</td>\n<td>能將產品放進受眾熟悉的使用情境</td>\n<td>專業形象與內容品質仍須個別確認</td>\n<td>專業溝通、產品體驗、需求教育</td>\n</tr>\n<tr>\n<td>在地或小眾創作者</td>\n<td>可能貼近生活圈與特定興趣社群</td>\n<td>觸及規模可能較小，仍需確認實際受眾</td>\n<td>實體店導客、地方活動、小規模測試</td>\n</tr>\n<tr>\n<td>專家、顧客或產業夥伴</td>\n<td>有機會提供具體經驗與實務觀點</td>\n<td>不一定擅長鏡頭表達，也未必自帶流量</td>\n<td>問題解答、案例訪談、服務說明</td>\n</tr>\n</tbody></table></div>\n<p><strong>新手可以優先測試「受眾符合、願意共同企劃、合作條件清楚」的對象。</strong> 粉絲較少不必然比較便宜或有效，粉絲較多也不代表不適合。</p>\n"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、新頻道還沒準備好，曝光也可能留不住人",
+        "paragraphs": [],
+        "bodyHtml": "<p>邀請前，先檢查四件事：</p>\n<ol>\n<li><strong>定位清楚：</strong> 觀眾點進首頁，能否立刻看懂你提供什麼、適合誰？</li>\n<li><strong>有內容可接續：</strong> 除了來賓影片，是否有同主題的常見問題、產品體驗或服務說明？</li>\n<li><strong>下一步明確：</strong> 影片希望觀眾追蹤、看下一集、預約，還是到店？每支先選一個主要目標。</li>\n<li><strong>預算可承擔：</strong> 合作費之外，是否算入企劃、拍攝、剪輯、交通、授權與推廣費用？</li>\n</ol>\n<p>若頻道內容仍在摸索，建議先拍出一組能代表品牌的內容，再安排一場可負擔的合作測試。這是為了讓新增注意力有地方落腳，並沒有必須先發幾支影片的固定門檻。</p>\n"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、咖啡廳案例：讓觀眾記住店家的理由",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>以下為假設情境，非實際合作成果。</strong> 一家咖啡廳想增加平日來客，若邀請娛樂型名人到店打卡，可能引起關注；但如果觀眾多在外縣市，或影片只留下合照，店家很難判斷能否帶來在地消費。</p>\n<p>另一種設計，是邀請受眾集中在附近生活圈的美食創作者，拍攝：「附近上班族午休只有 30 分鐘，怎麼選一份咖啡與輕食？」</p>\n<ul>\n<li>由來賓提出真實需求，店家示範餐點搭配與點餐方式。</li>\n<li>畫面交代位置、平日營業時間與適用情境，避免只有稱讚「好喝」。</li>\n<li>結尾引導查看平日菜單，透過專屬連結或活動代碼觀察後續行動。</li>\n<li>發布後接續拍攝「第一次來怎麼點」等內容，讓新觀眾繼續認識店家。</li>\n</ul>\n<p>兩種合作都可能有價值，但若目標是平日到店，後者在策略上更接近需求。實際結果仍需測試，不能單憑來賓類型判定。</p>\n"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、出鏡、分享與廣告使用，要分別談清楚",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>來賓答應上你的頻道，不代表也答應在自己的帳號發布，更不代表品牌可無限期拿素材投放廣告。</strong> 合作前，建議以書面列明：</p>\n<ul>\n<li>拍攝主題、時數、交付支數、修改範圍與費用。</li>\n<li>由誰發布，是否協作發布、轉分享，以及各自的發布時間。</li>\n<li>可使用的平台、期間、地區，是否包含短版剪輯、官網與付費廣告。</li>\n<li>標題、封面與剪輯的確認方式，避免將來賓參與表述成未約定的代言。</li>\n<li>取消、延期及突發爭議的處理方式；有商業合作時，另確認適用的平台揭露要求。</li>\n</ul>\n<p>平台工具與個別帳號可用功能可能調整，實際操作應以上架時的官方說明為準。</p>\n"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "六、不要只看播放量，要看觀眾是否留下來",
+        "paragraphs": [],
+        "bodyHtml": "<p>建議先與近期相近主題、片長的自製影片比較，採相同觀察期間，並分開記錄自然曝光與付費推廣結果。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">合作目標</th>\n<th scope=\"col\">優先觀察</th>\n<th scope=\"col\">判讀重點</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>增加曝光</td>\n<td>觸及、非追蹤者觀看、觀看留存</td>\n<td>是否接觸到目標觀眾，而非只有播放數變大</td>\n</tr>\n<tr>\n<td>建立頻道</td>\n<td>個人檔案瀏覽、新增追蹤、後續內容表現</td>\n<td>觀眾是否願意繼續認識品牌</td>\n</tr>\n<tr>\n<td>取得需求</td>\n<td>有效私訊、預約、表單、到店代碼使用</td>\n<td>是否產生與業務相關的具體行動</td>\n</tr>\n</tbody></table></div>\n<p><strong>每筆有效詢問成本＝本次合作總成本 ÷ 可辨識的有效詢問數。</strong> 若沒有有效詢問，就記錄為尚未取得成果；不能用播放量代替詢問數。專屬連結、代碼與詢問來源紀錄能幫助判讀，但仍可能漏計跨裝置或延後發生的行動。</p>\n<p>單次合作適合用來找方向，不能直接證明長期投資報酬。也應觀察來賓影片過後，品牌自己的內容是否仍有人願意看。</p>\n"
+      },
+      {
+        "id": "chapter-8",
+        "heading": "九色鹿觀點",
+        "paragraphs": [],
+        "bodyHtml": "<p>邀請藝人或網紅，是把品牌介紹給新觀眾的機會。合作真正值得的地方，在於來賓能否幫品牌把價值說得更清楚，以及觀眾看完後，是否有理由留下來。</p>\n<p><strong>先定目標，再選來賓；先設計內容，再談曝光。</strong> 對剛起步的品牌，這比追逐單支影片的熱度，更有助於累積可持續的內容資產。</p>\n<p>想評估品牌適合哪一種來賓合作？歡迎與九色鹿討論，從受眾、內容與成效衡量開始規劃。</p>\n"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><a href=\"/insights/kol-koc-direct-cooperation-vs-agency\">品牌可以自己找 KOL／KOC 合作嗎？直接洽談、MCN 與行銷代理商的選擇策略</a></li>\n<li><a href=\"/insights/kol-koc-advertising-strategy-2026\">品牌只靠 KOL／KOC 素材投廣告，夠用嗎？2026 創作者行銷策略與案例分析</a></li>\n<li><a href=\"/insights/short-video-inhouse-roi\">請員工拍剪短影音值得嗎？品牌新手的成本與效益評估指南</a></li>\n</ul>\n"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "新頻道沒有粉絲，可以邀請網紅嗎？",
+        "answer": "可以。提案要說清楚主題、對來賓及其觀眾的價值、製作安排與報酬。不要只用「互相曝光」作為合作理由，也不要假設對方會免費分享。"
+      },
+      {
+        "question": "邀請一次，就能讓頻道成長嗎？",
+        "answer": "可能帶來短期關注，但持續成長還需要清楚定位、可接續的內容，以及穩定的產品或服務體驗。合作結束後仍需經營。"
+      },
+      {
+        "question": "預算有限，應該先邀請名人嗎？",
+        "answer": "若尚未確認內容方向與轉換方式，建議先把預算投入可持續的內容製作，再用小規模合作驗證受眾與題材。若已有明確活動目標與承接安排，則可評估較大型的合作。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Meta，〈New Ways to Create With Music and Collaborate With Friends on Instagram〉，2023-08-11。用於說明協作發布機制，非成效保證。",
+        "url": "https://about.fb.com/news/2023/08/music-and-collabs-on-instagram/"
+      },
+      {
+        "title": "YouTube 說明，〈邀請合作對象一起拍片〉。用於說明合作拍片的曝光目的及推薦限制。",
+        "url": "https://support.google.com/youtube/answer/16554898?hl=zh-Hant"
+      }
+    ],
+    "relatedServices": [
+      "creative-content",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "短影音邀請藝人、網紅有用嗎？新手品牌的來賓合作與成效評估指南",
+      "description": "邀請藝人或網紅上頻道，能增加曝光，卻不一定帶來客戶。解析來賓選擇、內容設計、合作成本與成效評估，幫助短影音新手做出合適決策。"
+    },
+    "card": {
+      "eyebrow": "GUEST",
+      "title": "短影音邀請藝人、網紅有用嗎？",
+      "caption": "邀請藝人或網紅上頻道，能增加曝光，卻不一定帶來客戶。解析來賓選擇、內容設計、合作成本與成效評估，幫助短影音新手做出合適決策。"
+    },
+    "cta": {
+      "heading": "讓品牌的專業，",
+      "highlight": "成為值得觀看的內容。",
+      "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
+      "label": "與九色鹿討論短影音策略"
+    }
+  },
+  {
+    "slug": "short-video-posting-frequency",
+    "title": "短影音多久發一次？新手品牌從每週 2 支建立穩定上片節奏",
+    "excerpt": "短影音一定要每天發嗎？從 Digital 2026 Taiwan 的市場背景出發，分析新手品牌的上片頻率、每週排程與成效檢視方式，建立可持續的內容節奏。",
+    "category": "短影音行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "keywords": [
+      "短影音行銷",
+      "上片頻率",
+      "內容策略",
+      "社群經營"
+    ],
+    "takeaways": [
+      "每週 2 支是可調整的測試起點，並非演算法標準或報告結論。",
+      "以團隊產能、內容品質與商業目標安排節奏。",
+      "持續 6–8 週觀察一批內容，再決定加量或修正。"
+    ],
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "從品牌的實際問題出發",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>剛開始拍短影音，建議先以每週 2 支、持續 6–8 週作為測試起點。</strong> 如果人力有限，每週 1 支也能起步；有穩定素材與製作餘裕，再考慮提高到每週 3 支。</p>\n<p>這是九色鹿針對新手品牌提出的實務規劃建議，並非平台演算法標準，也不是 Digital 2026 Taiwan 的研究結論。上片頻率應服務於內容品質、團隊產能與生意目標，而不是只追求影片數量。</p>\n"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、台灣市場有受眾，但不代表品牌必須每天發",
+        "paragraphs": [],
+        "bodyHtml": "<p>DataReportal《Digital 2026: Taiwan》指出，台灣在 2025 年底的網路普及率為 <strong>96.7%</strong>；YouTube 與 Instagram 的潛在廣告觸及規模分別約為 <strong>1,810 萬</strong>與 <strong>1,220 萬</strong>。</p>\n<p>這些數字說明平台具備接觸受眾的規模，卻不能推導出「每週發幾支一定有效」。廣告觸及估計不等於月活躍使用者，更不等於短影音觀看人數；不同平台數字也不能直接相加當成不重複人數。報告名稱為 2026，但上述數據主要反映 2025 年底的情況。</p>\n<p><strong>九色鹿的判讀是：品牌值得投入內容測試，但應先確認誰會看、為何要看，以及看完能採取什麼行動。</strong></p>\n<p>引用頁碼：網路普及率為第 30 頁，YouTube 潛在廣告受眾為第 96 頁，Instagram 為第 105 頁。下方播放器分別開啟對應頁面。</p>\n<figure class=\"report\"><figcaption>原始報告｜第 30 頁：網路使用總覽與普及率</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=30&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 30 頁：網路使用總覽與普及率\" loading=\"lazy\" allowfullscreen=\"\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\"></iframe><p>來源：DataReportal／Kepios；合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=30&amp;allowFullscreen=true\">另開原始報告第 30 頁</a></p></figure><figure class=\"report\"><figcaption>原始報告｜第 96 頁：YouTube 廣告受眾總覽</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=96&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 96 頁：YouTube 廣告受眾總覽\" loading=\"lazy\" allowfullscreen=\"\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\"></iframe><p>來源：DataReportal／Kepios；合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=96&amp;allowFullscreen=true\">另開原始報告第 96 頁</a></p></figure>\n\n<figure class=\"report\"><figcaption>原始報告｜第 105 頁：Instagram 廣告受眾總覽</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=105&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 105 頁：Instagram 廣告受眾總覽\" loading=\"lazy\" allowfullscreen=\"\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\"></iframe><p>來源：DataReportal／Kepios；合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=105&amp;allowFullscreen=true\">另開原始報告第 105 頁</a></p></figure>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、新手上片頻率，先依製作能力安排",
+        "paragraphs": [],
+        "bodyHtml": "<p>YouTube 官方的 Shorts 排程建議強調，發布安排應考慮長期可持續性、規律程度、製作時間與成本，也建議採用批次拍攝來降低負擔。 這項原則可作為規劃參考，但不代表其他平台有相同的推薦機制。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">目前狀況</th>\n<th scope=\"col\">建議起始頻率</th>\n<th scope=\"col\">優先處理的事</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>一人兼顧店務、業務與拍攝</td>\n<td>每週 1 支</td>\n<td>先完成固定製作流程</td>\n</tr>\n<tr>\n<td>有人協助拍攝、可集中剪輯</td>\n<td>每週 2 支</td>\n<td>測試不同題材與開場</td>\n</tr>\n<tr>\n<td>已有素材庫與固定分工</td>\n<td>每週 3 支</td>\n<td>增加有效題材的延伸內容</td>\n</tr>\n</tbody></table></div>\n<p>以上為起始配置，並非成效保證。對多數剛起步的品牌，每週 2 支能留下準備、回覆留言與檢視數據的空間；若連續幾週都必須趕工，就應先降低頻率。</p>\n<p><strong>排程數量也要分清楚：</strong> 每週製作 2 支原創影片，再分別發布到 Instagram、Facebook 與 YouTube，仍是 2 支內容、6 次發布。跨平台時，應依各平台調整標題、封面、字幕位置、音樂授權與行動引導，並分開檢視成效。</p>\n"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、咖啡廳案例：一週兩支，分別回答不同問題",
+        "paragraphs": [],
+        "bodyHtml": "<p>假設一家咖啡廳剛開始拍攝，可以先用「選購問題＋到店理由」建立節奏。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">工作時間</th>\n<th scope=\"col\">安排</th>\n<th scope=\"col\">案例</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>週一</td>\n<td>整理顧客問題、確認兩個題目</td>\n<td>第一次來怎麼點？店裡適合閱讀嗎？</td>\n</tr>\n<tr>\n<td>週二</td>\n<td>集中拍攝、準備字幕與封面</td>\n<td>一次拍好飲品、座位及店員解說</td>\n</tr>\n<tr>\n<td>週三</td>\n<td>發布第 1 支：回答問題</td>\n<td>「怕咖啡太苦，第一次來可以點什麼？」</td>\n</tr>\n<tr>\n<td>週六</td>\n<td>發布第 2 支：呈現體驗</td>\n<td>「想找安靜角落？帶你看店內三種座位」</td>\n</tr>\n<tr>\n<td>下週一</td>\n<td>回看數據、整理留言</td>\n<td>顧客是否詢問品項、營業時間或交通？</td>\n</tr>\n</tbody></table></div>\n<p>週三、週六只是排程示例，並非通用的最佳日期。房仲也能改成「購屋常見問題＋物件實地走訪」；汽車銷售則可使用「選車疑問＋功能示範」。</p>\n<p>先選團隊能穩定執行的時段，有足夠帳號資料後，再依受眾活動與實際詢問情況調整，不必一開始就追逐所謂黃金上片時間。</p>\n"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、何時該加量？先看內容是否值得重複投入",
+        "paragraphs": [],
+        "bodyHtml": "<p>先以 6–8 週作為第一輪檢視期。每週 2 支約能累積 12–16 支內容，用來辨認初步方向；樣本仍有限，不宜視為統計上的定論。</p>\n<p>建議在同一平台、相近片長與相同發布後天數下比較，並把付費推廣與自然成效分開記錄。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">觀察面向</th>\n<th scope=\"col\">看什麼</th>\n<th scope=\"col\">如何調整</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>觀看品質</td>\n<td>平均觀看時間、留存或完播表現</td>\n<td>常被快速滑走，先改善開場與題目</td>\n</tr>\n<tr>\n<td>有效互動</td>\n<td>收藏、分享、具體問題</td>\n<td>有用的題材可延伸成系列</td>\n</tr>\n<tr>\n<td>生意成果</td>\n<td>私訊、預約、表單、到店詢問</td>\n<td>檢查內容是否吸引目標客群</td>\n</tr>\n<tr>\n<td>製作負擔</td>\n<td>每支工時、延遲與備片數</td>\n<td>趕工或缺片時先減量</td>\n</tr>\n</tbody></table></div>\n<p>不要因為單支爆紅就立刻改成日更，也不要因為一支低觀看就停更。可比較一批影片的中位數，減少單支異常表現的影響。</p>\n<p><strong>適合加量：</strong> 已連續數週準時完成、保有至少一週備片，且某些題材持續帶來有價值的互動或詢問。可以先從每週 2 支增至 3 支，再觀察是否值得投入。</p>\n<p><strong>適合維持或減量：</strong> 字幕與資訊錯誤變多、題材重複、留言無人回覆，或拍攝開始影響原本的服務品質。此時先修正流程，比增加發布量更有幫助。</p>\n"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、新手最容易誤判的三件事",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><strong>把每天發當成必要條件。</strong> 頻率是測試與接觸受眾的安排，無法替代有價值的內容。</li>\n<li><strong>只看總觀看數。</strong> 發得更多可能讓總觀看增加，仍要比較每支表現、有效詢問與投入工時。</li>\n<li><strong>同時改題材、片長、時段與頻率。</strong> 變動太多，很難判斷是哪個因素帶來差異。每輪先調整一個主要變因。</li>\n</ul>\n"
+      },
+      {
+        "id": "chapter-7",
+        "heading": "九色鹿觀點",
+        "paragraphs": [],
+        "bodyHtml": "<p>短影音的起步重點，是建立「做得出來、能持續、可回頭檢視」的內容節奏。每週 2 支是一個可調整的起點；真正值得提高頻率的時候，是品牌已找到有效題材，也有能力維持品質與回應需求。</p>\n<p>如果不確定該拍什麼、多久發一次，歡迎與九色鹿討論，從目標客群、內容題材與團隊產能，規劃適合品牌的短影音節奏。</p>\n"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><a href=\"/insights/short-video-platform-strategy\">短影音新手該經營哪些平台？台灣品牌的內容分配與起步策略</a></li>\n<li><a href=\"/insights/short-video-inhouse-roi\">請員工拍剪短影音值得嗎？品牌新手的成本與效益評估指南</a></li>\n<li><a href=\"/insights/short-video-social-media-tactics\">短影音拍完之後怎麼經營？新手必懂的 7 個社群運用技巧</a></li>\n</ul>\n"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "一定要每天發短影音才有效嗎？",
+        "answer": "不一定。對新手品牌，先穩定每週 1–2 支，比設定無法持續的日更目標更容易執行。是否有效，仍要看內容與目標受眾是否匹配。"
+      },
+      {
+        "question": "每週只能拍一支，會不會太少？",
+        "answer": "可以先從一支開始，但累積可比較內容的速度較慢，需要更長的觀察期。可把常見顧客問題做成固定系列，降低每次重新構思的成本。"
+      },
+      {
+        "question": "流量不好，是不是要多發幾支？",
+        "answer": "先檢查題目、開場、資訊清楚度與行動引導。如果原有內容沒有吸引對的人，加量可能只是增加製作成本。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DataReportal｜Digital 2026: Taiwan",
+        "url": "https://datareportal.com/reports/digital-2026-taiwan"
+      },
+      {
+        "title": "YouTube Help｜Upload schedule tips — Shorts",
+        "url": "https://support.google.com/youtube/answer/13616979?co=YOUTUBE._YTVideoType%3Dshorts&hl=en"
+      }
+    ],
+    "relatedServices": [
+      "creative-content",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "短影音多久發一次？新手品牌從每週 2 支建立穩定上片節奏",
+      "description": "短影音一定要每天發嗎？從 Digital 2026 Taiwan 的市場背景出發，分析新手品牌的上片頻率、每週排程與成效檢視方式，建立可持續的內容節奏。"
+    },
+    "card": {
+      "eyebrow": "RHYTHM",
+      "title": "短影音多久發一次？",
+      "caption": "短影音一定要每天發嗎？從 Digital 2026 Taiwan 的市場背景出發，分析新手品牌的上片頻率、每週排程與成效檢視方式，建立可持續的內容節奏。"
+    },
+    "cta": {
+      "heading": "讓品牌的專業，",
+      "highlight": "成為值得觀看的內容。",
+      "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
+      "label": "與九色鹿討論短影音策略"
+    }
+  },
+  {
+    "slug": "short-video-platform-strategy",
+    "title": "短影音新手該經營哪些平台？台灣品牌的內容分配與起步策略",
+    "excerpt": "參考 Digital 2026 Taiwan，解析台灣品牌短影音平台選擇、內容分工與起步策略，附原始報告引用頁碼。",
+    "category": "短影音行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "keywords": [
+      "短影音行銷",
+      "平台策略"
+    ],
+    "takeaways": [
+      "先選一個主力平台與一個延伸平台，建立穩定流程。",
+      "潛在廣告受眾不等於短影音觀眾，不能直接當成平台成效排名。",
+      "同一題材按平台任務調整，並追蹤有效詢問與投入工時。"
+    ],
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "從品牌的實際問題出發",
+        "paragraphs": [],
+        "bodyHtml": "<p>從 Instagram Reels、Facebook、YouTube Shorts 到 TikTok，先釐清客戶與內容任務，再決定把力氣放在哪裡。</p>\n<p>核心洞察：剛開始拍短影音，建議先選「一個主力平台＋一個延伸平台」。主力平台負責持續互動與轉換，延伸平台用來測試新受眾或累積內容。平台選擇應看客戶在哪裡、內容能否持續產出，以及觀看後能不能帶來下一步行動。</p>\n"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、台灣市場：不能只用平台人數決定先做誰",
+        "paragraphs": [],
+        "bodyHtml": "<p>DataReportal《Digital 2026: Taiwan》整理的台灣潛在廣告觸及規模如下。報告雖以 2026 為名，下列數據主要來自 2025 年底，並非 2026 年 10 月即時數字。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">平台</th>\n<th scope=\"col\">台灣潛在廣告觸及</th>\n<th scope=\"col\">引用頁碼</th>\n<th scope=\"col\">解讀限制</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>YouTube</td>\n<td>約 1,810 萬</td>\n<td><a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=96\">第 96 頁</a></td>\n<td>整個平台，不是 Shorts 專屬觀眾。</td>\n</tr>\n<tr>\n<td>Facebook</td>\n<td>約 1,730 萬</td>\n<td><a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=101\">第 101 頁</a></td>\n<td>整個平台，不是 Reels 專屬觀眾。</td>\n</tr>\n<tr>\n<td>Instagram</td>\n<td>約 1,220 萬</td>\n<td><a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=105\">第 105 頁</a></td>\n<td>整個平台，不是 Reels 專屬觀眾。</td>\n</tr>\n<tr>\n<td>TikTok</td>\n<td>約 867 萬名成年人</td>\n<td><a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=109\">第 109 頁</a></td>\n<td>僅涵蓋 18 歲以上，年齡口徑與上列不同。</td>\n</tr>\n</tbody></table></div>\n<p>資料來源：，第 96、101、105、109 頁（廣告受眾總覽；頁碼以原始報告及播放器頁序為準，封面為第 1 頁）。廣告觸及不等於每月活躍人數、實際觀看人數或成交能力；不同平台受眾重疊，不能相加，也不宜直接排名。這些數據亦不足以推論某年齡層偏好哪種短影音。</p>\n<p>九色鹿觀點：大型平台提供測試空間，但新手更需要找到「對的觀看者」。對一間咖啡廳而言，附近居民的訂位詢問，通常比外縣市的大量觀看更接近生意目標。以下平台分工屬於經營建議，並非報告直接證明的成效排名。</p>\n<h3>引用頁面：Digital 2026 Taiwan 原始報告</h3>\n<p>本段引用 YouTube 第 96 頁、Facebook 第 101 頁、Instagram 第 105 頁與 TikTok 第 109 頁的廣告受眾總覽。以下播放器分別開啟對應頁面，也可使用指定頁面連結查閱。</p>\n<p><a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=96\">YouTube：第 96 頁</a> ｜ <a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=101\">Facebook：第 101 頁</a> ｜ <a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=105\">Instagram：第 105 頁</a> ｜ <a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=109\">TikTok：第 109 頁</a></p>\n<p>保留官方播放器與來源署名。若無法載入，請使用上方指定頁面連結。數據只用於比較平台廣告觸及規模；後文內容分配為九色鹿策略分析，並非這些報告頁面的結論。</p>\n<p>來源：DataReportal；合作夥伴 Meltwater、We Are Social。<a href=\"https://datareportal.com/reports/digital-2026-taiwan\">閱讀報告原始頁面</a>。</p>\n<figure class=\"report\"><figcaption>原始報告｜第 96 頁：YouTube 廣告受眾總覽</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=96&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 96 頁：YouTube 廣告受眾總覽\" loading=\"lazy\" allowfullscreen=\"\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\"></iframe><p>來源：DataReportal／Kepios；合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=96&amp;allowFullscreen=true\">另開原始報告第 96 頁</a></p></figure>\n\n<figure class=\"report\"><figcaption>原始報告｜第 101 頁：Facebook 廣告受眾總覽</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=101&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 101 頁：Facebook 廣告受眾總覽\" loading=\"lazy\" allowfullscreen=\"\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\"></iframe><p>來源：DataReportal／Kepios；合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=101&amp;allowFullscreen=true\">另開原始報告第 101 頁</a></p></figure>\n\n<figure class=\"report\"><figcaption>原始報告｜第 105 頁：Instagram 廣告受眾總覽</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=105&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 105 頁：Instagram 廣告受眾總覽\" loading=\"lazy\" allowfullscreen=\"\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\"></iframe><p>來源：DataReportal／Kepios；合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=105&amp;allowFullscreen=true\">另開原始報告第 105 頁</a></p></figure>\n\n<figure class=\"report\"><figcaption>原始報告｜第 109 頁：TikTok 廣告受眾總覽</figcaption><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=109&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan 第 109 頁：TikTok 廣告受眾總覽\" loading=\"lazy\" allowfullscreen=\"\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\"></iframe><p>來源：DataReportal／Kepios；合作夥伴：We Are Social、Meltwater。<a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=109&amp;allowFullscreen=true\">另開原始報告第 109 頁</a></p></figure>"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、哪些內容適合放在哪個平台？",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">平台</th>\n<th scope=\"col\">建議內容與任務</th>\n<th scope=\"col\">新手注意事項</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Instagram Reels</td>\n<td>產品使用、空間氛圍、造型前後對照、品牌人物與幕後。適合測試重視視覺呈現與生活情境的內容。</td>\n<td>封面應能快速看懂主題；用限時動態補價格、位置、預約方式，並安排回覆私訊的人。</td>\n</tr>\n<tr>\n<td>Facebook</td>\n<td>在地服務、常見問題、客戶故事、活動與實地走訪。已有粉專或在地客群時，可優先測試。</td>\n<td>內文補齊地區、適用對象與行動方式；轉貼社團前先看規則，避免把分享變成洗版。</td>\n</tr>\n<tr>\n<td>YouTube Shorts</td>\n<td>操作示範、知識問答、選購比較與迷思解析。適合建立同主題系列，延伸完整解說。</td>\n<td>標題使用客戶會問的問題；每支獨立講清一件事。符合進階功能資格時，可設定「相關影片」連到自家完整內容。</td>\n</tr>\n<tr>\n<td>TikTok</td>\n<td>情境演出、快速實測、人物反應與具節奏感的知識內容。適合願意持續測試表達方式的團隊。</td>\n<td>熱門題材要能連回產品或服務；追蹤觀眾所在地與詢問品質，不把高觀看直接當成台灣客戶需求。</td>\n</tr>\n<tr>\n<td>Threads／LINE</td>\n<td>Threads 可用短片搭配觀點與提問；LINE 官方帳號可承接既有客戶、優惠與預約。</td>\n<td>起步階段可作輔助。Threads 要投入對話；LINE 發送要有明確價值，避免過度打擾。</td>\n</tr>\n</tbody></table></div>\n<p>依生意選組合：視覺型商品可從 IG＋Shorts 測試；已有在地粉專基礎的店家可從 Facebook＋IG 起步；專業服務可用 Shorts＋既有客戶最常使用的平台。若能穩定製作情境與實測內容，再把 TikTok 納入測試。</p>\n"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、同一個題材，換成各平台需要的切角",
+        "paragraphs": [],
+        "bodyHtml": "<p>以咖啡廳「平日下午有插座、適合工作」為例，拍一次素材，可以剪成不同版本；每支影片各自完成一個任務。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">平台</th>\n<th scope=\"col\">影片切角</th>\n<th scope=\"col\">看完後的下一步</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>IG Reels</td>\n<td>「想找安靜工作角落？」呈現座位、採光、插座與飲品。</td>\n<td>收藏地點，前往主頁查看營業資訊。</td>\n</tr>\n<tr>\n<td>Facebook</td>\n<td>「附近上班族下午去哪坐？」補地區、平日時段及低消條件。</td>\n<td>查詢位置或私訊確認座位。</td>\n</tr>\n<tr>\n<td>Shorts</td>\n<td>「工作型咖啡廳怎麼挑？」用本店示範插座、桌面與座位條件。</td>\n<td>觀看完整空間介紹。</td>\n</tr>\n<tr>\n<td>TikTok</td>\n<td>「帶筆電出門，結果沒插座？」以短情境帶出座位實測。</td>\n<td>查看地點資訊與適用時段。</td>\n</tr>\n</tbody></table></div>\n<p>以上為假設案例，營業時間、插座、低消與座位政策應按店家實況呈現，不保證平台成效。</p>\n<p>房仲也能用同樣邏輯：IG 呈現採光與格局；Facebook 補地區生活資訊；Shorts 解答「看屋怎麼判斷收納是否足夠」。專業服務則可從客戶最常問的問題開始，避免每支都只介紹公司。</p>\n"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、新手前四週：用小規模測試找到主力平台",
+        "paragraphs": [],
+        "bodyHtml": "<ol>\n<li>先定一個商業目標：例如訂位、來店、預約諮詢或產品詢問，並確認個人檔案中的聯絡入口可用。</li>\n<li>選兩個平台、三類題材：以常見問題、實際示範、人物故事為起點。建議每週製作兩支核心內容，再依平台改標題、開場與行動引導；這是測試節奏，不是平台規定。</li>\n<li>記錄觀看到詢問的過程：觀察觀看留存、分享／收藏、主頁造訪與有效詢問。可用不同連結的 UTM 參數或預約來源欄位，協助判斷來源。</li>\n<li>四週後做初步調整：按每支投入工時、有效詢問與後續轉換，決定加碼哪個平台。樣本不足時延長測試，不用單支爆紅或低觀看決定去留。</li>\n</ol>\n<p>各平台的觀看與互動定義不同，成效宜先與同平台過去內容比較。低觀看但能帶來合適客戶的內容，也可能值得持續製作。</p>\n"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、跨平台發布，最容易忽略的五件事",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li>保留乾淨母檔：以 9:16 直式、1080 × 1920 作為常用製作起點，保留無平台浮水印、無平台配樂的版本，方便重新剪輯。</li>\n<li>字幕要實機檢查：重要文字避開按鈕與底部說明區，發布前確認裁切、字級與收音。開場直接說明問題或結果。</li>\n<li>音樂授權逐平台確認：平台內可選用的歌曲，不代表可跨平台搬用或用於廣告；Meta Reels 廣告應選符合商用授權的原創音訊或免權利金音樂。 外部剪輯後上傳 YouTube，也須確認音樂等素材的使用權。</li>\n<li>資訊、案例與素材要真實：取得出鏡與客戶案例使用同意；價格、效果及服務條件清楚交代，避免讓觀眾誤認。</li>\n<li>每支只安排一個主要行動：收藏、看完整介紹或預約擇一。另把值得長期查詢的問答整理成官網文字，方便閱讀與搜尋；不保證因此獲得排名或 AI 引用。</li>\n</ul>\n"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><a href=\"/insights/short-video-posting-frequency\">短影音多久發一次？新手品牌從每週 2 支建立穩定上片節奏</a></li>\n<li><a href=\"/insights/short-video-copyright-guide\">短影音可以直接用網路素材嗎？品牌新手必懂的音樂、影片與圖片版權觀念</a></li>\n<li><a href=\"/insights/short-video-social-media-tactics\">短影音拍完之後怎麼經營？新手必懂的 7 個社群運用技巧</a></li>\n</ul>\n"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "新手需要四個短影音平台一起做嗎？",
+        "answer": "通常先從一個主力、一個延伸平台開始更容易維持品質。等到拍攝、剪輯與回覆流程穩定，再增加平台。"
+      },
+      {
+        "question": "同一支影片可以直接發到所有平台嗎？",
+        "answer": "自有且授權完整的素材可以重複運用。建議至少調整標題、開場、配樂與行動引導，並檢查各平台當下的規格。"
+      },
+      {
+        "question": "哪個平台最容易帶來生意？",
+        "answer": "沒有適用所有產業的答案。先用平台與客戶需求建立假設，再以有效詢問、預約與成交回饋驗證。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DataReportal：Digital 2026: Taiwan",
+        "url": "https://datareportal.com/reports/digital-2026-taiwan"
+      },
+      {
+        "title": "YouTube Help：Add a related video to your YouTube Shorts",
+        "url": "https://support.google.com/youtube/answer/14075157"
+      },
+      {
+        "title": "Meta：Create Instagram Reels ads in Meta Ads Manager",
+        "url": "https://www.facebook.com/help/instagram/546362593027755"
+      },
+      {
+        "title": "YouTube Help：Upload YouTube Shorts",
+        "url": "https://support.google.com/youtube/answer/12779649"
+      }
+    ],
+    "relatedServices": [
+      "creative-content",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "短影音新手該經營哪些平台？台灣品牌的內容分配與起步策略",
+      "description": "參考 Digital 2026 Taiwan，解析台灣品牌短影音平台選擇、內容分工與起步策略，附原始報告引用頁碼。"
+    },
+    "card": {
+      "eyebrow": "PLATFORMS",
+      "title": "短影音新手該經營哪些平台？",
+      "caption": "參考 Digital 2026 Taiwan，解析台灣品牌短影音平台選擇、內容分工與起步策略，附原始報告引用頁碼。"
+    },
+    "cta": {
+      "heading": "讓品牌的專業，",
+      "highlight": "成為值得觀看的內容。",
+      "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
+      "label": "與九色鹿討論短影音策略"
+    }
+  },
+  {
+    "slug": "high-ticket-short-video-strategy",
+    "title": "高單價產品適合拍短影音嗎？從信任建立到有效諮詢的內容與社群策略",
+    "excerpt": "高單價產品如何拍短影音？解析價值說明、實測比較、客戶案例與社群分工，協助品牌從觀看數走向有效諮詢與預約。",
+    "category": "短影音行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "keywords": [
+      "高單價產品",
+      "短影音行銷",
+      "社群經營",
+      "品牌信任",
+      "名單轉換"
+    ],
+    "takeaways": [
+      "高單價內容先解釋價值與選購條件，再引導有效諮詢。",
+      "用實測、案例與服務流程，回答成交前的疑慮。",
+      "串接官網與諮詢入口，依實際銷售週期評估成果。"
+    ],
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "從品牌的實際問題出發",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>高單價產品適合拍短影音。關鍵是讓觀眾理解價值、降低選購疑慮，並願意進一步諮詢。</strong> 對家具、音響、珠寶、汽車、專業設備等品牌而言，短影音可以打開認識品牌的入口；完整比較、實際體驗與專人服務，則承接後續決策。</p>\n"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、高單價產品的內容，為什麼需要更重視信任？",
+        "paragraphs": [],
+        "bodyHtml": "<p>高單價沒有統一的金額門檻。同樣的價格，對不同客群可能代表不同程度的負擔。品牌更應觀察：顧客是否需要比較多家、擔心買錯、重視售後，或必須與家人、主管共同決定。</p>\n<p>當這些情況出現，內容就應回答三個問題：<strong>為什麼值得這個價格？適不適合我？購買後誰負責？</strong></p>\n<p>Google 的零售趨勢文章指出，消費者會在影片、搜尋與實體購物之間切換。 本文據此提出的策略判斷是：高單價品牌應把短影音串接到可查證的產品資訊與服務流程，而非只期待一支影片直接完成成交。該來源屬國際零售觀察，並非台灣高單價產品的專屬成效研究。</p>\n"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、怎麼拍？先把顧客的疑慮變成選題",
+        "paragraphs": [],
+        "bodyHtml": "<p>新手可以先整理業務最常被問的十個問題，每支影片回答一題。以下以高單價沙發為例；內容方向也能延伸至其他需要體驗或比較的產品。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">內容方向</th>\n<th scope=\"col\">可拍的題目</th>\n<th scope=\"col\">建議畫面與重點</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>價值解釋</td>\n<td>同樣是沙發，價格差在哪裡？</td>\n<td>拍骨架、面料與製作細節，解釋差異如何影響使用</td>\n</tr>\n<tr>\n<td>使用情境</td>\n<td>小客廳一定適合買小沙發嗎？</td>\n<td>實拍走道、坐深與空間比例，說明選購條件</td>\n</tr>\n<tr>\n<td>實測比較</td>\n<td>兩種布料，清潔方式差在哪？</td>\n<td>使用一致條件示範，交代測試範圍與限制</td>\n</tr>\n<tr>\n<td>選購避雷</td>\n<td>哪些家庭不適合這款沙發？</td>\n<td>說明寵物、日照、使用習慣等適配條件</td>\n</tr>\n<tr>\n<td>客戶案例</td>\n<td>這個家庭為什麼最後選這一款？</td>\n<td>經同意展示需求、取捨與實際使用回饋</td>\n</tr>\n<tr>\n<td>售後服務</td>\n<td>送到家才發現進不了電梯，怎麼辦？</td>\n<td>拍丈量、搬運評估與服務流程，釐清責任範圍</td>\n</tr>\n</tbody></table></div>\n<p><strong>高級感來自可看見的細節與可信的說明。</strong> 畫面精緻有助於呈現質感，但只有慢鏡頭、音樂和產品特寫，仍可能讓顧客不知道產品與自己有什麼關係。</p>\n"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、新手可直接套用的拍攝結構",
+        "paragraphs": [],
+        "bodyHtml": "<p>建議先試拍約 30–60 秒的版本，依觀看與諮詢回饋調整；這是製作起點，不是平台保證有效的秒數。</p>\n<ol>\n<li><strong>提出問題：</strong>「買高價沙發前，先確認坐深適不適合你。」</li>\n<li><strong>實際示範：</strong> 同一個人坐在不同坐深的沙發上，拍出腳掌、腰背支撐的差異。</li>\n<li><strong>解釋取捨：</strong>「喜歡盤腿、躺坐的人，可能偏好深一點；習慣坐正的人，則要確認背部是否有支撐。」</li>\n<li><strong>引導下一步：</strong>「想知道怎麼選，官網有選購指南，也可以預約到店試坐。」</li>\n</ol>\n<p>拍攝時先確保人聲清楚、光線穩定、字幕易讀。用全景交代情境，再以近景拍細節；產品顏色、尺寸與效果應如實呈現。每支影片保留一個主要行動，例如看指南或預約體驗，讓觀眾知道下一步。</p>\n<p>價格可說明起價、常見區間與影響報價的條件，避免只留下「私訊詢價」。客製化產品則要交代尺寸、材質、安裝等費用如何計算；實際資訊須以品牌可履行的報價為準。</p>\n"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、其他社群怎麼搭配？依顧客任務分工",
+        "paragraphs": [],
+        "bodyHtml": "<p>以下是建議分工，品牌應依現有客群與人力選擇，無須一開始同時經營所有平台。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">平台或接觸點</th>\n<th scope=\"col\">適合承擔的任務</th>\n<th scope=\"col\">經營注意事項</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Instagram Reels／YouTube Shorts／TikTok</td>\n<td>以情境、示範與選購問題觸及新觀眾</td>\n<td>先選一個主要平台測試；跨平台發布時調整封面、字幕與引導方式</td>\n</tr>\n<tr>\n<td>Instagram 輪播／限時動態</td>\n<td>補充規格、常見問答、製作過程與體驗資訊</td>\n<td>將重要資訊整理成可持續查閱的內容，避免只出現在短暫貼文</td>\n</tr>\n<tr>\n<td>Facebook 粉專／相關社團</td>\n<td>展開問題討論、分享案例與活動</td>\n<td>先確認社團規則，以解答問題參與，避免重複貼廣告</td>\n</tr>\n<tr>\n<td>YouTube 長影片</td>\n<td>承接深度實測、完整比較與使用教學</td>\n<td>在短片之外保留完整證據，清楚交代測試條件</td>\n</tr>\n<tr>\n<td>Threads</td>\n<td>蒐集疑問、交流選購觀點與品牌日常</td>\n<td>維持專業與一致立場，避免為追逐話題造成錯誤期待</td>\n</tr>\n<tr>\n<td>LINE 官方帳號</td>\n<td>承接諮詢、預約與後續服務</td>\n<td>清楚告知服務時間；依需求回覆，避免頻繁群發催單</td>\n</tr>\n<tr>\n<td>官網</td>\n<td>集中規格、價格條件、案例、售後與預約入口</td>\n<td>品牌名稱、產品資訊與社群保持一致，讓顧客能查證與比較</td>\n</tr>\n</tbody></table></div>\n<p>資源有限時，可從「一個主要短影音平台＋官網承接頁＋一個諮詢入口」開始。若目標是企業採購，再評估 LinkedIn 或產業社群，內容著重導入條件、服務能力與使用效益。</p>\n"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、避免讓社群流量變成低品質詢問",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><strong>別讓折扣成為唯一賣點。</strong> 應說清楚價值、適用對象與服務範圍，幫顧客判斷是否合適。</li>\n<li><strong>比較必須公平。</strong> 不同材質、規格或使用條件應明確交代；案例與見證須真實，合作關係應清楚揭露。</li>\n<li><strong>各平台資訊要一致。</strong> 價格、保固、交期與活動條件若不同，應清楚標示原因與適用期間。</li>\n<li><strong>諮詢入口要能篩選需求。</strong> 可先詢問用途、需求時間、服務地區及預算區間，保留「尚未確定」選項，並說明資料用途。</li>\n<li><strong>內容與業務服務要銜接。</strong> 接手人員應知道顧客看過哪些資訊、下一步需要什麼，避免讓對方重複描述。</li>\n</ul>\n<p>若要投放廣告，先確認內容已能解答問題、預約頁可正常使用，且團隊能接住詢問，再逐步測試預算。</p>\n"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "六、成效怎麼看？從觀看走到有效商機",
+        "paragraphs": [],
+        "bodyHtml": "<p>觀看數可以反映觸及，但高單價品牌還應追蹤後續行動。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">階段</th>\n<th scope=\"col\">建議觀察</th>\n<th scope=\"col\">用來判斷什麼</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>內容理解</td>\n<td>觀看留存、收藏、具體提問</td>\n<td>主題是否切中疑慮，說明是否清楚</td>\n</tr>\n<tr>\n<td>主動了解</td>\n<td>官網造訪、指南閱讀、諮詢入口點擊</td>\n<td>觀眾是否願意進一步研究</td>\n</tr>\n<tr>\n<td>有效諮詢</td>\n<td>符合服務範圍且有具體需求的詢問數</td>\n<td>是否吸引合適的潛在客戶</td>\n</tr>\n<tr>\n<td>商業結果</td>\n<td>預約、到店、報價、成交與毛利</td>\n<td>內容帶來的機會是否具有商業價值</td>\n</tr>\n</tbody></table></div>\n<p>先由團隊定義「有效諮詢」，再計算有效諮詢率＝有效諮詢數÷總諮詢數。用連結參數與詢問來源紀錄協助追蹤，也要保留多次接觸的可能，避免把成交全歸給最後一則貼文。</p>\n"
+      },
+      {
+        "id": "chapter-7",
+        "heading": "七、起步建議：先用四週驗證內容方向",
+        "paragraphs": [],
+        "bodyHtml": "<p>可先每週發布兩支影片，四週共八支：價值解釋、實際示範、選購疑慮、服務案例各兩支。這是便於新手執行的測試安排，不代表產業最佳頻率。</p>\n<p>同步整理一頁官網選購指南，放入規格、價格條件、服務範圍與預約方式。四週後依具體提問與有效諮詢調整選題；成交評估則應配合產品原有的決策週期，不能只看當月營收。</p>\n"
+      },
+      {
+        "id": "chapter-9",
+        "heading": "九色鹿觀點",
+        "paragraphs": [],
+        "bodyHtml": "<p>高單價產品的短影音，應把顧客做決定前需要的資訊，一次說清楚一件。當內容能展示價值、說明限制，並銜接完整資訊與專人服務，品牌才有機會把注意力累積成信任與商機。</p>\n<p>若品牌已有產品與服務優勢，卻不知道如何轉成內容，可從顧客常見疑問盤點開始，建立適合自身銷售流程的短影音與社群策略。</p>\n"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><a href=\"/insights/short-video-education-vs-entertainment\">短影音一定要好笑嗎？從商業目標選擇知識型與娛樂型內容</a></li>\n<li><a href=\"/insights/short-video-product-vs-person\">短影音只拍產品可以嗎？真人出鏡的價值與曝光成效解析</a></li>\n<li><a href=\"/insights/real-estate-lead-generation-seo-geo\">建商、代銷需要做 SEO、GEO 嗎？快速獲取名單與長期信任的行銷策略</a></li>\n</ul>\n"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "高單價產品需要拍得很好笑才有流量嗎？",
+        "answer": "不必。清楚的問題、可見的示範與有用的判斷，也能讓內容值得觀看。幽默可以幫助理解，但應符合品牌與購買情境。"
+      },
+      {
+        "question": "沒有客戶案例，還能開始嗎？",
+        "answer": "可以先拍選購指南、產品細節、測試與售後流程。示範情境須標示清楚，不應包裝成真實客戶見證。"
+      },
+      {
+        "question": "短影音觀看數不高，就代表沒有效果嗎？",
+        "answer": "不一定。應一併檢查是否帶來合適客群的提問、預約與商機；若長期既沒有觸及，也沒有後續行動，就需要調整題目、表達或受眾設定。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google：零售行銷與消費者旅程",
+        "url": "https://business.google.com/us/think/consumer-insights/retail-marketing-insights-and-strategies/"
+      }
+    ],
+    "relatedServices": [
+      "creative-content",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "高單價產品適合拍短影音嗎？從信任建立到有效諮詢的內容與社群策略",
+      "description": "高單價產品如何拍短影音？解析價值說明、實測比較、客戶案例與社群分工，協助品牌從觀看數走向有效諮詢與預約。"
+    },
+    "card": {
+      "eyebrow": "TRUST",
+      "title": "高單價產品適合拍短影音嗎？",
+      "caption": "高單價產品如何拍短影音？解析價值說明、實測比較、客戶案例與社群分工，協助品牌從觀看數走向有效諮詢與預約。"
+    },
+    "cta": {
+      "heading": "讓品牌的專業，",
+      "highlight": "成為值得觀看的內容。",
+      "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
+      "label": "與九色鹿討論短影音策略"
+    }
+  },
+  {
+    "slug": "short-video-product-vs-person",
+    "title": "短影音只拍產品可以嗎？真人出鏡的價值與曝光成效解析",
+    "excerpt": "短影音一定要露臉嗎？解析產品展示、手部操作與真人出鏡的適用情境，協助品牌用觀看與詢問數據選擇內容形式。",
+    "category": "短影音行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "keywords": [
+      "短影音行銷",
+      "產品展示",
+      "真人出鏡",
+      "品牌信任",
+      "內容策略"
+    ],
+    "takeaways": [
+      "產品可以當主角，前提是畫面能說明實際用途與價值。",
+      "真人有助說明與建立關係，但不是增加曝光的保證。",
+      "用產品版與人物搭配版測試，分開觀察觀看及有效詢問。"
+    ],
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "從品牌的實際問題出發",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>只有產品出鏡，當然可以。真人出鏡可能幫助觀眾理解產品、記住品牌，但不代表平台會因為影片有人臉，就自動增加曝光。</strong> 對剛開始拍攝的品牌，更值得思考的是：這支影片需要讓觀眾看見什麼，才能願意繼續看、相信你，並採取下一步？</p>\n"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、產品可以當主角，但要讓觀眾看懂價值",
+        "paragraphs": [],
+        "bodyHtml": "<p>產品影片常見的問題，是只有漂亮特寫、旋轉鏡頭與配樂，卻沒有回答「這跟我有什麼關係」。</p>\n<p>如果產品的材質、製作過程或使用效果能透過畫面說明，不露臉也能產出有用的內容。例如：</p>\n<ul>\n<li>餐飲與食品：拍出切面、沖煮或料理過程，搭配口感與食用情境說明。</li>\n<li>居家用品：直接示範安裝、清潔或收納，讓觀眾看懂操作差異。</li>\n<li>服飾與配件：呈現材質、尺寸與搭配；若涉及穿戴效果，可以只拍局部。</li>\n<li>工藝與製造：拍出加工、檢查與細節，說明品質如何形成。</li>\n</ul>\n<p>這些是內容規劃上的適用例子，不代表特定產業使用這種形式就一定有效。關鍵是讓產品進入使用情境，而不是只把商品目錄變成影片。</p>\n"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、為什麼朋友會建議真人出鏡？",
+        "paragraphs": [],
+        "bodyHtml": "<p>朋友的建議有其道理：人能補上產品畫面不容易交代的資訊。以下是本篇的策略分析，不是曝光提升的因果保證。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">真人能補上的價值</th>\n<th scope=\"col\">適合的內容</th>\n<th scope=\"col\">要注意的地方</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>解釋選擇理由</td>\n<td>店主說明兩款產品適合哪些人</td>\n<td>少念規格，多回答購買疑問</td>\n</tr>\n<tr>\n<td>示範實際使用</td>\n<td>員工操作、穿戴、試用</td>\n<td>人物與產品都要清楚可見</td>\n</tr>\n<tr>\n<td>建立品牌記憶</td>\n<td>固定由同一位職人分享製作細節</td>\n<td>讓人物與品牌名稱產生連結</td>\n</tr>\n<tr>\n<td>呈現服務與判斷</td>\n<td>回答常見問題、說明售後流程</td>\n<td>專業與可信度仍需具體證據支持</td>\n</tr>\n</tbody></table></div>\n<p>TikTok 官方的成效廣告創意建議，確實鼓勵使用創作者、員工或顧客吸引注意與互動。 但這是<strong>廣告素材的測試方向</strong>，不能直接推論為所有平台的自然觸及規則，更不能換算成固定的曝光增幅。</p>\n"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、真人出鏡會增加曝光數嗎？",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>可能有幫助，但沒有必然關係。</strong></p>\n<p>以 YouTube Shorts 為例，官方說明指出，推薦系統不偏好特定影片形式，會依影片表現與觀眾個人化資訊排序；評估訊號包括觀眾是否選擇觀看、平均觀看時間、平均觀看比例，以及喜歡與觀看後問卷等滿意度訊號。</p>\n<p>因此，真人出鏡若讓說明更清楚、觀眾更願意留下來，便可能間接幫助影片表現；這是依官方機制做出的策略推論。反過來說，如果只是多了一張臉，開場仍然冗長、內容沒有重點，也不保證成效更好。</p>\n<p><strong>真人出鏡是內容工具，不能當作流量開關。</strong> 而且曝光、觀看與觸及人數是不同指標，分析時應使用平台提供的定義，避免混為一談。</p>\n"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、不想露臉，可以從「有人使用」開始",
+        "paragraphs": [],
+        "bodyHtml": "<p>品牌不必在「完全沒有人」與「全程對鏡頭說話」之間二選一。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">拍攝形式</th>\n<th scope=\"col\">適合解決的問題</th>\n<th scope=\"col\">起步方式</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>純產品＋字幕</td>\n<td>看懂外觀、材質與差異</td>\n<td>一支影片只介紹一個特點</td>\n</tr>\n<tr>\n<td>手部操作＋旁白</td>\n<td>看懂怎麼用、好不好操作</td>\n<td>拍完整動作，再補口語說明</td>\n</tr>\n<tr>\n<td>局部人物入鏡</td>\n<td>看懂尺寸、比例與使用情境</td>\n<td>拍穿戴、拿取或實際使用畫面</td>\n</tr>\n<tr>\n<td>短暫露臉＋產品示範</td>\n<td>知道人是誰，也看得到證據</td>\n<td>人物提出問題，切到產品回答</td>\n</tr>\n</tbody></table></div>\n<p>對新手而言，「手部操作＋自己的聲音」往往是容易執行的起點。等到內容方向穩定，再評估是否增加人物比例。</p>\n<h3>咖啡品牌案例：同一款濾掛咖啡，三種拍法</h3>\n<p>以下為示意企劃，並非實際成效案例。</p>\n<ul>\n<li>純產品版：拍包裝、咖啡粉與沖煮過程，字幕回答「這款適合喜歡哪種風味的人？」</li>\n<li>手部操作版：邊沖邊說明「濾掛沖起來太淡，可以先檢查水量與沖煮方式」，用實際操作取代抽象描述。</li>\n<li>真人搭配版：店主開場說「怕酸，選咖啡時可以先問這個問題」，接著切到產品與風味說明。</li>\n</ul>\n<p>三種形式都可以成立。選擇依據是觀眾需要的資訊，以及品牌能否持續做好，而不是露臉比例越高越好。</p>\n"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、用一輪小測試，決定品牌需要多少真人元素",
+        "paragraphs": [],
+        "bodyHtml": "<p>先選幾個相近的產品問題，每個題目各做「產品版」與「人物搭配版」，盡量維持相近的長度、訊息、行動引導與發布條件，並交錯發布。這是起步觀察方式，不是嚴格的因果實驗。</p>\n<p>觀察同一平台、相同發布後期間的表現：</p>\n<ol>\n<li>有沒有吸引注意：參考平台提供的觀看、觸及與滑走相關指標。</li>\n<li>有沒有把資訊講清楚：比較平均觀看時間、觀看比例與留言問題；片長不同時不要只比完播率。</li>\n<li>有沒有帶來商業行動：記錄商品頁點擊、有效私訊與詢問內容，必要時使用不同追蹤連結。</li>\n</ol>\n<p>不要拿一支偶然爆量的影片定論，也不要將廣告投放與自然流量混在一起比較。自然發布會受到題材、時間與受眾差異影響；若要做較可控的付費比較，再使用平台的分組測試工具。</p>\n<p>如果真人版觀看較高，但產品版帶來更多有效詢問，兩者可以各司其職：前者用來介紹品牌，後者協助顧客理解與選購。</p>\n"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "九色鹿觀點",
+        "paragraphs": [],
+        "bodyHtml": "<p>剛開始拍短影音，不必為了露臉而露臉。先讓產品回答一個真實的購買問題，再判斷是否需要人物補充說明、示範或建立關係。</p>\n<p><strong>產品負責展示證據，人物負責補充觀點與關係。</strong> 好的內容策略，是讓兩者配合商業目標，並以持續累積的數據調整，而不是把曝光成敗歸因於有沒有一張臉。</p>\n<p>若品牌不確定該從產品展示、旁白示範或真人解說開始，九色鹿可協助梳理顧客問題、規劃內容形式，並建立對應的成效觀察方式。</p>\n"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><a href=\"/insights/short-video-employee-on-camera\">老闆不想上鏡頭，可以請員工拍短影音嗎？優缺點與品牌經營建議</a></li>\n<li><a href=\"/insights/ai-photo-to-video-marketing\">不想露臉也能做短影音？照片轉 AI 影片的行銷效益與使用策略</a></li>\n<li><a href=\"/insights/short-video-education-vs-entertainment\">短影音一定要好笑嗎？從商業目標選擇知識型與娛樂型內容</a></li>\n</ul>\n"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "短影音不露臉，會被平台降低推薦嗎？",
+        "answer": "不能只因不露臉，就認定被平台降低推薦。YouTube Shorts 官方表示不偏好特定形式；其他平台則應依各自的公開說明與實際數據判斷。"
+      },
+      {
+        "question": "真人出鏡一定要老闆上場嗎？",
+        "answer": "不一定。可以由熟悉產品、表達清楚且願意參與的員工或合作人員擔任。若呈現顧客心得，應確保內容真實，並事先取得使用同意。"
+      },
+      {
+        "question": "產品畫面很漂亮，為什麼還是沒有觀看？",
+        "answer": "漂亮不等於有觀看理由。先檢查開場是否說明觀眾能得到什麼，以及畫面是否展示實際用途、差異或問題解法，再逐步測試節奏與人物元素。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "YouTube Help：Search & discovery tips — Shorts",
+        "url": "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en"
+      },
+      {
+        "title": "TikTok for Business：Creative best practices for performance ads",
+        "url": "https://ads.tiktok.com/resources/help/article/creative-best-practices?redirected=1"
+      }
+    ],
+    "relatedServices": [
+      "creative-content",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "短影音只拍產品可以嗎？真人出鏡的價值與曝光成效解析",
+      "description": "短影音一定要露臉嗎？解析產品展示、手部操作與真人出鏡的適用情境，協助品牌用觀看與詢問數據選擇內容形式。"
+    },
+    "card": {
+      "eyebrow": "PRODUCT",
+      "title": "短影音只拍產品可以嗎？",
+      "caption": "短影音一定要露臉嗎？解析產品展示、手部操作與真人出鏡的適用情境，協助品牌用觀看與詢問數據選擇內容形式。"
+    },
+    "cta": {
+      "heading": "讓品牌的專業，",
+      "highlight": "成為值得觀看的內容。",
+      "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
+      "label": "與九色鹿討論短影音策略"
+    }
+  },
+  {
+    "slug": "short-video-inhouse-roi",
+    "title": "請員工拍剪短影音值得嗎？品牌新手的成本與效益評估指南",
+    "excerpt": "聘請員工拍攝剪輯短影音，不能只看觀看次數。從完整成本、穩定產出、有效詢問到成交貢獻，建立品牌新手可執行的評估方式。",
+    "category": "短影音行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "keywords": [
+      "短影音行銷",
+      "內容行銷",
+      "拍攝剪輯",
+      "行銷效益"
+    ],
+    "takeaways": [
+      "先界定拍剪工作與完整行銷責任，避免讓一人承擔所有結果。",
+      "成本應包括設備、授權、協作時間與完整人事投入。",
+      "同時追蹤製作效率、內容品質與新增成交貢獻。"
+    ],
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "從品牌的實際問題出發",
+        "paragraphs": [],
+        "bodyHtml": "<p>剛開始經營短影音，老闆常會遇到同一個問題：自己拍太花時間，外包又需要溝通，是否該找一位員工負責拍攝與剪輯？</p>\n<p><strong>值得與否，要看這筆人力投入能不能建立穩定的內容產能，並帶來符合商業目標的成果。影片數量與觀看次數，都只是評估的一部分。</strong></p>\n"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、先定義工作範圍，才能合理評估效益",
+        "paragraphs": [],
+        "bodyHtml": "<p>「幫忙拍剪」與「負責整個短影音行銷」需要不同能力。前者重視畫面、收音與剪輯；後者還包含選題、腳本、發布、數據分析與轉換設計。</p>\n<p>如果公司只安排拍剪工作，卻沒有提供目標客群、產品賣點、出鏡人選與審稿窗口，就容易出現「影片做出來了，卻不知道要吸引誰」的情況。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">工作項目</th>\n<th scope=\"col\">公司應先準備</th>\n<th scope=\"col\">員工可負責的交付</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>內容方向</td>\n<td>商業目標、客戶常見問題、主打產品</td>\n<td>整理選題與拍攝提案</td>\n</tr>\n<tr>\n<td>拍攝剪輯</td>\n<td>場地、出鏡者、產品與品牌規範</td>\n<td>成片、字幕、封面與素材整理</td>\n</tr>\n<tr>\n<td>發布與檢討</td>\n<td>帳號權限、詢問承接流程</td>\n<td>排程、數據紀錄與改善建議，須事先列入職責</td>\n</tr>\n</tbody></table></div>\n<p>員工負責可控制的交付品質；公司共同負責產品吸引力、決策速度與業務承接。不能把所有營收壓力都放在剪輯者身上。</p>\n"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、算完整成本，別只看月薪除以影片數",
+        "paragraphs": [],
+        "bodyHtml": "<p>評估新增專職人力時，應納入薪資、雇主負擔、設備攤提、軟體與授權、管理溝通，以及其他同事協助的時間。若由現有員工兼任，則應按投入工時計算分攤成本，並檢視原本工作是否因此延誤。</p>\n<blockquote>\n<p>每支可用影片成本＝當期內容製作總成本 ÷ 當期驗收通過的影片數</p>\n</blockquote>\n<p>跨平台重發同一支影片，應記為多個發布版位，避免當成多支原創影片讓成本看起來變低。若有付費廣告，應另列媒體費；計算整體獲客成本時再一併納入。</p>\n<p>假設案例，非市場薪資行情：每月完整投入為 NT$60,000，完成 12 支驗收通過的影片，每支成本就是 NT$5,000。這能衡量製作效率，還不能證明行銷有效。</p>\n"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、用三層指標，判斷這筆投入帶來什麼",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">評估層次</th>\n<th scope=\"col\">建議觀察指標</th>\n<th scope=\"col\">能回答的問題</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>製作效率</td>\n<td>按期交付率、可用影片數、修改工時、老闆協助工時</td>\n<td>是否真的減輕團隊負擔？</td>\n</tr>\n<tr>\n<td>內容品質</td>\n<td>留存、平均觀看時間、收藏分享、與產品相關的留言</td>\n<td>是否吸引並留住目標客群？</td>\n</tr>\n<tr>\n<td>商業成果</td>\n<td>有效詢問、預約、到店、成交與貢獻毛利</td>\n<td>是否讓生意向前推進？</td>\n</tr>\n</tbody></table></div>\n<p>以 YouTube 為例，官方分析提供「互動觀看次數」（Engaged views）與「繼續觀看比例」（Stayed to watch）等指標，協助辨識觀眾是否繼續觀看。 因此，不能只看公開觀看數，更不能直接把不同平台的觀看數當成同一種成效。</p>\n<p>比較時，應盡量使用相同平台、相近片長與發布後相同天數的資料，並拆開自然流量與付費流量。以一批影片的中位數搭配整體商業結果檢視，能降低單支爆紅影片造成的誤判。</p>\n"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、把觀看連到詢問，再用毛利估算回收",
+        "paragraphs": [],
+        "bodyHtml": "<p>新手可先建立簡單紀錄：貼文或個人檔案放上可追蹤連結、表單紀錄來源，並在詢問時補問「從哪裡認識我們」。每筆名單去除重複後，記錄是否符合服務範圍、是否預約，以及後續成交狀態。</p>\n<p>有效詢問應先定義清楚。例如房仲可將「有明確購屋區域、預算與需求，且願意進一步聯繫」列為有效詢問；單純留言「好漂亮」則屬互動，不是有效名單。</p>\n<blockquote>\n<p>每筆有效詢問成本＝當期相關行銷總成本 ÷ 去重後的有效詢問數</p>\n<p>損益兩平所需新增成交數＝相關總投入 ÷ 每筆新增成交的平均貢獻毛利，結果無條件進位</p>\n</blockquote>\n<p>延續前例，若每月投入 NT$60,000，每筆新增成交扣除商品與履約等變動成本後，可貢獻 NT$10,000，則需要 6 筆新增成交才能打平。若取得 20 筆有效詢問，每筆成本為 NT$3,000；但仍須追蹤實際成交，才能判斷是否回收。</p>\n<p>這些都是假設試算，不是成效承諾。客戶可能先看影片、再搜尋品牌、最後由業務成交；「接觸過影片」不代表成交全由影片帶來。應分開記錄直接來源與輔助接觸，高單價產業也要依實際銷售週期追蹤同一批名單。</p>\n"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、用 90 天建立判斷依據",
+        "paragraphs": [],
+        "bodyHtml": "<p>以下是建議的管理節奏，不是平台規定或保證見效的期限。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">階段</th>\n<th scope=\"col\">重點工作</th>\n<th scope=\"col\">評估重點</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>第 1–30 天</td>\n<td>選定主要目標與平台，建立流程、成本紀錄及追蹤方式</td>\n<td>能否穩定交付？瓶頸在哪裡？</td>\n</tr>\n<tr>\n<td>第 31–60 天</td>\n<td>測試不同選題與開場，保留可比較的數據</td>\n<td>哪些內容帶來目標客群與有效詢問？</td>\n</tr>\n<tr>\n<td>第 61–90 天</td>\n<td>集中製作較有效的主題，追蹤名單後續進度</td>\n<td>成本是否改善？是否值得持續投入？</td>\n</tr>\n</tbody></table></div>\n<p>開始前先記錄原本的詢問量、成交量與製作工時，並約定可負擔的成本上限。檔期、價格或廣告預算若有變動，也要註記，避免把所有差異都歸功或歸咎於新員工。</p>\n<p>若影片留存改善，卻沒有詢問，應檢查客群、主張與行動引導；若詢問增加卻沒有成交，應檢查名單品質、回覆速度與銷售流程；若產量與品質都不穩，則先處理工作範圍、能力與審稿效率。</p>\n"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "九色鹿觀點：請人拍剪，買到的不只是影片",
+        "paragraphs": [],
+        "bodyHtml": "<p>對剛起步的品牌來說，內部拍剪人力的價值，還包括累積產品素材、理解客戶問題，以及讓內容不再完全依賴老闆有空才能製作。</p>\n<p>但素材庫與節省工時應分開列示，不能直接視為已實現的營收。<strong>真正可持續的投入，是產出逐漸穩定、內容持續改善，而且商業成果有跡可循。</strong></p>\n<p>若尚未確定內容方向與工作量，可先以既有員工明確分工、部分工時或專案合作驗證需求，再決定是否配置專職人力。重點是讓人力規模與實際需求相符。</p>\n<p>想評估品牌需要拍剪人力，還是更完整的內容策略支援？可先整理目標客群、現有內容、每月預算與詢問承接方式，再與九色鹿討論適合的製作配置。</p>\n"
+      },
+      {
+        "id": "reading-notes",
+        "heading": "資料解讀與適用範圍",
+        "paragraphs": [],
+        "bodyHtml": "<p>本文的成本框架、90 天節奏與人力配置建議為九色鹿的管理分析；金額與成果數字皆為假設示例，並非產業平均或保證成效。</p>\n"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><a href=\"/insights/short-video-diy-vs-agency\">短影音自己拍還是找專業公司？新手品牌的製作選擇指南</a></li>\n<li><a href=\"/insights/short-video-posting-frequency\">短影音多久發一次？新手品牌從每週 2 支建立穩定上片節奏</a></li>\n<li><a href=\"/insights/seo-geo-inhouse-employee-roi\">SEO／GEO 請一位員工做得起來嗎？企業內部執行的條件與效益評估</a></li>\n</ul>\n"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "一個員工每月應該剪幾支影片才合理？",
+        "answer": "沒有通用標準。訪談剪輯、產品示範與情境劇的工時差異很大，還要看是否包含企劃、拍攝與發布。先完成一批代表性影片、記錄工時，再設定兼顧品質與可持續性的產量。"
+      },
+      {
+        "question": "沒有成交，就代表員工沒有價值嗎？",
+        "answer": "不一定。應先確認銷售週期、內容目標與名單追蹤是否完整。不過，若長期只有產量與觀看數，沒有目標客群互動、有效詢問或其他可驗證的進展，就應調整方向。"
+      },
+      {
+        "question": "能不能把播放量當成員工的主要績效？",
+        "answer": "不建議只用播放量。可將交付品質與效率列為個人績效，再將內容品質及商業成果列為共同檢討指標，避免為追求流量而偏離品牌目標。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "YouTube Help：Understand your YouTube content performance",
+        "url": "https://support.google.com/youtube/answer/12220281?hl=en"
+      }
+    ],
+    "relatedServices": [
+      "creative-content",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "請員工拍剪短影音值得嗎？品牌新手的成本與效益評估指南",
+      "description": "聘請員工拍攝剪輯短影音，不能只看觀看次數。從完整成本、穩定產出、有效詢問到成交貢獻，建立品牌新手可執行的評估方式。"
+    },
+    "card": {
+      "eyebrow": "VALUE",
+      "title": "請員工拍剪短影音值得嗎？",
+      "caption": "聘請員工拍攝剪輯短影音，不能只看觀看次數。從完整成本、穩定產出、有效詢問到成交貢獻，建立品牌新手可執行的評估方式。"
+    },
+    "cta": {
+      "heading": "讓品牌的專業，",
+      "highlight": "成為值得觀看的內容。",
+      "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
+      "label": "與九色鹿討論短影音策略"
+    }
+  },
+  {
+    "slug": "seo-geo-inhouse-employee-roi",
+    "title": "SEO／GEO 請一位員工做得起來嗎？企業內部執行的條件與效益評估",
+    "excerpt": "公司想做 SEO／GEO，請一位員工是否划算？從工作分工、網站條件、成本試算與成效指標，判斷內部執行、外包或混合模式的適用情境。",
+    "category": "GEO 與搜尋",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "keywords": [
+      "SEO",
+      "GEO",
+      "內容行銷",
+      "行銷人力",
+      "效益評估"
+    ],
+    "takeaways": [
+      "一位員工可以主責，但需要網站權限、專業素材與技術支援。",
+      "比較內部、外包與混合配置時，應使用相同工作範圍與完整成本。",
+      "90 天用於建立流程與觀察訊號，不是保證排名或回本的期限。"
+    ],
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "從品牌的實際問題出發",
+        "paragraphs": [],
+        "bodyHtml": "<p>可以由一位員工主責，但能否產生效益，取決於工作範圍、網站基礎、專業支援與成交能力。對單一品牌、單一語系、網站架構相對單純的企業，一位具備內容企劃與數據分析能力的員工，有機會建立穩定的執行流程；若同時要求他改網站、寫大量文章、經營社群、拍影片並保證排名，通常會超出合理負荷。</p>\n"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、SEO 與 GEO 可以一起做，但不是多寫文章就有效",
+        "paragraphs": [],
+        "bodyHtml": "<p>SEO 是協助搜尋引擎理解網站，讓有需求的人找到品牌；GEO（生成式引擎最佳化）則著重品牌資訊在 AI 生成答案中被理解、提及或引用的機會。</p>\n<p>兩者有共同基礎：可讀取的網站、清楚的服務說明、可信的專業內容與一致的品牌資訊。Google 官方指出，其 AI 摘要與 AI 模式仍適用既有 SEO 基礎原則，無須額外的特殊最佳化；符合條件也不保證被呈現。 <strong>這項說明適用於 Google，不能直接當成所有 AI 平台的共同規則。</strong></p>\n<p>對企業而言，合理的起點是把「客戶正在問的問題」與「公司能提供的證據」整理好，而不是把 SEO 和 GEO 拆成兩套大量產文任務。</p>\n"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、一位員工能負責什麼？哪些工作需要支援？",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">工作項目</th>\n<th scope=\"col\">一位員工可主責的範圍</th>\n<th scope=\"col\">公司需要提供的支援</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>搜尋需求與選題</td>\n<td>整理客戶問題、搜尋意圖與內容優先順序</td>\n<td>業務提供常見疑慮、成交與流失原因</td>\n</tr>\n<tr>\n<td>內容與頁面優化</td>\n<td>撰寫服務頁、案例與問答，更新標題與內部連結</td>\n<td>專業人員查核、提供可公開的案例與數據</td>\n</tr>\n<tr>\n<td>技術 SEO</td>\n<td>發現收錄、連結與頁面問題，提出改善需求</td>\n<td>工程或網站廠商處理程式、速度與架構問題</td>\n</tr>\n<tr>\n<td>GEO 資訊整理</td>\n<td>清楚交代品牌、服務、適用對象與資料來源</td>\n<td>統一對外資訊，累積真實且可驗證的專業素材</td>\n</tr>\n<tr>\n<td>成效分析</td>\n<td>追蹤搜尋表現、詢問與後續成交</td>\n<td>網站權限、分析工具、業務回報與名單紀錄</td>\n</tr>\n</tbody></table></div>\n<p>一人主責可以成立，一人包辦所有專業則容易失衡。招募時，應優先確認對方能否判斷商業需求、分析資料並協調改善，不宜只看文章產量。</p>\n"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、哪些情況適合內部聘人？",
+        "paragraphs": [],
+        "bodyHtml": "<p>以下是依工作複雜度提出的配置建議，並非所有企業通用的標準。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">企業條件</th>\n<th scope=\"col\">較適合的配置</th>\n<th scope=\"col\">判斷原因</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>單一品牌、可編輯官網、持續有內容需求</td>\n<td>內部員工主責，搭配必要技術支援</td>\n<td>能持續理解產品、訪談同事並累積內容資產</td>\n</tr>\n<tr>\n<td>尚未確認方向、工作量不穩定</td>\n<td>先做網站與需求診斷，再決定人力</td>\n<td>避免先增加固定成本，卻缺乏明確任務</td>\n</tr>\n<tr>\n<td>有內容人力，但缺策略與技術能力</td>\n<td>內部執行，外部協助策略與技術</td>\n<td>補足能力缺口，讓內部產出更容易落地</td>\n</tr>\n<tr>\n<td>大型電商、多語系、多品牌或網站改版</td>\n<td>專案團隊或跨部門配置</td>\n<td>技術、商品資料與市場需求較難由一人承擔</td>\n</tr>\n</tbody></table></div>\n<p>Google 也指出，小型在地企業可能自行完成不少 SEO 工作。 是否聘人，應取決於持續工作量與能力缺口，而不是「大家都在做 GEO」。</p>\n"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、是否划算？用新增貢獻毛利對照完整成本",
+        "paragraphs": [],
+        "bodyHtml": "<p>只把月薪與外包報價相比，容易低估內部執行的成本。應納入雇主負擔、獎金攤提、工具、教育訓練、主管協作工時，以及工程或外部顧問支援。</p>\n<p><strong>評估期投資報酬率＝（可合理歸因的新增貢獻毛利－專案總成本）÷專案總成本。</strong></p>\n<p>此處的貢獻毛利，是營收扣除商品或服務的變動成本，尚未扣除本次 SEO／GEO 投入。若員工兼任其他任務，應按實際工時分攤；若是為此新增的專職職缺，則應計入完整聘用成本。</p>\n<h3>假設案例：每月投入 7 萬元，需要多少有效詢問？</h3>\n<p>以下數字僅供理解計算方式，<strong>不是市場薪資行情、產業平均或成果承諾</strong>。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">試算項目</th>\n<th scope=\"col\">假設數值</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>每月完整投入成本</td>\n<td>NT$70,000</td>\n</tr>\n<tr>\n<td>每筆新增成交的平均貢獻毛利</td>\n<td>NT$20,000</td>\n</tr>\n<tr>\n<td>有效詢問轉為成交的比率</td>\n<td>20%</td>\n</tr>\n<tr>\n<td>穩態下每月損益兩平成交量</td>\n<td>70,000 ÷ 20,000＝3.5，約需 4 筆</td>\n</tr>\n<tr>\n<td>對應有效詢問量</td>\n<td>4 ÷ 20%＝約 20 筆</td>\n</tr>\n</tbody></table></div>\n<p>「有效詢問」應事先定義，例如需求符合服務範圍、聯絡方式有效、可進一步洽談，不能把垃圾表單或重複詢問算進去。</p>\n<p>這個試算用來檢查商業可行性，不代表第一個月就能達成。初期投入也要納入累計成本，依實際成交週期觀察累計回收；若詢問增加卻沒有成交，也要檢查報價、服務契合度與業務跟進。</p>\n"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、如何考核？從「做了多少」走向「帶來什麼」",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">評估層次</th>\n<th scope=\"col\">建議觀察指標</th>\n<th scope=\"col\">用途</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>執行基礎</td>\n<td>追蹤設定、重點頁面改善、收錄問題處理</td>\n<td>確認工作確實落地</td>\n</tr>\n<tr>\n<td>搜尋能見度</td>\n<td>非品牌搜尋曝光、點擊、目標頁面的相關查詢</td>\n<td>觀察是否接觸新的潛在客戶</td>\n</tr>\n<tr>\n<td>商業成果</td>\n<td>有效詢問、預約、成交、貢獻毛利與獲客成本</td>\n<td>判斷投入是否值得持續</td>\n</tr>\n<tr>\n<td>AI 能見度</td>\n<td>固定問題下的品牌提及、引用頁面與可辨識的轉介</td>\n<td>作為方向觀察，搭配商業成果解讀</td>\n</tr>\n</tbody></table></div>\n<p>AI 回答可能因平台、時間與提問方式改變。監測時應固定一組與採購決策相關的問題，記錄日期、平台與引用來源；不要把一次出現當成穩定成果，也不要把品牌提及次數直接換算成營收。</p>\n<p>網站分析、表單來源與業務回報應交叉比對。同一位客戶可能先看社群、再搜尋品牌、最後填表，不能把全部成交都歸功於 SEO／GEO。</p>\n"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "六、起步建議：先用 90 天建立可驗證的流程",
+        "paragraphs": [],
+        "bodyHtml": "<p>以下為建議的管理節奏，並非排名或回本期限。</p>\n<ol>\n<li>第 1–30 天：建立基準。盤點網站、搜尋表現與客戶問題，設定詢問追蹤，優先處理阻礙收錄與聯絡的問題。</li>\n<li>第 31–60 天：聚焦商業頁面。改善核心服務頁與案例，補足客戶在比較、評估與詢價前需要的資訊，再延伸相關文章。</li>\n<li>第 61–90 天：檢查方向。觀察相關搜尋與詢問品質，更新既有頁面，判斷瓶頸在內容、技術、搜尋需求或成交流程。</li>\n</ol>\n<p>90 天較適合檢查執行能力與早期訊號；是否增加人力或預算，仍應依網站起點、競爭程度與成交週期決定。若企業急需短期訂單，應另外安排能快速接觸需求的行銷與業務活動，避免讓新進員工承擔不合理的即時回收期待。</p>\n"
+      },
+      {
+        "id": "chapter-7",
+        "heading": "九色鹿觀點",
+        "paragraphs": [],
+        "bodyHtml": "<p><strong>請一位員工做 SEO／GEO 可以實現，但值得聘用的理由，應是公司有持續的工作需求，也具備把搜尋需求轉成生意的條件。</strong></p>\n<p>企業可以先確認三件事：官網是否能修改、內部是否願意提供專業素材，以及詢問到成交是否能追蹤。條件齊備，再讓專人主責並補上必要支援，才更有機會把人事成本轉為可持續累積的品牌資產。</p>\n<p>若尚未確認適合聘人、外包或混合配置，可先從網站現況、內容缺口與商業目標進行評估，再決定投入方式。</p>\n"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><a href=\"/insights/website-seo-priorities\">SEO 應該注意什麼？企業官網從收錄到詢問轉換的優化重點</a></li>\n<li><a href=\"/insights/geo-brand-checklist\">品牌 GEO 自我健檢：你的網站準備好被 AI 理解與引用了嗎？</a></li>\n<li><a href=\"/insights/short-video-inhouse-roi\">請員工拍剪短影音值得嗎？品牌新手的成本與效益評估指南</a></li>\n</ul>\n"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "沒有 SEO 經驗的員工，搭配 AI 就能做嗎？",
+        "answer": "可以從資料整理、內容草稿與基礎頁面更新開始，但仍需要訓練與審核。AI 無法取代搜尋意圖判斷、事實查核與技術診斷。Google 提醒，大量生成卻未增加使用者價值的頁面，可能違反其垃圾內容政策。"
+      },
+      {
+        "question": "請員工一定比外包便宜嗎？",
+        "answer": "不一定。內部人員適合持續協作與累積產業知識；外部團隊則可補充特定專業。應以相同工作範圍、完整成本與可驗證成果比較。"
+      },
+      {
+        "question": "每月發幾篇文章，才算有效？",
+        "answer": "沒有適用所有企業的篇數標準。先確認服務頁是否回答採購問題，再依人力安排新內容與舊頁更新；文章數是工作量指標，不能代替詢問與成交成果。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Search Central：AI features and your website",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features"
+      },
+      {
+        "title": "Google Search Central：Do you need an SEO?",
+        "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo"
+      },
+      {
+        "title": "Google Search Central：Guidance on using generative AI content",
+        "url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content"
+      }
+    ],
+    "relatedServices": [
+      "seo-geo",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "SEO／GEO 請一位員工做得起來嗎？企業內部執行的條件與效益評估",
+      "description": "公司想做 SEO／GEO，請一位員工是否划算？從工作分工、網站條件、成本試算與成效指標，判斷內部執行、外包或混合模式的適用情境。"
+    },
+    "card": {
+      "eyebrow": "IN-HOUSE",
+      "title": "SEO／GEO 請一位員工做得起來嗎？",
+      "caption": "公司想做 SEO／GEO，請一位員工是否划算？從工作分工、網站條件、成本試算與成效指標，判斷內部執行、外包或混合模式的適用情境。"
+    },
+    "cta": {
+      "heading": "讓品牌的專業，",
+      "highlight": "成為值得參考的答案。",
+      "text": "從網站現況、顧客問題與團隊資源開始，一起找出內容、搜尋與詢問轉換的優先順序。",
+      "label": "與九色鹿討論 SEO／GEO 策略"
+    }
+  },
+  {
+    "slug": "digital-2027-ai-consumer-behavior-brand-opportunities",
+    "title": "AI 正在改變消費者怎麼找答案：Digital 2027:Global Overview Report 揭示台灣品牌的新機會",
+    "excerpt": "解讀 Digital 2027:Global Overview Report 第170–199頁，分析AI查詢、問題諮詢、個人化推薦與品牌引用來源，從台灣數據提出品牌內容、SEO與GEO的布局方向。",
+    "category": "GEO 與搜尋",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "keywords": [
+      "AI 消費者行為",
+      "Digital 2027:Global Overview Report",
+      "SEO",
+      "GEO",
+      "台灣市場"
+    ],
+    "takeaways": [
+      "消費者使用 AI 查資料，也帶著情境尋求建議與推薦。",
+      "引用來源分布不等於訓練資料來源，台灣與全球數據須保留各自分母。",
+      "品牌應補齊可查證的選購資訊，並把 AI 能見度與實際商機分開衡量。"
+    ],
+    "sections": [
+      {
+        "id": "starting-point",
+        "heading": "從品牌的實際問題出發",
+        "paragraphs": [],
+        "bodyHtml": "<p>消費者開始把問題、條件與猶豫直接交給 AI：不只問「這是什麼」，也問「我的情況適合什麼」「這兩種方案怎麼選」。對品牌而言，機會出現在消費者理解問題、比較選項與形成判斷的過程。</p>\n<p>《Digital 2027:Global Overview Report》顯示，台灣活躍 AI 使用者中，<strong>64.6% 用 AI 查找資訊、52.0% 用 AI 尋求問題建議、32.5% 用 AI 取得個人化推薦</strong>。這三種需求，分別對應品牌的資訊解答、決策協助與情境推薦機會。<a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=170&amp;allowFullscreen=true\">p.181、183、185</a></p>\n<p><strong>九色鹿的核心判讀：品牌需要讓消費者與 AI 都能清楚理解「你能解決什麼問題、適合誰、憑什麼值得考慮」。</strong></p>\n<blockquote>\n<p>閱讀說明：本篇以報告 p.170–199 為分析範圍；頁碼採原報告頁面標示。Digital 2027:Global Overview Report 於2026年10月發布，並非2027年全年實績；本段多數 GWI 圖表採2026年第2季資料。以下將原始數據與品牌策略解讀分開呈現。</p>\n</blockquote>\n"
+      },
+      {
+        "id": "chapter-1",
+        "heading": "一、AI 如何改變人們的習慣？從查資料，走向討論與判斷",
+        "paragraphs": [],
+        "bodyHtml": "<h3>1. 資訊查詢，增加了「帶著情境問答案」的方式</h3>\n<p>全球活躍 AI 使用者中，查找資訊是最常被選擇的使用原因，占60.4%；尋求問題建議占40.6%，學習或提升技能占38.4%。<a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=170&amp;allowFullscreen=true\">p.177</a></p>\n<p>這三項並列，反映 AI 的使用範圍涵蓋資訊、問題處理與學習。對品牌而言，可以據此推導：內容若只提供名詞定義，可能無法充分滿足進一步的判斷需求。</p>\n<p>例如，咖啡廳顧客可能從「台北咖啡廳推薦」進一步問：「兩個人要討論工作，靠近捷運、可用筆電、下午不限時，哪種店比較適合？」</p>\n<p>這是<strong>情境示例，並非報告直接觀察的台灣提問紀錄</strong>。它說明品牌應提供的資訊：插座、網路、座位、低消、限時與尖峰時段，都可能影響一間店是否適合需求。</p>\n<p><strong>原始報告｜p.177：人們使用 AI 的主要原因</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=177&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第177頁：人們使用 AI 的主要原因\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=177&amp;allowFullscreen=true\">另開原始報告第177頁</a></p>\n<h3>2. AI 成為日常求助對象，內容需要回應顧慮</h3>\n<p>報告中的 AI in the Wild 研究，將「療癒與陪伴」列為生成式 AI 用例首位，「問題排除」第二，「人際關係建議」第七。<a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=170&amp;allowFullscreen=true\">p.179</a></p>\n<p>但這份排名源自論壇與社群貼文分析，<strong>反映研究樣本中被談論的活動，不能當成全體人口的實際使用率排名</strong>。它與 GWI 的受訪者調查也不能混算。</p>\n<p>對品牌較有用的啟示，是理解消費者為何需要反覆提問：他可能不懂專業術語、不確定自己的需求，也可能擔心買錯。品牌內容若能坦白說明限制、常見誤解與選擇條件，就能承接這些顧慮。</p>\n<p>例如房仲內容可以回答「第一次看屋要先確認哪些費用」，裝修品牌可以說明「預算有限時，哪些工程適合分階段做」。這類內容有機會協助消費者形成判斷，但本報告沒有直接證明它們能提高多少成交率。</p>\n<p><strong>原始報告｜p.179：生成式 AI 的熱門使用情境</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=179&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第179頁：生成式 AI 的熱門使用情境\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=179&amp;allowFullscreen=true\">另開原始報告第179頁</a></p>\n<h3>3. 年齡不同，AI 扮演的角色也不同</h3>\n<p>全球活躍 AI 使用者中，16–24歲有48.1%以學習或提升技能為使用原因；65歲以上為11.3%。相對地，65歲以上使用者有78.5%將查找資訊列為使用原因。<a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=170&amp;allowFullscreen=true\">p.178</a></p>\n<p>品牌解讀：面向年輕受眾，可多提供工具運用、操作示範與能力提升內容；面向熟齡受眾，則值得優先把產品解釋、使用條件與比較資訊寫清楚。</p>\n<p>這是全球年齡資料的策略啟示，並非台灣各年齡層的實測差異。報告也提醒，65歲以上資料未涵蓋所有市場，跨年齡比較應保留這項限制。</p>\n<p><strong>原始報告｜p.178：不同年齡層使用 AI 的主要原因</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=178&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第178頁：不同年齡層使用 AI 的主要原因\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=178&amp;allowFullscreen=true\">另開原始報告第178頁</a></p>\n"
+      },
+      {
+        "id": "chapter-2",
+        "heading": "二、人們使用 AI 解決哪些問題？品牌可以提供哪些內容？",
+        "paragraphs": [],
+        "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">全球使用原因</th>\n<th align=\"right\">活躍 AI 使用者占比</th>\n<th scope=\"col\">品牌可提供的內容方向</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>查找資訊</td>\n<td align=\"right\">60.4%</td>\n<td>清楚定義、規格、流程與常見問題</td>\n</tr>\n<tr>\n<td>尋求問題建議</td>\n<td align=\"right\">40.6%</td>\n<td>問題診斷、處理步驟、選擇條件與限制</td>\n</tr>\n<tr>\n<td>學習或提升技能</td>\n<td align=\"right\">38.4%</td>\n<td>操作示範、入門指南、專業知識解說</td>\n</tr>\n<tr>\n<td>建立或改善圖片、影片</td>\n<td align=\"right\">35.5%</td>\n<td>視覺素材、情境示範與創作支援</td>\n</tr>\n<tr>\n<td>節省時間或提高效率</td>\n<td align=\"right\">33.8%</td>\n<td>檢查表、計算工具、流程整理</td>\n</tr>\n<tr>\n<td>個人化推薦</td>\n<td align=\"right\">31.0%</td>\n<td>按預算、需求、地點整理的比較資訊</td>\n</tr>\n<tr>\n<td>建立或改善文字內容</td>\n<td align=\"right\">30.6%</td>\n<td>範例、寫作架構與專業表達協助</td>\n</tr>\n<tr>\n<td>娛樂</td>\n<td align=\"right\">25.5%</td>\n<td>有品牌關聯的互動與創意內容</td>\n</tr>\n<tr>\n<td>健康與身心狀態管理</td>\n<td align=\"right\">24.1%</td>\n<td>有依據的資訊與清楚的專業服務界線</td>\n</tr>\n</tbody></table></div>\n<p>資料：GWI，2026年第2季；報告 p.177。分母為16歲以上活躍 AI 使用者，題目可複選，占比不能相加為100%。右欄為九色鹿提出的應用方向，並非原調查選項。</p>\n<p><strong>原始報告｜p.177：AI 使用原因與各項占比</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=177&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第177頁：AI 使用原因與各項占比\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=177&amp;allowFullscreen=true\">另開原始報告第177頁</a></p>\n<p>品牌可從客服與業務最常遇到的問題開始，而不是先大量生產文章。例如消費者常問「為什麼比較貴」，就應提供成本構成、服務範圍與比較條件；常問「適不適合我」，就應說明適用情境及不適用情況。</p>\n"
+      },
+      {
+        "id": "chapter-3",
+        "heading": "三、AI 的資訊來源在哪裡？先分清楚「訓練」與「引用」",
+        "paragraphs": [],
+        "bodyHtml": "<h3>1. AI 回答可能結合既有知識與外部資料</h3>\n<p>從技術上看，模型訓練讓 AI 學習語言與知識模式；回答時，也可能使用搜尋、檢索增強生成（RAG），或使用者提供的文件與對話內容。RAG 的做法，是先取得相關外部資料，再將資料提供給模型協助生成回答。(<a href=\"https://learn.microsoft.com/zh-tw/azure/foundry/concepts/retrieval-augmented-generation\">https://learn.microsoft.com/zh-tw/azure/foundry/concepts/retrieval-augmented-generation</a>)</p>\n<p>因此，「AI 講到我的品牌」可能涉及不同機制。<strong>看到某個網頁被引用，不代表能反推它在訓練資料中的占比；品牌新發布一篇文章，也不等於模型已重新受訓。</strong></p>\n<h3>2. p.180 告訴我們的是品牌引用來源結構</h3>\n<p>報告 p.180 引用 Meltwater 的分析：2026年8月，跨8個生成式 AI 平台、約700萬筆引用所呈現的品牌提及來源如下。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">內容來源類型</th>\n<th align=\"right\">占比</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>其他</td>\n<td align=\"right\">61.3%</td>\n</tr>\n<tr>\n<td>自然獲得的媒體報導與新聞（Earned media &amp; news）</td>\n<td align=\"right\">29.4%</td>\n</tr>\n<tr>\n<td>社群媒體</td>\n<td align=\"right\">7.2%</td>\n</tr>\n<tr>\n<td>評論</td>\n<td align=\"right\">1.3%</td>\n</tr>\n<tr>\n<td>Wiki 類內容</td>\n<td align=\"right\">0.7%</td>\n</tr>\n<tr>\n<td>新聞稿</td>\n<td align=\"right\">0.2%</td>\n</tr>\n</tbody></table></div>\n<p>「其他」包含品牌與企業網站、研究資料庫、市場情報平台、金融參考網站等，<strong>不能把61.3%全部解讀成官網的貢獻</strong>。表列合計因四捨五入略高於100%。</p>\n<p>研究提示詞涵蓋零售、銀行、汽車、速食、串流、服飾及時尚等消費類別，且未直接包含品牌名稱。這有助觀察未被指定品牌時的引用情況，但不是台灣全產業的引用分布。原頁也提醒，不同平台的訓練、檢索方式與來源使用程度不同。</p>\n<p><strong>原始報告｜p.180：生成式 AI 工具的品牌引用來源</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=180&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第180頁：生成式 AI 工具的品牌引用來源\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=180&amp;allowFullscreen=true\">另開原始報告第180頁</a></p>\n<h3>3. 品牌機會在於建立可以交叉查證的資訊</h3>\n<p>從這份來源結構，九色鹿提出三項布局方向：</p>\n<ul>\n<li>官網提供可核對的事實：服務內容、規格、價格條件、服務地區、案例與更新日期。</li>\n<li>第三方提供獨立觀點：有實質內容的媒體報導、專業評測、產業訪談及真實顧客經驗。</li>\n<li>社群補充現場與使用情境：示範、問答、使用回饋，並與官網資訊保持一致。</li>\n</ul>\n<p>媒體報導29.4%與新聞稿0.2%的差異，值得品牌思考內容是否具有獨立報導價值；但這不是投資報酬率比較，也不能推論購買新聞露出就一定提高 AI 推薦。</p>\n"
+      },
+      {
+        "id": "chapter-4",
+        "heading": "四、台灣品牌最需要注意的數據",
+        "paragraphs": [],
+        "bodyHtml": "<p>下表差距以「台灣減全球」計算，單位為百分點。各列分母不同，請配合第三欄閱讀。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">指標</th>\n<th scope=\"col\">台灣／全球</th>\n<th scope=\"col\">對象與差距</th>\n<th scope=\"col\">原報告頁碼</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>每月使用 AI</td>\n<td>85.5%／85.2%</td>\n<td>16歲以上網路使用者；+0.3個百分點</td>\n<td>p.171</td>\n</tr>\n<tr>\n<td>每月付費訂閱 AI 工具</td>\n<td>7.3%／9.5%</td>\n<td>16歲以上網路使用者；−2.2個百分點</td>\n<td>p.173</td>\n</tr>\n<tr>\n<td>活躍使用生成式 AI</td>\n<td>33.8%／18.9%</td>\n<td>微軟估算的15–64歲工作年齡人口；+14.9個百分點</td>\n<td>p.175</td>\n</tr>\n<tr>\n<td>用 AI 查找資訊</td>\n<td>64.6%／60.4%</td>\n<td>16歲以上活躍 AI 使用者；+4.2個百分點</td>\n<td>p.181</td>\n</tr>\n<tr>\n<td>用 AI 尋求問題建議</td>\n<td>52.0%／40.6%</td>\n<td>16歲以上活躍 AI 使用者；+11.4個百分點</td>\n<td>p.183</td>\n</tr>\n<tr>\n<td>用 AI 取得個人化推薦</td>\n<td>32.5%／31.0%</td>\n<td>16歲以上活躍 AI 使用者；+1.5個百分點</td>\n<td>p.185</td>\n</tr>\n<tr>\n<td>對使用 AI 感到自在</td>\n<td>18.7%／30.3%</td>\n<td>16歲以上網路使用者；−11.6個百分點</td>\n<td>p.187</td>\n</tr>\n<tr>\n<td>認為 AI 改善自己的日常生活</td>\n<td>37.4%／31.7%</td>\n<td>16歲以上網路使用者；+5.7個百分點</td>\n<td>p.189</td>\n</tr>\n</tbody></table></div>\n<p>資料來源：原報告各頁；p.175為 Microsoft Global AI Diffusion Index（2026年9月版，評估2026年第2季），其他列為 GWI 2026年第2季。</p>\n<p><strong>原始報告｜p.171：各市場每月 AI 使用率</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=171&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第171頁：各市場每月 AI 使用率\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=171&amp;allowFullscreen=true\">另開原始報告第171頁</a></p>\n<p><strong>原始報告｜p.175：工作年齡人口的生成式 AI 使用估算</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=175&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第175頁：工作年齡人口的生成式 AI 使用估算\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=175&amp;allowFullscreen=true\">另開原始報告第175頁</a></p>\n<h3>台灣的機會：協助判斷，比反覆介紹自己更值得投入</h3>\n<p>台灣「尋求問題建議」比全球高11.4個百分點，在 p.183 所列市場中僅次於捷克。這是一個值得優先研究的訊號：當品牌能回答顧客的疑慮與選擇問題，就有機會切入 AI 被使用的情境。</p>\n<p>例如高單價產品可以公開解釋「價格差在哪」「什麼需求值得升級」「什麼情況不需要買最高階」。這些資訊能否被 AI 正確使用，仍受平台、問題與來源選擇影響，但對人類讀者本身也有決策價值。</p>\n<p><strong>原始報告｜p.181：各市場用 AI 查找資訊的比例</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=181&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第181頁：各市場用 AI 查找資訊的比例\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=181&amp;allowFullscreen=true\">另開原始報告第181頁</a></p>\n<p><strong>原始報告｜p.183：各市場用 AI 尋求問題建議的比例</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=183&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第183頁：各市場用 AI 尋求問題建議的比例\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=183&amp;allowFullscreen=true\">另開原始報告第183頁</a></p>\n<p><strong>原始報告｜p.185：各市場用 AI 取得個人化推薦的比例</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=185&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第185頁：各市場用 AI 取得個人化推薦的比例\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=185&amp;allowFullscreen=true\">另開原始報告第185頁</a></p>\n<h3>台灣的落差：經常使用，不等於感到自在</h3>\n<p>台灣每月使用 AI 的比例與全球接近，但對使用 AI 感到自在的比例較低；認為 AI 改善生活的比例卻高於全球。這三項結果並存，提醒品牌不要把「接觸過 AI」直接視為「願意把所有事情交給 AI」。</p>\n<p>它們是不同題目的整體比例，不能據此斷言同一群人都存在矛盾心理，也不能推算互斥族群。</p>\n<p>品牌策略解讀：導入 AI 客服或推薦工具時，應說明它能協助哪些事、資料如何使用，並保留清楚的真人聯繫方式。這是服務設計建議，並非調查已證實的轉換提升公式。</p>\n<p><strong>原始報告｜p.187：對使用 AI 感到自在的比例</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=187&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第187頁：對使用 AI 感到自在的比例\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=187&amp;allowFullscreen=true\">另開原始報告第187頁</a></p>\n<p><strong>原始報告｜p.189：認為 AI 改善日常生活的比例</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=189&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第189頁：認為 AI 改善日常生活的比例\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=189&amp;allowFullscreen=true\">另開原始報告第189頁</a></p>\n<h3>高使用率，也不等於高付費意願</h3>\n<p>台灣 AI 付費訂閱比例低於全球。若品牌要把 AI 功能做成加價服務，仍需要測試顧客是否願意為具體成果付費，例如縮短流程、減少錯誤或節省時間。單靠「加入 AI」的功能名稱，無法從這份調查推導出商業價值。</p>\n<p><strong>原始報告｜p.173：各市場付費訂閱 AI 工具的比例</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=173&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第173頁：各市場付費訂閱 AI 工具的比例\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=173&amp;allowFullscreen=true\">另開原始報告第173頁</a></p>\n"
+      },
+      {
+        "id": "chapter-5",
+        "heading": "五、品牌該如何布局 SEO、GEO 與內容？",
+        "paragraphs": [],
+        "bodyHtml": "<h3>機會一：把產品頁變成能幫助選擇的頁面</h3>\n<p>消費者若帶著條件詢問，品牌就需要有對應條件的資訊。咖啡廳公開工作環境與訂位規則；房仲說明看屋流程與交易成本；企業服務品牌說明交付項目、所需配合與適用情境。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">消費者的問題</th>\n<th scope=\"col\">品牌應補充的資訊</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>「這適合我嗎？」</td>\n<td>適用對象、使用條件及不適用情況</td>\n</tr>\n<tr>\n<td>「跟其他方案差在哪？」</td>\n<td>同一比較基準下的功能、費用與限制</td>\n</tr>\n<tr>\n<td>「為什麼值得信任？」</td>\n<td>可核對案例、方法、作者或專業資格</td>\n</tr>\n<tr>\n<td>「接下來怎麼做？」</td>\n<td>清楚的預約、詢問、購買或服務流程</td>\n</tr>\n</tbody></table></div>\n<h3>機會二：建立有證據的專業內容</h3>\n<p>SEO協助內容被搜尋與發現；GEO關注品牌在生成式 AI 回答中如何被理解與呈現。兩者都需要清楚的資訊與持續維護。</p>\n<p>品牌可以先整理客服與業務的高頻問題，針對每題提供直接回答、具體案例、資料來源及適用限制；再讓產品頁、案例頁與相關文章彼此連結。內容涉及價格、法規或服務條件時，尤其需要更新。</p>\n<p>這是九色鹿基於使用行為提出的內容策略；<strong>本段資料沒有測試特定排版、結構化資料或文章數量是否必然增加引用，也沒有任何「保證被 AI 推薦」的依據。</strong></p>\n<h3>機會三：同時追蹤品牌呈現與實際商機</h3>\n<p>報告 p.196–197 的平台排名使用指數，將 ChatGPT 設為100；例如 Gemini 的 App 指數32.10、網站指數62.97，都不是市占率。App與網站資料也不能直接相加。</p>\n<p><strong>原始報告｜p.196：生成式 AI 行動 App 月活躍使用者指數</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=196&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第196頁：生成式 AI 行動 App 月活躍使用者指數\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=196&amp;allowFullscreen=true\">另開原始報告第196頁</a></p>\n<p><strong>原始報告｜p.197：生成式 AI 網站每月不重複訪客指數</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=197&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第197頁：生成式 AI 網站每月不重複訪客指數\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=197&amp;allowFullscreen=true\">另開原始報告第197頁</a></p>\n<p>p.198 顯示，在所選 LLM 平台的全球網站引薦流量中，ChatGPT占77.89%；p.199 的台灣數值為63.17%。<strong>這表示所選 AI 引薦來源中的比例，不是台灣所有網站流量有63.17%來自 ChatGPT，也不是 ChatGPT 的台灣使用率。</strong></p>\n<p><strong>原始報告｜p.198：各 AI 平台的網站引薦流量占比</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=198&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第198頁：各 AI 平台的網站引薦流量占比\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=198&amp;allowFullscreen=true\">另開原始報告第198頁</a></p>\n<p><strong>原始報告｜p.199：各市場 ChatGPT 在 AI 引薦流量中的占比</strong></p>\n<iframe src=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=199&amp;allowFullscreen=true\" title=\"Digital 2027:Global Overview Report｜第199頁：各市場 ChatGPT 在 AI 引薦流量中的占比\" width=\"100%\" height=\"620\" style=\"display:block;width:100%;aspect-ratio:16/10;height:auto;min-height:320px;border:0;\" loading=\"lazy\" allowfullscreen=\"\"></iframe>\n\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=199&amp;allowFullscreen=true\">另開原始報告第199頁</a></p>\n<p>因此，品牌可將 ChatGPT列為優先觀察平台，同時依顧客使用情況納入 Gemini、Perplexity 等工具。衡量時建議分三層：</p>\n<ol>\n<li>資訊正確性：品牌名稱、服務地區、產品條件有沒有被說錯？</li>\n<li>提及與引用：在固定需求問題中，品牌是否出現？引用了哪些頁面？</li>\n<li>商業結果：可辨識的 AI 引薦帶來多少有效詢問、預約與成交？</li>\n</ol>\n<p>測試應記錄日期、平台、問題與使用條件，定期重測。網站分析能觀察可辨識的點擊，但無法完整還原所有 AI 曝光；被引用也不代表一定產生點擊或訂單。</p>\n"
+      },
+      {
+        "id": "chapter-6",
+        "heading": "六、品牌的下一步：先把最重要的顧客問題說清楚",
+        "paragraphs": [],
+        "bodyHtml": "<p>這份報告支持品牌重新檢查內容的用途：消費者除了需要知道品牌存在，也需要有人協助理解問題與比較選項。</p>\n<p>對台灣品牌而言，可以先選出五個最常影響成交的問題，補齊回答、案例與條件，並確認官網及外部平台資訊一致。接著觀察 AI 如何呈現這些資訊，再將內容表現與有效商機一起評估。</p>\n<p><strong>當品牌的知識能讓人做出更清楚的選擇，也就建立了值得被搜尋、理解與參考的內容基礎。</strong></p>\n"
+      },
+      {
+        "id": "chapter-8",
+        "heading": "原始報告與引用頁碼",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li>報告：Digital 2027:Global Overview Report；DataReportal／We Are Social／Meltwater。</li>\n<li>本篇分析範圍：p.170–199；以下頁碼為原報告頁面標示。</li>\n<li>使用與付費：p.171–174。</li>\n<li>微軟工作年齡人口估算：p.175–176。</li>\n<li>使用原因、年齡差異與用例：p.177–179、181–186。</li>\n<li>品牌引用來源：p.180。</li>\n<li>使用態度、生活與社會影響、工作及陪伴：p.187–195。</li>\n<li>平台使用指數及引薦流量：p.196–199。</li>\n</ul>\n<p><a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=170&amp;allowFullscreen=true\">閱讀原始報告（從第170頁開始）</a>｜<a href=\"https://datareportal.com/reports/digital-2027-global-overview-report\">DataReportal 官方報告頁</a></p>\n<h3>資料解讀限制</h3>\n<p>GWI各國調查以其涵蓋的16歲以上網路使用者為對象；使用原因題則以活躍AI使用者為分母，均不代表全體國民。微軟p.175–176採工作年齡人口與遙測估算，不能與GWI比例直接互換。AI in the Wild用例排名、Meltwater引用來源與Similarweb及Statcounter流量資料，也各有樣本及方法限制。GWI移除俄羅斯及方法調整影響歷史比較，不宜直接將不同年度報告數值相減當成成長率。</p>\n<p>本篇的品牌做法與案例為九色鹿的策略分析，原始研究並未證明特定內容策略必然提升引用、推薦或成交。</p>\n<h3>技術補充來源</h3>\n<p><a href=\"https://learn.microsoft.com/zh-tw/azure/foundry/concepts/retrieval-augmented-generation\">Microsoft Learn：檢索增強生成（RAG）與索引</a>。此來源用於解釋訓練與外部檢索的差異，不屬於原報告p.170–199的統計資料。</p>\n"
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul>\n<li><a href=\"/insights/what-is-rag\">RAG 是什麼？AI 從哪裡找答案，以及它與 GEO 的關係</a></li>\n<li><a href=\"/insights/how-ai-finds-your-brand\">AI 如何找到你的品牌？從搜尋、資料來源到品牌引用的關鍵路徑</a></li>\n<li><a href=\"/insights/seo-geo-inhouse-employee-roi\">SEO／GEO 請一位員工做得起來嗎？企業內部執行的條件與效益評估</a></li>\n</ul>\n"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "AI 的資訊都來自 Google 嗎？",
+        "answer": "不是。回答可能涉及模型既有知識、外部搜尋與檢索，以及使用者提供的資料；實際來源取決於平台與功能。p.180呈現的是研究樣本的品牌引用來源，無法用來推算所有 AI 的訓練資料分布。"
+      },
+      {
+        "question": "多發新聞稿，就能提高 AI 推薦嗎？",
+        "answer": "本報告沒有提供這種因果證據。品牌應重視資訊品質、獨立報導價值與可查證性，並實際觀察不同平台的結果。"
+      },
+      {
+        "question": "做 GEO 後，可以停止 SEO、社群與廣告嗎？",
+        "answer": "本段資料沒有支持停止其他行銷活動。AI引用來源涵蓋多類內容，品牌仍應依顧客旅程與實際成效分配資源。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DataReportal：Digital 2027:Global Overview Report",
+        "url": "https://datareportal.com/reports/digital-2027-global-overview-report"
+      },
+      {
+        "title": "Digital 2027:Global Overview Report 原始報告（第 170 頁起）",
+        "url": "https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=170&allowFullscreen=true"
+      },
+      {
+        "title": "Microsoft Learn：檢索增強生成（RAG）與索引",
+        "url": "https://learn.microsoft.com/zh-tw/azure/foundry/concepts/retrieval-augmented-generation"
+      }
+    ],
+    "relatedServices": [
+      "seo-geo",
+      "strategy-campaigns"
+    ],
+    "seo": {
+      "title": "AI 正在改變消費者怎麼找答案：Digital 2027:Global Overview Report 揭示台灣品牌的新機會",
+      "description": "解讀 Digital 2027:Global Overview Report 第170–199頁，分析AI查詢、問題諮詢、個人化推薦與品牌引用來源，從台灣數據提出品牌內容、SEO與GEO的布局方向。"
+    },
+    "card": {
+      "eyebrow": "AI & PEOPLE",
+      "title": "AI 如何改變消費者的選擇",
+      "caption": "解讀 Digital 2027:Global Overview Report 第170–199頁，分析AI查詢、問題諮詢、個人化推薦與品牌引用來源，從台灣數據提出品牌內容、SEO與GEO的布局方向。"
+    },
+    "cta": {
+      "heading": "讓品牌的專業，",
+      "highlight": "成為值得參考的答案。",
+      "text": "從網站現況、顧客問題與團隊資源開始，一起找出內容、搜尋與詢問轉換的優先順序。",
+      "label": "與九色鹿討論 SEO／GEO 策略"
+    }
+  },
+  {
     "slug": "short-video-speaking-script-tips",
     "title": "拍短影音總是忘詞、咬字不清？從口語腳本改善鏡頭前的表達",
     "excerpt": "一開鏡頭就忘詞、照稿念又容易卡住？以咖啡廳案例說明，如何把腳本改成自己的語氣，透過短句、重點提示與分段拍攝，改善短影音表達。",
@@ -1080,239 +2328,6 @@ export const articles:Article[]=[
       "eyebrow": "SHORT VIDEO INSIGHTS",
       "title": "TEAM",
       "caption": "員工若願意參與且熟悉服務，可以從真實問答或示範開始。"
-    },
-    "cta": {
-      "heading": "讓品牌的專業，",
-      "highlight": "成為值得觀看的內容。",
-      "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "與九色鹿討論短影音策略"
-    }
-  },
-  {
-    "slug": "short-video-posting-frequency",
-    "title": "短影音多久發一次？新手品牌從每週 2 支建立穩定上片節奏",
-    "excerpt": "短影音一定要每天發嗎？從 Digital 2026 Taiwan 的市場背景出發，分析新手品牌的上片頻率、每週排程與成效檢視方式，建立可持續的內容節奏。",
-    "category": "短影音行銷",
-    "status": "published",
-    "author": {
-      "name": "謝清鴻 Steven Hsieh",
-      "kind": "Person",
-      "image": "/images/steven-hsieh-full.webp",
-      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
-    },
-    "publishedAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "keywords": [
-      "短影音行銷",
-      "內容策略",
-      "RHYTHM"
-    ],
-    "takeaways": [
-      "每週 2 支、持續 6–8 週是可調整的測試起點，不是演算法規定。",
-      "依團隊產能安排頻率，區分原創支數與跨平台發布次數。",
-      "增加頻率前，先確認內容品質、有效詢問與製作負擔。"
-    ],
-    "sections": [
-      {
-        "id": "starting-point",
-        "heading": "從品牌的實際問題出發",
-        "paragraphs": [],
-        "bodyHtml": "<p><strong>剛開始拍短影音，建議先以每週 2 支、持續 6–8 週作為測試起點。</strong> 如果人力有限，每週 1 支也能起步；有穩定素材與製作餘裕，再考慮提高到每週 3 支。</p><p>這是九色鹿針對新手品牌提出的實務規劃建議，並非平台演算法標準，也不是 Digital 2026 Taiwan 的研究結論。上片頻率應服務於內容品質、團隊產能與生意目標，而不是只追求影片數量。</p>"
-      },
-      {
-        "id": "chapter-1",
-        "heading": "一、台灣市場有受眾，但不代表品牌必須每天發",
-        "paragraphs": [],
-        "bodyHtml": "<p>DataReportal《Digital 2026: Taiwan》指出，台灣在 2025 年底的網路普及率為 <strong>96.7%</strong>；YouTube 與 Instagram 的潛在廣告觸及規模分別約為 <strong>1,810 萬</strong>與 <strong>1,220 萬</strong>。（<a href=\"https://datareportal.com/reports/digital-2026-taiwan\">DataReportal｜Digital 2026: Taiwan</a>）</p><p>這些數字說明平台具備接觸受眾的規模，卻不能推導出「每週發幾支一定有效」。廣告觸及估計不等於月活躍使用者，更不等於短影音觀看人數；不同平台數字也不能直接相加當成不重複人數。報告名稱為 2026，但上述數據主要反映 2025 年底的情況。</p><p><strong>九色鹿的判讀是：品牌值得投入內容測試，但應先確認誰會看、為何要看，以及看完能採取什麼行動。</strong></p><h3>原始報告｜Digital 2026: Taiwan</h3><p>以下保留 DataReportal 原頁採用的 Adobe 原始報告播放器，供讀者查閱完整資料與各頁來源註記。</p><figure class=\"report\"><figcaption>DataReportal Digital 2026 Taiwan 原始報告</figcaption><iframe src=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?allowFullscreen=true\" title=\"DataReportal Digital 2026 Taiwan 原始報告\" loading=\"lazy\" allowfullscreen></iframe></figure><p><a href=\"https://datareportal.com/reports/digital-2026-taiwan\">開啟 DataReportal 原始報告與資料說明</a></p>"
-      },
-      {
-        "id": "chapter-2",
-        "heading": "二、新手上片頻率，先依製作能力安排",
-        "paragraphs": [],
-        "bodyHtml": "<p>YouTube 官方的 Shorts 排程建議強調，發布安排應考慮長期可持續性、規律程度、製作時間與成本，也建議採用批次拍攝來降低負擔。（<a href=\"https://support.google.com/youtube/answer/13616979?co=YOUTUBE._YTVideoType%3Dshorts&amp;hl=en\">YouTube Help｜Upload schedule tips — Shorts</a>） 這項原則可作為規劃參考，但不代表其他平台有相同的推薦機制。</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">目前狀況</th><th scope=\"col\">建議起始頻率</th><th scope=\"col\">優先處理的事</th></tr></thead><tbody><tr><td>一人兼顧店務、業務與拍攝</td><td>每週 1 支</td><td>先完成固定製作流程</td></tr><tr><td>有人協助拍攝、可集中剪輯</td><td>每週 2 支</td><td>測試不同題材與開場</td></tr><tr><td>已有素材庫與固定分工</td><td>每週 3 支</td><td>增加有效題材的延伸內容</td></tr></tbody></table></div><p>以上為起始配置，並非成效保證。對多數剛起步的品牌，每週 2 支能留下準備、回覆留言與檢視數據的空間；若連續幾週都必須趕工，就應先降低頻率。</p><p><strong>排程數量也要分清楚：</strong> 每週製作 2 支原創影片，再分別發布到 Instagram、Facebook 與 YouTube，仍是 2 支內容、6 次發布。跨平台時，應依各平台調整標題、封面、字幕位置、音樂授權與行動引導，並分開檢視成效。</p>"
-      },
-      {
-        "id": "chapter-3",
-        "heading": "三、咖啡廳案例：一週兩支，分別回答不同問題",
-        "paragraphs": [],
-        "bodyHtml": "<p>假設一家咖啡廳剛開始拍攝，可以先用「選購問題＋到店理由」建立節奏。</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">工作時間</th><th scope=\"col\">安排</th><th scope=\"col\">案例</th></tr></thead><tbody><tr><td>週一</td><td>整理顧客問題、確認兩個題目</td><td>第一次來怎麼點？店裡適合閱讀嗎？</td></tr><tr><td>週二</td><td>集中拍攝、準備字幕與封面</td><td>一次拍好飲品、座位及店員解說</td></tr><tr><td>週三</td><td>發布第 1 支：回答問題</td><td>「怕咖啡太苦，第一次來可以點什麼？」</td></tr><tr><td>週六</td><td>發布第 2 支：呈現體驗</td><td>「想找安靜角落？帶你看店內三種座位」</td></tr><tr><td>下週一</td><td>回看數據、整理留言</td><td>顧客是否詢問品項、營業時間或交通？</td></tr></tbody></table></div><p>週三、週六只是排程示例，並非通用的最佳日期。房仲也能改成「購屋常見問題＋物件實地走訪」；汽車銷售則可使用「選車疑問＋功能示範」。</p><p>先選團隊能穩定執行的時段，有足夠帳號資料後，再依受眾活動與實際詢問情況調整，不必一開始就追逐所謂黃金上片時間。</p>"
-      },
-      {
-        "id": "chapter-4",
-        "heading": "四、何時該加量？先看內容是否值得重複投入",
-        "paragraphs": [],
-        "bodyHtml": "<p>先以 6–8 週作為第一輪檢視期。每週 2 支約能累積 12–16 支內容，用來辨認初步方向；樣本仍有限，不宜視為統計上的定論。</p><p>建議在同一平台、相近片長與相同發布後天數下比較，並把付費推廣與自然成效分開記錄。</p><div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">觀察面向</th><th scope=\"col\">看什麼</th><th scope=\"col\">如何調整</th></tr></thead><tbody><tr><td>觀看品質</td><td>平均觀看時間、留存或完播表現</td><td>常被快速滑走，先改善開場與題目</td></tr><tr><td>有效互動</td><td>收藏、分享、具體問題</td><td>有用的題材可延伸成系列</td></tr><tr><td>生意成果</td><td>私訊、預約、表單、到店詢問</td><td>檢查內容是否吸引目標客群</td></tr><tr><td>製作負擔</td><td>每支工時、延遲與備片數</td><td>趕工或缺片時先減量</td></tr></tbody></table></div><p>不要因為單支爆紅就立刻改成日更，也不要因為一支低觀看就停更。可比較一批影片的中位數，減少單支異常表現的影響。</p><p><strong>適合加量：</strong> 已連續數週準時完成、保有至少一週備片，且某些題材持續帶來有價值的互動或詢問。可以先從每週 2 支增至 3 支，再觀察是否值得投入。</p><p><strong>適合維持或減量：</strong> 字幕與資訊錯誤變多、題材重複、留言無人回覆，或拍攝開始影響原本的服務品質。此時先修正流程，比增加發布量更有幫助。</p>"
-      },
-      {
-        "id": "chapter-5",
-        "heading": "五、新手最容易誤判的三件事",
-        "paragraphs": [],
-        "bodyHtml": "<ul><li><strong>把每天發當成必要條件。</strong> 頻率是測試與接觸受眾的安排，無法替代有價值的內容。</li><li><strong>只看總觀看數。</strong> 發得更多可能讓總觀看增加，仍要比較每支表現、有效詢問與投入工時。</li><li><strong>同時改題材、片長、時段與頻率。</strong> 變動太多，很難判斷是哪個因素帶來差異。每輪先調整一個主要變因。</li></ul>"
-      },
-      {
-        "id": "chapter-6",
-        "heading": "九色鹿觀點",
-        "paragraphs": [],
-        "bodyHtml": "<p>短影音的起步重點，是建立「做得出來、能持續、可回頭檢視」的內容節奏。每週 2 支是一個可調整的起點；真正值得提高頻率的時候，是品牌已找到有效題材，也有能力維持品質與回應需求。</p><p>如果不確定該拍什麼、多久發一次，歡迎與九色鹿討論，從目標客群、內容題材與團隊產能，規劃適合品牌的短影音節奏。</p>"
-      },
-      {
-        "id": "related-reading",
-        "heading": "系列延伸閱讀",
-        "paragraphs": [],
-        "bodyHtml": "<ul><li><a href=\"/insights/short-video-platform-strategy\">短影音新手該經營哪些平台？台灣品牌的內容分配與起步策略</a></li><li><a href=\"/insights/short-video-low-views\">短影音沒流量怎麼辦？新手必查的 6 個關鍵與改善方向</a></li><li><a href=\"/insights/short-video-social-media-tactics\">短影音拍完之後怎麼經營？新手必懂的 7 個社群運用技巧</a></li></ul>"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "一定要每天發短影音才有效嗎？",
-        "answer": "不一定。對新手品牌，先穩定每週 1–2 支，比設定無法持續的日更目標更容易執行。是否有效，仍要看內容與目標受眾是否匹配。"
-      },
-      {
-        "question": "每週只能拍一支，會不會太少？",
-        "answer": "可以先從一支開始，但累積可比較內容的速度較慢，需要更長的觀察期。可把常見顧客問題做成固定系列，降低每次重新構思的成本。"
-      },
-      {
-        "question": "流量不好，是不是要多發幾支？",
-        "answer": "先檢查題目、開場、資訊清楚度與行動引導。如果原有內容沒有吸引對的人，加量可能只是增加製作成本。"
-      }
-    ],
-    "sources": [
-      {
-        "title": "DataReportal｜Digital 2026: Taiwan",
-        "url": "https://datareportal.com/reports/digital-2026-taiwan"
-      },
-      {
-        "title": "YouTube Help｜Upload schedule tips — Shorts",
-        "url": "https://support.google.com/youtube/answer/13616979?co=YOUTUBE._YTVideoType%3Dshorts&hl=en"
-      }
-    ],
-    "relatedServices": [
-      "creative-content",
-      "strategy-campaigns"
-    ],
-    "seo": {
-      "title": "短影音多久發一次？新手品牌從每週 2 支建立穩定上片節奏",
-      "description": "短影音一定要每天發嗎？從 Digital 2026 Taiwan 的市場背景出發，分析新手品牌的上片頻率、每週排程與成效檢視方式，建立可持續的內容節奏。"
-    },
-    "card": {
-      "eyebrow": "SHORT VIDEO INSIGHTS",
-      "title": "RHYTHM",
-      "caption": "每週 2 支、持續 6–8 週是可調整的測試起點，不是演算法規定。"
-    },
-    "cta": {
-      "heading": "讓品牌的專業，",
-      "highlight": "成為值得觀看的內容。",
-      "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "與九色鹿討論短影音策略"
-    }
-  },
-  {
-    "slug": "short-video-platform-strategy",
-    "title": "短影音新手該經營哪些平台？台灣品牌的內容分配與起步策略",
-    "excerpt": "短影音新手如何選擇 Instagram Reels、Facebook、YouTube Shorts 與 TikTok？參考 Digital 2026 Taiwan，解析平台分工、內容案例與起步注意事項。",
-    "category": "短影音行銷",
-    "status": "published",
-    "author": {
-      "name": "謝清鴻 Steven Hsieh",
-      "kind": "Person",
-      "image": "/images/steven-hsieh-full.webp",
-      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
-    },
-    "publishedAt": "2026-10-24",
-    "updatedAt": "2026-10-24",
-    "keywords": [
-      "短影音行銷",
-      "內容策略",
-      "PLATFORMS"
-    ],
-    "takeaways": [
-      "先選一個主力平台與一個延伸平台，避免一次分散所有資源。",
-      "市場廣告觸及估計不等於短影音觀眾或成交能力。",
-      "同一素材依平台調整觀看入口，再比較有效詢問與投入工時。"
-    ],
-    "sections": [
-      {
-        "id": "data",
-        "heading": "一、台灣市場：不能只用平台人數決定先做誰",
-        "paragraphs": [],
-        "bodyHtml": "<p>DataReportal《Digital 2026: Taiwan》整理的台灣潛在廣告觸及規模如下。報告雖以 2026 為名，下列數據主要來自 2025 年底，並非 2026 年 10 月即時數字。<a href=\"https://datareportal.com/reports/digital-2026-taiwan\">DataReportal：Digital 2026: Taiwan</a></p>\n<div class=\"insight-table\" role=\"region\" tabindex=\"0\" aria-label=\"平台比較表\"><table><thead><tr><th>平台</th><th>台灣潛在廣告觸及</th><th>解讀限制</th></tr></thead><tbody>\n<tr><td>YouTube</td><td>約 1,810 萬</td><td>整個平台，不是 Shorts 專屬觀眾。</td></tr><tr><td>Facebook</td><td>約 1,730 萬</td><td>整個平台，不是 Reels 專屬觀眾。</td></tr><tr><td>Instagram</td><td>約 1,220 萬</td><td>整個平台，不是 Reels 專屬觀眾。</td></tr><tr><td>TikTok</td><td>約 867 萬名成年人</td><td>僅涵蓋 18 歲以上，年齡口徑與上列不同。</td></tr>\n</tbody></table></div>\n<p class=\"note\">資料來源：DataReportal《Digital 2026: Taiwan》。廣告觸及不等於每月活躍人數、實際觀看人數或成交能力；不同平台受眾重疊，不能相加，也不宜直接排名。這些數據亦不足以推論某年齡層偏好哪種短影音。</p>\n<p><strong>九色鹿觀點：</strong>大型平台提供測試空間，但新手更需要找到「對的觀看者」。對一間咖啡廳而言，附近居民的訂位詢問，通常比外縣市的大量觀看更接近生意目標。以下平台分工屬於經營建議，並非報告直接證明的成效排名。</p>\n<h3>延伸閱讀：Digital 2026 Taiwan 原始報告</h3>\n<p class=\"note\">保留原站使用的官方 Adobe 線上播放器與來源署名，未將整份報告下載重製。可在播放器內翻閱；若無法載入，請開啟原始報告。</p>\n<figure class=\"report\"><figcaption>DataReportal Digital 2026 Taiwan 原始報告</figcaption><iframe src=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?allowFullscreen=true\" title=\"DataReportal Digital 2026 Taiwan 原始報告\" loading=\"lazy\" allowfullscreen></iframe></figure><p class=\"note\">來源：DataReportal；合作夥伴 Meltwater、We Are Social。<a href=\"https://datareportal.com/reports/digital-2026-taiwan\" target=\"_blank\" rel=\"noopener\">閱讀報告原始頁面</a>。</p>"
-      },
-      {
-        "id": "platforms",
-        "heading": "二、哪些內容適合放在哪個平台？",
-        "paragraphs": [],
-        "bodyHtml": "<div class=\"insight-table\" role=\"region\" tabindex=\"0\" aria-label=\"平台比較表\"><table><thead><tr><th>平台</th><th>建議內容與任務</th><th>新手注意事項</th></tr></thead><tbody>\n<tr><td>Instagram Reels</td><td>產品使用、空間氛圍、造型前後對照、品牌人物與幕後。適合測試重視視覺呈現與生活情境的內容。</td><td>封面應能快速看懂主題；用限時動態補價格、位置、預約方式，並安排回覆私訊的人。</td></tr>\n<tr><td>Facebook</td><td>在地服務、常見問題、客戶故事、活動與實地走訪。已有粉專或在地客群時，可優先測試。</td><td>內文補齊地區、適用對象與行動方式；轉貼社團前先看規則，避免把分享變成洗版。</td></tr>\n<tr><td>YouTube Shorts</td><td>操作示範、知識問答、選購比較與迷思解析。適合建立同主題系列，延伸完整解說。</td><td>標題使用客戶會問的問題；每支獨立講清一件事。符合進階功能資格時，可設定「相關影片」連到自家完整內容。<a href=\"https://support.google.com/youtube/answer/14075157\">YouTube Help：Add a related video to your YouTube Shorts</a></td></tr>\n<tr><td>TikTok</td><td>情境演出、快速實測、人物反應與具節奏感的知識內容。適合願意持續測試表達方式的團隊。</td><td>熱門題材要能連回產品或服務；追蹤觀眾所在地與詢問品質，不把高觀看直接當成台灣客戶需求。</td></tr>\n<tr><td>Threads／LINE</td><td>Threads 可用短片搭配觀點與提問；LINE 官方帳號可承接既有客戶、優惠與預約。</td><td>起步階段可作輔助。Threads 要投入對話；LINE 發送要有明確價值，避免過度打擾。</td></tr>\n</tbody></table></div>\n<p><strong>依生意選組合：</strong>視覺型商品可從 IG＋Shorts 測試；已有在地粉專基礎的店家可從 Facebook＋IG 起步；專業服務可用 Shorts＋既有客戶最常使用的平台。若能穩定製作情境與實測內容，再把 TikTok 納入測試。</p>"
-      },
-      {
-        "id": "examples",
-        "heading": "三、同一個題材，換成各平台需要的切角",
-        "paragraphs": [],
-        "bodyHtml": "<p>以咖啡廳「平日下午有插座、適合工作」為例，拍一次素材，可以剪成不同版本；每支影片各自完成一個任務。</p>\n<div class=\"insight-table\" role=\"region\" tabindex=\"0\" aria-label=\"平台比較表\"><table><thead><tr><th>平台</th><th>影片切角</th><th>看完後的下一步</th></tr></thead><tbody>\n<tr><td>IG Reels</td><td>「想找安靜工作角落？」呈現座位、採光、插座與飲品。</td><td>收藏地點，前往主頁查看營業資訊。</td></tr>\n<tr><td>Facebook</td><td>「附近上班族下午去哪坐？」補地區、平日時段及低消條件。</td><td>查詢位置或私訊確認座位。</td></tr>\n<tr><td>Shorts</td><td>「工作型咖啡廳怎麼挑？」用本店示範插座、桌面與座位條件。</td><td>觀看完整空間介紹。</td></tr>\n<tr><td>TikTok</td><td>「帶筆電出門，結果沒插座？」以短情境帶出座位實測。</td><td>查看地點資訊與適用時段。</td></tr>\n</tbody></table></div>\n<p class=\"note\">以上為假設案例，營業時間、插座、低消與座位政策應按店家實況呈現，不保證平台成效。</p>\n<p>房仲也能用同樣邏輯：IG 呈現採光與格局；Facebook 補地區生活資訊；Shorts 解答「看屋怎麼判斷收納是否足夠」。專業服務則可從客戶最常問的問題開始，避免每支都只介紹公司。</p>"
-      },
-      {
-        "id": "start",
-        "heading": "四、新手前四週：用小規模測試找到主力平台",
-        "paragraphs": [],
-        "bodyHtml": "<ol><li><strong>先定一個商業目標：</strong>例如訂位、來店、預約諮詢或產品詢問，並確認個人檔案中的聯絡入口可用。</li><li><strong>選兩個平台、三類題材：</strong>以常見問題、實際示範、人物故事為起點。建議每週製作兩支核心內容，再依平台改標題、開場與行動引導；這是測試節奏，不是平台規定。</li><li><strong>記錄觀看到詢問的過程：</strong>觀察觀看留存、分享／收藏、主頁造訪與有效詢問。可用不同連結的 UTM 參數或預約來源欄位，協助判斷來源。</li><li><strong>四週後做初步調整：</strong>按每支投入工時、有效詢問與後續轉換，決定加碼哪個平台。樣本不足時延長測試，不用單支爆紅或低觀看決定去留。</li></ol>\n<p class=\"note\">各平台的觀看與互動定義不同，成效宜先與同平台過去內容比較。低觀看但能帶來合適客戶的內容，也可能值得持續製作。</p>\n<h2>五、跨平台發布，最容易忽略的五件事</h2>\n<ul><li><strong>保留乾淨母檔：</strong>以 9:16 直式、1080 × 1920 作為常用製作起點，保留無平台浮水印、無平台配樂的版本，方便重新剪輯。</li><li><strong>字幕要實機檢查：</strong>重要文字避開按鈕與底部說明區，發布前確認裁切、字級與收音。開場直接說明問題或結果。</li><li><strong>音樂授權逐平台確認：</strong>平台內可選用的歌曲，不代表可跨平台搬用或用於廣告；Meta Reels 廣告應選符合商用授權的原創音訊或免權利金音樂。<a href=\"https://www.facebook.com/help/instagram/546362593027755\">Meta：Create Instagram Reels ads in Meta Ads Manager</a> 外部剪輯後上傳 YouTube，也須確認音樂等素材的使用權。<a href=\"https://support.google.com/youtube/answer/12779649\">YouTube Help：Upload YouTube Shorts</a></li><li><strong>資訊、案例與素材要真實：</strong>取得出鏡與客戶案例使用同意；價格、效果及服務條件清楚交代，避免讓觀眾誤認。</li><li><strong>每支只安排一個主要行動：</strong>收藏、看完整介紹或預約擇一。另把值得長期查詢的問答整理成官網文字，方便閱讀與搜尋；不保證因此獲得排名或 AI 引用。</li></ul>\n"
-      },
-      {
-        "id": "perspective",
-        "heading": "九色鹿觀點",
-        "paragraphs": [
-          "短影音起步的關鍵，是讓內容、平台與生意目標接得起來。先把客戶最常問的一件事講清楚，再讓他知道如何找到你。"
-        ]
-      },
-      {
-        "id": "related-reading",
-        "heading": "系列延伸閱讀",
-        "paragraphs": [],
-        "bodyHtml": "<ul><li><a href=\"/insights/short-video-posting-frequency\">短影音多久發一次？新手品牌從每週 2 支建立穩定上片節奏</a></li><li><a href=\"/insights/short-video-low-views\">短影音沒流量怎麼辦？新手必查的 6 個關鍵與改善方向</a></li><li><a href=\"/insights/short-video-social-media-tactics\">短影音拍完之後怎麼經營？新手必懂的 7 個社群運用技巧</a></li></ul>"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "新手需要四個短影音平台一起做嗎？",
-        "answer": "通常先從一個主力、一個延伸平台開始更容易維持品質。等到拍攝、剪輯與回覆流程穩定，再增加平台。"
-      },
-      {
-        "question": "同一支影片可以直接發到所有平台嗎？",
-        "answer": "自有且授權完整的素材可以重複運用。建議至少調整標題、開場、配樂與行動引導，並檢查各平台當下的規格。"
-      },
-      {
-        "question": "哪個平台最容易帶來生意？",
-        "answer": "沒有適用所有產業的答案。先用平台與客戶需求建立假設，再以有效詢問、預約與成交回饋驗證。"
-      }
-    ],
-    "sources": [
-      {
-        "title": "DataReportal：Digital 2026: Taiwan",
-        "url": "https://datareportal.com/reports/digital-2026-taiwan"
-      },
-      {
-        "title": "YouTube Help：Add a related video to your YouTube Shorts",
-        "url": "https://support.google.com/youtube/answer/14075157"
-      },
-      {
-        "title": "Meta：Create Instagram Reels ads in Meta Ads Manager",
-        "url": "https://www.facebook.com/help/instagram/546362593027755"
-      },
-      {
-        "title": "YouTube Help：Upload YouTube Shorts",
-        "url": "https://support.google.com/youtube/answer/12779649"
-      }
-    ],
-    "relatedServices": [
-      "creative-content",
-      "strategy-campaigns"
-    ],
-    "seo": {
-      "title": "短影音新手該經營哪些平台？台灣品牌的內容分配與起步策略",
-      "description": "短影音新手如何選擇 Instagram Reels、Facebook、YouTube Shorts 與 TikTok？參考 Digital 2026 Taiwan，解析平台分工、內容案例與起步注意事項。"
-    },
-    "card": {
-      "eyebrow": "SHORT VIDEO INSIGHTS",
-      "title": "PLATFORMS",
-      "caption": "先選一個主力平台與一個延伸平台，避免一次分散所有資源。"
     },
     "cta": {
       "heading": "讓品牌的專業，",

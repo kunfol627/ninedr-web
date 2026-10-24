@@ -18,7 +18,15 @@ test('all published insights have clean text, working internal references and un
   assert.equal(new Set(a.sections.map(s=>s.id)).size,a.sections.length,a.slug);
   for(const section of a.sections)for(const match of (section.bodyHtml||'').matchAll(/href="\/insights\/([^"#]+)"/g))assert.ok(slugs.has(match[1]),match[1]);
  }
- const videos=published.filter(a=>a.category==='短影音行銷');assert.equal(videos.length,13);
+ const videos=published.filter(a=>a.category==='短影音行銷');assert.equal(videos.length,19);
  for(const a of videos){assert.ok(a.takeaways.length>=3);assert.ok(a.faqs.length>=3);assert.match(a.author.name,/Steven/);assert.ok(a.cta.label);}
- assert.equal(JSON.stringify(articles).match(/<iframe/g).length,28);
+ assert.equal(JSON.stringify(articles).match(/<iframe/g).length,50);
+ const frequency=published.find(a=>a.slug==='short-video-posting-frequency');
+ const platforms=published.find(a=>a.slug==='short-video-platform-strategy');
+ for(const page of [30,96,105])assert.ok(JSON.stringify(frequency).includes('startpage='+page));
+ for(const page of [96,101,105,109])assert.ok(JSON.stringify(platforms).includes('startpage='+page));
+ const ai=published.find(a=>a.slug==='digital-2027-ai-consumer-behavior-brand-opportunities');
+ assert.ok(!/Digital 2027(?!:Global Overview Report)/.test(JSON.stringify(ai)));
+ assert.ok(JSON.stringify(ai).includes('startpage=199'));
+ assert.equal(published.length,52);
 });
