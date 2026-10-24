@@ -139,9 +139,9 @@ export const articles:Article[]=[
       "description": "網路上找得到的素材，不代表可以拿來做品牌短影音。從熱門音樂、影片片段到圖片，淺談商用授權、合理使用與跨平台發布的常見誤區。"
     },
     "card": {
-      "eyebrow": "RIGHTS",
-      "title": "短影音可以直接用網路素材嗎？",
-      "caption": "網路上找得到的素材，不代表可以拿來做品牌短影音。從熱門音樂、影片片段到圖片，淺談商用授權、合理使用與跨平台發布的常見誤區。"
+      "eyebrow": "SHORT VIDEO INSIGHTS",
+      "title": "RIGHTS",
+      "caption": "先確認授權，再讓素材成為品牌內容。"
     },
     "cta": {
       "heading": "讓品牌的專業，",
@@ -259,9 +259,9 @@ export const articles:Article[]=[
       "description": "短影音被朋友說無聊，就該改拍搞笑內容嗎？從品牌曝光、專業信任與詢問轉換，分析知識型及娛樂型內容的用途，找到新手品牌適合的內容策略。"
     },
     "card": {
-      "eyebrow": "PURPOSE",
-      "title": "短影音一定要好笑嗎？",
-      "caption": "短影音被朋友說無聊，就該改拍搞笑內容嗎？從品牌曝光、專業信任與詢問轉換，分析知識型及娛樂型內容的用途，找到新手品牌適合的內容策略。"
+      "eyebrow": "SHORT VIDEO INSIGHTS",
+      "title": "PURPOSE",
+      "caption": "從商業目標，選擇內容的表達方式。"
     },
     "cta": {
       "heading": "讓品牌的專業，",
@@ -385,9 +385,9 @@ export const articles:Article[]=[
       "description": "邀請藝人或網紅上頻道，能增加曝光，卻不一定帶來客戶。解析來賓選擇、內容設計、合作成本與成效評估，幫助短影音新手做出合適決策。"
     },
     "card": {
-      "eyebrow": "GUEST",
-      "title": "短影音邀請藝人、網紅有用嗎？",
-      "caption": "邀請藝人或網紅上頻道，能增加曝光，卻不一定帶來客戶。解析來賓選擇、內容設計、合作成本與成效評估，幫助短影音新手做出合適決策。"
+      "eyebrow": "SHORT VIDEO INSIGHTS",
+      "title": "GUEST",
+      "caption": "找到適合的來賓，也定義合作的成效。"
     },
     "cta": {
       "heading": "讓品牌的專業，",
@@ -504,9 +504,9 @@ export const articles:Article[]=[
       "description": "短影音一定要每天發嗎？從 Digital 2026 Taiwan 的市場背景出發，分析新手品牌的上片頻率、每週排程與成效檢視方式，建立可持續的內容節奏。"
     },
     "card": {
-      "eyebrow": "RHYTHM",
-      "title": "短影音多久發一次？",
-      "caption": "短影音一定要每天發嗎？從 Digital 2026 Taiwan 的市場背景出發，分析新手品牌的上片頻率、每週排程與成效檢視方式，建立可持續的內容節奏。"
+      "eyebrow": "SHORT VIDEO INSIGHTS",
+      "title": "RHYTHM",
+      "caption": "從每週兩支，建立可持續的節奏。"
     },
     "cta": {
       "heading": "讓品牌的專業，",
@@ -623,9 +623,9 @@ export const articles:Article[]=[
       "description": "參考 Digital 2026 Taiwan，解析台灣品牌短影音平台選擇、內容分工與起步策略，附原始報告引用頁碼。"
     },
     "card": {
-      "eyebrow": "PLATFORMS",
-      "title": "短影音新手該經營哪些平台？",
-      "caption": "參考 Digital 2026 Taiwan，解析台灣品牌短影音平台選擇、內容分工與起步策略，附原始報告引用頁碼。"
+      "eyebrow": "SHORT VIDEO INSIGHTS",
+      "title": "PLATFORMS",
+      "caption": "依客群與內容，分配平台的角色。"
     },
     "cta": {
       "heading": "讓品牌的專業，",
@@ -751,9 +751,9 @@ export const articles:Article[]=[
       "description": "高單價產品如何拍短影音？解析價值說明、實測比較、客戶案例與社群分工，協助品牌從觀看數走向有效諮詢與預約。"
     },
     "card": {
-      "eyebrow": "TRUST",
-      "title": "高單價產品適合拍短影音嗎？",
-      "caption": "高單價產品如何拍短影音？解析價值說明、實測比較、客戶案例與社群分工，協助品牌從觀看數走向有效諮詢與預約。"
+      "eyebrow": "SHORT VIDEO INSIGHTS",
+      "title": "TRUST",
+      "caption": "讓價值被理解，讓諮詢更有依據。"
     },
     "cta": {
       "heading": "讓品牌的專業，",
@@ -871,9 +871,9 @@ export const articles:Article[]=[
       "description": "短影音一定要露臉嗎？解析產品展示、手部操作與真人出鏡的適用情境，協助品牌用觀看與詢問數據選擇內容形式。"
     },
     "card": {
-      "eyebrow": "PRODUCT",
-      "title": "短影音只拍產品可以嗎？",
-      "caption": "短影音一定要露臉嗎？解析產品展示、手部操作與真人出鏡的適用情境，協助品牌用觀看與詢問數據選擇內容形式。"
+      "eyebrow": "SHORT VIDEO INSIGHTS",
+      "title": "PRODUCT",
+      "caption": "用真人與情境，讓產品更容易被理解。"
     },
     "cta": {
       "heading": "讓品牌的專業，",
@@ -992,9 +992,9 @@ export const articles:Article[]=[
       "description": "聘請員工拍攝剪輯短影音，不能只看觀看次數。從完整成本、穩定產出、有效詢問到成交貢獻，建立品牌新手可執行的評估方式。"
     },
     "card": {
-      "eyebrow": "VALUE",
-      "title": "請員工拍剪短影音值得嗎？",
-      "caption": "聘請員工拍攝剪輯短影音，不能只看觀看次數。從完整成本、穩定產出、有效詢問到成交貢獻，建立品牌新手可執行的評估方式。"
+      "eyebrow": "SHORT VIDEO INSIGHTS",
+      "title": "VALUE",
+      "caption": "從完整成本，衡量內容帶來的價值。"
     },
     "cta": {
       "heading": "讓品牌的專業，",
@@ -1122,9 +1122,9 @@ export const articles:Article[]=[
       "description": "公司想做 SEO／GEO，請一位員工是否划算？從工作分工、網站條件、成本試算與成效指標，判斷內部執行、外包或混合模式的適用情境。"
     },
     "card": {
-      "eyebrow": "IN-HOUSE",
-      "title": "SEO／GEO 請一位員工做得起來嗎？",
-      "caption": "公司想做 SEO／GEO，請一位員工是否划算？從工作分工、網站條件、成本試算與成效指標，判斷內部執行、外包或混合模式的適用情境。"
+      "eyebrow": "SEARCH & AI INSIGHTS",
+      "title": "IN-HOUSE",
+      "caption": "先釐清分工，再評估內部執行。"
     },
     "cta": {
       "heading": "讓品牌的專業，",
@@ -1252,9 +1252,9 @@ export const articles:Article[]=[
       "description": "解讀 Digital 2027:Global Overview Report 第170–199頁，分析AI查詢、問題諮詢、個人化推薦與品牌引用來源，從台灣數據提出品牌內容、SEO與GEO的布局方向。"
     },
     "card": {
-      "eyebrow": "AI & PEOPLE",
-      "title": "AI 如何改變消費者的選擇",
-      "caption": "解讀 Digital 2027:Global Overview Report 第170–199頁，分析AI查詢、問題諮詢、個人化推薦與品牌引用來源，從台灣數據提出品牌內容、SEO與GEO的布局方向。"
+      "eyebrow": "SEARCH & AI INSIGHTS",
+      "title": "AI & PEOPLE",
+      "caption": "從消費者提問，看見品牌的新機會。"
     },
     "cta": {
       "heading": "讓品牌的專業，",
@@ -6594,3 +6594,4 @@ export function cleanInsightText<T>(value:T):T {
  return value;
 }
 export const publishedArticles=()=>articles.filter(a=>a.status==='published').map(cleanInsightText);
+
