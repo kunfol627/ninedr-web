@@ -32,3 +32,23 @@ test('all published insights have clean text, working internal references and un
 });
 
 test('Taiwan–Philippines comparison includes sources and conversion journey',()=>{const a=publishedArticles().find(a=>a.slug==='taiwan-philippines-digital-marketing-differences');assert.equal(a.category,'跨境市場');assert.equal(a.faqs.length,4);assert.equal(a.takeaways.length,5);assert.match(a.author.name,/Steven/);assert.equal(a.cta.label,'預約品牌健檢');assert.equal(JSON.stringify(a).match(/<iframe/g).length,2);assert.equal(JSON.stringify(a).match(/startpage=18/g).length,4);assert.ok(a.sections.some(s=>s.id==='summary'));});
+
+test('all published insights meet the shared editorial publishing requirements',()=>{
+ for(const a of publishedArticles()){
+  assert.ok(a.takeaways?.length>=3,a.slug+' takeaways');
+  assert.ok(a.faqs.length>=1,a.slug+' FAQ');
+  assert.match(a.author.name,/Steven/,a.slug);
+  assert.equal(a.cta?.label,'預約品牌健檢',a.slug);
+  const related=a.sections.find(s=>s.heading==='系列延伸閱讀');
+  assert.ok(related,a.slug+' related reading');
+  assert.ok((related.bodyHtml?.match(/href="\/insights\//g)||[]).length>=2,a.slug);
+  for(const section of a.sections){
+   for(const iframe of (section.bodyHtml||'').matchAll(/<iframe[^>]*>/g)){
+    assert.match(iframe[0],/startpage=\d+/,a.slug);
+    assert.match(iframe[0],/title="/,a.slug);
+    assert.match(iframe[0],/allowfullscreen/i,a.slug);
+   }
+  }
+ }
+});
+
