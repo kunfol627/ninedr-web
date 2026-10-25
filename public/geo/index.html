@@ -443,7 +443,7 @@ function updateNotes(){document.getElementById('talk-position').textContent=Stri
 function count(el){if(reduce||el.dataset.played)return;el.dataset.played='true';const end=Number(el.dataset.count);let start;function frame(t){start??=t;const p=Math.min((t-start)/1500,1);el.textContent=(end*(1-Math.pow(1-p,3))).toFixed(1);if(p<1)requestAnimationFrame(frame);}requestAnimationFrame(frame);}
 const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{e.target.classList.toggle('is-visible',e.isIntersecting);if(e.isIntersecting){current=slides.indexOf(e.target);Array.from(nav.children).forEach((b,i)=>{b.className='w-3 h-3 rounded-full '+(i===current?'bg-brand-teal scale-125':'bg-slate-600');b.setAttribute('aria-current',i===current?'step':'false');});e.target.querySelectorAll('[data-count]').forEach(count);updateNotes();}});},{root:container,threshold:.55});slides.forEach(slide=>observer.observe(slide));
 document.getElementById('talk-prev').onclick=()=>go(current-1);document.getElementById('talk-next').onclick=()=>go(current+1);
-document.addEventListener('keydown',e=>{if(e.target.closest('input,textarea,select,summary,a,button,[contenteditable]')||e.ctrlKey||e.metaKey||e.altKey)return;if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();go(current+1);}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(current-1);}if(e.key.toLowerCase()==='f'&&!e.repeat){e.preventDefault();toggleFullscreen();}});
+document.addEventListener('keydown',e=>{if(e.target.closest('input,textarea,select,summary,a,[contenteditable]')||e.ctrlKey||e.metaKey||e.altKey)return;if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();go(current+1);}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(current-1);}if(e.key.toLowerCase()==='f'&&!e.repeat){e.preventDefault();toggleFullscreen();}});
 function moveCarousel(id,direction){const track=document.getElementById(id);let idx=(Number(track.dataset.index||0)+direction+track.children.length)%track.children.length;track.dataset.index=idx;track.style.transform='translateX(-'+idx*100+'%)';}
 document.querySelectorAll('.report-reader').forEach(reader=>reader.addEventListener('toggle',()=>{const frame=reader.querySelector('iframe[data-report-src]');if(reader.open&&frame&&!frame.getAttribute('src'))frame.src=frame.dataset.reportSrc;}));
 
@@ -467,7 +467,7 @@ async function toggleFullscreen(){
    if(!enter)throw new Error('unsupported');
    await enter.call(document.documentElement);
   }
- }catch(error){fullscreenStatus.textContent='無法啟動全螢幕，請使用瀏覽器選單的「全螢幕」功能。';}
+ }catch(error){console.warn('GEO fullscreen:',error.name,error.message);fullscreenStatus.textContent='無法啟動全螢幕，請使用瀏覽器選單的「全螢幕」功能。';}
 }
 function syncFullscreen(){
  const active=isFullscreen();
