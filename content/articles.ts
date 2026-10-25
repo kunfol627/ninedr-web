@@ -459,7 +459,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -579,7 +579,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -705,7 +705,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -824,7 +824,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -950,7 +950,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -1078,7 +1078,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -1198,7 +1198,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -1319,7 +1319,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -1449,7 +1449,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得參考的答案。",
       "text": "從網站現況、顧客問題與團隊資源開始，一起找出內容、搜尋與詢問轉換的優先順序。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論 SEO／GEO 策略"
     }
   },
   {
@@ -1579,7 +1579,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得參考的答案。",
       "text": "從網站現況、顧客問題與團隊資源開始，一起找出內容、搜尋與詢問轉換的優先順序。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論 SEO／GEO 策略"
     }
   },
   {
@@ -1683,7 +1683,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -1823,7 +1823,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -1947,7 +1947,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -2065,7 +2065,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -2189,7 +2189,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -2303,7 +2303,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -2421,7 +2421,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -2545,7 +2545,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -2659,7 +2659,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -2781,7 +2781,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -2933,7 +2933,7 @@ export const articles:Article[]= [
       "heading": "讓品牌的專業，",
       "highlight": "成為值得觀看的內容。",
       "text": "從客戶常問的問題、團隊能投入的時間與現有素材出發，一起規劃做得出來、能持續的短影音方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論短影音策略"
     }
   },
   {
@@ -3111,7 +3111,7 @@ export const articles:Article[]= [
       "heading": "讓你的專業，",
       "highlight": "成為客戶信任的理由。",
       "text": "從服務對象、現有內容與實際成交流程出發，一起釐清最值得優先改善的環節。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論個人品牌策略"
     }
   },
   {
@@ -3279,7 +3279,7 @@ export const articles:Article[]= [
       "heading": "從你的生意，",
       "highlight": "找到值得投入的下一步。",
       "text": "從服務對象、現有內容與實際成交流程出發，一起釐清最值得優先改善的環節。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論行銷布局"
     }
   },
   {
@@ -3436,7 +3436,7 @@ export const articles:Article[]= [
       "heading": "讓每一次洽詢，",
       "highlight": "更接近有效的銷售機會。",
       "text": "歡迎簡述建案區域、銷售階段與目前遇到的問題，透過一對一討論，評估適合案場的合作方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論房地產名單策略"
     }
   },
   {
@@ -3604,7 +3604,7 @@ export const articles:Article[]= [
       "heading": "讓生產價值，",
       "highlight": "走到消費者的餐桌。",
       "text": "從服務對象、現有內容與實際成交流程出發，一起釐清最值得優先改善的環節。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論農水產品品牌策略"
     }
   },
   {
@@ -3787,7 +3787,7 @@ export const articles:Article[]= [
       "heading": "讓店家的優勢，",
       "highlight": "成為顧客再來的理由。",
       "text": "從服務對象、現有內容與實際成交流程出發，一起釐清最值得優先改善的環節。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論店家成長策略"
     }
   },
   {
@@ -3938,7 +3938,7 @@ export const articles:Article[]= [
       "heading": "把品牌資訊，",
       "highlight": "整理成一致的信任依據。",
       "text": "從品牌定位、內容分工到後續運用，與九色鹿一起釐清值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論品牌內容策略"
     }
   },
   {
@@ -4120,7 +4120,7 @@ export const articles:Article[]= [
       "heading": "讓每次合作，",
       "highlight": "都連結品牌目標。",
       "text": "從品牌定位、內容分工到後續運用，與九色鹿一起釐清值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論創作者行銷策略"
     }
   },
   {
@@ -4270,7 +4270,7 @@ export const articles:Article[]= [
       "heading": "找到適合品牌的",
       "highlight": "合作方式。",
       "text": "從品牌定位、內容分工到後續運用，與九色鹿一起釐清值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論合作方向"
     }
   },
   {
@@ -4409,7 +4409,7 @@ export const articles:Article[]= [
       "heading": "找出品牌成長的",
       "highlight": "下一個優先順序。",
       "text": "從顧客停下來的地方開始，整合內容、網站與廣告策略，讓投入對應具體的成長問題。",
-      "label": "預約品牌健檢"
+      "label": "與我們討論品牌成長策略"
     }
   },
   {
@@ -4519,7 +4519,7 @@ export const articles:Article[]= [
       "heading": "讓品牌累積，",
       "highlight": "成為下一階段的力量。",
       "text": "從品牌定位、企業識別到官網溝通，九色鹿陪你整理值得傳承的資產，釐清下一步的品牌方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿聊聊品牌方向"
     }
   },
   {
@@ -4619,7 +4619,7 @@ export const articles:Article[]= [
       "heading": "讓品牌資訊更清楚，",
       "highlight": "接住每一次搜尋。",
       "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論品牌搜尋與內容盤點"
     }
   },
   {
@@ -4757,7 +4757,7 @@ export const articles:Article[]= [
       "heading": "讓品牌資訊，",
       "highlight": "成為值得信任的參考。",
       "text": "從服務說明、常見問題到實務案例，與九色鹿一起整理清楚且可查證的品牌內容。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿討論品牌內容策略"
     }
   },
   {
@@ -4857,7 +4857,7 @@ export const articles:Article[]= [
       "heading": "把實務經驗，",
       "highlight": "轉成可查證的信任。",
       "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論品牌內容策略"
     }
   },
   {
@@ -4957,7 +4957,7 @@ export const articles:Article[]= [
       "heading": "從資訊缺口開始，",
       "highlight": "找出改善的下一步。",
       "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論品牌搜尋健檢"
     }
   },
   {
@@ -5057,7 +5057,7 @@ export const articles:Article[]= [
       "heading": "讓搜尋帶來的注意，",
       "highlight": "接近真實的品牌需求。",
       "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論 SEO 與轉換策略"
     }
   },
   {
@@ -5161,7 +5161,7 @@ export const articles:Article[]= [
       "heading": "讓網站架構，",
       "highlight": "跟上品牌的成長。",
       "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論網站擴充規劃"
     }
   },
   {
@@ -5261,7 +5261,7 @@ export const articles:Article[]= [
       "heading": "串連廣告與內容，",
       "highlight": "讓搜尋策略更完整。",
       "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論整合搜尋策略"
     }
   },
   {
@@ -5368,7 +5368,7 @@ export const articles:Article[]= [
       "heading": "從在地需求出發，",
       "highlight": "找到值得投入的方向。",
       "text": "與九色鹿一起梳理網站內容、顧客問題與搜尋需求，規劃值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論關鍵字與區域策略"
     }
   },
   {
@@ -5491,7 +5491,7 @@ export const articles:Article[]= [
       "heading": "讀懂在地需求，",
       "highlight": "找到品牌的進場方向。",
       "text": "與九色鹿一起梳理在地客群、內容與服務流程，規劃適合品牌的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論菲律賓市場策略"
     },
     "card": {
       "eyebrow": "DIGITAL 2026 PHILIPPINES",
@@ -5632,7 +5632,7 @@ export const articles:Article[]= [
       "heading": "讓品牌被理解，",
       "highlight": "也讓溝通貼近在地。",
       "text": "與九色鹿一起梳理在地客群、內容與服務流程，規劃適合品牌的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論品牌在地化策略"
     },
     "card": {
       "eyebrow": "DIGITAL 2026 PHILIPPINES",
@@ -5762,7 +5762,7 @@ export const articles:Article[]= [
       "heading": "從第一批客戶開始，",
       "highlight": "建立可持續的市場布局。",
       "text": "與九色鹿一起梳理在地客群、內容與服務流程，規劃適合品牌的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論跨境進場計畫"
     },
     "card": {
       "eyebrow": "DIGITAL 2026 PHILIPPINES",
@@ -5905,7 +5905,7 @@ export const articles:Article[]= [
       "heading": "看懂市場訊號，",
       "highlight": "做出有依據的判斷。",
       "text": "與九色鹿一起梳理在地客群、內容與服務流程，規劃適合品牌的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論市場洞察需求"
     },
     "card": {
       "eyebrow": "DIGITAL 2026 PHILIPPINES",
@@ -6053,7 +6053,7 @@ export const articles:Article[]= [
       "heading": "把內容帶來的關注，",
       "highlight": "接成真實的品牌需求。",
       "text": "與九色鹿一起梳理在地客群、內容與服務流程，規劃適合品牌的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論影音與轉換策略"
     },
     "card": {
       "eyebrow": "DIGITAL 2026 PHILIPPINES",
@@ -6097,7 +6097,7 @@ export const articles:Article[]= [
       "heading": "讓品牌形象，",
       "highlight": "跟上企業的下一步。",
       "text": "從品牌定位、企業識別到官網與內容溝通，先釐清市場如何理解你，再規劃合適的更新方向。",
-      "label": "預約品牌健檢"
+      "label": "與九色鹿聊聊品牌方向"
     },
     "sections": [
       {
@@ -6293,7 +6293,7 @@ export const articles:Article[]= [
       "heading": "釐清你的客群，",
       "highlight": "讓社群投入更接近生意。",
       "text": "與九色鹿一起梳理客群、內容與成交流程，找出值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論社群內容策略"
     },
     "card": {
       "eyebrow": "DIGITAL 2026 TAIWAN",
@@ -6424,7 +6424,7 @@ export const articles:Article[]= [
       "heading": "串連社群與搜尋，",
       "highlight": "接住每一次有效需求。",
       "text": "與九色鹿一起梳理客群、內容與成交流程，找出值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論整合行銷策略"
     },
     "card": {
       "eyebrow": "DIGITAL 2026 TAIWAN",
@@ -6555,7 +6555,7 @@ export const articles:Article[]= [
       "heading": "從一條產品線開始，",
       "highlight": "累積下一步的成長能力。",
       "text": "與九色鹿一起梳理客群、內容與成交流程，找出值得優先投入的下一步。",
-      "label": "預約品牌健檢"
+      "label": "討論企業行銷計畫"
     },
     "card": {
       "eyebrow": "DIGITAL 2026 TAIWAN",
@@ -6702,7 +6702,7 @@ export const articles:Article[]= [
       "heading": "把企業的專業，",
       "highlight": "拍成觀眾看得懂的內容。",
       "text": "從客戶常問的問題開始，一起梳理內容方向、拍攝安排與 AI 協作流程。",
-      "label": "預約品牌健檢"
+      "label": "討論短影音內容計畫"
     },
     "card": {
       "eyebrow": "AI × SHORT VIDEO",
@@ -6860,7 +6860,7 @@ export const articles:Article[]= [
       "heading": "串連每一次接觸，",
       "highlight": "讓策略走向成果。",
       "text": "從目前的獲客方式、內容缺口與成交流程，找出下一步值得優先投入的工作。",
-      "label": "預約品牌健檢"
+      "label": "討論整合行銷策略"
     },
     "card": {
       "eyebrow": "CONNECTED STRATEGY",
@@ -6965,13 +6965,7 @@ export const articles:Article[]= [
       "漏斗是診斷框架，顧客可能往返不同階段。",
       "先辨識認知、興趣、考慮、轉換、留存與推薦的主要斷點。",
       "試算用於比較假設，不能替代實際名單、成交與成本資料。"
-    ],
-    "cta": {
-      "heading": "先看清品牌現況，",
-      "highlight": "再找到成長的下一步。",
-      "text": "帶著目前的網站、內容與業務問題，和 Steven 一起盤點資訊缺口與轉換流程，排定值得優先投入的改善方向。",
-      "label": "預約品牌健檢"
-    }
+    ]
   },
   {
     "slug": "geo-ai-search-guide",
@@ -7216,12 +7210,6 @@ export const articles:Article[]= [
     "seo": {
       "title": "認識 GEO：AI 時代的搜尋新法則｜SEO、內容信任與實務步驟",
       "description": "從九色鹿觀點認識 GEO：比較 SEO 與生成式搜尋，理解 A-I-C-A、RAG 與 E-E-A-T，建立可衡量的品牌內容計畫。"
-    },
-    "cta": {
-      "heading": "先看清品牌現況，",
-      "highlight": "再找到成長的下一步。",
-      "text": "帶著目前的網站、內容與業務問題，和 Steven 一起盤點資訊缺口與轉換流程，排定值得優先投入的改善方向。",
-      "label": "預約品牌健檢"
     }
   }
 ];
@@ -7233,6 +7221,7 @@ export function cleanInsightText<T>(value:T):T {
  return value;
 }
 export const publishedArticles=()=>articles.filter(a=>a.status==='published').map(cleanInsightText);
+
 
 
 

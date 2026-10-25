@@ -38,7 +38,8 @@ test('all published insights meet the shared editorial publishing requirements',
   assert.ok(a.takeaways?.length>=3,a.slug+' takeaways');
   assert.ok(a.faqs.length>=1,a.slug+' FAQ');
   assert.match(a.author.name,/Steven/,a.slug);
-  assert.equal(a.cta?.label,'預約品牌健檢',a.slug);
+  if(a.cta)assert.ok(a.cta.label.trim(),a.slug+' CTA');
+  else assert.ok(['six-stage-marketing-funnel-insights','geo-ai-search-guide'].includes(a.slug),a.slug+' default CTA');
   const related=a.sections.find(s=>s.heading==='系列延伸閱讀');
   assert.ok(related,a.slug+' related reading');
   assert.ok((related.bodyHtml?.match(/href="\/insights\//g)||[]).length>=2,a.slug);
