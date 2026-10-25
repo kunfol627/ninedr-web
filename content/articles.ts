@@ -15,6 +15,175 @@ export type Article = {
  seo:{title:string;description:string};
 };
 export const articles:Article[]=[
+{
+  "slug": "seo-geo-brand-ecosystem",
+  "title": "為什麼只做官網 SEO／GEO 不夠？從 AI 品牌引用來源，看懂三項布局方向",
+  "excerpt": "從《Digital 2027:Global Overview Report》p.180 的品牌引用來源，解析官網、第三方與社群如何分工，補足顧客比較資訊，再把曝光接回有效詢問。",
+  "category": "GEO 與搜尋",
+  "status": "published",
+  "author": {
+    "name": "謝清鴻 Steven Hsieh",
+    "kind": "Person",
+    "image": "/images/steven-hsieh-full.webp",
+    "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+  },
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "keywords": [
+    "SEO",
+    "GEO",
+    "AI 品牌引用",
+    "品牌健檢",
+    "官網內容",
+    "第三方觀點",
+    "社群行銷"
+  ],
+  "card": {
+    "eyebrow": "BRAND & TRUST",
+    "title": "三項布局",
+    "caption": "官網事實・第三方觀點・社群情境"
+  },
+  "takeaways": [
+    "官網提供可核對的事實，第三方補充獨立觀點，社群呈現現場與使用情境。",
+    "「其他」61.3% 不等於官網占比；引用來源分布也不是預算或投資報酬率公式。",
+    "先補齊主力服務資訊、核對跨平台內容，再追蹤品牌描述與有效詢問。"
+  ],
+  "sections": [
+    {
+      "id": "starting-point",
+      "heading": "從品牌的實際問題出發",
+      "paragraphs": [],
+      "bodyHtml": "<p>品牌開始重視 AI 搜尋後，最常見的第一步，是調整官網文章、補上常見問題，或改善網站結構。這些工作有必要，但如果目標是讓顧客在查詢、比較與決策時，更完整地認識品牌，布局就需要延伸到官網以外。</p>\n<p><strong>九色鹿提出三項方向：官網提供可核對的事實、第三方提供獨立觀點、社群補充現場與使用情境。</strong> 三者分別回應顧客的三個問題：「你提供什麼？」「別人怎麼看？」「實際使用起來如何？」</p>\n<p>Digital 2027:Global Overview Report 第 180 頁，提供了觀察這件事的重要線索：研究中的生成式 AI 品牌引用，來自多種類型的內容。這讓品牌需要思考的範圍，從「我的網站寫得夠不夠好」，擴大到「網路上有哪些資訊，正在共同形成別人對我的認識」。</p>\n"
+    },
+    {
+      "id": "chapter-1",
+      "heading": "第 180 頁告訴我們什麼？品牌引用並不只來自單一類型的網站",
+      "paragraphs": [],
+      "bodyHtml": "<p>報告第 180 頁整理生成式 AI 工具中的品牌引用來源，數據如下。<a href=\"#source-1\">[1]</a></p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">內容類型</th>\n<th align=\"right\">占比</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>其他（Other）</td>\n<td align=\"right\">61.3%</td>\n</tr>\n<tr>\n<td>贏得媒體與新聞（Earned media &amp; news）</td>\n<td align=\"right\">29.4%</td>\n</tr>\n<tr>\n<td>社群媒體（Social media）</td>\n<td align=\"right\">7.2%</td>\n</tr>\n<tr>\n<td>評論（Reviews）</td>\n<td align=\"right\">1.3%</td>\n</tr>\n<tr>\n<td>Wiki 類內容</td>\n<td align=\"right\">0.7%</td>\n</tr>\n<tr>\n<td>新聞稿（Press releases）</td>\n<td align=\"right\">0.2%</td>\n</tr>\n</tbody></table></div>\n<p>「其他」包含品牌與企業網站、研究資料庫、市場情報平台、金融參考網站等。因此，<strong>61.3% 不能解讀為官網占比，也不能用來計算官網與站外內容的精確比例。</strong> 各項加總也可能因四捨五入而略有差異。</p>\n<p>這份統計來自 Meltwater，分析 2026 年 8 月、8 個生成式 AI 平台約 700 萬次引用；提示涵蓋零售銀行、AI、汽車、速食、串流服務、服飾與時尚等類別，且未直接包含品牌名稱。報告亦提醒，不同模型的引用機制不同，各類型占比會受分析所納入的模型組合影響。<a href=\"#source-1\">[1]</a></p>\n<p>換句話說，這是<strong>特定研究條件下的引用來源分布</strong>，不是所有 AI 的固定公式，也不是台灣消費者的專屬調查。它無法證明「多發一篇新聞就會被推薦」，更不適合直接拿來決定行銷預算比例。</p>\n<p>但它支持一個值得品牌重視的觀察：媒體、新聞、社群與評論，確實都出現在這份 AI 品牌引用分析中。只盤點自己的網站，會漏掉這些站外資訊。</p>\n<figure class=\"report\" id=\"report-page-180\"><figcaption>引用原始報告｜p.180：生成式 AI 工具的品牌引用來源</figcaption><iframe title=\"Digital 2027:Global Overview Report 第 180 頁：生成式 AI 工具的品牌引用來源\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=180&amp;allowFullscreen=true\" allowfullscreen></iframe><p>資料來源：DataReportal / We Are Social / Meltwater《Digital 2027:Global Overview Report》。<a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=180&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener noreferrer\">另開官方播放器 p.180</a> · <a href=\"https://datareportal.com/reports/digital-2027-global-overview-report\" target=\"_blank\" rel=\"noopener noreferrer\">報告原文</a></p></figure>"
+    },
+    {
+      "id": "chapter-2",
+      "heading": "為什麼這會影響品牌？使用者正在請 AI 協助找資料與做選擇",
+      "paragraphs": [],
+      "bodyHtml": "<p>報告第 177 頁顯示，在過去一個月使用過 AI 的 16 歲以上網路使用者中，60.4% 用來查找資訊、40.6% 用來取得問題建議、31.0% 用來取得個人化推薦。這是可複選的使用原因，不代表相同比例的人已透過 AI 購物。<a href=\"#source-2\">[2]</a></p>\n<figure class=\"report\" id=\"report-page-177\"><figcaption>引用原始報告｜p.177：使用 AI 的主要原因</figcaption><iframe title=\"Digital 2027:Global Overview Report 第 177 頁：使用 AI 的主要原因\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=177&amp;allowFullscreen=true\" allowfullscreen></iframe><p>資料來源：DataReportal / We Are Social / Meltwater《Digital 2027:Global Overview Report》。<a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=177&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener noreferrer\">另開官方播放器 p.177</a> · <a href=\"https://datareportal.com/reports/digital-2027-global-overview-report\" target=\"_blank\" rel=\"noopener noreferrer\">報告原文</a></p></figure>\n\n<p>第 178 頁的年齡分組也顯示，查找資訊在各年齡組都是首位使用原因；不過 65 歲以上資料並非涵蓋所有國家，不能直接當成台灣高齡族群的使用率。<a href=\"#source-3\">[3]</a></p>\n<figure class=\"report\" id=\"report-page-178\"><figcaption>引用原始報告｜p.178：各年齡層使用 AI 的原因</figcaption><iframe title=\"Digital 2027:Global Overview Report 第 178 頁：各年齡層使用 AI 的原因\" loading=\"lazy\" src=\"https://indd.adobe.com/embed/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=178&amp;allowFullscreen=true\" allowfullscreen></iframe><p>資料來源：DataReportal / We Are Social / Meltwater《Digital 2027:Global Overview Report》。<a href=\"https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=178&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener noreferrer\">另開官方播放器 p.178</a> · <a href=\"https://datareportal.com/reports/digital-2027-global-overview-report\" target=\"_blank\" rel=\"noopener noreferrer\">報告原文</a></p></figure>\n\n<p>九色鹿對品牌的策略解讀是：內容除了介紹自己，也應該幫助顧客判斷。</p>\n<p>例如，顧客問的可能是「台中有哪些適合遠距工作的咖啡廳？」，而不是直接搜尋某家店名。這時候，營業時間、插座、座位限制、現場噪音與其他人的實際經驗，都可能影響他是否把這家店列入考慮。</p>\n<p>以下三項布局，是九色鹿根據上述觀察提出的建議；並非報告原文提出的三項規則，也不代表 AI 一定會同時查閱這三種來源。</p>\n"
+    },
+    {
+      "id": "chapter-3",
+      "heading": "方向一：官網提供可核對的事實，讓品牌資訊有清楚的依據",
+      "paragraphs": [],
+      "bodyHtml": "<p>官網最重要的任務，是把品牌自己最有能力確認的資訊說清楚。</p>\n<p>對服務業而言，應包含服務項目、適用對象、服務地區、交付內容、費用條件、合作流程與案例。產品品牌則應清楚列出規格、適用情境、保固及售後條件。資訊有變動時，要更新內容並標示實際更新日期。</p>\n<p>以咖啡廳為例，「舒適空間，適合工作」很難幫助顧客判斷；「平日部分座位提供插座、每人低消一杯飲品、假日客滿時限時兩小時」，就能回答具體問題。條件應以店家實際政策為準。</p>\n<p><strong>SEO 是改善搜尋可見度的基礎；GEO 在本文指改善品牌在生成式 AI 回答中的可見度與資訊呈現。</strong> 兩者都需要清楚、有用且能被讀取的內容。重點包括可公開存取的文字頁面、清楚標題、合理的內部連結，以及與頁面內容相符的結構化資料；關鍵條件也不宜只放在圖片裡。</p>\n<p>官網能說明承諾與條件，但官網上的自我介紹，仍然是品牌自己的說法。它無法完全替代外部觀點。</p>\n"
+    },
+    {
+      "id": "chapter-4",
+      "heading": "方向二：第三方提供獨立觀點，補上品牌無法自行證明的部分",
+      "paragraphs": [],
+      "bodyHtml": "<p>顧客讀完「我們很專業」，通常還會想知道：「有人實際體驗過嗎？這個評價有依據嗎？」</p>\n<p>因此，品牌需要有實質內容的媒體報導、專業評測、產業訪談與真實顧客經驗。它們的價值在於提供不同觀察角度，例如評測方法、比較條件、使用限制與實際結果，而不只是增加一個提到品牌名稱的網頁。</p>\n<p>第 180 頁中，「贏得媒體與新聞」與「新聞稿」是不同分類，比例也不同。<strong>不能因此把大量發布新聞稿，當成取得獨立報導的替代方案。</strong> 付費刊登、贊助評測或品牌合作，亦應清楚揭露關係；合作內容是否有參考價值，要看其方法與內容，不能只看刊登位置。</p>\n<p>對咖啡廳來說，一篇說明到訪時段、座位條件、餐飲特色與工作適合程度的實際探店文章，比只有「必訪名店」的口號，更能補足顧客的疑問。</p>\n<p>可行的起點，是整理值得被討論的真實素材：具體案例、可核對的成果、專業知識或有特色的服務，再尋找題目相關的採訪與評測機會。顧客評論則應邀請實際消費者自由表達，不代寫心得，也不以提供好評作為回饋條件。</p>\n"
+    },
+    {
+      "id": "chapter-5",
+      "heading": "方向三：社群補充現場與使用情境，讓顧客看見服務如何發生",
+      "paragraphs": [],
+      "bodyHtml": "<p>官網適合整理穩定資訊；社群則適合把產品、服務與現場過程呈現出來。</p>\n<p>例如，咖啡廳可以示範不同座位的使用方式、回答平日與假日的入座差異，或分享顧客常問的問題。產品品牌可以拍操作示範、常見錯誤與使用後回饋。這類內容能讓顧客更容易想像：「這適不適合我？」</p>\n<p>第 180 頁中的社群引用占比，說明社群出現在該研究的引用來源中，但不能推論所有社群貼文都可被 AI 讀取。私人社團、登入限制、平台設定與內容形式，都可能限制外部取得資訊；影片中的關鍵條件，也值得搭配可閱讀的文字說明。</p>\n<p><strong>社群上會影響購買決策的重要資訊，應同步回官網。</strong> 如果貼文寫「不限時」，官網卻寫「限時兩小時」，顧客就很難判斷哪個才是現行政策。更新時應說明適用日期與條件，必要時修正舊貼文或加上更新提醒。</p>\n<p>品牌自己的社群仍屬品牌說法；顧客自主發布的內容則是外部經驗。社群是發布場域，第三方則是觀點來源，兩者可能重疊，並非互斥分類。</p>\n"
+    },
+    {
+      "id": "chapter-6",
+      "heading": "為什麼只對官網做 SEO／GEO，仍可能留下缺口？",
+      "paragraphs": [],
+      "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">顧客想確認的事</th>\n<th scope=\"col\">只處理官網可能留下的缺口</th>\n<th scope=\"col\">三項布局如何補足</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>你到底提供什麼？</td>\n<td>條件不完整，排名再好也難判斷</td>\n<td>官網整理事實、價格條件與案例</td>\n</tr>\n<tr>\n<td>別人實際怎麼看？</td>\n<td>只有品牌自己的承諾</td>\n<td>第三方提供方法、觀察與真實經驗</td>\n</tr>\n<tr>\n<td>適不適合我的情境？</td>\n<td>抽象介紹難以想像</td>\n<td>社群示範、問答與現場內容</td>\n</tr>\n<tr>\n<td>哪一份資訊才是最新的？</td>\n<td>站外仍流通舊價格或舊政策</td>\n<td>跨平台核對並更新重要條件</td>\n</tr>\n<tr>\n<td>看完以後要怎麼詢問？</td>\n<td>有曝光，卻缺少下一步</td>\n<td>相關內容接回對應服務頁與詢問入口</td>\n</tr>\n</tbody></table></div>\n<p>這些是資訊完整度與顧客決策上的缺口，不代表沒有站外內容就不可能被 AI 引用。官網仍可能獨立成為引用來源；三項布局的意義，是增加有用資訊的完整度與接觸機會，而不是保證推薦。</p>\n<p>同樣地，把一篇官網文章原封不動貼到十個平台，也不會自動產生十份獨立證據。三項布局需要各自補充資訊，而不只是重複宣傳。</p>\n"
+    },
+    {
+      "id": "chapter-7",
+      "heading": "用同一個顧客問題，串起三項布局",
+      "paragraphs": [],
+      "bodyHtml": "<p>以「這家咖啡廳適不適合遠距工作？」為例：</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">布局位置</th>\n<th scope=\"col\">應提供的內容</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>官網</td>\n<td>Wi-Fi、插座、低消、限時、營業時間與政策更新日期</td>\n</tr>\n<tr>\n<td>第三方</td>\n<td>到訪時段、實際使用觀察、優點與限制；有合作則揭露</td>\n</tr>\n<tr>\n<td>社群</td>\n<td>座位與環境示範、尖峰時段說明，以及常見問題回覆</td>\n</tr>\n<tr>\n<td>詢問入口</td>\n<td>團體訂位、包場或其他實際提供的服務，連到相應頁面</td>\n</tr>\n</tbody></table></div>\n<p>這是示意案例，並非宣稱某家店已因此獲得 AI 推薦或增加營收。</p>\n<p>三者不必使用完全相同的文案，但營業時間、價格條件、服務地區與政策等事實，必須相容。顧客才能從不同入口接觸品牌，再回到清楚的詢問或預約流程。</p>\n"
+    },
+    {
+      "id": "chapter-8",
+      "heading": "資源有限，應該先做哪一項？",
+      "paragraphs": [],
+      "bodyHtml": "<p>建議先把最直接影響成交的官網資訊補齊，再用顧客常問的問題安排社群內容，並逐步累積第三方經驗與報導。若站外已有錯誤資訊，則應優先更正。</p>\n<p>可以從以下四步開始：</p>\n<ol>\n<li><strong>挑一項主力服務。</strong> 列出顧客下單前最常問的五個問題。</li>\n<li><strong>補齊官網答案。</strong> 寫清楚條件、限制、案例與下一步聯絡方式。</li>\n<li><strong>補上現場證據。</strong> 用示範與問答呈現過程，同時整理有授權的真實回饋。</li>\n<li><strong>找出外部觀點缺口。</strong> 針對有價值的題目，爭取合適採訪、評測或顧客自主分享的機會。</li>\n</ol>\n<p>不必同時經營所有平台，也不必按照第 180 頁的比例分配預算。應依顧客在哪裡找資料、現有內容缺什麼，以及團隊能持續維護什麼，決定投入順序。</p>\n"
+    },
+    {
+      "id": "chapter-9",
+      "heading": "成效要看什麼？從被看見，追到有效詢問",
+      "paragraphs": [],
+      "bodyHtml": "<p>評估時，除了搜尋曝光與排名，也要追蹤顧客是否更容易理解服務並採取行動。</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"內容比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">觀察面向</th>\n<th scope=\"col\">可追蹤項目</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>資訊正確性</td>\n<td>重要頁面與站外介紹是否仍有舊價格、錯誤地區或過期條件</td>\n</tr>\n<tr>\n<td>AI 回答呈現</td>\n<td>固定問題下是否提到品牌、引用哪個頁面、描述是否正確</td>\n</tr>\n<tr>\n<td>內容帶來的行動</td>\n<td>服務頁瀏覽、預約、表單、來電及其他有效詢問</td>\n</tr>\n<tr>\n<td>商業結果</td>\n<td>合格詢問比例、成交情況，以及顧客自述的認識來源</td>\n</tr>\n</tbody></table></div>\n<p>觀察 AI 回答時，要記錄平台、日期、問題與引用來源，並多次比較；單次答案不能代表長期表現。有些接觸也不會留下可辨識的點擊，因此可在詢問流程中加入「從哪裡認識我們」，輔助判斷。</p>\n"
+    },
+    {
+      "id": "chapter-11",
+      "heading": "九色鹿觀點：把品牌的事實、外部觀點與使用情境接起來",
+      "paragraphs": [],
+      "bodyHtml": "<p>官網負責把事情說清楚；第三方補充不同立場的觀察；社群把服務放回真實情境。三項布局共同幫助顧客了解、核對與比較，也為搜尋與 AI 工具提供更完整的可用資訊。</p>\n<p>品牌需要持續確認的，是網路上的資訊能否回答顧客的疑問，並把有意願的人接到下一步。</p>\n"
+    },
+    {
+      "id": "chapter-12",
+      "heading": "資料解讀與適用範圍",
+      "paragraphs": [],
+      "bodyHtml": "<p>本文的三項布局、案例與執行建議為九色鹿的策略分析，並非原報告的直接結論。全球研究不等同台灣市場的精確分布，引用占比也不等同推薦率、點擊率或成交率。</p>\n"
+    },
+    {
+      "id": "related-reading",
+      "heading": "系列延伸閱讀",
+      "paragraphs": [],
+      "bodyHtml": "<ul><li><a href=\"/insights/digital-2027-ai-consumer-behavior-brand-opportunities\">AI 正在改變消費者怎麼找答案：Digital 2027:Global Overview Report 揭示台灣品牌的新機會</a></li><li><a href=\"/insights/how-ai-finds-your-brand\">AI 如何找到你的品牌？從搜尋、資料來源到品牌引用的關鍵路徑</a></li><li><a href=\"/insights/what-is-rag\">RAG 是什麼？AI 從哪裡找答案，以及它與 GEO 的關係</a></li><li><a href=\"/insights/brand-platform-bio-seo-geo\">品牌跨平台簡介要一致嗎？官網、Meta 與 YouTube 的 SEO／GEO 策略</a></li><li><a href=\"/insights/geo-brand-checklist\">品牌 GEO 自我健檢：你的網站準備好被 AI 理解與引用了嗎？</a></li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "官網 SEO 做好了，還需要做 GEO 嗎？",
+      "answer": "可以先檢查官網是否把顧客問題回答完整，再觀察 AI 回答是否正確描述品牌。兩者有重疊基礎，不必為了 GEO 另外大量製造重複文章。"
+    },
+    {
+      "question": "找媒體報導，就一定會被 AI 推薦嗎？",
+      "answer": "不一定。報導是否相關、內容是否有實質資訊、頁面是否可取得，以及平台與提問差異，都會影響結果。第 180 頁沒有提供個別品牌被推薦的保證。"
+    },
+    {
+      "question": "社群是不是只要追求流量？",
+      "answer": "應依商業目標判斷。能回答顧客疑慮、呈現服務條件並帶來合適詢問的內容，即使流量較小，也可能有實際價值。"
+    },
+    {
+      "question": "三項布局是不是都要花很多錢？",
+      "answer": "可以從現有服務資料、顧客問題與真實經驗開始。先補足一項主力服務的資訊，再依缺口擴大投入，比一次鋪滿所有平台更容易維護。"
+    },
+    {
+      "question": "「其他」61.3% 就是官網貢獻嗎？",
+      "answer": "不是。「其他」還包含研究資料庫、市場情報平台與金融參考網站等；原頁未公布各子類占比，不能拆算官網貢獻，也不應用來分配行銷預算。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Digital 2027:Global Overview Report｜p.180：品牌引用來源／Meltwater，2026 年 8 月",
+      "url": "https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=180&allowFullscreen=true"
+    },
+    {
+      "title": "Digital 2027:Global Overview Report｜p.177：使用 AI 的原因／GWI，2026 Q2",
+      "url": "https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=177&allowFullscreen=true"
+    },
+    {
+      "title": "Digital 2027:Global Overview Report｜p.178：年齡分組／GWI，2026 Q2",
+      "url": "https://indd.adobe.com/view/65b4f934-7f36-4b9f-ba5e-8c3fd9c694cd?startpage=178&allowFullscreen=true"
+    },
+    {
+      "title": "Google Search Central｜AI features and your website",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features"
+    }
+  ],
+  "relatedServices": [
+    "seo-geo",
+    "strategy-campaigns",
+    "creative-content"
+  ],
+  "cta": {
+    "heading": "先看清品牌的資訊缺口，",
+    "highlight": "再決定下一步布局。",
+    "text": "從官網資訊、第三方觀點與社群內容開始，一起盤點品牌現況，找出 SEO／GEO 與詢問轉換的優先順序。",
+    "label": "預約品牌健檢"
+  },
+  "seo": {
+    "title": "為什麼只做官網 SEO／GEO 不夠？從 AI 品牌引用來源，看懂三項布局方向",
+    "description": "依據 Digital 2027:Global Overview Report第 180 頁，解析官網、第三方內容與社群的不同作用，說明品牌如何建立可核對的資訊、獨立觀點與真實使用情境，並把曝光接回詢問與成交。"
+  }
+},
   {
     "slug": "short-video-copyright-guide",
     "title": "短影音可以直接用網路素材嗎？品牌新手必懂的音樂、影片與圖片版權觀念",
