@@ -16,6 +16,149 @@ export type Article = {
 };
 export const articles:Article[]=[
 {
+  "slug": "taiwan-philippines-digital-marketing-differences",
+  "title": "為什麼台灣的行銷經驗，到了菲律賓不一定有效？從 Digital 2026 看市場布局差異",
+  "excerpt": "翻譯官網、沿用素材、改變投放地區，還不等於完成跨境布局。從台灣與菲律賓的市場差異，重新檢視受眾、信任與成交流程。",
+  "category": "跨境市場",
+  "status": "published",
+  "author": {
+    "name": "謝清鴻 Steven Hsieh",
+    "kind": "Person",
+    "image": "/images/steven-hsieh-full.webp",
+    "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+  },
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keywords": [
+    "菲律賓市場",
+    "跨境行銷",
+    "數位策略",
+    "SEO",
+    "GEO"
+  ],
+  "takeaways": [
+    "人口與數位受眾較大，不等於品牌可以服務的客群較大。",
+    "同一個社群平台，在兩地的觸及結構不同，預算與內容比重應重新測試。",
+    "翻譯只是起點，還要驗證受眾用語、購買疑慮與客服承接方式。",
+    "評估成效應追到有效詢問、付款與履約，不能停在曝光或便宜點擊。",
+    "SEO／GEO 應建立在真實、可核對的在地服務資訊上。"
+  ],
+  "card": {
+    "eyebrow": "跨境市場 × Digital 2026",
+    "title": "台灣有效，菲律賓也有效？",
+    "caption": "受眾、平台與成交，需要重新驗證"
+  },
+  "cta": {
+    "heading": "讓跨境布局，",
+    "highlight": "從品牌健檢開始。",
+    "text": "帶著你的產品、目標市場與目前成效，和 Steven 一起盤點受眾、內容、SEO／GEO 與成交承接，找出值得優先驗證的下一步。",
+    "label": "預約品牌健檢"
+  },
+  "sections": [
+    {
+      "id": "market-question",
+      "heading": "把廣告地區改掉，就算進入新市場了嗎？",
+      "paragraphs": [],
+      "bodyHtml": "<p>台灣品牌進入菲律賓，容易先做三件事：翻譯官網、沿用社群素材，再把廣告地區改成菲律賓。然而，這些動作只能讓內容出現在另一個市場，還沒有回答最重要的問題：當地哪些人有需求、在哪裡建立信任，以及如何完成交易？</p>\n<p>用台灣視野經營菲律賓不容易，原因是原本熟悉的受眾、平台角色與購買流程，都需要重新驗證。台灣的經驗仍有價值，但更適合成為測試方法，而不是直接套用的答案。</p>\n<blockquote>\n<p>資料閱讀說明：Digital 2026 國別報告於 2025 年底發布，以下多為 2025 年末資料，並非 2026 全年實績。報告數據與九色鹿的策略建議分開呈現；後者屬於分析與待驗證假設。</p>\n</blockquote>\n"
+    },
+    {
+      "id": "market-1",
+      "heading": "市場更大，不代表你的可服務客群更大",
+      "paragraphs": [],
+      "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"市場比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">指標</th>\n<th align=\"right\">台灣</th>\n<th align=\"right\">菲律賓</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>人口</td>\n<td align=\"right\">約 2,310 萬</td>\n<td align=\"right\">約 1.17 億</td>\n</tr>\n<tr>\n<td>人口年齡中位數</td>\n<td align=\"right\">44.8 歲</td>\n<td align=\"right\">26.1 歲</td>\n</tr>\n<tr>\n<td>都市人口占比</td>\n<td align=\"right\">80.9%</td>\n<td align=\"right\">49.1%</td>\n</tr>\n<tr>\n<td>網路使用人口</td>\n<td align=\"right\">約 2,230 萬</td>\n<td align=\"right\">約 9,800 萬</td>\n</tr>\n<tr>\n<td>網路普及率</td>\n<td align=\"right\">96.7%</td>\n<td align=\"right\">83.8%</td>\n</tr>\n</tbody></table></div>\n<p>來源：兩份報告的 Population 與 Internet use 章節，連結見文末。</p>\n<p>這些差異提醒品牌：不能把在台灣已經成立的主要顧客輪廓，直接當成菲律賓的主力客群。</p>\n<p>例如，在台灣銷售中高價家用品的品牌，可能已經習慣以成熟家庭作為溝通中心。進入菲律賓時，仍須重新確認誰使用、誰付款、誰影響決定，以及品牌能服務的地區。<strong>全國人口年輕，不能直接推導成每種產品都應鎖定年輕人。</strong></p>\n<p>同樣地，都市人口占比不能代替物流調查。實際配送時間、運費、安裝與退換貨能力，都應按服務區域確認，而不是從全國平均推估。</p>\n<h3>九色鹿觀點：先定義可服務市場</h3>\n<p>建議先選擇一個明確的市場切片，例如「配送與售後可覆蓋區域內、有特定生活需求的家庭」，再評估人數、競爭與可接受價格。</p>\n<p>真正值得投入的市場，需要同時具備需求、接觸機會、付款能力與可履約條件。兩份數位報告可以協助理解前端環境，無法單獨證明產品的市場規模與利潤。</p>\n"
+    },
+    {
+      "id": "market-2",
+      "heading": "同一個平台，在不同市場扮演不同角色",
+      "paragraphs": [],
+      "bodyHtml": "<div class=\"insight-table\" role=\"region\" aria-label=\"市場比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">廣告可觸及規模</th>\n<th align=\"right\">台灣</th>\n<th align=\"right\">菲律賓</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Facebook</td>\n<td align=\"right\">約 1,730 萬</td>\n<td align=\"right\">約 9,580 萬</td>\n</tr>\n<tr>\n<td>Instagram</td>\n<td align=\"right\">約 1,220 萬</td>\n<td align=\"right\">約 2,690 萬</td>\n</tr>\n<tr>\n<td>YouTube</td>\n<td align=\"right\">約 1,810 萬</td>\n<td align=\"right\">約 5,960 萬</td>\n</tr>\n<tr>\n<td>TikTok，僅 18 歲以上</td>\n<td align=\"right\">約 867 萬</td>\n<td align=\"right\">約 6,400 萬</td>\n</tr>\n<tr>\n<td>Threads</td>\n<td align=\"right\">約 665 萬</td>\n<td align=\"right\">約 480 萬</td>\n</tr>\n</tbody></table></div>\n<p>來源：兩份報告的各平台章節。各平台受眾重疊，數字不能相加；TikTok 的年齡範圍與其他列不同。</p>\n<p><strong>這是廣告工具提供的潛在觸及估計，不是月活躍人數、平台喜好排名，也不是成交能力排名。</strong>「18 歲以上廣告受眾」指成年受眾範圍，並非成人內容廣告。</p>\n<p>最值得注意的不是哪個平台數字最大，而是平台之間的相對位置不同。例如，菲律賓整體人口較多，Threads 的廣告受眾估計卻小於台灣。若因為品牌在台灣經營 Threads 有成效，就把它視為菲律賓的優先主力，便可能錯配資源。</p>\n<h3>九色鹿觀點：替平台安排任務，再用成果驗證</h3>\n<p>初期可建立以下測試，而不是一次鋪滿所有平台：</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"市場比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">任務</th>\n<th scope=\"col\">可測試的內容</th>\n<th scope=\"col\">判斷依據</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>讓陌生人理解產品</td>\n<td>短影音示範、常見問題、情境對比</td>\n<td>目標地區的有效觀看與後續行動</td>\n</tr>\n<tr>\n<td>補足購買信任</td>\n<td>真實評價、使用紀錄、售後說明</td>\n<td>有效詢問與疑慮減少情況</td>\n</tr>\n<tr>\n<td>承接需求</td>\n<td>官網產品頁、詢問入口、交易頁面</td>\n<td>完成詢問、付款與履約</td>\n</tr>\n</tbody></table></div>\n<p>Facebook、TikTok 與 YouTube 的觸及資料，可以協助挑選測試候選；實際優先順序仍應由產品、受眾與轉換結果決定。Instagram 也可能服務特定客群，不能只因整體規模較小便排除。</p>\n"
+    },
+    {
+      "id": "market-3",
+      "heading": "翻譯內容之前，先聽懂顧客的問題",
+      "paragraphs": [],
+      "bodyHtml": "<p>台灣團隊熟悉的幽默、促購語氣與信任線索，到了另一個市場未必能產生相同效果。這是品牌需要實際驗證的跨境問題，不能只憑人口或平台數據推斷所有菲律賓消費者的偏好。</p>\n<p>語言測試應從目標顧客出發。品牌可以比較英文、Filipino 或符合受眾習慣的混用表達；若鎖定特定地區，也應確認當地語言需求。不要預設全國都偏好相同語氣，也不要為了看起來在地而生硬加入流行語。</p>\n<p>例如，一支台灣家電廣告原本強調「質感生活」，進入新市場時，可以先訪談與測試不同問題：</p>\n<ul>\n<li>顧客是否更在意使用便利、耗材取得或維修安排？</li>\n<li>產品示範是否符合當地住宅與使用環境？</li>\n<li>顧客是否看得懂價格包含哪些服務？</li>\n<li>客服能否用素材使用的語言，繼續回答購買問題？</li>\n</ul>\n<p>以上是測試題目，不是對菲律賓消費者的既定結論。建議由當地協作者審閱內容，並保留留言、客服紀錄與訪談原話，作為下一輪素材與官網 FAQ 的依據。</p>\n"
+    },
+    {
+      "id": "market-4",
+      "heading": "點擊只是開始，成交與履約才是驗證",
+      "paragraphs": [],
+      "bodyHtml": "<p>品牌常用台灣既有的購買流程設計跨境活動：看廣告、進官網、填表或下單。但一旦配送、付款、服務語言與售後資訊不夠清楚，前端流量就很難轉成收入。</p>\n<p>兩份報告不能證明菲律賓廣告一定比較便宜，也不能證明便宜點擊會帶來更高投資報酬。即使測試出較低點擊成本，仍須繼續看：</p>\n<div class=\"insight-table\" role=\"region\" aria-label=\"市場比較表\" tabindex=\"0\"><table>\n<thead>\n<tr>\n<th scope=\"col\">階段</th>\n<th scope=\"col\">建議追蹤</th>\n<th scope=\"col\">想確認的問題</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>接觸</td>\n<td>目標區域觸及、有效觀看</td>\n<td>是否接觸到品牌能服務的人？</td>\n</tr>\n<tr>\n<td>興趣</td>\n<td>產品頁閱讀、規格或運費查詢</td>\n<td>是否理解產品與交易條件？</td>\n</tr>\n<tr>\n<td>詢問</td>\n<td>有效詢問率、回覆時間</td>\n<td>客服是否接得住？</td>\n</tr>\n<tr>\n<td>成交</td>\n<td>付款訂單、每筆成交成本</td>\n<td>是否有人願意完成購買？</td>\n</tr>\n<tr>\n<td>履約</td>\n<td>送達、取消與退款情況</td>\n<td>訂單能否順利完成？</td>\n</tr>\n<tr>\n<td>經營</td>\n<td>毛利、回購、真實評價</td>\n<td>成長是否有持續價值？</td>\n</tr>\n</tbody></table></div>\n<p>建議將「有效詢問」定義為符合服務地區、需求與基本購買條件的詢問，避免把大量無法服務的訊息當成成果。</p>\n"
+    },
+    {
+      "id": "market-5",
+      "heading": "SEO／GEO 的在地化，從可核對的資訊開始",
+      "paragraphs": [],
+      "bodyHtml": "<p>英文官網可以協助資訊傳遞，但若內容只介紹品牌故事，沒有說明當地能買到什麼、如何購買、誰負責服務，就難以解決真正的決策問題。</p>\n<p>九色鹿建議先補足三個面向：</p>\n<ol>\n<li>官網事實：列清楚產品與服務範圍、適用條件、服務地區、價格或報價方式、交付與售後資訊，並標示更新日期。</li>\n<li>獨立證據：累積有實質內容的當地媒體介紹、專業評測與真實顧客經驗。商業合作應清楚揭露，不能把購買曝光當成獨立背書。</li>\n<li>社群情境：透過示範、問答與使用回饋補充理解，並確保與官網的規格、承諾及服務資訊一致。</li>\n</ol>\n<p>搜尋用語則應從當地顧客的問題重新整理，不能只把台灣關鍵字逐字翻譯。先確認受眾怎麼描述需求，再建立對應頁面與內容。</p>\n<p>這是九色鹿的布局建議。兩份 Digital 2026 國別報告本身並未證明特定 GEO 方法可以保證 AI 引用、搜尋排名或訂單成長。</p>\n"
+    },
+    {
+      "id": "market-6",
+      "heading": "先驗證，再放大：品牌起步的四個步驟",
+      "paragraphs": [],
+      "bodyHtml": "<p>以下是執行順序建議，並非報告原有的研究結論。</p>\n<h3>第一步：把客群與服務範圍縮小</h3>\n<p>選定一種需求、一項主力產品與可履約區域。訪談潛在顧客及在地合作夥伴，確認競品、價格呈現、語言與售後疑慮。訪談用於發現問題，不宣稱代表全國消費者。</p>\n<h3>第二步：讓成交條件先完整</h3>\n<p>建立手機容易閱讀的產品頁與詢問入口，清楚說明交易條件。確認付款、配送、客服與退換貨安排能實際執行，再開始導入流量。</p>\n<h3>第三步：用少量變因測試內容</h3>\n<p>在可比較的受眾與預算條件下，測試產品示範、購買疑慮與使用情境等不同主題。每輪盡量只改一個主要變因，並安排在地語言審閱。</p>\n<h3>第四步：根據成交與履約調整</h3>\n<p>如果觀看多、有效詢問少，檢查受眾與訴求；詢問多、成交少，檢查信任、價格及回覆；成交後取消多，檢查付款與履約。先找出卡住的環節，再決定增加預算或擴大地區。</p>\n"
+    },
+    {
+      "id": "summary",
+      "heading": "帶走一個原則：複製驗證方法，重新確認答案",
+      "paragraphs": [],
+      "bodyHtml": "<p>台灣經驗可以成為起點，但受眾、平台任務與交易條件都需要在地驗證。</p>\n<ul>\n<li>先找對人：鎖定有需求、能服務的客群。</li>\n<li>再說清楚：讓內容、官網與客服回答同一組問題。</li>\n<li>最後看成果：以有效詢問、成交與履約決定是否加碼。</li>\n</ul>\n"
+    },
+    {
+      "id": "original-reports",
+      "heading": "官方報告對照：保留原始證據，再做策略判斷",
+      "paragraphs": [],
+      "bodyHtml": "<p>人口結構對照：以下播放器分別定位兩份報告 p.18（Population Essentials），供核對人口、年齡中位數與都市人口占比。網路普及率與各平台廣告觸及請對照文末官方原文的 Internet use 與各平台章節；不應將不同指標解讀為同一種使用行為。</p>\n<div class=\"report\"><h3>Digital 2026: Taiwan｜p.18 人口結構</h3><p>資料來源：DataReportal／We Are Social／Meltwater</p><iframe src=\"https://indd.adobe.com/embed/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=18&amp;allowFullscreen=true\" title=\"Digital 2026 Taiwan p.18 人口結構\" loading=\"lazy\" allowfullscreen></iframe><p><a href=\"https://indd.adobe.com/view/26d5af15-b4ca-41d7-82d3-3f2a59be7dfa?startpage=18&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener noreferrer\">開啟官方報告 p.18</a></p></div>\n\n<div class=\"report\"><h3>Digital 2026: Philippines｜p.18 人口結構</h3><p>資料來源：DataReportal／We Are Social／Meltwater</p><iframe src=\"https://indd.adobe.com/embed/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=18&amp;allowFullscreen=true\" title=\"Digital 2026 Philippines p.18 人口結構\" loading=\"lazy\" allowfullscreen></iframe><p><a href=\"https://indd.adobe.com/view/7093fc2f-43fb-41a3-9a18-a27c3455ec1a?startpage=18&amp;allowFullscreen=true\" target=\"_blank\" rel=\"noopener noreferrer\">開啟官方報告 p.18</a></p></div>\n\n"
+    },
+    {
+      "id": "related-reading",
+      "heading": "系列延伸閱讀",
+      "paragraphs": [],
+      "bodyHtml": "<ul>\n<li><a href=\"/insights/philippines-digital-market\">2026 菲律賓數位市場洞察：搜尋、社群習慣與台灣的關鍵差異</a></li>\n<li><a href=\"/insights/english-filipino-tagalog-taglish\">進入菲律賓市場，直接用英文就夠嗎？從翻譯搜尋看 Filipino、Tagalog 與 Taglish</a></li>\n<li><a href=\"/insights/philippines-market-entry\">跨國企業進入菲律賓市場：從區域、定價到支付與信任的進場策略</a></li>\n<li><a href=\"/insights/philippines-live-video-commerce\">菲律賓直播與短影音商機：Facebook、TikTok 如何從觀看走向成交？</a></li>\n<li><a href=\"/insights/seo-geo-brand-ecosystem\">為什麼只做官網 SEO／GEO 不夠？從 AI 品牌引用來源，看懂三項布局方向</a></li>\n</ul>\n"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "台灣成功的廣告素材，可以直接拿去菲律賓使用嗎？",
+      "answer": "可以作為測試起點，但需重新核對語言、使用情境與交易條件。應以目標客群的有效詢問、成交及履約結果判斷，而不是只比觀看數。"
+    },
+    {
+      "question": "進入菲律賓市場，只做英文官網夠嗎？",
+      "answer": "英文官網可以是起點。是否需要其他語言、在地客服或不同的內容表達，應根據目標地區、顧客訪談與實際詢問資料決定。"
+    },
+    {
+      "question": "菲律賓人口較多，廣告效益就會比較好嗎？",
+      "answer": "人口與平台觸及規模只能說明接觸機會。品牌仍須驗證需求、可接受價格、服務範圍與成交成本，不能從人口直接推估投資報酬。"
+    },
+    {
+      "question": "應該先做廣告，還是 SEO／GEO？",
+      "answer": "先完成可核對的產品與交易資訊，再用廣告測試需求，同時把真實問題整理成搜尋內容。投入比重應依產品決策週期、預算及承接能力安排。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Digital 2026: Taiwan｜DataReportal",
+      "url": "https://datareportal.com/reports/digital-2026-taiwan"
+    },
+    {
+      "title": "Digital 2026: The Philippines｜DataReportal",
+      "url": "https://datareportal.com/reports/digital-2026-philippines"
+    },
+    {
+      "title": "DataReportal｜資料解讀與方法說明",
+      "url": "https://datareportal.com/notes-on-data"
+    }
+  ],
+  "relatedServices": [
+    "seo-geo",
+    "strategy-campaigns",
+    "creative-content"
+  ],
+  "seo": {
+    "title": "為什麼台灣的行銷經驗，到了菲律賓不一定有效？從 Digital 2026 看市場布局差異｜九色鹿",
+    "description": "比較 Digital 2026 台灣與菲律賓報告，從年齡結構、平台觸及到在地內容與成交流程，分析台灣品牌跨境布局時需要重新驗證的假設。"
+  }
+},
+{
   "slug": "seo-geo-brand-ecosystem",
   "title": "為什麼只做官網 SEO／GEO 不夠？從 AI 品牌引用來源，看懂三項布局方向",
   "excerpt": "從《Digital 2027:Global Overview Report》p.180 的品牌引用來源，解析官網、第三方與社群如何分工，補足顧客比較資訊，再把曝光接回有效詢問。",
@@ -6763,4 +6906,5 @@ export function cleanInsightText<T>(value:T):T {
  return value;
 }
 export const publishedArticles=()=>articles.filter(a=>a.status==='published').map(cleanInsightText);
+
 
