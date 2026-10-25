@@ -38,9 +38,9 @@ export const articles:Article[]= [
       "OMO"
     ],
     "card": {
-      "eyebrow": "台灣市場 × 2026",
-      "title": "市場在變，品牌先改哪裡？",
-      "caption": "七項洞察，轉成 90 天行動"
+      "eyebrow": "TAIWAN MARKET INSIGHTS",
+      "title": "MARKET",
+      "caption": "看懂市場變化，找到品牌下一步。"
     },
     "takeaways": [
       "經濟成長預測不等於每個客群都願意多花錢，先看自己的顧客資料。",
@@ -333,9 +333,9 @@ export const articles:Article[]= [
       "SEO／GEO 應建立在真實、可核對的在地服務資訊上。"
     ],
     "card": {
-      "eyebrow": "跨境市場 × Digital 2026",
-      "title": "台灣有效，菲律賓也有效？",
-      "caption": "受眾、平台與成交，需要重新驗證"
+      "eyebrow": "CROSS-BORDER INSIGHTS",
+      "title": "GLOBAL",
+      "caption": "跨越市場，重新理解顧客。"
     },
     "cta": {
       "heading": "讓跨境布局，",
