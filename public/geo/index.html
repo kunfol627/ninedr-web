@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>認識 GEO｜品牌健檢與房地產產業鏈的搜尋新機會｜九色鹿</title>
+    <title>認識GEO | AI時代的搜尋新法則</title>
     
     <!-- 核心修復：強制所有相對路徑從 /geo/ 資料夾讀取 -->
     <base href="/geo/">
@@ -152,6 +152,15 @@
 #slide-stats .stat-label{font-size:clamp(28px,4vw,52px);line-height:1.25;margin-top:22px;letter-spacing:.04em}
 #slide-stats .stat-footnote{margin-top:44px;font-size:clamp(12px,1.3vw,16px);line-height:1.6}
 #slide-stats .report-source{font-size:clamp(11px,1.15vw,14px);line-height:1.6;margin-top:8px}
+
+/* Presentation chrome fades away only during native fullscreen. */
+#fullscreen-status{position:fixed;bottom:64px;left:50%;transform:translateX(-50%);z-index:70;max-width:90vw;background:#020617;color:#fff;padding:12px 18px;border-radius:8px}
+#fullscreen-status:empty{display:none}
+#talk-controls,body>nav{transition:opacity .25s ease}
+html.presentation-fullscreen.presentation-idle #talk-controls:not(:focus-within),
+html.presentation-fullscreen.presentation-idle body>nav:not(:focus-within){opacity:0;pointer-events:none}
+html.presentation-fullscreen.presentation-idle body>nav:not(:focus-within) *{pointer-events:none}
+@media(prefers-reduced-motion:reduce){#talk-controls,body>nav{transition:none}}
 </style>
 </head>
 <body>
@@ -422,7 +431,7 @@
         <template class="speaker-script">如果想知道目前品牌在 AI 答案中被如何理解，歡迎掃碼或到聯絡頁預約品牌健檢。我們先了解現況與業務目標，再討論內容、技術與 GEO 合作的優先順序。謝謝各位。</template></section>
 </main>
 
-<div id="talk-controls"><span id="talk-position">01 / 19 · 10 分鐘</span><div><button type="button" id="talk-prev" aria-label="上一頁">←</button><button type="button" id="talk-next" aria-label="下一頁">→</button><button type="button" id="talk-note-toggle" aria-expanded="false" aria-controls="talk-notes">講者提示 N</button></div></div><aside id="talk-notes" hidden><strong id="talk-note-heading"></strong><p id="talk-note-copy"></p></aside>
+<div id="talk-controls"><span id="talk-position">01 / 19 · 10 分鐘</span><div><button type="button" id="talk-prev" aria-label="上一頁">←</button><button type="button" id="talk-next" aria-label="下一頁">→</button><button type="button" id="talk-fullscreen" aria-pressed="false" title="全螢幕播放（F）；Esc 退出">全螢幕播放 F</button></div></div><p id="fullscreen-status" role="status" aria-live="polite"></p>
 <script>
 const container=document.getElementById('presentation-container');
 const slides=Array.from(container.querySelectorAll(':scope > section'));
@@ -430,13 +439,47 @@ const nav=document.getElementById('nav-dots');let current=0;
 const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 function go(i){slides[Math.max(0,Math.min(slides.length-1,i))].scrollIntoView({behavior:reduce?'auto':'smooth'});}
 slides.forEach((slide,i)=>{const dot=document.createElement('button');dot.className='w-3 h-3 rounded-full bg-slate-600';dot.setAttribute('aria-label','Go to slide '+(i+1));dot.title=slide.querySelector('h2,h1')?.textContent||'第 '+(i+1)+' 頁';dot.onclick=()=>go(i);nav.appendChild(dot);});
-function updateNotes(){const sec=Number(slides[current].dataset.seconds);document.getElementById('talk-position').textContent=String(current+1).padStart(2,'0')+' / '+slides.length+' · 本頁 '+sec+' 秒 · 全程 10 分鐘';document.getElementById('talk-note-heading').textContent='第 '+(current+1)+' 頁｜建議 '+sec+' 秒';document.getElementById('talk-note-copy').textContent=slides[current].querySelector('.speaker-script').content.textContent;}
+function updateNotes(){document.getElementById('talk-position').textContent=String(current+1).padStart(2,'0')+' / '+slides.length;}
 function count(el){if(reduce||el.dataset.played)return;el.dataset.played='true';const end=Number(el.dataset.count);let start;function frame(t){start??=t;const p=Math.min((t-start)/1500,1);el.textContent=(end*(1-Math.pow(1-p,3))).toFixed(1);if(p<1)requestAnimationFrame(frame);}requestAnimationFrame(frame);}
 const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{e.target.classList.toggle('is-visible',e.isIntersecting);if(e.isIntersecting){current=slides.indexOf(e.target);Array.from(nav.children).forEach((b,i)=>{b.className='w-3 h-3 rounded-full '+(i===current?'bg-brand-teal scale-125':'bg-slate-600');b.setAttribute('aria-current',i===current?'step':'false');});e.target.querySelectorAll('[data-count]').forEach(count);updateNotes();}});},{root:container,threshold:.55});slides.forEach(slide=>observer.observe(slide));
-function toggleNotes(){const panel=document.getElementById('talk-notes');panel.hidden=!panel.hidden;document.getElementById('talk-note-toggle').setAttribute('aria-expanded',String(!panel.hidden));}
-document.getElementById('talk-prev').onclick=()=>go(current-1);document.getElementById('talk-next').onclick=()=>go(current+1);document.getElementById('talk-note-toggle').onclick=toggleNotes;
-document.addEventListener('keydown',e=>{if(e.target.closest('input,textarea,select,summary,a')||e.ctrlKey||e.metaKey||e.altKey)return;if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();go(current+1);}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(current-1);}if(e.key.toLowerCase()==='n')toggleNotes();if(e.key==='Escape'){document.getElementById('talk-notes').hidden=true;document.getElementById('talk-note-toggle').setAttribute('aria-expanded','false');}});
+document.getElementById('talk-prev').onclick=()=>go(current-1);document.getElementById('talk-next').onclick=()=>go(current+1);
+document.addEventListener('keydown',e=>{if(e.target.closest('input,textarea,select,summary,a,button,[contenteditable]')||e.ctrlKey||e.metaKey||e.altKey)return;if(['ArrowRight','PageDown'].includes(e.key)){e.preventDefault();go(current+1);}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(current-1);}if(e.key.toLowerCase()==='f'&&!e.repeat){e.preventDefault();toggleFullscreen();}});
 function moveCarousel(id,direction){const track=document.getElementById(id);let idx=(Number(track.dataset.index||0)+direction+track.children.length)%track.children.length;track.dataset.index=idx;track.style.transform='translateX(-'+idx*100+'%)';}
 document.querySelectorAll('.report-reader').forEach(reader=>reader.addEventListener('toggle',()=>{const frame=reader.querySelector('iframe[data-report-src]');if(reader.open&&frame&&!frame.getAttribute('src'))frame.src=frame.dataset.reportSrc;}));
+
+const fullscreenButton=document.getElementById('talk-fullscreen');
+const fullscreenStatus=document.getElementById('fullscreen-status');
+let idleTimer;
+function isFullscreen(){return !!(document.fullscreenElement||document.webkitFullscreenElement);}
+function revealControls(){
+ document.documentElement.classList.remove('presentation-idle');
+ clearTimeout(idleTimer);
+ if(isFullscreen())idleTimer=setTimeout(()=>document.documentElement.classList.add('presentation-idle'),3000);
+}
+async function toggleFullscreen(){
+ fullscreenStatus.textContent='';
+ try{
+  if(isFullscreen()){
+   const exit=document.exitFullscreen||document.webkitExitFullscreen;
+   await exit.call(document);
+  }else{
+   const enter=document.documentElement.requestFullscreen||document.documentElement.webkitRequestFullscreen;
+   if(!enter)throw new Error('unsupported');
+   await enter.call(document.documentElement);
+  }
+ }catch(error){fullscreenStatus.textContent='無法啟動全螢幕，請使用瀏覽器選單的「全螢幕」功能。';}
+}
+function syncFullscreen(){
+ const active=isFullscreen();
+ document.documentElement.classList.toggle('presentation-fullscreen',active);
+ fullscreenButton.textContent=active?'退出全螢幕 Esc':'全螢幕播放 F';
+ fullscreenButton.setAttribute('aria-pressed',String(active));
+ revealControls();
+}
+fullscreenButton.onclick=event=>{if(event.detail)fullscreenButton.blur();toggleFullscreen();};
+document.addEventListener('fullscreenchange',syncFullscreen);
+document.addEventListener('webkitfullscreenchange',syncFullscreen);
+['pointermove','pointerdown','keydown','focusin'].forEach(type=>document.addEventListener(type,revealControls,{passive:true}));
+syncFullscreen();
 updateNotes();setTimeout(()=>document.body.classList.add('force-visible'),1500);
 </script></body></html>
