@@ -18,7 +18,7 @@ test('all published insights have clean text, working internal references and un
   assert.equal(new Set(a.sections.map(s=>s.id)).size,a.sections.length,a.slug);
   for(const section of a.sections)for(const match of (section.bodyHtml||'').matchAll(/href="\/insights\/([^"#]+)"/g))assert.ok(slugs.has(match[1]),match[1]);
  }
- const videos=published.filter(a=>a.category==='短影音行銷');assert.equal(videos.length,19);
+ const videos=published.filter(a=>a.category==='短影音行銷');assert.equal(videos.length,20);
  for(const a of videos){assert.ok(a.takeaways.length>=3);assert.ok(a.faqs.length>=3);assert.match(a.author.name,/Steven/);assert.ok(a.cta.label);}
  assert.equal(JSON.stringify(articles).match(/<iframe/g).length,56);
  const frequency=published.find(a=>a.slug==='short-video-posting-frequency');
@@ -28,7 +28,7 @@ test('all published insights have clean text, working internal references and un
  const ai=published.find(a=>a.slug==='digital-2027-ai-consumer-behavior-brand-opportunities');
  assert.ok(!/Digital 2027(?!:Global Overview Report)/.test(JSON.stringify(ai)));
  assert.ok(JSON.stringify(ai).includes('startpage=199'));
- assert.equal(published.length,55);
+ assert.equal(published.length,56);
 });
 
 test('Taiwan–Philippines comparison includes sources and conversion journey',()=>{const a=publishedArticles().find(a=>a.slug==='taiwan-philippines-digital-marketing-differences');assert.equal(a.category,'跨境市場');assert.equal(a.faqs.length,4);assert.equal(a.takeaways.length,5);assert.match(a.author.name,/Steven/);assert.equal(a.cta.label,'預約品牌健檢');assert.equal(JSON.stringify(a).match(/<iframe/g).length,2);assert.equal(JSON.stringify(a).match(/startpage=18/g).length,4);assert.ok(a.sections.some(s=>s.id==='summary'));});
