@@ -16,6 +16,295 @@ export type Article = {
 };
 export const articles:Article[]= [
   {
+    "slug": "taiwan-brand-market-insights-2026",
+    "title": "市場成長，品牌就會成長嗎？2026 台灣市場七項洞察與 90 天行動",
+    "excerpt": "消費者一邊比價、一邊為體驗付費；AI、社群與會員經營也正在重組購買路徑。從七項市場洞察，找出品牌值得先做的下一步。",
+    "category": "整合行銷",
+    "status": "published",
+    "author": {
+      "name": "謝清鴻 Steven Hsieh",
+      "kind": "Person",
+      "image": "/images/steven-hsieh-full.webp",
+      "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+    },
+    "publishedAt": "2026-10-26",
+    "updatedAt": "2026-10-26",
+    "keywords": [
+      "台灣市場",
+      "2026 消費趨勢",
+      "整合行銷",
+      "會員經營",
+      "GEO",
+      "OMO"
+    ],
+    "card": {
+      "eyebrow": "台灣市場 × 2026",
+      "title": "市場在變，品牌先改哪裡？",
+      "caption": "七項洞察，轉成 90 天行動"
+    },
+    "takeaways": [
+      "經濟成長預測不等於每個客群都願意多花錢，先看自己的顧客資料。",
+      "以人生階段與使用情境分眾，分開溝通日常精算與體驗價值。",
+      "AI 可協助找選項，社群與官網仍須提供可核對的購買資訊。",
+      "把會員、門市與線上服務接起來，觀察回購與毛利，不只追流量。",
+      "90 天先驗證一個客群、一項阻力與一個成果指標，再決定是否加碼。"
+    ],
+    "cta": {
+      "heading": "把市場變化，",
+      "highlight": "變成品牌的下一步。",
+      "text": "帶著你的主力產品、目標客群與目前卡住的環節，和 Steven 一起盤點內容、搜尋、通路與回購，安排可執行、可衡量的成長策略。",
+      "label": "討論品牌成長策略"
+    },
+    "sections": [
+      {
+        "id": "market-question",
+        "heading": "景氣數字亮眼，為什麼顧客還在比價？",
+        "paragraphs": [
+          "中央社 2026 年 8 月 26 日報導，摩根士丹利將台灣全年 GDP 成長預測上調至 11.6%。這是當時的預測，並非全年實績，也不能直接推估你的客戶會增加多少預算。",
+          "另一方面，消費調查呈現的是選擇性支出：日常商品看價格，重視的體驗願意多花。對品牌而言，更值得問的是：顧客願意為什麼付費？又在哪個環節失去信任？",
+          "本文以 2026 年 10 月 26 日為整理基準，聚焦消費品牌、零售與餐飲；研究觀察、企業自述與九色鹿建議分開呈現。B2B 與科技硬體需另做分析。"
+        ],
+        "bodyHtml": "<p>資料來源：<a href=\"https://www.cna.com.tw/news/afe/202608260097.aspx\" target=\"_blank\" rel=\"noopener noreferrer\">中央社｜摩根士丹利經濟成長預測</a></p>"
+      },
+      {
+        "id": "insight-1",
+        "heading": "01｜消費者不是只想省，而是在重新分配預算",
+        "paragraphs": [
+          "自由時報引述 NIQ 2026 年 10 月公布的資料：85% 的 Z 世代受訪者將物價上漲視為主要壓力，但涉及外表與生活體驗的部分品類，消費金額仍高於大盤。本文沿用該調查的族群口徑，不將結果外推至所有年輕人。",
+          "九色鹿建議：基礎款說清楚規格與總成本，升級款說清楚多付的錢換到什麼。不要讓兩種產品都只剩折扣訊息。",
+          "觀察指標：各價格帶轉換率、升級款客單價、回購率與折扣後毛利。"
+        ],
+        "bodyHtml": "<p>資料來源：<a href=\"https://ec.ltn.com.tw/article/breakingnews/5592484\" target=\"_blank\" rel=\"noopener noreferrer\">自由時報｜NIQ 消費者洞察</a></p>"
+      },
+      {
+        "id": "insight-2",
+        "heading": "02｜分眾先看生活階段，再看年齡",
+        "paragraphs": [
+          "Worldpanel《2026 台灣民生消費十大趨勢》指出，不同家庭型態的食品需求有差異，保健與美妝消費也呈現世代分化。官方摘要未逐項交代觀察期間，不能把所有數字都稱為 2026 全年實績。",
+          "九色鹿建議：從「誰使用、誰付款、多久補貨」區分客群。例如小家庭重視份量與保存，育兒家庭可能更在意便利與穩定供應；這些是假設，應由訪談與訂單驗證。",
+          "觀察指標：各分眾的購買率、規格選擇與新品回購，不只比較年齡標籤。"
+        ],
+        "bodyHtml": "<p>資料來源：<a href=\"https://zh.worldpanelbynumerator.com/insights/fmcg-outlook-2026-taiwan\" target=\"_blank\" rel=\"noopener noreferrer\">Worldpanel｜2026 台灣民生消費十大趨勢</a></p>"
+      },
+      {
+        "id": "insight-3",
+        "heading": "03｜AI 進入找選項的過程，品牌需要被正確理解",
+        "paragraphs": [
+          "聯合報引述 Dcard 資料：2026 年 9 月來自 ChatGPT、Gemini 等 AI 服務的轉介流量，較 2025 年中增加 191%。這是單一平台的流量變化，不是全台 AI 採用率，也不是購買轉換率。",
+          "九色鹿建議：在完善的 SEO 基礎上布局 GEO（生成式引擎優化）。先補齊產品規格、適用條件、價格說明、服務地區與 FAQ，再累積真實評測及顧客經驗。結構化標記不是保證引用的捷徑。",
+          "用固定的 20–30 個顧客問句，記錄測試日期、工具、是否啟用搜尋、品牌提及與資訊正確性，並重複測試。AI 回答會變動，不應把一次結果當固定排名。",
+          "OpenAI 於 2026 年 9 月 23 日宣布 ChatGPT Ads 開始拓展至台灣等市場。付費廣告與自然回答分開呈現；廣告不影響回答內容，實際投放資格依官方公告確認。"
+        ],
+        "bodyHtml": "<p>資料來源：<a href=\"https://udn.com/news/amp/story/7266/9826608\" target=\"_blank\" rel=\"noopener noreferrer\">聯合報｜NIQ 與 Dcard 消費趨勢</a></p><p>資料來源：<a href=\"https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/\" target=\"_blank\" rel=\"noopener noreferrer\">OpenAI｜ChatGPT Ads 市場拓展公告</a></p>"
+      },
+      {
+        "id": "insight-4",
+        "heading": "04｜社群除了曝光，也承接購買前的驗證",
+        "paragraphs": [
+          "前述 NIQ／Dcard 報導描述了「先用 AI 整理選項，再到社群查看使用心得」的路徑。這是值得觀察的行為，不能推論所有顧客都照同一順序購買。",
+          "DMA 報告 p.18 則提醒品牌，在 AI 內容增加時更需要維持真實性。九色鹿建議：把常見疑慮整理成示範、實測與問答，清楚揭露合作及 AI 處理環節，並與官網資訊保持一致。",
+          "觀察指標：顧客詢問是否更具體、相同疑慮是否減少，以及內容是否帶來有效詢問。"
+        ],
+        "bodyHtml": "<p>資料來源：<a href=\"https://udn.com/news/amp/story/7266/9826608\" target=\"_blank\" rel=\"noopener noreferrer\">聯合報｜AI 與社群的消費路徑</a></p><p>資料來源：<a href=\"https://www.dma.org.tw/newsPost/2823\" target=\"_blank\" rel=\"noopener noreferrer\">DMA｜2026 台灣數位行銷趨勢報告</a></p>"
+      },
+      {
+        "id": "insight-5",
+        "heading": "05｜通路整合，先解決顧客來回切換的不便",
+        "paragraphs": [
+          "全聯於 2026 年 7 月對外說明，PX Pay 串聯會員、支付、AI 導購、小時達與全電商。這提供了線上與門市協作的案例，不能直接證明每個品牌都應採用同樣的 App 與物流投資。",
+          "九色鹿建議：先做最小可行的 OMO（線上與線下整合）服務，例如線上詢問、門市體驗，或清楚的到店取貨與退換貨流程；確認人力、庫存與履約後再擴大。",
+          "觀察指標：跨通路訂單毛利、取貨完成率、退貨率與客服處理時間。"
+        ],
+        "bodyHtml": "<p>資料來源：<a href=\"https://udn.com/news/story/7241/9658422\" target=\"_blank\" rel=\"noopener noreferrer\">經濟日報｜全聯全通路策略；企業對外說明</a></p>"
+      },
+      {
+        "id": "insight-6",
+        "heading": "06｜會員經營，價值在持續服務而不只是折扣",
+        "paragraphs": [
+          "德勤 2026 年 3 月 2 日文章列舉饗賓、王品、全家餐飲與 CAMA CAFE，指出會員消費金額約占營收五成；其中饗賓不到 1% 的高階會員貢獻逾一成營收。這些是文中列舉的品牌案例，並非餐飲業平均，也不能證明會員制度單獨造成成長。",
+          "九色鹿建議：先依購買週期與服務需求安排提醒、回訪及會員權益。資料蒐集應有明確用途與適當同意，不必一開始就建置龐大系統。",
+          "觀察指標：會員留存、回購間隔、服務成本與貢獻毛利；營收占比高不等於獲利一定高。"
+        ],
+        "bodyHtml": "<p>資料來源：<a href=\"https://www.deloitte.com/tw/tc/Industries/consumer/perspectives/taiwan-retail-next-growth-wave.html\" target=\"_blank\" rel=\"noopener noreferrer\">德勤｜擺脫成長瓶頸：台灣零售業的下一條上升曲線怎麼走？</a></p>"
+      },
+      {
+        "id": "insight-7",
+        "heading": "07｜體驗與興趣社群，讓品牌有值得被分享的理由",
+        "paragraphs": [
+          "DMA 報告 p.19–20 提出深耕興趣群體與回應情感需求的方向。這是產業觀察，不是每個品牌都該舉辦活動或追逐熱門 IP 的成效保證。",
+          "九色鹿建議：選一個與產品直接相關的興趣社群，設計一場有用的小型體驗。例如料理品牌的備餐示範、家用品品牌的收納實作。先讓參與者得到價值，再設計分享與後續服務。",
+          "觀察指標：有效參與、自發分享、後續詢問與回購。活動熱鬧只是過程，仍要追到商業成果。"
+        ],
+        "bodyHtml": "<p>資料來源：<a href=\"https://www.dma.org.tw/newsPost/2823\" target=\"_blank\" rel=\"noopener noreferrer\">DMA｜2026 台灣數位行銷趨勢報告</a></p>"
+      },
+      {
+        "id": "brand-examples",
+        "heading": "把案例拆成可以學習的做法",
+        "paragraphs": [
+          "以下是公開案例的操作啟發，不是九色鹿執行案例，也不是可直接複製的成效承諾。"
+        ],
+        "table": {
+          "headers": [
+            "案例",
+            "可學習的做法",
+            "小型品牌先做什麼"
+          ],
+          "rows": [
+            [
+              "全聯",
+              "會員、支付與到店／到家服務串聯",
+              "先讓顧客跨通路時不用重複說明需求"
+            ],
+            [
+              "王品",
+              "多品牌會員關係整合",
+              "先整合自己的購買紀錄與回訪流程"
+            ],
+            [
+              "饗賓",
+              "重視高貢獻會員的持續服務",
+              "先了解高回購客人的需求，計算服務成本"
+            ]
+          ]
+        },
+        "bodyHtml": "<p>資料來源：<a href=\"https://udn.com/news/story/7241/9658422\" target=\"_blank\" rel=\"noopener noreferrer\">全聯案例來源</a></p><p>資料來源：<a href=\"https://www.deloitte.com/tw/tc/Industries/consumer/perspectives/taiwan-retail-next-growth-wave.html\" target=\"_blank\" rel=\"noopener noreferrer\">王品與饗賓案例來源</a></p>"
+      },
+      {
+        "id": "action-plan",
+        "heading": "90 天行動：先完成一輪驗證，再擴大投入",
+        "paragraphs": [
+          "以下為九色鹿的執行建議；順序應依品牌資源調整，不必同時啟動全部工作。"
+        ],
+        "table": {
+          "headers": [
+            "時間",
+            "優先行動",
+            "驗收方式"
+          ],
+          "rows": [
+            [
+              "第 1–2 週",
+              "選一個主力客群與產品；建立 AI 提及及資訊正確性基準",
+              "固定問句、工具與日期紀錄；列出最常見購買疑慮"
+            ],
+            [
+              "第 3–4 週",
+              "整理顧客訪談與訂單，區分精算與體驗需求",
+              "選定一個阻力、一個內容主題及一個成果指標"
+            ],
+            [
+              "第 5–8 週",
+              "補齊官網 FAQ 與證據；測試一項會員或通路服務",
+              "比較有效詢問、轉換、回購與服務成本"
+            ],
+            [
+              "第 9–12 週",
+              "用相同條件回測，決定保留、調整或停止",
+              "排除促銷、季節等干擾；有餘力再測試興趣社群活動"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "original-reports",
+        "heading": "官方報告播放器與引用頁碼",
+        "paragraphs": [
+          "DMA《2026 台灣數位行銷趨勢報告》於 2026 年 3 月 4 日發布，回顧 2025 並展望 2026；其產業觀察不等於全民消費調查。",
+          "頁碼導讀：p.5 調查方法；p.16 AI 與服務信任；p.17 動態工作流；p.18 品牌真實性；p.19 興趣群體；p.20 情緒需求。以下保留官方完整 PDF 閱讀器，請在播放器頁碼欄輸入對應頁數。"
+        ],
+        "bodyHtml": "<div class=\"report\"><h3>DMA｜2026 台灣數位行銷趨勢報告</h3><iframe src=\"https://drive.google.com/file/d/1IhMdyUGB9KhhPyvYTJoI_z3Afv8f9IR4/preview\" title=\"DMA 2026 台灣數位行銷趨勢報告：參閱 p.5、p.16–20\" loading=\"lazy\" allowfullscreen></iframe><p><a href=\"https://drive.google.com/file/d/1IhMdyUGB9KhhPyvYTJoI_z3Afv8f9IR4/view\" target=\"_blank\" rel=\"noopener noreferrer\">另開官方完整報告</a></p></div>"
+      },
+      {
+        "id": "data-notes",
+        "heading": "閱讀數據前，先確認它能回答什麼",
+        "paragraphs": [
+          "經濟預測不是實績；平台轉介流量不是全民採用率；企業自述不是獨立因果研究；會員營收占比也不是投資報酬率。",
+          "本篇各資料的發布與觀察時間不同。未公布完整方法、樣本或觀察期間的數據，不延伸成全台或全年結論；策略建議需以品牌自己的資料驗證。",
+          "NIQ、Worldpanel、德勤及新聞資料依各段連結核對；其網頁摘要沒有固定 PDF 頁碼，不套用 DMA 頁碼。附件中尚未完成來源核對的全年電商推估與其他比例，未納入本篇定量結論。"
+        ]
+      },
+      {
+        "id": "editorial-conclusion",
+        "heading": "先理解顧客，再讓每個接觸點接得起來",
+        "paragraphs": [
+          "2026 年的品牌功課可以收斂成三件事：知道顧客為什麼付費、提供可信且一致的資訊、讓購買與回購更方便。",
+          "從最常流失顧客的一個環節開始，用 90 天完成一輪可衡量的改善。工具與通路可以增加，判斷成果的標準始終應回到顧客與生意。"
+        ]
+      },
+      {
+        "id": "related-reading",
+        "heading": "系列延伸閱讀",
+        "paragraphs": [],
+        "bodyHtml": "<ul><li><a href=\"/insights/taiwan-social-media-preferences-age-2026\">2026 台灣社群媒體洞察：平台喜好與年齡分布，如何影響品牌配置？</a></li><li><a href=\"/insights/seo-geo-brand-ecosystem\">為什麼只做官網 SEO／GEO 不夠？從 AI 品牌引用來源，看懂三項布局方向</a></li><li><a href=\"/insights/integrated-marketing-strategy\">為什麼只做廣告或短影音還不夠？企業整合行銷策略解析</a></li><li><a href=\"/insights/six-stage-marketing-funnel-insights\">有曝光、有詢問，成長為何仍卡住？六階段行銷漏斗洞察</a></li><li><a href=\"/insights/taiwan-traditional-brand-marketing-roadmap\">台灣傳統企業的行銷下一步：從業務經驗建立社群、搜尋與成交系統</a></li></ul>"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "預算有限，七個方向要同時做嗎？",
+        "answer": "不用。先選一個主力客群，找出最明顯的購買阻力，再安排一項改善與成果指標。先完成一輪驗證，比同時開很多平台更容易判斷成效。"
+      },
+      {
+        "question": "GEO 可以取代 SEO 或社群嗎？",
+        "answer": "不能。GEO 建立在可搜尋、可理解且可信的資訊上。官網補足事實，社群呈現使用情境，第三方提供可核對的經驗；各自承擔不同任務。"
+      },
+      {
+        "question": "AI 轉介流量增加 191%，代表品牌也會成長嗎？",
+        "answer": "不代表。該數字是 Dcard 的特定期間轉介流量變化，不能推估其他品牌的採用率、成交或營收。應另看自己的導流、有效詢問及轉換。"
+      },
+      {
+        "question": "沒有 App，也能開始經營會員與 OMO 嗎？",
+        "answer": "可以。先整理必要且經適當同意的顧客資料，讓線上詢問、門市服務、回訪與取貨流程一致，再依實際需求評估系統。"
+      },
+      {
+        "question": "這篇報告適合所有產業嗎？",
+        "answer": "主要適合消費品牌、零售與餐飲作為策略討論起點。B2B、科技硬體或其他高複雜度產業，需依決策角色、採購週期與服務方式另做分析。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "中央社｜2026 年 8 月 GDP 預測報導",
+        "url": "https://www.cna.com.tw/news/afe/202608260097.aspx"
+      },
+      {
+        "title": "自由時報｜NIQ 消費洞察",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5592484"
+      },
+      {
+        "title": "聯合報｜NIQ 與 Dcard 消費趨勢",
+        "url": "https://udn.com/news/amp/story/7266/9826608"
+      },
+      {
+        "title": "Worldpanel｜2026 台灣民生消費十大趨勢",
+        "url": "https://zh.worldpanelbynumerator.com/insights/fmcg-outlook-2026-taiwan"
+      },
+      {
+        "title": "DMA｜2026 台灣數位行銷趨勢報告與官方下載",
+        "url": "https://www.dma.org.tw/newsPost/2823"
+      },
+      {
+        "title": "德勤｜台灣零售業的下一條上升曲線（2026-03-02）",
+        "url": "https://www.deloitte.com/tw/tc/Industries/consumer/perspectives/taiwan-retail-next-growth-wave.html"
+      },
+      {
+        "title": "經濟日報｜全聯全通路策略",
+        "url": "https://udn.com/news/story/7241/9658422"
+      },
+      {
+        "title": "OpenAI｜ChatGPT Ads 市場拓展",
+        "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
+      }
+    ],
+    "relatedServices": [
+      "strategy-campaigns",
+      "seo-geo",
+      "creative-content"
+    ],
+    "seo": {
+      "title": "2026 台灣市場品牌洞察：七項趨勢與 90 天行動",
+      "description": "從消費分眾、AI 搜尋、社群信任到 OMO 與會員經營，整理 2026 台灣市場七項品牌洞察、官方報告頁碼及 90 天行動建議。"
+    }
+  },
+  {
     "slug": "taiwan-philippines-digital-marketing-differences",
     "title": "為什麼台灣的行銷經驗，到了菲律賓不一定有效？從 Digital 2026 看市場布局差異",
     "excerpt": "翻譯官網、沿用素材、改變投放地區，還不等於完成跨境布局。從台灣與菲律賓的市場差異，重新檢視受眾、信任與成交流程。",
