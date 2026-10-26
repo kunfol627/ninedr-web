@@ -16,6 +16,94 @@ export type Article = {
 };
 export const articles:Article[]= [
 {
+  "slug": "taiwan-marketing-weekly-2026-w44",
+  "title": "台灣行銷趨勢 每週摘要 2026-W44",
+  "excerpt": "回顧期間：2026 年 10 月 19 日 00:00 至 10 月 26 日 00:00（台灣時間）。本期整理 Meta 台灣行銷論壇、零售與餐飲統計、電商年度預測，以及 Perplexity 的產品更新。",
+  "category": "整合行銷",
+  "status": "published",
+  "author": {
+    "name": "謝清鴻 Steven Hsieh",
+    "kind": "Person",
+    "image": "/images/steven-hsieh-full.webp",
+    "bio": "九色鹿 Director，擅長短影音敘事、網頁互動設計與品牌視覺操作。透過精準的視覺節奏與策略佈局，協助品牌建立黏著度，連結流量與業務目標；具備品牌、遊戲等多元產業推廣經驗，熟悉跨國推廣企劃與執行。"
+  },
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keywords": [
+    "台灣行銷趨勢",
+    "每週摘要",
+    "2026-W44",
+    "Meta",
+    "電商",
+    "Perplexity"
+  ],
+  "card": {
+    "eyebrow": "TAIWAN MARKETING WEEKLY",
+    "title": "2026 W44",
+    "caption": "市場數字、平台消息，一週重點整理。"
+  },
+  "cta": {
+    "heading": "找出品牌成長的",
+    "highlight": "下一個優先順序。",
+    "text": "從顧客停下來的地方開始，整合內容、網站與廣告策略，讓投入對應具體的成長問題。",
+    "label": "與我們討論品牌成長策略"
+  },
+  "sections": [
+    {
+      "id": "weekly-1",
+      "heading": "一、Meta 台灣行銷論壇：AI、創意與品牌對話",
+      "paragraphs": [],
+      "bodyHtml": "<p>《經濟日報》10 月 22 日報導，Meta 舉行年度台灣行銷論壇，討論 AI 與消費者購物、品牌溝通之間的變化。</p><p>Meta 在會中提出四個觀察方向：商品發現不只來自主動搜尋、品牌接觸從點擊延伸到對話、廣告創意與受眾定位的角色變化，以及企業使用 AI 的目標由節省資源擴及業務成長。</p><p>論壇也公布 Meta 委託 YouGov 進行的亞太區中小企業線上調查，內容涵蓋企業使用 AI、工作生產力，以及未來在行銷和內容上的應用規劃。<a href=\"https://udn.com/news/story/7240/9831998?from=udn-relatednews_ch2\" target=\"_blank\" rel=\"noopener noreferrer\">閱讀《經濟日報》報導</a></p>"
+    },
+    {
+      "id": "weekly-2",
+      "heading": "二、9 月零售營業額 4,301 億元，餐飲 894 億元",
+      "paragraphs": [],
+      "bodyHtml": "<p>經濟部 10 月 23 日發布 9 月批發、零售及餐飲業統計。台灣零售業當月營業額為新台幣 4,301 億元，較去年同月增加 8.5%；餐飲業為 894 億元，年增 7.8%。</p><p>零售子業別中，電子購物及郵購業、百貨公司均年增 7.9%，資通訊及家電設備零售業年增 9.4%，量販店年增 12.5%。餐飲方面，餐館業年增 7.8%，飲料店年增 4.9%。</p><p>同次發布的第三季零售業網路銷售額為 1,781 億元，年增 7.9%，占整體零售業營業額 14.1%；前三季累計網路銷售額為 5,275 億元。<a href=\"https://news.m.pchome.com.tw/public/moea/20261023/index-79274240089762108016.html\" target=\"_blank\" rel=\"noopener noreferrer\">閱讀經濟部發布資料（PChome 刊載）</a></p>"
+    },
+    {
+      "id": "weekly-3",
+      "heading": "三、2026 全年電商預測：網路銷售額 7,477 億元",
+      "paragraphs": [],
+      "bodyHtml": "<p>未來流通研究所 10 月 20 日發布台灣電商網購市場預測，推估 2026 全年零售業網路銷售額為新台幣 7,477 億元，年增 11.3%，電商滲透率為 14.8%。</p><p>依該研究所的通路分類，純電商業者全年網路銷售額預估為 4,490 億元，年增 8.1%；實體零售業者網路銷售額預估為 2,514 億元，年增 21.3%。這些數字為研究所的全年推估，並非已結算的全年營業額。<a href=\"https://www.mirai.com.tw/taiwan-e-commerce-key-market-data-and-forecasts/\" target=\"_blank\" rel=\"noopener noreferrer\">閱讀未來流通研究所原文</a></p>"
+    },
+    {
+      "id": "weekly-4",
+      "heading": "四、Perplexity 更新：速度選項、內容分類與連接器權限",
+      "paragraphs": [],
+      "bodyHtml": "<p>Perplexity 10 月 19 日的官方更新列出多項功能：網頁版 Computer 為 Max 訂閱者提供部分模型的 Ultrafast 速度選項，使用點數高於 Normal 或 Fast；Decisions API 可對文字、JSON 與圖片進行分類、評分，輸出機率資料。</p><p>企業方案方面，符合方案條件的管理員可依角色設定連接器使用權限。Mac 應用程式 26.38 或更新版本，也可將本機資料夾連到 Project，供 Computer 讀取及儲存檔案。<a href=\"https://www.perplexity.ai/changelog/ultrafast-computer-models-decisions-api-and-connector-controls\" target=\"_blank\" rel=\"noopener noreferrer\">閱讀 Perplexity 官方更新</a></p>"
+    }
+  ],
+  "faqs": [],
+  "sources": [
+    {
+      "title": "《經濟日報》報導",
+      "url": "https://udn.com/news/story/7240/9831998?from=udn-relatednews_ch2"
+    },
+    {
+      "title": "經濟部發布資料（PChome 刊載）",
+      "url": "https://news.m.pchome.com.tw/public/moea/20261023/index-79274240089762108016.html"
+    },
+    {
+      "title": "未來流通研究所原文",
+      "url": "https://www.mirai.com.tw/taiwan-e-commerce-key-market-data-and-forecasts/"
+    },
+    {
+      "title": " Perplexity 官方更新",
+      "url": "https://www.perplexity.ai/changelog/ultrafast-computer-models-decisions-api-and-connector-controls"
+    }
+  ],
+  "relatedServices": [
+    "strategy-campaigns",
+    "creative-content",
+    "business-consulting"
+  ],
+  "seo": {
+    "title": "台灣行銷趨勢 每週摘要 2026-W44",
+    "description": "整理 10 月 19 日至 25 日的台灣行銷消息：Meta 台灣行銷論壇、9 月零售餐飲統計、2026 電商市場預測與 Perplexity 更新。"
+  }
+},
+{
   "slug": "threads-conversation-to-inquiry",
   "title": "Threads 有互動，卻沒有詢問？台灣品牌把對話接回生意的實作方法",
   "excerpt": "Threads 有觀看、回覆，卻沒有服務詢問？從台灣裝修設計與 B2B 服務情境出發，拆解內容、承接頁、行動入口與量測方式，讓對話有清楚的下一步。",
@@ -71,7 +159,7 @@ export const articles:Article[]= [
       "id": "actions",
       "heading": "解法：用一條清楚的詢問路徑開始",
       "paragraphs": [],
-      "bodyHtml": "<h3>第一步：只選一個想解決的客戶問題</h3><p>從業務反覆收到的問題起手，避免先追求熱門題目。</p><ul><li>裝修設計：評估老屋翻新前，需要先提供什麼資料？</li><li>B2B 顧問：什麼情況適合導入這項服務，哪些情況暫時不適合？</li></ul><p>貼文先給出有用的判斷方式，再說明讀者可以在哪裡看完整流程。不要只寫「想知道更多請私訊」，卻不讓對方知道會得到什麼資訊。</p><h3>第二步：選對承接頁，少讓讀者重找一次</h3><p>裝修問題可以連到清楚說明服務範圍、流程及相關案例的頁面；顧問問題可以連到適用情境、交付範圍與合作起點的說明。</p><p>頁面至少應讓讀者判斷：</p><ol><li>服務是否符合自己的需求與地區。</li><li>有哪些可核對的經驗或案例，哪些部分屬示意。</li><li>詢問前需要準備什麼，以及接下來會經過什麼流程。</li></ol><p>費用、時程、資格與交付內容以企業實際條件為準。沒有確認的資訊不要為了增加詢問而先作承諾。</p><h3>第三步：只保留一個主要行動</h3><p>如果目標是取得服務詢問，頁面上的主要行動就應清楚對應詢問。若需要先建立理解，可以先讓讀者閱讀流程或案例，並保留下一步入口。</p><p>表單只收集判斷需求所需的資訊。法律、醫療或金融相關服務尤其不應引導讀者在公開留言區交付個人案件、病歷或財務細節；涉及專業宣稱的內容，應交由相應專業人員審閱。</p><h3>第四步：每次比較同一組定義</h3><p>以下為九色鹿提出的檢核架構，並非 Threads 官方漏斗，也不是必然依序發生的使用者旅程。</p><div style=\"overflow-x:auto\"><table><thead><tr><th>檢查階段</th><th>建議觀察</th><th>讀取結果時要避免的誤解</th></tr></thead><tbody><tr><td>內容接觸</td><td>同期間、同口徑的觀看資料</td><td>觀看次數不直接等於獨立人數或購買意願</td></tr><tr><td>內容互動</td><td>與服務相關的問題、回覆內容與互動紀錄</td><td>熱烈討論不直接等於商機</td></tr><tr><td>網站承接</td><td>已標記來源的到訪、重要頁面與表單流程</td><td>不把所有直接流量都歸給 Threads</td></tr><tr><td>有效詢問</td><td>符合服務範圍且可後續聯繫的需求</td><td>排除垃圾訊息及重複詢問，先定義再統計</td></tr><tr><td>商業結果</td><td>後續洽談、提案及成交紀錄</td><td>不把尚未成交的詢問列為營收</td></tr></tbody></table></div><p>可先安排一段固定的觀察期間，例如四週，這只是營運檢查節奏，不是成果保證。盡量維持服務主題與主要行動一致，每次只調整少數變因，並註明期間內的促銷或其他宣傳活動。</p><p>若觀看多、有效詢問少，先查看留言是否真的圍繞服務需求，以及承接頁是否回答了問題；若已有到訪卻很少完成詢問，再檢查手機操作、表單負擔與資訊缺口。樣本太少時，先保留觀察，不急著下結論。</p>"
+      "bodyHtml": "<h3>第一步：只選一個想解決的客戶問題</h3><p>從業務反覆收到的問題起手，避免先追求熱門題目。</p><ul><li>裝修設計：評估老屋翻新前，需要先提供什麼資料？</li><li>B2B 顧問：什麼情況適合導入這項服務，哪些情況暫時不適合？</li></ul><p>貼文先給出有用的判斷方式，再說明讀者可以在哪裡看完整流程。不要只寫「想知道更多請私訊」，卻不讓對方知道會得到什麼資訊。</p><h3>第二步：選對承接頁，少讓讀者重找一次</h3><p>裝修問題可以連到清楚說明服務範圍、流程及相關案例的頁面；顧問問題可以連到適用情境、交付範圍與合作起點的說明。</p><p>頁面至少應讓讀者判斷：</p><ol><li>服務是否符合自己的需求與地區。</li><li>有哪些可核對的經驗或案例，哪些部分屬示意。</li><li>詢問前需要準備什麼，以及接下來會經過什麼流程。</li></ol><p>費用、時程、資格與交付內容以企業實際條件為準。沒有確認的資訊不要為了增加詢問而先作承諾。</p><h3>第三步：只保留一個主要行動</h3><p>如果目標是取得服務詢問，頁面上的主要行動就應清楚對應詢問。若需要先建立理解，可以先讓讀者閱讀流程或案例，並保留下一步入口。</p><p>表單只收集判斷需求所需的資訊。法律、醫療或金融相關服務尤其不應引導讀者在公開留言區交付個人案件、病歷或財務細節；涉及專業宣稱的內容，應交由相應專業人員審閱。</p><h3>第四步：每次比較同一組定義</h3><p>以下為九色鹿提出的檢核架構，並非 Threads 官方漏斗，也不是必然依序發生的使用者旅程。</p><div class=\"insight-table\" role=\"region\" aria-label=\"Threads 詢問路徑檢核表\" tabindex=\"0\"><table><thead><tr><th scope=\"col\">檢查階段</th><th scope=\"col\">建議觀察</th><th scope=\"col\">讀取結果時要避免的誤解</th></tr></thead><tbody><tr><th scope=\"row\">內容接觸</th><td>同期間、同口徑的觀看資料</td><td>觀看次數不直接等於獨立人數或購買意願</td></tr><tr><th scope=\"row\">內容互動</th><td>與服務相關的問題、回覆內容與互動紀錄</td><td>熱烈討論不直接等於商機</td></tr><tr><th scope=\"row\">網站承接</th><td>已標記來源的到訪、重要頁面與表單流程</td><td>不把所有直接流量都歸給 Threads</td></tr><tr><th scope=\"row\">有效詢問</th><td>符合服務範圍且可後續聯繫的需求</td><td>排除垃圾訊息及重複詢問，先定義再統計</td></tr><tr><th scope=\"row\">商業結果</th><td>後續洽談、提案及成交紀錄</td><td>不把尚未成交的詢問列為營收</td></tr></tbody></table></div><p>可先安排一段固定的觀察期間，例如四週，這只是營運檢查節奏，不是成果保證。盡量維持服務主題與主要行動一致，每次只調整少數變因，並註明期間內的促銷或其他宣傳活動。</p><p>若觀看多、有效詢問少，先查看留言是否真的圍繞服務需求，以及承接頁是否回答了問題；若已有到訪卻很少完成詢問，再檢查手機操作、表單負擔與資訊缺口。樣本太少時，先保留觀察，不急著下結論。</p>"
     },
     {
       "id": "conclusion",
