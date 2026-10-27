@@ -1,0 +1,48 @@
+[
+  {
+    "url": "https://ninedr.com/",
+    "status": 307,
+    "location": [
+      "https://www.ninedr.com/"
+    ],
+    "error": ""
+  },
+  {
+    "url": "http://www.ninedr.com/",
+    "status": 200,
+    "location": [],
+    "error": ""
+  },
+  {
+    "url": "https://www.ninedr.com/golfkit/faq.html",
+    "status": 307,
+    "location": [
+      "/golfkit/faq"
+    ],
+    "error": ""
+  },
+  {
+    "url": "https://www.ninedr.com/golfkit/privacy.html",
+    "status": 307,
+    "location": [
+      "/golfkit/privacy"
+    ],
+    "error": ""
+  },
+  {
+    "url": "https://www.ninedr.com/golfkit/terms.html",
+    "status": 307,
+    "location": [
+      "/golfkit/terms"
+    ],
+    "error": ""
+  },
+  {
+    "url": "https://www.ninedr.com/luming/faq.html",
+    "status": 307,
+    "location": [
+      "/luming/faq"
+    ],
+    "error": ""
+  }
+]

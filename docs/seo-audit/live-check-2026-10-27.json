@@ -1,0 +1,1207 @@
+{
+  "scope": "public HTTP crawl; not Google index status",
+  "sitemap_count": 69,
+  "results": [
+    {
+      "url": "https://www.ninedr.com/",
+      "status": 200,
+      "final": "https://www.ninedr.com/",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com\"/>"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/services",
+      "status": 200,
+      "final": "https://www.ninedr.com/services",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/services\"/>"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/work",
+      "status": 200,
+      "final": "https://www.ninedr.com/work",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/work\"/>"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights\"/>"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/about",
+      "status": 200,
+      "final": "https://www.ninedr.com/about",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/about\"/>"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/process",
+      "status": 200,
+      "final": "https://www.ninedr.com/process",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/process\"/>"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/contact",
+      "status": 200,
+      "final": "https://www.ninedr.com/contact",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/contact\"/>"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/privacy",
+      "status": 200,
+      "final": "https://www.ninedr.com/privacy",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/privacy\"/>"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/work/cardcaptor-sakura-yinsheng",
+      "status": 200,
+      "final": "https://www.ninedr.com/work/cardcaptor-sakura-yinsheng",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/work/cardcaptor-sakura-yinsheng\"/>"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/work/vilson-17th-anniversary",
+      "status": 200,
+      "final": "https://www.ninedr.com/work/vilson-17th-anniversary",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/work/vilson-17th-anniversary\"/>"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/work/huanyu-google-search",
+      "status": 200,
+      "final": "https://www.ninedr.com/work/huanyu-google-search",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/work/huanyu-google-search\"/>"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/taiwan-marketing-weekly-2026-w44",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/taiwan-marketing-weekly-2026-w44",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/taiwan-marketing-weekly-2026-w44\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/threads-conversation-to-inquiry",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/threads-conversation-to-inquiry",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/threads-conversation-to-inquiry\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/yijia-jiang-che-ai-short-video-case-study",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/yijia-jiang-che-ai-short-video-case-study",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/yijia-jiang-che-ai-short-video-case-study\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/taiwan-brand-market-insights-2026",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/taiwan-brand-market-insights-2026",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/taiwan-brand-market-insights-2026\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/taiwan-philippines-digital-marketing-differences",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/taiwan-philippines-digital-marketing-differences",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/taiwan-philippines-digital-marketing-differences\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/seo-geo-brand-ecosystem",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/seo-geo-brand-ecosystem",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/seo-geo-brand-ecosystem\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-copyright-guide",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-copyright-guide",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-copyright-guide\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-education-vs-entertainment",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-education-vs-entertainment",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-education-vs-entertainment\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-celebrity-influencer-guest-strategy",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-celebrity-influencer-guest-strategy",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-celebrity-influencer-guest-strategy\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-posting-frequency",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-posting-frequency",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-posting-frequency\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-platform-strategy",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-platform-strategy",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-platform-strategy\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/high-ticket-short-video-strategy",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/high-ticket-short-video-strategy",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/high-ticket-short-video-strategy\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-product-vs-person",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-product-vs-person",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-product-vs-person\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-inhouse-roi",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-inhouse-roi",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-inhouse-roi\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/seo-geo-inhouse-employee-roi",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/seo-geo-inhouse-employee-roi",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/seo-geo-inhouse-employee-roi\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/digital-2027-ai-consumer-behavior-brand-opportunities",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/digital-2027-ai-consumer-behavior-brand-opportunities",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/digital-2027-ai-consumer-behavior-brand-opportunities\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-speaking-script-tips",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-speaking-script-tips",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-speaking-script-tips\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-off-camera-partner-vs-friend",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-off-camera-partner-vs-friend",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-off-camera-partner-vs-friend\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/real-estate-short-video-content-strategy",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/real-estate-short-video-content-strategy",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/real-estate-short-video-content-strategy\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-camera-presence-training",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-camera-presence-training",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-camera-presence-training\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-beginner-camera-microphone",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-beginner-camera-microphone",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-beginner-camera-microphone\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-mobile-vs-desktop-editing",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-mobile-vs-desktop-editing",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-mobile-vs-desktop-editing\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-diy-vs-agency",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-diy-vs-agency",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-diy-vs-agency\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/ai-photo-to-video-marketing",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/ai-photo-to-video-marketing",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/ai-photo-to-video-marketing\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-employee-on-camera",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-employee-on-camera",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-employee-on-camera\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-low-views",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-low-views",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-low-views\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/short-video-social-media-tactics",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/short-video-social-media-tactics",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/short-video-social-media-tactics\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/sales-personal-brand-seo-geo",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/sales-personal-brand-seo-geo",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/sales-personal-brand-seo-geo\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/seo-geo-paid-search-industry-strategy",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/seo-geo-paid-search-industry-strategy",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/seo-geo-paid-search-industry-strategy\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/real-estate-lead-generation-seo-geo",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/real-estate-lead-generation-seo-geo",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/real-estate-lead-generation-seo-geo\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/agri-seafood-brand-marketing-funnel",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/agri-seafood-brand-marketing-funnel",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/agri-seafood-brand-marketing-funnel\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/local-store-traffic-growth",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/local-store-traffic-growth",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/local-store-traffic-growth\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/brand-platform-bio-seo-geo",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/brand-platform-bio-seo-geo",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/brand-platform-bio-seo-geo\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/kol-koc-advertising-strategy-2026",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/kol-koc-advertising-strategy-2026",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/kol-koc-advertising-strategy-2026\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/kol-koc-direct-cooperation-vs-agency",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/kol-koc-direct-cooperation-vs-agency",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/kol-koc-direct-cooperation-vs-agency\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/content-product-optimization-before-advertising",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/content-product-optimization-before-advertising",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/content-product-optimization-before-advertising\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/established-brand-corporate-identity",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/established-brand-corporate-identity",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/established-brand-corporate-identity\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/how-ai-finds-your-brand",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/how-ai-finds-your-brand",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/how-ai-finds-your-brand\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/what-is-rag",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/what-is-rag",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/what-is-rag\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/eeat-brand-content",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/eeat-brand-content",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/eeat-brand-content\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/geo-brand-checklist",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/geo-brand-checklist",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/geo-brand-checklist\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/website-seo-priorities",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/website-seo-priorities",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/website-seo-priorities\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/one-page-website-seo-geo",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/one-page-website-seo-geo",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/one-page-website-seo-geo\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/search-ads-seo-geo",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/search-ads-seo-geo",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/search-ads-seo-geo\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/local-search-ads-keywords",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/local-search-ads-keywords",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/local-search-ads-keywords\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/philippines-digital-market",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/philippines-digital-market",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/philippines-digital-market\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/english-filipino-tagalog-taglish",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/english-filipino-tagalog-taglish",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/english-filipino-tagalog-taglish\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/philippines-market-entry",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/philippines-market-entry",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/philippines-market-entry\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/philippines-gaming-traffic",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/philippines-gaming-traffic",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/philippines-gaming-traffic\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/philippines-live-video-commerce",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/philippines-live-video-commerce",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/philippines-live-video-commerce\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/brand-identity-refresh-business-value",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/brand-identity-refresh-business-value",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/brand-identity-refresh-business-value\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/taiwan-social-media-preferences-age-2026",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/taiwan-social-media-preferences-age-2026",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/taiwan-social-media-preferences-age-2026\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/35-54-facebook-video-geo-conversion",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/35-54-facebook-video-geo-conversion",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/35-54-facebook-video-geo-conversion\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/taiwan-traditional-brand-marketing-roadmap",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/taiwan-traditional-brand-marketing-roadmap",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/taiwan-traditional-brand-marketing-roadmap\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/ai-short-video-production",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/ai-short-video-production",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/ai-short-video-production\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/integrated-marketing-strategy",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/integrated-marketing-strategy",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/integrated-marketing-strategy\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/six-stage-marketing-funnel-insights",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/six-stage-marketing-funnel-insights",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/six-stage-marketing-funnel-insights\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/insights/geo-ai-search-guide",
+      "status": 200,
+      "final": "https://www.ninedr.com/insights/geo-ai-search-guide",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [
+        "<link rel=\"canonical\" href=\"https://www.ninedr.com/insights/geo-ai-search-guide\">"
+      ],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/robots.txt",
+      "status": 200,
+      "final": "https://www.ninedr.com/robots.txt",
+      "robots": [],
+      "canonical": [],
+      "x_robots": [],
+      "error": "",
+      "robots_txt": "User-agent: *\nAllow: /\nSitemap: https://www.ninedr.com/sitemap.xml\n"
+    },
+    {
+      "url": "https://www.ninedr.com/sitemap_index.xml",
+      "status": 404,
+      "final": "https://www.ninedr.com/sitemap_index.xml",
+      "robots": [
+        "<meta name=\"robots\" content=\"noindex\"/>"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: noindex, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/geo/",
+      "status": 200,
+      "final": "https://www.ninedr.com/geo/",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/geo/index.html",
+      "status": 200,
+      "final": "https://www.ninedr.com/geo/",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/golfkit/",
+      "status": 200,
+      "final": "https://www.ninedr.com/golfkit/",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/golfkit/index.html",
+      "status": 200,
+      "final": "https://www.ninedr.com/golfkit/",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/golfkit/faq",
+      "status": 200,
+      "final": "https://www.ninedr.com/golfkit/faq",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/golfkit/privacy",
+      "status": 200,
+      "final": "https://www.ninedr.com/golfkit/privacy",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/golfkit/terms",
+      "status": 200,
+      "final": "https://www.ninedr.com/golfkit/terms",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/luming/",
+      "status": 200,
+      "final": "https://www.ninedr.com/luming/",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/luming/index.html",
+      "status": 200,
+      "final": "https://www.ninedr.com/luming/",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/luming/faq",
+      "status": 200,
+      "final": "https://www.ninedr.com/luming/faq",
+      "robots": [
+        "<meta name=\"robots\" content=\"index, follow\">"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: index, follow"
+      ],
+      "error": ""
+    },
+    {
+      "url": "https://www.ninedr.com/not-a-real-page-seo-audit-20261027",
+      "status": 404,
+      "final": "https://www.ninedr.com/not-a-real-page-seo-audit-20261027",
+      "robots": [
+        "<meta name=\"robots\" content=\"noindex\"/>"
+      ],
+      "canonical": [],
+      "x_robots": [
+        "x-robots-tag: noindex, follow"
+      ],
+      "error": ""
+    }
+  ]
+}
