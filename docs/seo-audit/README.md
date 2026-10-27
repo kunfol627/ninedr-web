@@ -24,7 +24,7 @@
 
 ## 二、GA4 詢問追蹤
 
-repo 未找到 GA4／GTM，Cookie 介面明示未啟用分析。完成 [事件與驗收規格](ga4-tracking-plan.md)。目前缺少 www.ninedr.com 的 GA4 Measurement ID，未安裝追蹤、未向未知資源傳送事件。可用的 Windsor.ai 數據連接尚未連接，也尚未取得 GA4／Search Console 帳號內資料。
+repo 未找到 GA4／GTM，Cookie 介面明示未啟用分析。完成 [事件與驗收規格](ga4-tracking-plan.md)。使用者已提供 G-S7TGMX204R，現已完成主站分析接線與測試，詳見規格末尾「接線進度」；GA4 後台 Enhanced Measurement 設定及 Realtime／DebugView 驗收仍待完成。可用的 Windsor.ai 數據連接尚未連接，也尚未取得 GA4／Search Console 帳號內資料。
 
 ## 三、主要服務頁盤點
 
@@ -32,4 +32,4 @@ repo 未找到 GA4／GTM，Cookie 介面明示未啟用分析。完成 [事件�
 
 ## 工作狀態
 
-已完成公開網址／程式碼檢查、GA4 接線規格、六大服務盤點。本批次只有稽核文件，沒有更動 runtime、DNS、寄信或索引政策。下一步先取得 GA4 正確資料串流 ID，完成接線與 DebugView 驗收，再執行服務頁內容改版。網站地圖、舊錨點、靜態 canonical 的修復候選項目已列明，尚未實作。
+已完成公開網址／程式碼檢查、GA4 接線規格、六大服務盤點。第一輪稽核為文件；後續 GA4 接線已修改主站 runtime、Cookie 視窗與隱私告知，不更動 DNS、寄信或索引政策。下一步完成 GA4 後台設定及 DebugView 驗收，再執行服務頁內容改版。網站地圖、舊錨點、靜態 canonical 的修復候選項目已列明，尚未實作。

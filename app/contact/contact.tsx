@@ -1,5 +1,6 @@
 'use client';
 import Arrow from "@/app/arrow";
+import {getAnalytics} from "../../lib/analytics.mjs";
 
 import {useEffect,useRef,useState} from 'react';
 type Turnstile={render:(el:HTMLElement,options:Record<string,unknown>)=>string;remove:(id:string)=>void;reset:(id:string)=>void};
@@ -28,7 +29,7 @@ export default function Contact(){
   setNotice('');
   if(!config?.enabled){setSummary(`九色鹿 Ninedr｜合作需求\n\n稱呼：${body.name}\n公司：${body.company}\n電子郵件：${body.email}\n手機號碼：${body.phone||'未填寫'}\n合作方向：${body.direction}\n\n${body.message}`);return}
   setBusy(true);
-  try{const response=await fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(30000)});const result=await response.json() as {ok?:boolean;error?:string;message?:string};if(!response.ok||!result.ok)throw new Error(result.error||'寄送未完成，請透過 Email 或 LINE 聯繫。');setNotice(result.message||'需求已提交。');setSent(true);form.reset()}
+  try{const response=await fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(30000)});const result=await response.json() as {ok?:boolean;error?:string;message?:string};if(!response.ok||!result.ok)throw new Error(result.error||'寄送未完成，請透過 Email 或 LINE 聯繫。');setNotice(result.message||'需求已提交。');setSent(true);form.reset();try{getAnalytics()?.leadAccepted(response.ok,result.ok)}catch{/* Measurement must never change submission success. */}}
   catch(error){setNotice(error instanceof Error&&error.name!=='TimeoutError'?error.message:'無法確認寄送結果，請透過 Email 或 LINE 聯繫。')}
   finally{setBusy(false);setToken('');if(widgetId.current)window.turnstile?.reset(widgetId.current)}
  }} aria-busy={busy}>

@@ -11,7 +11,7 @@
     "preview": "wrangler dev --config dist/server/wrangler.json",
     "deploy": "npm run build && wrangler deploy --config dist/server/wrangler.json",
     "typecheck": "tsc --noEmit",
-    "test": "node --test tests/contact.test.mjs tests/indexing.test.mjs"
+    "test": "node --test tests/contact.test.mjs tests/indexing.test.mjs tests/analytics.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
