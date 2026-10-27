@@ -17,3 +17,54 @@ test('optional phone is included in email and blank or omitted values are accept
 test('malformed optional phone never reaches verification or email',async()=>{for(const phone of [123,{},'x'.repeat(41),'123\\r\\nInjected'.replaceAll('\\r','\r').replaceAll('\\n','\n')])assert.equal((await handleContact(request({...data,phone}),env,noNetwork)).status,400)});
 
 test('business consulting enquiries are accepted and included in email',async()=>{let payload;const res=await handleContact(request({...data,direction:'企業顧問與數位轉型'}),env,async(url,options)=>{if(url.includes('siteverify'))return Response.json({success:true,hostname:'www.ninedr.com',action:'contact'});payload=JSON.parse(options.body);return Response.json({id:'mock-id'})});assert.equal(res.status,200);assert.ok(payload.subject.includes('企業顧問與數位轉型'));assert.ok(payload.text.includes('合作方向：企業顧問與數位轉型'))});
+
+test('disabled, missing and whitespace configuration never calls external services',async()=>{
+ const cases=[{...env,CONTACT_ENABLED:'false'},{...env,CONTACT_ENABLED:true},...['CONTACT_FROM','TURNSTILE_SITE_KEY','TURNSTILE_SECRET_KEY','RESEND_API_KEY'].flatMap(key=>[undefined,'','   '].map(value=>({...env,[key]:value}))),{...env,RESEND_API_KEY:undefined,EMAIL:{send:true}}];
+ for(const config of cases){
+  const res=await handleContact(new Request('https://www.ninedr.com/api/contact'),config,noNetwork);
+  assert.equal(res.headers.get('Cache-Control'),'no-store');
+  assert.deepEqual(await res.json(),{enabled:false,siteKey:null});
+  assert.equal((await handleContact(request(),config,noNetwork)).status,503);
+ }
+});
+test('GET exposes only public readiness and site key without verifying or sending',async()=>{
+ const res=await handleContact(new Request('https://www.ninedr.com/api/contact'),env,noNetwork);
+ assert.deepEqual(await res.json(),{enabled:true,siteKey:'test'});
+});
+test('workers.dev requires explicit origin and matching Turnstile hostname',async()=>{
+ const origin='https://ninedr-preview.example.workers.dev';
+ assert.equal((await handleContact(request(data,origin),env,noNetwork)).status,403);
+ const config={...env,CONTACT_PREVIEW_ORIGIN:origin};
+ assert.equal((await handleContact(request(data,origin+'.evil.example'),config,noNetwork)).status,403);
+ for(const hostname of [new URL(origin).hostname,'www.ninedr.com']){
+  let sends=0;
+  const res=await handleContact(request(data,origin),config,async url=>{
+   if(url.includes('siteverify'))return Response.json({success:true,hostname,action:'contact'});
+   sends++;return Response.json({id:'mock'});
+  });
+  assert.equal(res.status,hostname===new URL(origin).hostname?200:400);
+  assert.equal(sends,hostname===new URL(origin).hostname?1:0);
+ }
+});
+test('expired, reused, unavailable or malformed Turnstile response never sends',async()=>{
+ for(const result of [()=>Response.json({success:false,'error-codes':['timeout-or-duplicate']}),()=>Response.json({success:true,hostname:'www.ninedr.com',action:'contact'},{status:503}),()=>new Response('invalid'),()=>{throw new Error('timeout')}]){
+  let calls=0;
+  const res=await handleContact(request(),env,async url=>{calls++;assert.ok(url.includes('siteverify'));return result()});
+  assert.ok([400,502].includes(res.status));assert.equal(calls,1);
+ }
+});
+test('Resend restrictions and missing acceptance id do not report success',async()=>{
+ for(const result of [()=>Response.json({error:'domain not verified'},{status:403}),()=>Response.json({error:'rate limit'},{status:429}),()=>Response.json({})]){
+  const res=await handleContact(request(),env,async url=>url.includes('siteverify')?Response.json({success:true,hostname:'www.ninedr.com',action:'contact'}):result());
+  assert.equal(res.status,502);
+ }
+});
+test('Cloudflare is preferred and never retries through Resend after ambiguous result',async()=>{
+ for(const result of [()=>({messageId:'mock'}),()=>({}),()=>{throw new Error('timeout')}]){
+  let sends=0;
+  const config={...env,EMAIL:{send:async()=>{sends++;return result()}}};
+  let calls=0;
+  const res=await handleContact(request(),config,async url=>{calls++;assert.ok(url.includes('siteverify'));return Response.json({success:true,hostname:'www.ninedr.com',action:'contact'})});
+  assert.ok([200,502].includes(res.status));assert.equal(sends,1);assert.equal(calls,1);
+ }
+});
