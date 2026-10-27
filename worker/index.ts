@@ -1,9 +1,10 @@
+import {applyIndexingPolicy} from "../lib/indexing-policy.mjs";
 import handler from "vinext/server/fetch-handler";
 import {handleContact} from "../lib/contact-handler.mjs";
 export default {
- fetch(request:Request,env:Record<string,unknown>,ctx:ExecutionContext){
-  if(new URL(request.url).pathname==="/googleb357467bdf4840d3.html")return new Response(request.method==="HEAD"?null:"google-site-verification: googleb357467bdf4840d3.html",{headers:{"Content-Type":"text/html; charset=utf-8"}});
+ async fetch(request:Request,env:Record<string,unknown>,ctx:ExecutionContext){
+  if(new URL(request.url).pathname==="/googleb357467bdf4840d3.html")return applyIndexingPolicy(request,new Response(request.method==="HEAD"?null:"google-site-verification: googleb357467bdf4840d3.html",{headers:{"Content-Type":"text/html; charset=utf-8"}}));
   if(new URL(request.url).pathname==="/api/contact")return handleContact(request,env);
-  return handler.fetch(request,env,ctx);
+  return applyIndexingPolicy(request,await handler.fetch(request,env,ctx));
  }
 };

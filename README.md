@@ -45,7 +45,7 @@ POST /api/contact。固定 To：info@ninedr.com；CC：cathy@ninedr.com、steven
 | TURNSTILE_SECRET_KEY | 預覽 Worker secret，與 site key 配對 | 正式 Worker secret，與 site key 配對 |
 | RESEND_API_KEY | 未安排真實寄信時不提供 | Worker secret，具寄信權限且允許寄件網域 |
 | CONTACT_PREVIEW_ORIGIN | 精確 HTTPS origin，無路徑或結尾斜線；hostname 同步加入 Turnstile | 不需要時不設定 |
-| robots.index | 保持 false | 完成正式驗收及預覽隔離後才改 true |
+| 搜尋索引 | 非正式 hostname：noindex, follow | www.ninedr.com：index, follow |
 
 此 repo **沒有**命名的 preview/production Wrangler 環境；目前為單一 `ninedr-web` Worker。上表為部署要求，不代表已有兩套部署。要隔離預覽，須另外建立 Worker 與對應設定、secrets、建置及部署目標；不可直接假設 `--env preview` 已可使用。Workers Builds 的 production 標籤也不等同正式網域驗收完成。
 
@@ -81,8 +81,8 @@ Microsoft 365 根網域 MX 保持原值，不為了寄送表單而搬遷收件�
 - 完成 workers.dev、寄信、手機／桌面、圖片與站內連結驗收。
 - 在 Workers 自訂網域綁定 www.ninedr.com，依 Dashboard 的衝突提示處理既有 www 記錄；不要直接套用 ChatGPT Sites 的 CNAME。
 - 驗證 HTTPS、主機路由，再設定 ninedr.com 至 www 的 301（保留路徑與 query）。
-- 此遷移版本 `app/layout.tsx` 的 robots.index=false 是硬編碼，沒有環境變數開關；本次保留。`public/robots.txt` 允許爬取，讓搜尋引擎讀到 HTML noindex，並不表示允許索引；canonical/sitemap 指向正式站也不會解除 noindex。
-- 正式驗收完成後，先確保預覽使用獨立仍帶 noindex 的部署，或另有經驗證的 hostname 層級 X-Robots-Tag:noindex 保護，再將正式部署 robots.index 改為 true。不能在仍共用同一 Worker 的情況下直接翻轉，否則 workers.dev 也可能解除保護。
+- 索引由 `lib/indexing-policy.mjs` 依實際 request URL hostname 控制。只有 `www.ninedr.com` 的成功 HTML 回應輸出 index, follow；其他 hostname（含 workers.dev）一律帶 X-Robots-Tag: noindex, follow，HTML 同時覆寫 meta robots。錯誤頁保留 noindex。
+- `assets.run_worker_first=true` 讓獨立 HTML 與靜態資源也經過 Worker。不得移除或改為只攔截驗證檔，否則預覽靜態 HTML 會繞過保護。Search Console 驗證檔保持原始內容。
 - 建置部署後逐一檢查首頁、服務、案例、洞察與靜態活動頁的實際 HTML meta robots 及 HTTP X-Robots-Tag；根 layout 不涵蓋 public 下獨立 HTML。正式站不得殘留 noindex，預覽仍須保有 noindex。確認 robots.txt、sitemap、canonical 與 HTTPS/重新導向一致。
 - 最後提交 Search Console sitemap；Vercel 舊部署與原 main 分支保留供回復。
 
