@@ -37,3 +37,23 @@ test('runtime HTML and headers isolate production, previews, errors and verifica
  const v=await mf.dispatchFetch('https://www.ninedr.com/googleb357467bdf4840d3.html');assert.equal(await v.text(),readFileSync('public/googleb357467bdf4840d3.html','utf8'));
  }finally{await mf.dispose();}
 });
+
+test('Worker routes HTML aliases through ASSETS before application fallback',async()=>{
+ const {transpileModule}=require('typescript');
+ const worker=transpileModule(readFileSync('worker/index.ts','utf8').replace(/^import .*;\n/gm,''),{compilerOptions:{target:99,module:99}}).outputText.replace('export default','const worker =');
+ const policy=readFileSync('lib/indexing-policy.mjs','utf8').replaceAll('export ','');
+ const mf=new Miniflare({modules:true,script:policy+`
+ const handler={fetch(){return new Response('<html><head></head><body>APP</body></html>',{headers:{'content-type':'text/html'}})}};
+ const handleContact=()=>new Response('unchanged');
+ `+worker+`
+ export default {fetch(request,env,ctx){return worker.fetch(request,{ASSETS:{fetch(r){return new URL(r.url).pathname==='/geo/'?new Response('<html><head></head><body>STATIC</body></html>',{headers:{'content-type':'text/html'}}):new Response('missing',{status:404});}}},ctx)}};
+ `});
+ try{
+ for(const host of ['www.ninedr.com','preview.workers.dev']){
+  for(const [path,body] of [['/geo/','STATIC'],['/services','APP']]){
+   const r=await mf.dispatchFetch(`https://${host}${path}`);assert.equal(r.status,200);assert.match(await r.text(),new RegExp(body));
+   assert.equal(r.headers.get('x-robots-tag'),host==='www.ninedr.com'?'index, follow':'noindex, follow');
+  }
+ }
+ }finally{await mf.dispose();}
+});
