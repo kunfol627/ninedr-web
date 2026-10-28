@@ -1,0 +1,584 @@
+[
+  {
+    "status": 200,
+    "final_url": "https://www.ninedr.com/",
+    "headers": "HTTP/1.1 200 OK\ndate: Wed, 28 Oct 2026 04:38:07 GMT\n\nHTTP/2 200 \ndate: Wed, 28 Oct 2026 04:38:07 GMT\ncontent-type: text/html; charset=utf-8\nlink: </images/logo_w_26.png>; rel=preload; as=\"image\", </images/logo_g_26.png>; rel=preload; as=\"image\"\nvary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode\nx-robots-tag: index, follow\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rbCdnwwYH%2FSg0xSwwfz%2FgFUAkM1X6GC4oITE0a5Ij5qcMy7PORGganc2ajbXVyChjXDi5jBVix73U9YrBFj0mS5XkUj6CW1yS5VdtlOAxe3WDeSFlV5cKYwOuJspm2fZ7HG6J2als5NmYfBU9Q%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: envoy\ncf-ray: a5173fca69192271-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 85\n\n",
+    "bytes": 35982,
+    "sha256": "0ef4ce7524f3b7c24d2eb9656503a29ddf6ded9e86f54181c4a30a7ca8ecb2b0",
+    "ua": "browser",
+    "path": "/",
+    "tags": {
+      "viewport": [
+        "width=device-width, initial-scale=1"
+      ],
+      "description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "og:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:url": [
+        "https://www.ninedr.com"
+      ],
+      "og:site_name": [
+        "九色鹿 Ninedr"
+      ],
+      "og:type": [
+        "website"
+      ],
+      "og:locale": [
+        "zh_TW"
+      ],
+      "og:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "og:image:width": [
+        "300"
+      ],
+      "og:image:height": [
+        "300"
+      ],
+      "og:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "twitter:card": [
+        "summary_large_image"
+      ],
+      "twitter:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "twitter:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "twitter:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "twitter:image:width": [
+        "300"
+      ],
+      "twitter:image:height": [
+        "300"
+      ],
+      "twitter:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "canonical": [
+        "https://www.ninedr.com"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    "head_tags": {
+      "viewport": [
+        "width=device-width, initial-scale=1"
+      ],
+      "description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "og:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:url": [
+        "https://www.ninedr.com"
+      ],
+      "og:site_name": [
+        "九色鹿 Ninedr"
+      ],
+      "og:type": [
+        "website"
+      ],
+      "og:locale": [
+        "zh_TW"
+      ],
+      "og:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "og:image:width": [
+        "300"
+      ],
+      "og:image:height": [
+        "300"
+      ],
+      "og:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "twitter:card": [
+        "summary_large_image"
+      ],
+      "twitter:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "twitter:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "twitter:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "twitter:image:width": [
+        "300"
+      ],
+      "twitter:image:height": [
+        "300"
+      ],
+      "twitter:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "canonical": [
+        "https://www.ninedr.com"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    "image": {
+      "status": 200,
+      "final_url": "https://www.ninedr.com/favicon.png",
+      "headers": "HTTP/1.1 200 OK\ndate: Wed, 28 Oct 2026 04:38:12 GMT\n\nHTTP/2 200 \ndate: Wed, 28 Oct 2026 04:38:12 GMT\ncontent-type: image/png\ncontent-length: 3803\ncf-cache-status: HIT\ncache-control: public, max-age=0, must-revalidate\netag: \"c29896aa328756a8bed46ec20f8d63cb\"\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=gdE3lTV6Gtfqdsbdc3lKEmJiGFJf%2F10kWVuXKJm54MgIrUgRtdBrkfwm46a3W6QjgnK3OyHhad9%2FF39sDRpBWw0VGsTVw81dGSJQR%2F2snbsb0Mm2BvQdqMAUm%2F2WrP1QaLmrG%2B5igfj4oVl0Tg%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: envoy\ncf-ray: a5173feabdeb7ab6-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 44\n\n",
+      "bytes": 3803,
+      "sha256": "0b8d6ee4af01638b51cdb7db68732022dccd99ad7b36a68996089eeefb481894",
+      "url": "https://www.ninedr.com/favicon.png",
+      "dimensions": [
+        300,
+        300
+      ]
+    }
+  },
+  {
+    "status": 200,
+    "final_url": "https://www.ninedr.com/o2o/",
+    "headers": "HTTP/1.1 200 OK\ndate: Wed, 28 Oct 2026 04:38:07 GMT\n\nHTTP/2 307 \ndate: Wed, 28 Oct 2026 04:38:07 GMT\ncontent-length: 0\nlocation: /o2o/\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=D3Cae04YMWdDHr5m%2FR9hmyTVVkvc%2B9geeP95TPURwMwRl5YWveygYy8CP7cCRkNZNMo1bZtq3X8s37pSpT8KDB6dI61C%2B8tzJ4zevwRC5Zf5rcU25xCRuHo79%2FQqU7RvKb9MMZAfJ%2Bb3643Qgg%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: envoy\ncf-ray: a5173fcaba212271-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 36\n\nHTTP/2 200 \ndate: Wed, 28 Oct 2026 04:38:07 GMT\ncontent-type: text/html\ncf-cache-status: HIT\ncache-control: public, max-age=0, must-revalidate\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nx-robots-tag: index, follow\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YE%2BtCZRI3%2Fzbedh8wL3ooffuKUV%2FYJm7gU0O9BH3hQpUqG7t3Lka5kbCRsqza50iog9bFpmqql7gQ8vOjRtC%2B%2FpOpzBCel6lIGTbOgWXZwhI%2BXRaUkrWuCnZQz4z9llxyQMwbtCLF%2Bx2cqVcUg%3D%3D\"}]}\nserver: envoy\ncf-ray: a5173fcaeaff2271-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 63\n\n",
+    "bytes": 26420,
+    "sha256": "5504c83878cae6e86276f19a2e7784f07ef266b3ad653dc14d9858acac7641d1",
+    "ua": "browser",
+    "path": "/o2o",
+    "tags": {
+      "viewport": [
+        "width=device-width,initial-scale=1"
+      ],
+      "canonical": [
+        "https://www.ninedr.com/o2o/"
+      ],
+      "theme-color": [
+        "#0b0b0b"
+      ],
+      "description": [
+        "從新竹生活圈出發，九色鹿整合社區廣告刊位、素材交付與刊登紀錄。選擇適合品牌的區域方案，讓下一次相遇發生在日常。"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    "head_tags": {
+      "viewport": [
+        "width=device-width,initial-scale=1"
+      ],
+      "canonical": [
+        "https://www.ninedr.com/o2o/"
+      ],
+      "theme-color": [
+        "#0b0b0b"
+      ],
+      "description": [
+        "從新竹生活圈出發，九色鹿整合社區廣告刊位、素材交付與刊登紀錄。選擇適合品牌的區域方案，讓下一次相遇發生在日常。"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    }
+  },
+  {
+    "status": 200,
+    "final_url": "https://www.ninedr.com/",
+    "headers": "HTTP/1.1 200 OK\ndate: Wed, 28 Oct 2026 04:38:07 GMT\n\nHTTP/2 200 \ndate: Wed, 28 Oct 2026 04:38:07 GMT\ncontent-type: text/html; charset=utf-8\nlink: </images/logo_w_26.png>; rel=preload; as=\"image\", </images/logo_g_26.png>; rel=preload; as=\"image\"\nvary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode\nx-robots-tag: index, follow\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=egXR96Uc2C0%2BjIHbJkDvVWk7tBENxPLdie5hY0ggoVLciTtqMInJuUmOqmKmCBsgZa5TnSqd1kKUAgrCv4d92eHds3XkeH5a3X1n8SDZgPtapOnW0ayk4BXB5nfSqquzljW9%2FmXDwdRV6y6Eyg%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: envoy\ncf-ray: a5173fcabe497ab6-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 81\n\n",
+    "bytes": 35982,
+    "sha256": "0ef4ce7524f3b7c24d2eb9656503a29ddf6ded9e86f54181c4a30a7ca8ecb2b0",
+    "ua": "line",
+    "path": "/",
+    "tags": {
+      "viewport": [
+        "width=device-width, initial-scale=1"
+      ],
+      "description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "og:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:url": [
+        "https://www.ninedr.com"
+      ],
+      "og:site_name": [
+        "九色鹿 Ninedr"
+      ],
+      "og:type": [
+        "website"
+      ],
+      "og:locale": [
+        "zh_TW"
+      ],
+      "og:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "og:image:width": [
+        "300"
+      ],
+      "og:image:height": [
+        "300"
+      ],
+      "og:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "twitter:card": [
+        "summary_large_image"
+      ],
+      "twitter:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "twitter:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "twitter:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "twitter:image:width": [
+        "300"
+      ],
+      "twitter:image:height": [
+        "300"
+      ],
+      "twitter:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "canonical": [
+        "https://www.ninedr.com"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    "head_tags": {
+      "viewport": [
+        "width=device-width, initial-scale=1"
+      ],
+      "description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "og:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:url": [
+        "https://www.ninedr.com"
+      ],
+      "og:site_name": [
+        "九色鹿 Ninedr"
+      ],
+      "og:type": [
+        "website"
+      ],
+      "og:locale": [
+        "zh_TW"
+      ],
+      "og:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "og:image:width": [
+        "300"
+      ],
+      "og:image:height": [
+        "300"
+      ],
+      "og:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "twitter:card": [
+        "summary_large_image"
+      ],
+      "twitter:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "twitter:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "twitter:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "twitter:image:width": [
+        "300"
+      ],
+      "twitter:image:height": [
+        "300"
+      ],
+      "twitter:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "canonical": [
+        "https://www.ninedr.com"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    "image": {
+      "status": 200,
+      "final_url": "https://www.ninedr.com/favicon.png",
+      "headers": "HTTP/1.1 200 OK\ndate: Wed, 28 Oct 2026 04:38:12 GMT\n\nHTTP/2 200 \ndate: Wed, 28 Oct 2026 04:38:12 GMT\ncontent-type: image/png\ncontent-length: 3803\ncf-cache-status: HIT\ncache-control: public, max-age=0, must-revalidate\netag: \"c29896aa328756a8bed46ec20f8d63cb\"\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=v8a6TwN8%2BcV3DOjP3AFvhFtVTRrxqNttYzJybgBuP%2BosZdJ3m4JdGiwF%2BMHg%2FBoVJHcANzH7lpzqIj5N9sKc%2FRkJmZnRkiyoMP63mLvjlzhzUlIBUW8aqFQAYxzqxNa6XzkDmspd2A23maSsig%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: envoy\ncf-ray: a5173feabde47ab6-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 23\n\n",
+      "bytes": 3803,
+      "sha256": "0b8d6ee4af01638b51cdb7db68732022dccd99ad7b36a68996089eeefb481894",
+      "url": "https://www.ninedr.com/favicon.png",
+      "dimensions": [
+        300,
+        300
+      ]
+    }
+  },
+  {
+    "status": 200,
+    "final_url": "https://www.ninedr.com/o2o/",
+    "headers": "HTTP/1.1 200 OK\ndate: Wed, 28 Oct 2026 04:38:07 GMT\n\nHTTP/2 307 \ndate: Wed, 28 Oct 2026 04:38:07 GMT\ncontent-length: 0\nlocation: /o2o/\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=7i%2BQnEvXses64PCQJxxPgxGnMWXCwTj1Wcpk4HlRsFdMj5GVkkUDBTA%2FdVU7eK5d6onglzp22vWT6rEcvoQQ52EM7oVBlXQ7iXKWblXpA7f5n3HuLFKGXSjjyj1th3fd0gbJrcaqPSfIzok%2FEQ%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: envoy\ncf-ray: a5173fcabe477ab6-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 26\n\nHTTP/2 200 \ndate: Wed, 28 Oct 2026 04:38:08 GMT\ncontent-type: text/html\ncf-cache-status: HIT\ncache-control: public, max-age=0, must-revalidate\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nx-robots-tag: index, follow\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=P5kmsXxiTLFMUDsg9O%2BVn8nfSLHiJtLlbqG1Su3EVUOizwVsJDxIOn3EY21Ej%2F1%2F2q9y220ctkU4gSZy2Pl63pjORrntA%2FteNjBOoTDthuJiZNr2R9gM9XTrWfJt8b88YPUdlIujCytaLPuQfw%3D%3D\"}]}\nserver: envoy\ncf-ray: a5173fcade747ab6-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 237\n\n",
+    "bytes": 26420,
+    "sha256": "5504c83878cae6e86276f19a2e7784f07ef266b3ad653dc14d9858acac7641d1",
+    "ua": "line",
+    "path": "/o2o",
+    "tags": {
+      "viewport": [
+        "width=device-width,initial-scale=1"
+      ],
+      "canonical": [
+        "https://www.ninedr.com/o2o/"
+      ],
+      "theme-color": [
+        "#0b0b0b"
+      ],
+      "description": [
+        "從新竹生活圈出發，九色鹿整合社區廣告刊位、素材交付與刊登紀錄。選擇適合品牌的區域方案，讓下一次相遇發生在日常。"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    "head_tags": {
+      "viewport": [
+        "width=device-width,initial-scale=1"
+      ],
+      "canonical": [
+        "https://www.ninedr.com/o2o/"
+      ],
+      "theme-color": [
+        "#0b0b0b"
+      ],
+      "description": [
+        "從新竹生活圈出發，九色鹿整合社區廣告刊位、素材交付與刊登紀錄。選擇適合品牌的區域方案，讓下一次相遇發生在日常。"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    }
+  },
+  {
+    "status": 200,
+    "final_url": "https://www.ninedr.com/",
+    "headers": "HTTP/1.1 200 OK\ndate: Wed, 28 Oct 2026 04:38:07 GMT\n\nHTTP/2 200 \ndate: Wed, 28 Oct 2026 04:38:07 GMT\ncontent-type: text/html; charset=utf-8\nlink: </images/logo_w_26.png>; rel=preload; as=\"image\", </images/logo_g_26.png>; rel=preload; as=\"image\"\nvary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Next-Url, X-Vinext-Interception-Context, X-Vinext-Mounted-Slots, X-Vinext-Rsc-Render-Mode\nx-robots-tag: index, follow\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hFjAcwZI1fL8zIqcNBXHioqrLdiJwauu9rLaVuRUwRqY1EFVsNwZpKo4fW8DQtc64ABxavEeDNoh60%2FyN7U8H09ymwS%2Bu5k9%2BFOsdyoGUgmpDi44I9g%2FKHMUeEbB15q9rZnCROcvWy4KPk8VXA%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: envoy\ncf-ray: a5173fcaba242271-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 63\n\n",
+    "bytes": 35982,
+    "sha256": "0ef4ce7524f3b7c24d2eb9656503a29ddf6ded9e86f54181c4a30a7ca8ecb2b0",
+    "ua": "facebook",
+    "path": "/",
+    "tags": {
+      "viewport": [
+        "width=device-width, initial-scale=1"
+      ],
+      "description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "og:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:url": [
+        "https://www.ninedr.com"
+      ],
+      "og:site_name": [
+        "九色鹿 Ninedr"
+      ],
+      "og:type": [
+        "website"
+      ],
+      "og:locale": [
+        "zh_TW"
+      ],
+      "og:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "og:image:width": [
+        "300"
+      ],
+      "og:image:height": [
+        "300"
+      ],
+      "og:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "twitter:card": [
+        "summary_large_image"
+      ],
+      "twitter:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "twitter:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "twitter:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "twitter:image:width": [
+        "300"
+      ],
+      "twitter:image:height": [
+        "300"
+      ],
+      "twitter:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "canonical": [
+        "https://www.ninedr.com"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    "head_tags": {
+      "viewport": [
+        "width=device-width, initial-scale=1"
+      ],
+      "description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "og:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "og:url": [
+        "https://www.ninedr.com"
+      ],
+      "og:site_name": [
+        "九色鹿 Ninedr"
+      ],
+      "og:type": [
+        "website"
+      ],
+      "og:locale": [
+        "zh_TW"
+      ],
+      "og:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "og:image:width": [
+        "300"
+      ],
+      "og:image:height": [
+        "300"
+      ],
+      "og:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "twitter:card": [
+        "summary_large_image"
+      ],
+      "twitter:title": [
+        "九色鹿 Ninedr｜數位公關與整合行銷專家"
+      ],
+      "twitter:description": [
+        "跨越既有邊界，為企業點燃 AI 搜尋時代的無限可能。"
+      ],
+      "twitter:image": [
+        "https://www.ninedr.com/favicon.png"
+      ],
+      "twitter:image:width": [
+        "300"
+      ],
+      "twitter:image:height": [
+        "300"
+      ],
+      "twitter:image:alt": [
+        "九色鹿 Ninedr"
+      ],
+      "canonical": [
+        "https://www.ninedr.com"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    "image": {
+      "status": 200,
+      "final_url": "https://www.ninedr.com/favicon.png",
+      "headers": "HTTP/1.1 200 OK\ndate: Wed, 28 Oct 2026 04:38:12 GMT\n\nHTTP/2 200 \ndate: Wed, 28 Oct 2026 04:38:12 GMT\ncontent-type: image/png\ncontent-length: 3803\ncf-cache-status: HIT\ncache-control: public, max-age=0, must-revalidate\netag: \"c29896aa328756a8bed46ec20f8d63cb\"\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HNoAzpBFwwXlhr4%2F3eTean%2BwDuvsxnt3lxchEDNz7Awz5NmXzHvLUYCpIz9CBTSFyUb2Ci6qkh%2FTlPECjWI87C64vJnPDJYzsNsBlQnCIoehpUzO6Iu2K%2B2eA9UcLrfHqRu3GnfplPeiPNQaaQ%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: envoy\ncf-ray: a5173feabc0a2271-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 22\n\n",
+      "bytes": 3803,
+      "sha256": "0b8d6ee4af01638b51cdb7db68732022dccd99ad7b36a68996089eeefb481894",
+      "url": "https://www.ninedr.com/favicon.png",
+      "dimensions": [
+        300,
+        300
+      ]
+    }
+  },
+  {
+    "status": 200,
+    "final_url": "https://www.ninedr.com/o2o/",
+    "headers": "HTTP/1.1 200 OK\ndate: Wed, 28 Oct 2026 04:38:07 GMT\n\nHTTP/2 307 \ndate: Wed, 28 Oct 2026 04:38:07 GMT\ncontent-length: 0\nlocation: /o2o/\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IRejvQ%2BM4QV0%2BMA1JjifELgn%2FIqYuTyqWD4CpoOGTrPHPC14oLDNln9e7eCa5aqOzr8G9WpLmr5LknrGhLGWB6P%2FJ7mDUuWtHC3H0QhI02%2BDK0sKcYaV%2BdQCJiAdqTE8WQiH1hhvrosWFur%2FkQ%3D%3D\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: envoy\ncf-ray: a5173fca6e087ab6-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 18\n\nHTTP/2 200 \ndate: Wed, 28 Oct 2026 04:38:07 GMT\ncontent-type: text/html\ncf-cache-status: HIT\ncache-control: public, max-age=0, must-revalidate\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nx-robots-tag: index, follow\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=jovZXGxJYqk4nh2nOnk5Aa69mHgdM08EnAyUi2Bs1CD08Ug6LTWCAk3eeYKwJkzFkuKRqTEY3KWjBmuea%2Fov%2FBdXCLKqGXFGv98AWL3P4u7eBSizMvIwutUXQCYD1Ia1otOQ8pWrCm153CS%2Baw%3D%3D\"}]}\nserver: envoy\ncf-ray: a5173fca8e1e7ab6-SJC\nalt-svc: h3=\":443\"; ma=86400\nx-envoy-upstream-service-time: 36\n\n",
+    "bytes": 26420,
+    "sha256": "5504c83878cae6e86276f19a2e7784f07ef266b3ad653dc14d9858acac7641d1",
+    "ua": "facebook",
+    "path": "/o2o",
+    "tags": {
+      "viewport": [
+        "width=device-width,initial-scale=1"
+      ],
+      "canonical": [
+        "https://www.ninedr.com/o2o/"
+      ],
+      "theme-color": [
+        "#0b0b0b"
+      ],
+      "description": [
+        "從新竹生活圈出發，九色鹿整合社區廣告刊位、素材交付與刊登紀錄。選擇適合品牌的區域方案，讓下一次相遇發生在日常。"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    },
+    "head_tags": {
+      "viewport": [
+        "width=device-width,initial-scale=1"
+      ],
+      "canonical": [
+        "https://www.ninedr.com/o2o/"
+      ],
+      "theme-color": [
+        "#0b0b0b"
+      ],
+      "description": [
+        "從新竹生活圈出發，九色鹿整合社區廣告刊位、素材交付與刊登紀錄。選擇適合品牌的區域方案，讓下一次相遇發生在日常。"
+      ],
+      "robots": [
+        "index, follow"
+      ]
+    }
+  }
+]
