@@ -12,6 +12,20 @@ export default {
    if(asset.status!==404)return applyIndexingPolicy(request,asset);
    await asset.body?.cancel();
   }
-  return applyIndexingPolicy(request,await handler.fetch(request,env,ctx));
+  const response=applyIndexingPolicy(request,await handler.fetch(request,env,ctx));
+  // Finish the small homepage HTML stream before sending it to preview clients.
+  // Preserve the exact document and hostname-based robots policy. Never buffer
+  // RSC navigation, errors, non-GET requests, or other routes.
+  if(new URL(request.url).pathname==="/" && request.method==="GET" && response.status===200 &&
+     (response.headers.get("content-type")||"").includes("text/html") &&
+     !response.headers.has("content-encoding")){
+   const body=await response.arrayBuffer();
+   const headers=new Headers(response.headers);
+   headers.delete("transfer-encoding");
+   headers.set("content-length",String(body.byteLength));
+   headers.set("x-share-response","complete-html-v1");
+   return new Response(body,{status:response.status,statusText:response.statusText,headers});
+  }
+  return response;
  }
 };
