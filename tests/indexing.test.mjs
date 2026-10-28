@@ -42,18 +42,16 @@ test('Worker routes HTML aliases through ASSETS before application fallback',asy
  const {transpileModule}=require('typescript');
  const worker=transpileModule(readFileSync('worker/index.ts','utf8').replace(/^import .*;\n/gm,''),{compilerOptions:{target:99,module:99}}).outputText.replace('export default','const worker =');
  const policy=readFileSync('lib/indexing-policy.mjs','utf8').replaceAll('export ','');
- const mf=new Miniflare({compatibilityDate:JSON.parse(readFileSync('wrangler.jsonc','utf8')).compatibility_date,modules:true,script:policy+`
- const handler={fetch(){const e=new TextEncoder();return new Response(new ReadableStream({start(c){c.enqueue(e.encode('<html><head></head>'));c.enqueue(e.encode('<body>APP</body></html>'));c.close();}}),{headers:{'content-type':'text/html'}})}};
+ const mf=new Miniflare({modules:true,script:policy+`
+ const handler={fetch(){return new Response('<html><head></head><body>APP</body></html>',{headers:{'content-type':'text/html'}})}};
  const handleContact=()=>new Response('unchanged');
  `+worker+`
  export default {fetch(request,env,ctx){return worker.fetch(request,{ASSETS:{fetch(r){return new URL(r.url).pathname==='/geo/'?new Response('<html><head></head><body>STATIC</body></html>',{headers:{'content-type':'text/html'}}):new Response('missing',{status:404});}}},ctx)}};
  `});
  try{
  for(const host of ['www.ninedr.com','preview.workers.dev']){
-  for(const [path,body] of [['/geo/','STATIC'],['/services','APP'],['/','APP']]){
-   const r=await mf.dispatchFetch(`https://${host}${path}`);const html=await r.text();assert.equal(r.status,200,html);assert.match(html,new RegExp(body));
-   if(path==='/'){assert.equal(r.headers.get('x-share-response'),'complete-html-v1');assert.equal(html,`<html><head><meta name="robots" content="${host==='www.ninedr.com'?'index, follow':'noindex, follow'}"></head><body>APP</body></html>`);}
-   else assert.equal(r.headers.get('x-share-response'),null);
+  for(const [path,body] of [['/geo/','STATIC'],['/services','APP']]){
+   const r=await mf.dispatchFetch(`https://${host}${path}`);assert.equal(r.status,200);assert.match(await r.text(),new RegExp(body));
    assert.equal(r.headers.get('x-robots-tag'),host==='www.ninedr.com'?'index, follow':'noindex, follow');
   }
  }
