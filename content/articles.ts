@@ -1,3 +1,4 @@
+import {safeZoneArticle} from './short-video-safe-zone';
 // Only reviewed, published entries appear on the public index, detail pages and sitemap.
 // Dates must be actual ISO dates. Sources should point to the original evidence.
 export type Article = {
@@ -7,7 +8,7 @@ export type Article = {
  cover?:{src:string;alt:string;width:number;height:number};
  takeaways?:string[];
  card?:{eyebrow:string;title:string;caption:string};
- cta?:{heading:string;highlight:string;text:string;label:string};
+ cta?:{heading:string;highlight:string;text:string;label:string;href?:string};
  sections:{id:string;heading:string;paragraphs:string[];bodyHtml?:string;gallery?:{src:string;width:number;height:number;alt:string;title:string;caption:string}[];cards?:{label:string;title:string;text:string}[];table?:{headers:string[];rows:string[][]};steps?:string[]}[];
  faqs:{question:string;answer:string}[];
  sources:{title:string;url:string}[];
@@ -15,6 +16,7 @@ export type Article = {
  seo:{title:string;description:string};
 };
 export const articles:Article[]= [
+safeZoneArticle,
 {
   "slug": "philippines-marketing-weekly-2026-w44",
   "title": "菲律賓行銷趨勢 每週洞察 2026-W44",
