@@ -41,7 +41,7 @@ test('leads require both API success flags; contact clicks pass only classified 
  const f=fixture();f.analytics.setConsent(yes());
  for(const pair of [[false,false],[false,true],[true,false],[true,undefined]])assert.equal(f.analytics.leadAccepted(...pair),false);
  assert.equal(f.analytics.leadAccepted(true,true),true);
- f.analytics.contactClick('mailto:info@ninedr.com?body=private-data','footer');f.analytics.contactClick('https://line.me/R/ti/p/@211snphq');f.analytics.contactClick('tel:0988790503');
+ f.analytics.contactClick('mailto:info@ninedr.com?body=private-data','footer');f.analytics.contactClick('https://line.me/R/ti/p/%40800rczvx');f.analytics.contactClick('tel:0988790503');
  f.analytics.contactClick('https://line.me.evil.test/');f.analytics.contactClick('/services');
  assert.equal(events(f).filter(x=>x[1]==='generate_lead').length,1);
  assert.deepEqual(events(f).filter(x=>x[1]==='contact_click').map(x=>x[2].contact_method),['email','line','phone']);

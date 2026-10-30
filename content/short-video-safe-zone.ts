@@ -65,7 +65,7 @@ export const safeZoneArticle: Article = {
       "id": "safe-zone-5",
       "heading": "透過九色鹿 LINE 官方帳號索取滿版模板",
       "paragraphs": [],
-      "bodyHtml": "<p>這次的模板包含 <strong>9:16、16:9、1:1 三種比例。</strong></p>\n<p>把模板疊進剪輯畫面，就能對照人像、標題與字幕的位置，讓重要資訊更容易被看見。</p>\n<p><strong><a href=\"https://line.me/R/ti/p/@211snphq\">加入九色鹿 LINE 好友，免費索取滿版剪輯安全區模板</a></strong></p>\n<p>加入後傳送 <strong>「安全區」</strong>，即可索取模板下載資訊。</p>\n"
+      "bodyHtml": "<p>這次的模板包含 <strong>9:16、16:9、1:1 三種比例。</strong></p>\n<p>把模板疊進剪輯畫面，就能對照人像、標題與字幕的位置，讓重要資訊更容易被看見。</p>\n<p><strong><a href=\"https://line.me/R/ti/p/%40800rczvx\">加入九色鹿 LINE 好友，免費索取滿版剪輯安全區模板</a></strong></p>\n<p>加入後傳送 <strong>「安全區」</strong>，即可索取模板下載資訊。</p>\n"
     }
   ],
   "faqs": [],
@@ -83,6 +83,6 @@ export const safeZoneArticle: Article = {
     "highlight": "留在看得見的位置。",
     "text": "加入九色鹿 LINE 好友，傳送「安全區」，免費索取 9:16、16:9、1:1 三種比例模板。",
     "label": "加入 LINE 免費索取模板",
-    "href": "https://line.me/R/ti/p/@211snphq"
+    "href": "https://line.me/R/ti/p/%40800rczvx"
   }
 };
