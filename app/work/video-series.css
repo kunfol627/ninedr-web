@@ -1,0 +1,4 @@
+.video-series-case .result-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.series-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start}
+.series-gallery .screenshot-link{width:100%}
+@media(max-width:600px){.video-series-case .result-grid{grid-template-columns:1fr}.series-gallery{grid-template-columns:1fr;gap:12px}.series-gallery figure{max-width:420px}}
