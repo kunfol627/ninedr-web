@@ -8,7 +8,9 @@ export default {
   // Preserve Cloudflare's HTML aliases (/geo/, /golfkit/faq) before
   // falling through to the application router. ASSETS.fetch does not recurse.
   if((request.method==="GET" || request.method==="HEAD") && env.ASSETS){
-   const asset=await (env.ASSETS as {fetch(request:Request):Promise<Response>}).fetch(request);
+   // Asset lookup may consume the request body, even on incoming GETs.
+   // Keep the original available for Vinext when the asset lookup misses.
+   const asset=await (env.ASSETS as {fetch(request:ReturnType<Request["clone"]>):Promise<Response>}).fetch(request.clone());
    if(asset.status!==404)return applyIndexingPolicy(request,asset);
    await asset.body?.cancel();
   }
