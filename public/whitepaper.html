@@ -1030,9 +1030,18 @@ body,.page,.page *{font-family:TC,TCExtra,TCAbout,TCRevision,TCContact,TCTaiwan,
           }
           return;
         }
-        const target = 'https://social-plugins.line.me/lineit/share?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(shareCopy);
-        window.open(target, '_blank', 'noopener,noreferrer');
-        say(bar, '已帶入文案與網址，請在 LINE 選擇對象並確認分享。');
+        const message = shareCopy + '\n\n' + url;
+        const mobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ||
+          (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+        if (mobile) {
+          // Keep the native LINE handoff in the original user gesture and tab.
+          say(bar, '正在開啟 LINE，請選擇對象並確認分享。');
+          window.location.assign('https://line.me/R/share?text=' + encodeURIComponent(message));
+        } else {
+          const target = 'https://social-plugins.line.me/lineit/share?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(shareCopy);
+          window.open(target, '_blank', 'noopener,noreferrer');
+          say(bar, '請在 LINE 選擇對象並確認分享。');
+        }
       });
     });
   });
